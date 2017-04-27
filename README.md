@@ -4,7 +4,7 @@
 
 | FILE | URL | DATE |
 | --- | --- | --- |
-| parkings-data | - | 20/04/2017 |
+| parkings | - | 20/04/2017 |
 
 ## Usage
 

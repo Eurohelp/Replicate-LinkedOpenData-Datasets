@@ -9,5 +9,6 @@ notifications:
     on_failure: never
 
 script:
+  - lein test
   - lein grafter run replicate-linked-open-data-datasets.pipeline/convert-parkings-to-data ./data/parkings-data.csv ./output/data/parkings-data.csv
   - lein grafter run replicate-linked-open-data-datasets.pipeline/convert-parkings-data-to-graph ./data/parkings-data.csv ./output/data/parkings-data.rdf
