@@ -1,0 +1,6 @@
+(use 'replicate-linked-open-data-datasets.querytest)
+(def triples (create-triple-store))
+(.isEmpty (.getConnection triples))
+(insert-triples triples (java.io.File. "output/data/parkings-data-test.rdf"))
+(query-result-set triples (with-common-ns-prefixes (from-file "no-limit")))
+(clear-store triples)
