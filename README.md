@@ -12,6 +12,8 @@ Pipeline name will always be one of the names in the above list. Files containin
 
 Below, you will find clear examples of usage, having to replace 'PROJECTNAME' with one of the datasets names ;)
 
+By the way, as there is a row which does not have a price, I have made another csv file which does not include it, and will be helpful for testing purposes (only).
+
 ### Leiningen
 
 `lein grafter run replicate-linked-open-data-datasets.pipeline/convert-PROJECTNAME-to-data ./data/PROJECTNAME-data.csv ./output/data/PROJECTNAME-data.csv`
