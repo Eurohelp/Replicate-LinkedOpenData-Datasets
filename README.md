@@ -17,3 +17,9 @@ Below, you will find clear examples of usage, having to replace 'PROJECTNAME' wi
 `lein grafter run replicate-linked-open-data-datasets.pipeline/convert-PROJECTNAME-to-data ./data/PROJECTNAME-data.csv ./output/data/PROJECTNAME-data.csv`
 
 `lein grafter run replicate-linked-open-data-datasets.pipeline/convert-PROJECTNAME-data-to-graph ./data/PROJECTNAME-data.csv ./output/data/PROJECTNAME-data.rdf`
+
+### Tests
+
+If you want to execute the tests you could do it with the following command:
+
+`lein test`
