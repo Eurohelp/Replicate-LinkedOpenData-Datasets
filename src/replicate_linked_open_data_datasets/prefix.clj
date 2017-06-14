@@ -3,7 +3,7 @@
 
 ;; Defines what will be useful for our next data transformations
 
-(def base-domain (prefixer "https://github.com/Eurohelp"))
+(def base-domain (prefixer "http://opendata.eurohelp.es"))
 
 (def base-graph (prefixer (base-domain "/graph/")))
 
