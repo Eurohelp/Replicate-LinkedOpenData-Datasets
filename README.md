@@ -18,7 +18,13 @@ By the way, as there is a row which does not have a price, I have made another c
 
 `lein grafter run replicate-linked-open-data-datasets.pipeline/convert-PROJECTNAME-to-data ./data/PROJECTNAME-data.csv ./output/data/PROJECTNAME-data.csv`
 
+`lein grafter run replicate-linked-open-data-datasets.pipeline/convert-parkings-to-data ./data/parkings-data.csv ./output/data/parkings-data.csv`
+
 `lein grafter run replicate-linked-open-data-datasets.pipeline/convert-PROJECTNAME-data-to-graph ./data/PROJECTNAME-data.csv ./output/data/PROJECTNAME-data.rdf`
+
+`lein grafter run replicate-linked-open-data-datasets.pipeline/convert-parkings-data-to-graph ./data/parkings-data.csv ./output/data/parkings-data.rdf`
+
+`lein grafter run replicate-linked-open-data-datasets.pipeline/convert-parkings-data-to-graph ./output/data/parkings-data.csv ./output/data/parkings-data.rdf`
 
 ### Tests
 
