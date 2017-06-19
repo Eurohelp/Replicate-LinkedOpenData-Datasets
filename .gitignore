@@ -1,1 +1,7 @@
+loadparkingdata/\.settings/
+
+loadparkingdata/\.classpath
+
+loadparkingdata/\.project
+
 target/

@@ -1,4 +1,1 @@
-
-java -jar cleanparkingdata.jar "http://www.donostia.eus/info/ciudadano/camaras_trafico.
-nsf/dameParkings?OpenAgent&idioma=cas" donostiparkingsclean.csv parkingsclean pa
-rkingsclean.json
+java -jar loadparkingdata/cleanparkingdata.jar "http://www.donostia.eus/info/ciudadano/camaras_trafico.nsf/dameParkings?OpenAgent&idioma=cas" donostiaparkingsclean.csv parkingsclean parkingsclean.json
