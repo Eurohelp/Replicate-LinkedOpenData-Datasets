@@ -67,9 +67,12 @@ public class App {
 
 				preciosParkings = preciosParkings.replaceAll(",", ".");
 				preciosParkings = preciosParkings.replaceAll("Precios", "");
+				preciosParkings = preciosParkings.replaceAll("</td></tr><tr><td class=\"azul\">", ";");
+//				preciosParkings = preciosParkings.replaceAll("</td></tr></table>", ",");
 				preciosParkings = preciosParkings.replaceAll(
 						"<br/>|<strong>|</strong>|<table>|</table>|<tr>|</tr>|<td>|</td>|<td class=\"azul\">", "");
-				preciosParkings = preciosParkings.replaceAll(" &#8364;", ";");
+				
+				preciosParkings = preciosParkings.replaceAll(" &#8364;", "");
 
 				if (preciosParkings.isEmpty()) {
 					System.out.print("-,");
