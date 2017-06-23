@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Antiguo-Berri">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Antiguo Berri</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Arcco">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Arcco</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Atotxa">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Atotxa</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Boulevard">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Boulevard</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Buen-Pastor">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Buen Pastor</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Easo">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Easo</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Illumbe">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Illumbe</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Katalunia">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Katalunia</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Kontxa">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Kontxa</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Kursaal">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Kursaal</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Okendo">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Okendo</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Pio-XII">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Pio XII</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/San-Martin">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">San Martin</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Txofre">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Txofre</label>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eruohelp.es/id/parking/Zuatzu">
+	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
+	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Zuatzu</label>
+</rdf:Description>
+
+</rdf:RDF>
