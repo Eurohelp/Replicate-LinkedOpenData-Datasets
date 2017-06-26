@@ -4,6 +4,7 @@ import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
+import java.math.BigDecimal;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
@@ -22,8 +23,10 @@ public class csv2rdf {
 
 		Transform transformer = new Transform();
 
+		// EL CSV es deforme!WTF!A veces tiene plazas rotatorias libres a veces
+		// no
 		for (CSVRecord record : records) {
-
+			int columnas = record.size();
 			String Nombre = record.get("Nombre");
 			System.out.println("--->" + Nombre);
 			String parking_uri = LOD_DONOSTI_URI.parking.getUri() + transformer.urlify(Nombre);
@@ -63,25 +66,97 @@ public class csv2rdf {
 			transformer.addDataTripleXSDInt(parking_uri, LOD_DONOSTI_URI.PlazasResidentesLibres.getUri(),
 					Integer.parseInt(record.get("PlazasResidentesLibres")));
 
-			System.out.println(record.get("PlazasRotatoriasLibres"));
-			// parking plazasrotatoriaslibres PlazasRotatoriasLibres
-			transformer.addDataTripleXSDInt(parking_uri, LOD_DONOSTI_URI.PlazasRotatoriasLibres.getUri(),
-					Integer.parseInt(record.get("PlazasRotatoriasLibres")));
+			if (columnas == 10) {
+				System.out.println("PlazasRotatoriasLibres " + record.get("PlazasRotatoriasLibres"));
+				// parking plazasrotatoriaslibres PlazasRotatoriasLibres
+				transformer.addDataTripleXSDInt(parking_uri, LOD_DONOSTI_URI.PlazasRotatoriasLibres.getUri(),
+						Integer.parseInt(record.get("PlazasRotatoriasLibres")));
 
-			System.out.println(record.get("Precios"));
+				String precios = record.get("Precios");
+				System.out.println("Precios " + precios);
+				String[] lista_precio_tiempos = precios.split(";");
+				for (String precio_tiempo : lista_precio_tiempos) {
+					String tiempo = precio_tiempo.split(":")[0].replace(" min", "");
+					String precio = precio_tiempo.split(":")[1];
+					System.out.println(precio_tiempo + precio + tiempo);
+					String uri_precio_tiempo = LOD_DONOSTI_URI.fare.getUri() + transformer.urlify(Nombre) + "/" + transformer.urlify(precio_tiempo);
+					System.out.println("uri_precio_tiempo " + uri_precio_tiempo);
+					transformer.addTriple(
+							parking_uri, 
+							LOD_DONOSTI_URI.schema_offers.getUri(), 
+							uri_precio_tiempo);
+					
+					transformer.addDataTripleXSDdecimal(
+							uri_precio_tiempo, 
+							LOD_DONOSTI_URI.time_minutes.getUri(), 
+							new BigDecimal(tiempo));
+					
+					transformer.addDataTripleXSDdouble(
+							uri_precio_tiempo, 
+							LOD_DONOSTI_URI.schema_price.getUri(), 
+							Double.parseDouble(precio));
+					
+					transformer.addDataTripleXSDString(
+							uri_precio_tiempo, 
+							LOD_DONOSTI_URI.schema_currency.getUri(), 
+							"EUR");
+				}
 
-			System.out.println(record.get("Latitud"));
-			// parking wgs84_lat Latitud
-			// transformer.addDataTripleXSDdouble(
-			// parking_uri,
-			// LOD_DONOSTI_URI.lat_wgs84.getUri(),
-			// Double.parseDouble(record.get("Latitud")));
+				System.out.println("Latitud " + record.get("Latitud"));
+				// parking wgs84_lat Latitud
+				transformer.addDataTripleXSDdouble(parking_uri, LOD_DONOSTI_URI.lat_wgs84.getUri(),
+						Double.parseDouble(record.get("Latitud")));
 
-			System.out.println(record.get("Longitud"));
-			// transformer.addDataTripleXSDdouble(
-			// parking_uri,
-			// LOD_DONOSTI_URI.long_wgs84.getUri(),
-			// Double.parseDouble(record.get("Longitud")));
+				System.out.println("Longitud " + record.get("Longitud"));
+				transformer.addDataTripleXSDdouble(parking_uri, LOD_DONOSTI_URI.long_wgs84.getUri(),
+						Double.parseDouble(record.get("Longitud")));
+
+			} else if (columnas == 11) {
+				System.out.println("PlazasRotatoriasLibres " + record.get(7));
+				// parking plazasrotatoriaslibres PlazasRotatoriasLibres
+				transformer.addDataTripleXSDInt(parking_uri, LOD_DONOSTI_URI.PlazasRotatoriasLibres.getUri(),
+						Integer.parseInt(record.get(7)));
+
+//				System.out.println("Precios " + record.get(8));
+				String precios = record.get(8);
+				System.out.println("Precios " + precios);
+				String[] lista_precio_tiempos = precios.split(";");
+				for (String precio_tiempo : lista_precio_tiempos) {
+					String tiempo = precio_tiempo.split(":")[0].replace(" min", "");
+					String precio = precio_tiempo.split(":")[1];
+					System.out.println(precio_tiempo + precio + tiempo);
+					String uri_precio_tiempo = LOD_DONOSTI_URI.fare.getUri() + transformer.urlify(Nombre) + "/" + transformer.urlify(precio_tiempo);
+					System.out.println("uri_precio_tiempo " + uri_precio_tiempo);
+					transformer.addTriple(
+							parking_uri, 
+							LOD_DONOSTI_URI.schema_offers.getUri(), 
+							uri_precio_tiempo);
+					
+					transformer.addDataTripleXSDdecimal(
+							uri_precio_tiempo, 
+							LOD_DONOSTI_URI.time_minutes.getUri(), 
+							new BigDecimal(tiempo));
+					
+					transformer.addDataTripleXSDdouble(
+							uri_precio_tiempo, 
+							LOD_DONOSTI_URI.schema_price.getUri(), 
+							Double.parseDouble(precio));
+					
+					transformer.addDataTripleXSDString(
+							uri_precio_tiempo, 
+							LOD_DONOSTI_URI.schema_currency.getUri(), 
+							"EUR");
+				}
+
+				System.out.println("Latitud " + record.get(9));
+				// parking wgs84_lat Latitud
+				transformer.addDataTripleXSDdouble(parking_uri, LOD_DONOSTI_URI.lat_wgs84.getUri(),
+						Double.parseDouble(record.get(9)));
+
+				System.out.println("Longitud " + record.get(10));
+				transformer.addDataTripleXSDdouble(parking_uri, LOD_DONOSTI_URI.long_wgs84.getUri(),
+						Double.parseDouble(record.get(10)));
+			}
 		}
 
 		FileOutputStream out = new FileOutputStream(out_path);

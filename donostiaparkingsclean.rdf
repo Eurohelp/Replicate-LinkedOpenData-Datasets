@@ -2,15 +2,920 @@
 <rdf:RDF
 	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Antiguo-Berri/120-min-4-10">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.1</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Antiguo-Berri/15-min-0-60">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.6</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Antiguo-Berri/180-min-6">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.0</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Antiguo-Berri/30-min-1-35">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.35</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Antiguo-Berri/300-min-14-55">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.55</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Antiguo-Berri/300-min-15-85">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">15.85</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Antiguo-Berri/300-min-9-15">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.15</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Antiguo-Berri/60-min-2-25">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.25</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Antiguo-Berri/90-min-3-10">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.1</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Arcco/120-min-3-37">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.37</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Arcco/15-min-0-59">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.59</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Arcco/180-min-4-91">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.91</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Arcco/30-min-1-00">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Arcco/300-min-14-00">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.0</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Arcco/300-min-18-52">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.52</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Arcco/300-min-21-54">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.54</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Arcco/300-min-7-97">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.97</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Arcco/60-min-1-80">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.8</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Arcco/90-min-2-60">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.6</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Atotxa/120-min-3-72">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.72</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Atotxa/15-min-0-66">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.66</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Atotxa/180-min-5-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Atotxa/30-min-1-10">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Atotxa/300-min-18-31">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.31</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Atotxa/300-min-22-07">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.07</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Atotxa/300-min-24-57">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.57</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Atotxa/300-min-9-68">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.68</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Atotxa/60-min-1-99">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.99</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Atotxa/90-min-2-87">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.87</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Boulevard/120-min-4-49">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.49</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Boulevard/15-min-0-79">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.79</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Boulevard/180-min-6-56">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.56</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Boulevard/30-min-1-33">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.33</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Boulevard/300-min-11-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Boulevard/300-min-20-68">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.68</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Boulevard/300-min-23-02">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.02</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Boulevard/300-min-24-57">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.57</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Boulevard/60-min-2-40">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.4</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Boulevard/90-min-3-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Buen-Pastor/120-min-3-72">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.72</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Buen-Pastor/15-min-0-66">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.66</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Buen-Pastor/180-min-5-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Buen-Pastor/30-min-1-10">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Buen-Pastor/300-min-18-31">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.31</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Buen-Pastor/300-min-22-07">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.07</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Buen-Pastor/300-min-24-57">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.57</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Buen-Pastor/300-min-9-68">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.68</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Buen-Pastor/60-min-1-99">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.99</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Buen-Pastor/90-min-2-87">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.87</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Easo/120-min-3-72">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.72</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Easo/15-min-0-66">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.66</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Easo/180-min-5-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Easo/30-min-1-10">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Easo/300-min-18-31">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.31</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Easo/300-min-22-07">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.07</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Easo/300-min-24-57">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.57</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Easo/300-min-9-68">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.68</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Easo/60-min-1-99">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.99</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Easo/90-min-2-87">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.87</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Illumbe/120-min-2-80">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.8</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Illumbe/15-min-0-50">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Illumbe/180-min-4-30">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.3</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Illumbe/30-min-0-75">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.75</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Illumbe/300-min-12-55">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">12.55</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Illumbe/300-min-16-70">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.7</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Illumbe/300-min-19-50">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">19.5</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Illumbe/300-min-7">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.0</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Illumbe/60-min-1-50">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.5</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Illumbe/90-min-2-20">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.2</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Katalunia/120-min-3-72">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.72</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Katalunia/15-min-0-66">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.66</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Katalunia/180-min-5-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Katalunia/30-min-1-10">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Katalunia/300-min-18-31">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.31</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Katalunia/300-min-22-07">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.07</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Katalunia/300-min-24-57">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.57</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Katalunia/300-min-9-68">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.68</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Katalunia/60-min-1-99">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.99</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Katalunia/90-min-2-87">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.87</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kontxa/120-min-4-46">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.46</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kontxa/15-min-0-79">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.79</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kontxa/180-min-6-56">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.56</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kontxa/30-min-1-32">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.32</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kontxa/300-min-11-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kontxa/300-min-20-68">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.68</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kontxa/300-min-23-02">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.02</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kontxa/300-min-24-57">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.57</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kontxa/60-min-2-38">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.38</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kontxa/90-min-3-45">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.45</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kursaal/120-min-4-46">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.46</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kursaal/15-min-0-79">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.79</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kursaal/180-min-6-56">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.56</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kursaal/30-min-1-32">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.32</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kursaal/300-min-11-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kursaal/300-min-20-68">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.68</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kursaal/300-min-23-02">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.02</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kursaal/300-min-24-57">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.57</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kursaal/60-min-2-38">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.38</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Kursaal/90-min-3-45">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.45</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Okendo/120-min-4-46">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.46</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Okendo/15-min-0-79">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.79</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Okendo/180-min-6-56">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.56</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Okendo/30-min-1-32">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.32</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Okendo/300-min-11-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Okendo/300-min-20-68">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.68</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Okendo/300-min-23-02">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.02</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Okendo/300-min-24-57">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.57</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Okendo/60-min-2-38">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.38</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Okendo/90-min-3-45">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.45</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Pio-XII/120-min-3-35">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.35</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Pio-XII/15-min-0-59">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.59</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Pio-XII/180-min-4-88">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.88</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Pio-XII/30-min-0-99">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.99</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Pio-XII/300-min-14-01">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.01</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Pio-XII/300-min-18-50">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.5</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Pio-XII/300-min-21-50">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">21.5</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Pio-XII/300-min-7-94">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.94</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Pio-XII/60-min-1-79">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.79</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Pio-XII/90-min-2-59">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.59</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/San-Martin/120-min-4-46">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">4.46</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/San-Martin/15-min-0-79">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.79</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/San-Martin/180-min-6-56">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.56</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/San-Martin/30-min-1-32">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.32</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/San-Martin/300-min-11-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/San-Martin/300-min-20-68">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">20.68</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/San-Martin/300-min-23-02">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">23.02</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/San-Martin/300-min-24-57">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.57</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/San-Martin/60-min-2-38">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.38</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/San-Martin/90-min-3-45">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.45</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Txofre/120-min-3-72">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.72</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Txofre/15-min-0-66">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.66</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Txofre/180-min-5-47">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">5.47</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Txofre/30-min-1-10">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.1</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Txofre/300-min-18-31">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">18.31</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Txofre/300-min-22-07">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">22.07</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Txofre/300-min-24-57">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">24.57</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Txofre/300-min-9-68">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">9.68</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Txofre/60-min-1-99">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.99</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Txofre/90-min-2-87">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.87</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Zuatzu/120-min-2-46">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">2.46</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">120</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Zuatzu/15-min-0-33">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.33</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Zuatzu/180-min-3-69">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">3.69</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">180</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Zuatzu/30-min-0-66">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.66</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">30</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Zuatzu/300-min-11-07">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">11.07</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Zuatzu/300-min-14-76">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">14.76</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Zuatzu/300-min-16-40">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">16.4</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Zuatzu/300-min-6-15">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">6.15</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">300</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Zuatzu/60-min-1-23">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.23</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">60</minutes>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://lod.eurohelp.es/id/fare/Zuatzu/90-min-1-89">
+	<price xmlns="http://schema.org/" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.89</price>
+	<priceCurrency xmlns="http://schema.org/">EUR</priceCurrency>
+	<minutes xmlns="http://www.w3.org/2006/time#" rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">90</minutes>
+</rdf:Description>
+
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Antiguo-Berri">
 	<plazasresidentes xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasresidentes>
 	<plazasresidenteslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasresidenteslibres>
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">489</plazasrotatorias>
 	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">489</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Antiguo-Berri/120-min-4-10"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Antiguo-Berri/15-min-0-60"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Antiguo-Berri/180-min-6"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Antiguo-Berri/30-min-1-35"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Antiguo-Berri/300-min-14-55"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Antiguo-Berri/300-min-15-85"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Antiguo-Berri/300-min-9-15"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Antiguo-Berri/60-min-2-25"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Antiguo-Berri/90-min-3-10"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingrotatorio"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Antiguo Berri</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.310188</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.007963</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Arcco">
@@ -19,53 +924,113 @@
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">214</plazasrotatorias>
 	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">214</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Arcco/120-min-3-37"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Arcco/15-min-0-59"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Arcco/180-min-4-91"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Arcco/30-min-1-00"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Arcco/300-min-14-00"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Arcco/300-min-18-52"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Arcco/300-min-21-54"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Arcco/300-min-7-97"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Arcco/60-min-1-80"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Arcco/90-min-2-60"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingrotatorio"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Arcco</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.30563</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.97371</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Atotxa">
 	<plazasresidentes xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasresidentes>
 	<plazasresidenteslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasresidenteslibres>
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">210</plazasrotatorias>
-	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
+	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">146</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">210</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Atotxa/120-min-3-72"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Atotxa/15-min-0-66"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Atotxa/180-min-5-47"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Atotxa/30-min-1-10"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Atotxa/300-min-18-31"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Atotxa/300-min-22-07"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Atotxa/300-min-24-57"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Atotxa/300-min-9-68"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Atotxa/60-min-1-99"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Atotxa/90-min-2-87"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingrotatorio"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Atotxa</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.31855</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.97548</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Boulevard">
 	<plazasresidentes xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">135</plazasresidentes>
 	<plazasresidenteslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasresidenteslibres>
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">381</plazasrotatorias>
-	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
+	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">152</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">516</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Boulevard/120-min-4-49"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Boulevard/15-min-0-79"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Boulevard/180-min-6-56"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Boulevard/30-min-1-33"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Boulevard/300-min-11-47"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Boulevard/300-min-20-68"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Boulevard/300-min-23-02"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Boulevard/300-min-24-57"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Boulevard/60-min-2-40"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Boulevard/90-min-3-47"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingmixto"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Boulevard</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.32283</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.98192</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Buen-Pastor">
 	<plazasresidentes xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">583</plazasresidentes>
 	<plazasresidenteslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</plazasresidenteslibres>
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">384</plazasrotatorias>
-	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
+	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">141</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">967</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Buen-Pastor/120-min-3-72"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Buen-Pastor/15-min-0-66"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Buen-Pastor/180-min-5-47"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Buen-Pastor/30-min-1-10"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Buen-Pastor/300-min-18-31"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Buen-Pastor/300-min-22-07"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Buen-Pastor/300-min-24-57"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Buen-Pastor/300-min-9-68"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Buen-Pastor/60-min-1-99"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Buen-Pastor/90-min-2-87"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingmixto"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Buen Pastor</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.31715</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.98102</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Easo">
 	<plazasresidentes xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">266</plazasresidentes>
 	<plazasresidenteslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasresidenteslibres>
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">146</plazasrotatorias>
-	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
+	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">99</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">412</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Easo/120-min-3-72"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Easo/15-min-0-66"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Easo/180-min-5-47"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Easo/30-min-1-10"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Easo/300-min-18-31"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Easo/300-min-22-07"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Easo/300-min-24-57"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Easo/300-min-9-68"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Easo/60-min-1-99"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Easo/90-min-2-87"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingmixto"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Easo</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.313157</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.982078</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Illumbe">
@@ -74,31 +1039,67 @@
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">500</plazasrotatorias>
 	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">500</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Illumbe/120-min-2-80"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Illumbe/15-min-0-50"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Illumbe/180-min-4-30"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Illumbe/30-min-0-75"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Illumbe/300-min-12-55"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Illumbe/300-min-16-70"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Illumbe/300-min-19-50"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Illumbe/300-min-7"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Illumbe/60-min-1-50"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Illumbe/90-min-2-20"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingrotatorio"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Illumbe</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.29809</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.97004</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Katalunia">
 	<plazasresidentes xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">483</plazasresidentes>
 	<plazasresidenteslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">84</plazasresidenteslibres>
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">456</plazasrotatorias>
-	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
+	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">221</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">939</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Katalunia/120-min-3-72"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Katalunia/15-min-0-66"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Katalunia/180-min-5-47"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Katalunia/30-min-1-10"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Katalunia/300-min-18-31"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Katalunia/300-min-22-07"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Katalunia/300-min-24-57"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Katalunia/300-min-9-68"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Katalunia/60-min-1-99"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Katalunia/90-min-2-87"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingmixto"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Katalunia</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.323848</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.975168</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Kontxa">
 	<plazasresidentes xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">619</plazasresidentes>
 	<plazasresidenteslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">87</plazasresidenteslibres>
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">655</plazasrotatorias>
-	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
+	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">136</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1274</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kontxa/120-min-4-46"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kontxa/15-min-0-79"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kontxa/180-min-6-56"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kontxa/30-min-1-32"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kontxa/300-min-11-47"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kontxa/300-min-20-68"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kontxa/300-min-23-02"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kontxa/300-min-24-57"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kontxa/60-min-2-38"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kontxa/90-min-3-45"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingmixto"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Kontxa</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.318622</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.984886</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Kursaal">
@@ -107,42 +1108,90 @@
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300</plazasrotatorias>
 	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">500</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kursaal/120-min-4-46"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kursaal/15-min-0-79"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kursaal/180-min-6-56"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kursaal/30-min-1-32"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kursaal/300-min-11-47"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kursaal/300-min-20-68"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kursaal/300-min-23-02"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kursaal/300-min-24-57"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kursaal/60-min-2-38"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Kursaal/90-min-3-45"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingmixto"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Kursaal</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.32468</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.97728</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Okendo">
 	<plazasresidentes xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">744</plazasresidentes>
 	<plazasresidenteslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</plazasresidenteslibres>
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">748</plazasrotatorias>
-	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
+	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">365</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1492</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Okendo/120-min-4-46"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Okendo/15-min-0-79"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Okendo/180-min-6-56"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Okendo/30-min-1-32"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Okendo/300-min-11-47"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Okendo/300-min-20-68"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Okendo/300-min-23-02"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Okendo/300-min-24-57"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Okendo/60-min-2-38"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Okendo/90-min-3-45"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingmixto"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Okendo</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.32111</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.979149</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Pio-XII">
 	<plazasresidentes xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">181</plazasresidentes>
 	<plazasresidenteslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</plazasresidenteslibres>
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">339</plazasrotatorias>
-	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
+	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">158</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">520</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Pio-XII/120-min-3-35"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Pio-XII/15-min-0-59"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Pio-XII/180-min-4-88"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Pio-XII/30-min-0-99"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Pio-XII/300-min-14-01"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Pio-XII/300-min-18-50"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Pio-XII/300-min-21-50"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Pio-XII/300-min-7-94"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Pio-XII/60-min-1-79"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Pio-XII/90-min-2-59"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingmixto"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Pio XII</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.307806</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.978186</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/San-Martin">
 	<plazasresidentes xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300</plazasresidentes>
 	<plazasresidenteslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</plazasresidenteslibres>
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">300</plazasrotatorias>
-	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
+	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">152</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">600</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/San-Martin/120-min-4-46"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/San-Martin/15-min-0-79"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/San-Martin/180-min-6-56"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/San-Martin/30-min-1-32"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/San-Martin/300-min-11-47"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/San-Martin/300-min-20-68"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/San-Martin/300-min-23-02"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/San-Martin/300-min-24-57"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/San-Martin/60-min-2-38"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/San-Martin/90-min-3-45"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingmixto"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">San Martin</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.317876</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.983371</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Txofre">
@@ -151,9 +1200,21 @@
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">465</plazasrotatorias>
 	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">465</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Txofre/120-min-3-72"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Txofre/15-min-0-66"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Txofre/180-min-5-47"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Txofre/30-min-1-10"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Txofre/300-min-18-31"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Txofre/300-min-22-07"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Txofre/300-min-24-57"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Txofre/300-min-9-68"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Txofre/60-min-1-99"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Txofre/90-min-2-87"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingrotatorio"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Txofre</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.32446</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-1.9708</long>
 </rdf:Description>
 
 <rdf:Description rdf:about="http://lod.eurohelp.es/id/parking/Zuatzu">
@@ -162,9 +1223,21 @@
 	<plazasrotatorias xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">402</plazasrotatorias>
 	<plazasrotatoriaslibres xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</plazasrotatoriaslibres>
 	<plazastotales xmlns="http://lod.eurohelp.es/def/" rdf:datatype="http://www.w3.org/2001/XMLSchema#int">402</plazastotales>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Zuatzu/120-min-2-46"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Zuatzu/15-min-0-33"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Zuatzu/180-min-3-69"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Zuatzu/30-min-0-66"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Zuatzu/300-min-11-07"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Zuatzu/300-min-14-76"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Zuatzu/300-min-16-40"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Zuatzu/300-min-6-15"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Zuatzu/60-min-1-23"/>
+	<offers xmlns="http://schema.org/" rdf:resource="http://lod.eurohelp.es/id/fare/Zuatzu/90-min-1-89"/>
 	<rdf:type rdf:resource="http://lod.eurohelp.es/def/parkingrotatorio"/>
 	<rdf:type rdf:resource="http://schema.org/ParkingFacility"/>
 	<label xmlns="http://www.w3.org/2000/01/rdf-schema#">Zuatzu</label>
+	<lat xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">43.29541</lat>
+	<long xmlns="http://www.w3.org/2003/01/geo/wgs84_pos#" rdf:datatype="http://www.w3.org/2001/XMLSchema#double">-2.01113</long>
 </rdf:Description>
 
 </rdf:RDF>

@@ -1,6 +1,7 @@
 package donosti.lod.replicate.eurohelp.es;
 
-import org.eclipse.rdf4j.model.IRI;
+import java.math.BigDecimal;
+
 import org.eclipse.rdf4j.model.Model;
 import org.eclipse.rdf4j.model.ValueFactory;
 import org.eclipse.rdf4j.model.impl.SimpleValueFactory;
@@ -19,7 +20,7 @@ public class Transform {
 
 	public String urlify(String st){
 		String result = "";
-		result += st.replaceAll("\\(|\\)|\\s|\\/|\\.","-");
+		result += st.replaceAll("\\(|\\)|\\s|\\/|\\.|:","-");
 		return result;	
 	}
 	
@@ -38,6 +39,20 @@ public class Transform {
 	public void addDataTripleXSDdouble(String subject, String prop, double value){
 		model.add(vf.createIRI(subject), vf.createIRI(prop), vf.createLiteral(value));
 	}
+	
+	public void addDataTripleXSDdecimal(String subject, String prop, BigDecimal value){
+		model.add(vf.createIRI(subject), vf.createIRI(prop), vf.createLiteral(value));
+	}
+	
+	public void addDataTripleXSDString(String subject, String prop, String value){
+		model.add(vf.createIRI(subject), vf.createIRI(prop), vf.createLiteral(value));
+	}
+	
+	public void addTriple(String subject, String prop, String object){
+		model.add(vf.createIRI(subject), vf.createIRI(prop), vf.createIRI(object));
+	}
+	
+	
 	
 	public Model getModel (){
 		return model;
