@@ -31,6 +31,14 @@ public class Transform {
 		model.add(vf.createIRI(subject), RDFS.LABEL, vf.createLiteral(label));
 	}
 	
+	public void addDataTripleXSDInt(String subject, String prop, int value){
+		model.add(vf.createIRI(subject), vf.createIRI(prop), vf.createLiteral(value));
+	}
+	
+	public void addDataTripleXSDdouble(String subject, String prop, double value){
+		model.add(vf.createIRI(subject), vf.createIRI(prop), vf.createLiteral(value));
+	}
+	
 	public Model getModel (){
 		return model;
 	}
