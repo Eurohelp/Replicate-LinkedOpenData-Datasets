@@ -16,12 +16,13 @@ public class csv2rdf {
 	public static void main(String[] args) throws IOException {
 		String in_path = args[0]; // Input CSV path
 		String out_path = args[1];// Output RDF path
+		String ctxt = args[2]; // Named Graph URI
 
 		Reader in = new FileReader(in_path);
 
 		Iterable<CSVRecord> records = CSVFormat.RFC4180.withFirstRecordAsHeader().parse(in);
 
-		Transform transformer = new Transform();
+		Transform transformer = new Transform(ctxt);
 
 		// EL CSV es deforme!WTF!A veces tiene plazas rotatorias libres a veces
 		// no
@@ -161,7 +162,7 @@ public class csv2rdf {
 
 		FileOutputStream out = new FileOutputStream(out_path);
 		try {
-			Rio.write(transformer.getModel(), out, RDFFormat.RDFXML);
+			Rio.write(transformer.getModel(), out, RDFFormat.NQUADS);
 		} finally {
 			out.close();
 		}
