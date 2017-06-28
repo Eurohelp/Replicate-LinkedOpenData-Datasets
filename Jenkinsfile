@@ -2,10 +2,12 @@
 
 // Def vars
 
+def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/sparql"
+
 node {
     stage('Clean blazegraph named graph'){
         echo '>>> Remove data from named graph'
-        sh 'curl --get -X DELETE -H "Accept: application/xml" http://172.16.0.81:58080/blazegraph/sparql --data-urlencode "?c=<http://lod.eurohelp.es/dataset/parkings>"'
+        sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<http://lod.eurohelp.es/dataset/parkings>"'
     }
     stage('Checkout') {
         echo '>>> Checkout pipeline from GitHub'
@@ -21,6 +23,6 @@ node {
     }
     stage('Upload RDF to blazegraph') {
          echo '>>> Upload RDF to blazegraph'
-         sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @donostiaparkingsclean.nquads http://172.16.0.81:58080/blazegraph/sparql'
+         sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @donostiaparkingsclean.nquads ' + SPARQLendpoint
     }
 }
