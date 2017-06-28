@@ -9,4 +9,4 @@ Convertir los datos limpios a RDF:
 `java -jar csv2rdf/csvparkingsclean2rdf.jar donostiaparkingsclean.csv donostiaparkingsclean.nquads http://lod.eurohelp.es/dataset/parkings`
 
 Subir el RDF a Blazegraph:
-`curl -X POST -H 'Content-Type:text/x-nquads' --data-binary '@donostiaparkingsclean.nquads' http://172.16.0.81:58080/blazegraph/sparql`
+`curl -X POST -H Content-Type:text/x-nquads --data-binary @donostiaparkingsclean.nquads http://172.16.0.81:58080/blazegraph/sparql`
