@@ -1,0 +1,6 @@
+SELECT *
+WHERE {
+GRAPH <http://lod.eurohelp.es/dataset/parkings>{
+	?s ?p ?o
+	}
+}
