@@ -3,6 +3,10 @@
 // Def vars
 
 node {
+    stage('Clean blazegraph named graph'){
+        echo '>>> Remove data from named graph'
+        sh 'curl --get -X DELETE -H "Accept: application/xml" http://172.16.0.81:58080/blazegraph/sparql --data-urlencode "?c=<http://lod.eurohelp.es/dataset/parkings>"'
+    }
     stage('Checkout') {
         echo '>>> Checkout pipeline from GitHub'
         git branch: 'java-only-temporal-pipeline', url: 'https://github.com/Eurohelp/Replicate-LinkedOpenData-Datasets.git'
