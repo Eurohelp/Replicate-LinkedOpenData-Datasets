@@ -1,0 +1,9 @@
+PREFIX lod_eu_def:<http://lod.eurohelp.es/def/>
+PREFIX lod_eu_id_parking:<http://lod.eurohelp.es/id/parking/>
+
+SELECT ?plazas_rotatorias
+WHERE {
+GRAPH <http://lod.eurohelp.es/dataset/parkings>{
+		lod_eu_id_parking:Atotxa lod_eu_def:plazasrotatorias ?plazas_rotatorias
+	}
+}
