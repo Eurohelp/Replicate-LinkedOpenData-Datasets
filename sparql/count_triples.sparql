@@ -1,0 +1,5 @@
+SELECT (COUNT(*) as ?count)
+FROM <http://lod.eurohelp.es/dataset/parkings>
+WHERE {
+   ?s ?p ?o .
+}
