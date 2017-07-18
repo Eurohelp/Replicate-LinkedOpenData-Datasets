@@ -11,7 +11,7 @@ node {
         sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
     }
     stage('Checkout pipeline') {
-        git branch: 'java-only-temporal-pipeline', url: 'https://github.com/Eurohelp/Replicate-LinkedOpenData-Datasets.git'
+        git branch: 'develop', url: 'https://github.com/Eurohelp/Replicate-LinkedOpenData-Datasets.git'
     }
     stage('Obtain and clean data') {
         sh 'java -jar loadparkingdata/cleanparkingdata.jar "' + URLParkingsDonosti + '" ' + CSVParkingsClean + ' temp_parkingsclean temp_parkingsclean.json'
