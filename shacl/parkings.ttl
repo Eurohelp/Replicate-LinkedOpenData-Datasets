@@ -25,7 +25,7 @@ ex:ParkingShape
 ex:ParkingShapeDebug
 		a sh:NodeShape ;
 		sh:targetClass schema:ParkingFacility ;
-#		sh:deactivated true ;
+		sh:deactivated true ;
 		sh:property [
 			sh:path geo:lat ;
 			sh:datatype xsd:double ;
