@@ -2,7 +2,7 @@
 
 import java.text.SimpleDateFormat
 
-def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishell/sparql/replicate-mishell/sparql"
+def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishell/sparql"
 def URLParkingsDonosti = "http://www.donostia.eus/info/ciudadano/camaras_trafico.nsf/dameParkings?OpenAgent&idioma=cas"
 def CSVParkingsClean = "donostiaparkingsclean.csv"
 def RDFParkingsClean = "donostiaparking.nq"
