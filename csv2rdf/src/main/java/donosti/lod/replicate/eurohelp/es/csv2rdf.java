@@ -80,29 +80,26 @@ public class csv2rdf {
 					String tiempo = precio_tiempo.split(":")[0].replace(" min", "");
 					String precio = precio_tiempo.split(":")[1];
 					System.out.println(precio_tiempo + precio + tiempo);
-					String uri_precio_tiempo = LOD_DONOSTI_URI.fare.getUri() + transformer.urlify(Nombre) + "/" + transformer.urlify(precio_tiempo);
+					String uri_precio_tiempo = LOD_DONOSTI_URI.fare.getUri() + transformer.urlify(Nombre) + "/"
+							+ transformer.urlify(precio_tiempo);
 					System.out.println("uri_precio_tiempo " + uri_precio_tiempo);
-					transformer.addTriple(
-							parking_uri, 
-							LOD_DONOSTI_URI.schema_offers.getUri(), 
-							uri_precio_tiempo);
-					
-					transformer.addDataTripleXSDdecimal(
-							uri_precio_tiempo, 
-							LOD_DONOSTI_URI.time_minutes.getUri(), 
+					transformer.addTriple(parking_uri, LOD_DONOSTI_URI.schema_offers.getUri(), uri_precio_tiempo);
+
+					transformer.addDataTripleXSDdecimal(uri_precio_tiempo, LOD_DONOSTI_URI.time_minutes.getUri(),
 							new BigDecimal(tiempo));
-					
-					transformer.addDataTripleXSDdouble(
-							uri_precio_tiempo, 
-							LOD_DONOSTI_URI.schema_price.getUri(), 
+
+					transformer.addDataTripleXSDdouble(uri_precio_tiempo, LOD_DONOSTI_URI.schema_price.getUri(),
 							Double.parseDouble(precio));
-					
-					transformer.addDataTripleXSDString(
-							uri_precio_tiempo, 
-							LOD_DONOSTI_URI.schema_currency.getUri(), 
+
+					transformer.addDataTripleXSDString(uri_precio_tiempo, LOD_DONOSTI_URI.schema_currency.getUri(),
 							"EUR");
 				}
-
+//				System.out.println("Localizacion" + record.get("Localizacion"));
+//				// parking geo:location Localizacion
+//				String localizacion = LOD_DONOSTI_URI.lugar_localizacion.getUri() +transformer.urlify(record.get("Localizacion"));
+//				transformer.addTriple(parking_uri, LOD_DONOSTI_URI.location_wgs84.getUri(), localizacion);
+//				transformer.addRDFSLABELTriple(localizacion, record.get("Localizacion"));
+				
 				System.out.println("Latitud " + record.get("Latitud"));
 				// parking wgs84_lat Latitud
 				transformer.addDataTripleXSDdouble(parking_uri, LOD_DONOSTI_URI.lat_wgs84.getUri(),
@@ -118,7 +115,7 @@ public class csv2rdf {
 				transformer.addDataTripleXSDInt(parking_uri, LOD_DONOSTI_URI.PlazasRotatoriasLibres.getUri(),
 						Integer.parseInt(record.get(7)));
 
-//				System.out.println("Precios " + record.get(8));
+				// System.out.println("Precios " + record.get(8));
 				String precios = record.get(8);
 				System.out.println("Precios " + precios);
 				String[] lista_precio_tiempos = precios.split(";");
@@ -126,28 +123,26 @@ public class csv2rdf {
 					String tiempo = precio_tiempo.split(":")[0].replace(" min", "");
 					String precio = precio_tiempo.split(":")[1];
 					System.out.println(precio_tiempo + precio + tiempo);
-					String uri_precio_tiempo = LOD_DONOSTI_URI.fare.getUri() + transformer.urlify(Nombre) + "/" + transformer.urlify(precio_tiempo);
+					String uri_precio_tiempo = LOD_DONOSTI_URI.fare.getUri() + transformer.urlify(Nombre) + "/"
+							+ transformer.urlify(precio_tiempo);
 					System.out.println("uri_precio_tiempo " + uri_precio_tiempo);
-					transformer.addTriple(
-							parking_uri, 
-							LOD_DONOSTI_URI.schema_offers.getUri(), 
-							uri_precio_tiempo);
-					
-					transformer.addDataTripleXSDdecimal(
-							uri_precio_tiempo, 
-							LOD_DONOSTI_URI.time_minutes.getUri(), 
+					transformer.addTriple(parking_uri, LOD_DONOSTI_URI.schema_offers.getUri(), uri_precio_tiempo);
+
+					transformer.addDataTripleXSDdecimal(uri_precio_tiempo, LOD_DONOSTI_URI.time_minutes.getUri(),
 							new BigDecimal(tiempo));
-					
-					transformer.addDataTripleXSDdouble(
-							uri_precio_tiempo, 
-							LOD_DONOSTI_URI.schema_price.getUri(), 
+
+					transformer.addDataTripleXSDdouble(uri_precio_tiempo, LOD_DONOSTI_URI.schema_price.getUri(),
 							Double.parseDouble(precio));
-					
-					transformer.addDataTripleXSDString(
-							uri_precio_tiempo, 
-							LOD_DONOSTI_URI.schema_currency.getUri(), 
+
+					transformer.addDataTripleXSDString(uri_precio_tiempo, LOD_DONOSTI_URI.schema_currency.getUri(),
 							"EUR");
 				}
+				System.out.println("Localizacion " + record.get(1));
+				// parking geo:location Localizacion
+				String localizacion = LOD_DONOSTI_URI.lugar_localizacion.getUri() +transformer.urlify(record.get("Localizacion"));
+				transformer.addTriple(parking_uri, LOD_DONOSTI_URI.location_wgs84.getUri(), localizacion);
+				transformer.addTriple(parking_uri, LOD_DONOSTI_URI.location_wgs84.getUri(), localizacion);
+				transformer.addRDFSLABELTriple(localizacion, record.get("Localizacion"));
 
 				System.out.println("Latitud " + record.get(9));
 				// parking wgs84_lat Latitud

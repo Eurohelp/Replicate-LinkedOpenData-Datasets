@@ -12,12 +12,14 @@ public enum LOD_DONOSTI_URI {
 	schema_currency("http://schema.org/priceCurrency"),
 	PlazasRotatorias(LOD_DONOSTI_URI.def.getUri() + "plazasrotatorias"),
 	PlazasResidentes(LOD_DONOSTI_URI.def.getUri() + "plazasresidentes"),
+	lugar_localizacion(LOD_DONOSTI_URI.base.getUri() + "place/"),
 	PlazasTotales(LOD_DONOSTI_URI.def.getUri() + "plazastotales"),
 	PlazasResidentesLibres(LOD_DONOSTI_URI.def.getUri() + "plazasresidenteslibres"),
 	PlazasRotatoriasLibres(LOD_DONOSTI_URI.def.getUri() + "plazasrotatoriaslibres"),
 	tipo_parking_rotatorio(LOD_DONOSTI_URI.def.getUri() + "parkingrotatorio"),
 	tipo_parking_mixto(LOD_DONOSTI_URI.def.getUri() + "parkingmixto"),
-	lat_wgs84("http://www.w3.org/2003/01/geo/wgs84_pos#lat"),
+	lat_wgs84("http://www.w3.org/2003/01/geo/wgs84_pos#lat"),	
+	location_wgs84("http://www.w3.org/2003/01/geo/wgs84_pos#location"),
 	long_wgs84("http://www.w3.org/2003/01/geo/wgs84_pos#long"),
 	time_minutes("http://www.w3.org/2006/time#minutes")
 	;
