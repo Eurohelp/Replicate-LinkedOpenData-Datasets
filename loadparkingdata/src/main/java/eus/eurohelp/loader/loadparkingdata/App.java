@@ -39,6 +39,7 @@ public class App {
 		
 		for (JSONObject parking : listParkings) {
 			if (!(parking.get("Nombre").toString().contains("Estac"))) {
+				
 				System.out.print(parking.getOrDefault("Nombre", "-") + ",");
 				csv += parking.getOrDefault("Nombre", "-") + ",";
 				System.out.print(parking.getOrDefault("PlazasRotatorias", "-") + ",");
@@ -51,17 +52,15 @@ public class App {
 				csv += parking.getOrDefault("PlazasTotales", "-") + ",";
 				System.out.print(parking.getOrDefault("PlazasResidentesLibres", "-") + ",");
 				csv += parking.getOrDefault("PlazasResidentesLibres", "-") + ",";
-				System.out.print(parking.getOrDefault("PlazasRotatoriasLibres", "0") + ",");
-				csv += parking.getOrDefault("PlazasRotatoriasLibres", "0") + ",";
-
+				
 				Pattern pattern = Pattern.compile("\\d{1,3}(?![0-9%]{1,3})");
 				Matcher matcher = pattern.matcher((String) parking.getOrDefault("Datos", "-"));
 				String rotativePlacesFree = "0";
 				if (matcher.find()) {
 					rotativePlacesFree = matcher.group();
 					System.out.print(rotativePlacesFree + ",");
-					csv += rotativePlacesFree + ",";
 				}
+				csv += rotativePlacesFree + ",";
 
 				String preciosParkings = (String) parking.getOrDefault("Precios", "-");
 
