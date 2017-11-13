@@ -9,3 +9,7 @@ target/
 silk/\.settings/
 silk/\.classpath
 silk/\.project
+
+CSVToRDF/\.settings/
+CSVToRDF/\.classpath
+CSVToRDF/\.project
