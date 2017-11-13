@@ -49,7 +49,6 @@ rml:logicalSource [
  		rr:subjectMap [
         rr:template "http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-{eguna}-{horaParaUri}";
         rr:class qb:Observation;
-xxx
     	];
     	rr:predicateObjectMap [
         rr:predicate dcterms:date;
