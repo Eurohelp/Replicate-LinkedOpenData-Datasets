@@ -36,6 +36,12 @@ public class CSVToRDF {
 			 Repository repository = mapDocRetrieval.getMappingDoc(args[1], RDFFormat.TURTLE);
 
 			StdRMLMappingFactory mappingFactory = new StdRMLMappingFactory();
+			if(repository ==null) {
+				System.err.println("\n||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
+						+ "|| There is some problem with rml configuration file, please check it. Maybe the problem is the sintax. ||\n"
+						+ "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
+				System.exit(1);
+			}
 			RMLMapping mapping = mappingFactory.extractRMLMapping(repository);
 
 			String graphName = args[3];
