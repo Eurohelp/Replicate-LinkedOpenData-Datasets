@@ -6,11 +6,10 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.util.Properties;
 
-
 /**
  * 
  * @author dmuchuari
- *
+ * @17/11/2017
  */
 public class PropertiesManager {
 	private static PropertiesManager INSTANCE = null;

@@ -15,17 +15,18 @@ import be.ugent.mmlab.rml.mapdochandler.extraction.std.StdRMLMappingFactory;
 import be.ugent.mmlab.rml.mapdochandler.retrieval.RMLDocRetrieval;
 import be.ugent.mmlab.rml.model.RMLMapping;
 import be.ugent.mmlab.rml.model.dataset.RMLDataset;
-import eus.eurohelp.rdfcreator.transform.Preprocess;
 
+/**
+ * 
+ * @author dmuchuari 
+ * @17/11/2017
+ */
 public class CSVToRDF {
 	// En primer lugar se le pasara el path del archivo de configuracion
 	// En segundo lugar la ruta donde se quiera almacenar el archivo
 	// resultante con la extensi�n deseada
 	// En tercero lugar el nombre del grafo
 	public static void main(String[] args) throws IOException {
-
-		// Se ejecuta el preprocesado del CSV en el que se realizaran las
-		// modificaciones, adiciones y borrados necesarios para generar el
 
 		// Ejecucion del archivo RML
 		try {
