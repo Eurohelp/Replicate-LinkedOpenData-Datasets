@@ -23,7 +23,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-rain";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-rain";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -58,13 +58,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/rain";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/rain";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-rain"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-rain"
         ]
         ];
         rr:predicateObjectMap [
@@ -80,7 +80,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-co";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-co";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -115,13 +115,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/co";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/co";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-co"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-co"
         ]
         ];
         rr:predicateObjectMap [
@@ -138,7 +138,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-co8h";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-co8h";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -173,13 +173,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/co8h";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/co8h";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-co8h"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-co8h"
         ]
         ];
         rr:predicateObjectMap [
@@ -195,7 +195,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-o3";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-o3";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -230,13 +230,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/o3";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/o3";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-o3"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-o3"
         ]
         ];
         rr:predicateObjectMap [
@@ -252,7 +252,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-pm10";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pm10";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -287,13 +287,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/pm10";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/pm10";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-pm10"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pm10"
         ]
         ];
         rr:predicateObjectMap [
@@ -309,7 +309,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-pm25";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pm25";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -344,13 +344,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/pm25";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/pm25";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-pm25"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pm25"
         ]
         ];
         rr:predicateObjectMap [
@@ -366,7 +366,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-so2";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-so2";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -401,13 +401,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/so2";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/so2";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-so2"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-so2"
         ]
         ];
         rr:predicateObjectMap [
@@ -423,7 +423,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-benceno";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-benceno";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -458,13 +458,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/benceno";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/benceno";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-benceno"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-benceno"
         ]
         ];
         rr:predicateObjectMap [
@@ -480,7 +480,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-etilbenceno";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-etilbenceno";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -515,13 +515,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/etilbenceno";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/etilbenceno";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-etilbenceno"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-etilbenceno"
         ]
         ];
         rr:predicateObjectMap [
@@ -537,7 +537,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-ortoxileno";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-ortoxileno";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -572,13 +572,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/ortoxileno";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/ortoxileno";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-ortoxileno"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-ortoxileno"
         ]
         ];
         rr:predicateObjectMap [
@@ -594,7 +594,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-tolueno";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-tolueno";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -629,13 +629,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/tolueno";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/tolueno";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-tolueno"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-tolueno"
         ]
         ];
         rr:predicateObjectMap [
@@ -644,14 +644,14 @@ rml:logicalSource [
 		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
         ]
         ].
-        <#ObservacionTolueno>
-rml:logicalSource [
+    <#ObservacionTolueno>
+	rml:logicalSource [
     rml:source "data/enviroment_airquality_201709.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-tolueno";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-tolueno";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -686,13 +686,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/tolueno";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/tolueno";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-tolueno"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-tolueno"
         ]
         ];
         rr:predicateObjectMap [
@@ -708,7 +708,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-no";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-no";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -743,13 +743,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/no";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/no";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-no"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-no"
         ]
         ];
         rr:predicateObjectMap [
@@ -765,7 +765,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-no2";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-no2";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -800,13 +800,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/no2";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/no2";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-no2"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-no2"
         ]
         ];
         rr:predicateObjectMap [
@@ -822,7 +822,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-winddir";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-winddir";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -857,13 +857,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/winddir";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/winddir";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-winddir"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-winddir"
         ]
         ];
         rr:predicateObjectMap [
@@ -879,7 +879,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-windspeed";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-windspeed";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -914,13 +914,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/windspeed";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/windspeed";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-windspeed"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-windspeed"
         ]
         ];
         rr:predicateObjectMap [
@@ -936,7 +936,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-temperature";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-temperature";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -971,13 +971,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/temperature";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/temperature";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-temperature"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-temperature"
         ]
         ];
         rr:predicateObjectMap [
@@ -993,7 +993,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-pressure";
+        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pressure";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -1028,13 +1028,13 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/sensor/pressure";
+    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/pressure";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:constant "http://opendata.euskadi.eus/recurso/medio-ambiente/calidad-del-aire/observation/all-201709-pressure"
+		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pressure"
         ]
         ];
         rr:predicateObjectMap [
