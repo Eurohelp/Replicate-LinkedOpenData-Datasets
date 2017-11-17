@@ -24,7 +24,8 @@ public class MongoDBUtils {
 	private MongoCollection<Document> collection;
 
 	/**
-	 * Constructor 
+	 * Constructor
+	 * 
 	 * @param pDataBase
 	 * @param pCollection
 	 * @throws IOException
@@ -47,19 +48,18 @@ public class MongoDBUtils {
 	 */
 	public void getDocument(String pRegex, String pPath) throws IOException {
 		BasicDBObject regex = new BasicDBObject();
-		PrintWriter pw = new PrintWriter(pPath);
+		int cont = 0;
+		PrintWriter pw;
 		regex.put("_id", pRegex);
 		FindIterable<Document> cursor = collection.find(regex);
 		MongoCursor<Document> iterator = cursor.iterator();
+
 		while (iterator.hasNext()) {
+			pw = new PrintWriter(pPath.replace(".json", "-" + cont + ".json"));
 			Document d = iterator.next();
+			cont++;
 			pw.println(d.toJson());
 			pw.close();
 		}
-	}
-
-	public static void main(String[] args) throws IOException {
-		MongoDBUtils s = new MongoDBUtils("dashboard", "iot_environment_measurements");
-		s.getDocument("all:all:environment_airquality:201709:all", "data/enviroment_airquality_201709.json");
 	}
 }

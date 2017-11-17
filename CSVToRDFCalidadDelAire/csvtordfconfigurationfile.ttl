@@ -18,7 +18,7 @@
 #predicados y objetos necesarios
 <#ObservacionRain>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -30,6 +30,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion rain en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -41,7 +43,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.rain.avg"
+    	rml:reference "@.data.rain.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -53,7 +56,7 @@ rml:logicalSource [
         ].
  <#SensorRain>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -75,7 +78,7 @@ rml:logicalSource [
         ].
 <#ObservacionCO>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -87,6 +90,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion CO en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -98,7 +103,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.co.avg"
+    	rml:reference "@.data.co.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -110,7 +116,7 @@ rml:logicalSource [
         ].
  <#SensorCO>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -133,7 +139,7 @@ rml:logicalSource [
         
 <#ObservacionCO8h>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -145,6 +151,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion CO8h en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -156,7 +164,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.co_8h.avg"
+    	rml:reference "@.data.co_8h.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -168,7 +177,7 @@ rml:logicalSource [
         ].
  <#SensorCO8h>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -190,7 +199,7 @@ rml:logicalSource [
         ].
         <#ObservacionO3>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -202,6 +211,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion CO8h en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -213,7 +224,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.o3.avg"
+    	rml:reference "@.data.o3.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -225,7 +237,7 @@ rml:logicalSource [
         ].
  <#SensorO3>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -247,7 +259,7 @@ rml:logicalSource [
         ].
  <#ObservacionPM10>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -259,6 +271,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion PM10 en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -270,7 +284,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.pm10.avg"
+    	rml:reference "@.data.pm10.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -282,7 +297,7 @@ rml:logicalSource [
         ].
  <#SensorPM10>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -304,7 +319,7 @@ rml:logicalSource [
         ].
  <#ObservacionPM25>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -316,6 +331,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion PM25 en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -327,7 +344,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.pm2,5.avg"
+    	rml:reference "@.data.pm2,5.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -339,7 +357,7 @@ rml:logicalSource [
         ].
  <#SensorPM25>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -361,7 +379,7 @@ rml:logicalSource [
         ].
 <#ObservacionSO2>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -373,6 +391,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion SO2 en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -384,7 +404,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.so2.avg"
+    	rml:reference "@.data.so2.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -396,7 +417,7 @@ rml:logicalSource [
         ].
  <#SensorSO2>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -418,7 +439,7 @@ rml:logicalSource [
         ].
 <#ObservacionBenceno>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -430,6 +451,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion Benceno en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -441,7 +464,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.benceno.avg"
+    	rml:reference "@.data.benceno.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -453,7 +477,7 @@ rml:logicalSource [
         ].
  <#SensorBenceno>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -475,7 +499,7 @@ rml:logicalSource [
         ].
 <#ObservacionEtilbenceno>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -487,6 +511,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion Etilbenceno en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -498,7 +524,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.etilbenceno.avg"
+    	rml:reference "@.data.etilbenceno.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -510,7 +537,7 @@ rml:logicalSource [
         ].
  <#SensorEtilbenceno>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -532,7 +559,7 @@ rml:logicalSource [
         ].
 <#ObservacionOrtoxileno>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -544,6 +571,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion Ortoxileno en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -555,7 +584,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.ortoxileno.avg"
+    	rml:reference "@.data.ortoxileno.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -567,7 +597,7 @@ rml:logicalSource [
         ].
  <#SensorOrtoxileno>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -589,7 +619,7 @@ rml:logicalSource [
         ].
 <#ObservacionTolueno>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -601,6 +631,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion Tolueno en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -612,7 +644,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.tolueno.avg"
+    	rml:reference "@.data.tolueno.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -624,7 +657,7 @@ rml:logicalSource [
         ].
  <#SensorTolueno>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -646,7 +679,7 @@ rml:logicalSource [
         ].
     <#ObservacionTolueno>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -658,6 +691,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion Tolueno en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -669,7 +704,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.tolueno.avg"
+    	rml:reference "@.data.tolueno.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -681,7 +717,7 @@ rml:logicalSource [
         ].
  <#SensorTolueno>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -703,7 +739,7 @@ rml:logicalSource [
         ].
         <#ObservacionNO>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -715,6 +751,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion NO en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -726,7 +764,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.no.avg"
+    	rml:reference "@.data.no.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -738,7 +777,7 @@ rml:logicalSource [
         ].
  <#SensorNO>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -760,7 +799,7 @@ rml:logicalSource [
         ].
 <#ObservacionNO2>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -772,6 +811,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion NO2 en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -783,7 +824,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.no2.avg"
+    	rml:reference "@.data.no2.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -795,7 +837,7 @@ rml:logicalSource [
         ].
  <#SensorNO2>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -817,7 +859,7 @@ rml:logicalSource [
         ].
 <#ObservacionWindDir>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -829,6 +871,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion Wind Dir en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -840,7 +884,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.wind_dir.avg"
+    	rml:reference "@.data.wind_dir.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -852,7 +897,7 @@ rml:logicalSource [
         ].
  <#SensorWindDir>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -874,7 +919,7 @@ rml:logicalSource [
         ].
 <#ObservacionWindSpeed>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -886,6 +931,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion Wind Speed en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -897,7 +944,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.wind_speed.avg"
+    	rml:reference "@.data.wind_speed.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -909,7 +957,7 @@ rml:logicalSource [
         ].
  <#SensorWindSpeed>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -931,7 +979,7 @@ rml:logicalSource [
         ].
 <#ObservacionTemperature>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -943,6 +991,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion Temperature en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -954,7 +1004,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.temperature.avg"
+    	rml:reference "@.data.temperature.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -966,7 +1017,7 @@ rml:logicalSource [
         ].
  <#SensorTemperature>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -988,7 +1039,7 @@ rml:logicalSource [
         ].
 <#ObservacionPressure>
 rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -1000,6 +1051,8 @@ rml:logicalSource [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Observacion Pressure en todos los sensores de Donosti";
+            rr:datatype xsd:string;
+            rr:language "es";
         ]
         ];
         rr:predicateObjectMap [
@@ -1011,7 +1064,8 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:hasResult;
         rr:objectMap [
-    	rml:reference "@.data.pressure.avg"
+    	rml:reference "@.data.pressure.avg";
+    	rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
@@ -1023,7 +1077,7 @@ rml:logicalSource [
         ].
  <#SensorPressure>
 	rml:logicalSource [
-    rml:source "data/enviroment_airquality_201709.json";
+    rml:source "data/enviroment_airquality_201709-1.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
