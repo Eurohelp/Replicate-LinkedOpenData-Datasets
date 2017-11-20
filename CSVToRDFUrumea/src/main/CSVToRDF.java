@@ -10,6 +10,7 @@ import org.openrdf.rio.RDFFormat;
 
 import be.ugent.mmlab.rml.core.RMLEngine;
 import be.ugent.mmlab.rml.core.StdRMLEngine;
+import be.ugent.mmlab.rml.main.Main;
 import be.ugent.mmlab.rml.mapdochandler.extraction.std.StdRMLMappingFactory;
 import be.ugent.mmlab.rml.mapdochandler.retrieval.RMLDocRetrieval;
 import be.ugent.mmlab.rml.model.RMLMapping;
@@ -21,13 +22,15 @@ public class CSVToRDF {
 	// En segundo lugar se le pasara el path del archivo de configuracion
 	// En tercero lugar la ruta donde se quiera almacenar el archivo
 	// resultante con la extensi�n deseada
-	// En cuarto lugar el nombre del grafo
 	public static void main(String[] args) throws IOException {
 
 		// Se ejecuta el preprocesado del CSV en el que se realizaran las
 		// modificaciones, adiciones y borrados necesarios para generar el RDF
 		Preprocess pprocess = new Preprocess(args[0]);
 		pprocess.CSVpreprocess();
+//		String[] commandLineValues = {"-m", "newdata/txominea.csv", "-o", "resultsMishell.ttl", "-g",
+//		"http://opendata.euskadi.eus/catalogo/id/calidad-aire-en-euskadi-2017"};
+//		Main.main(commandLineValues);
 		// Ejecuci�n del archivo RML
 		try {
 			File outputFile = Paths.get(args[2]).toFile();
@@ -43,7 +46,7 @@ public class CSVToRDF {
 				System.exit(1);
 			}
 			RMLMapping mapping = mappingFactory.extractRMLMapping(repository);
-			String graphName = args[3];
+			String graphName = "";
 			Map<String, String> parameters = null;
 			String[] exeTriplesMap = null;
 

@@ -1,0 +1,60 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:	<http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:	<http://lod.eurohelp.es/replicate/shacl/urumea> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix medicion: <http://lod.eurohelp.es/def/medio-ambiente/medicion/> .
+
+# A parking should have a latitude with xsd:float value between 43.2 and 43.4
+ex:RiverShape
+	a sh:NodeShape ;
+	sh:targetClass schema:RiverBodyOfWater;
+	sh:property [
+	sh:path rdfs:label ;
+	sh:minCount 1 ;
+	sh:message "Un rio debe tener un label@es";
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path medicion:hasObservation ;
+	sh:minCount 1 ;
+	sh:message "El rio tiene asociadas varias observaciones@es";
+	sh:severity sh:Warning ;
+	].
+
+ex:RiverMeditionShape
+	a sh:NodeShape ;
+	sh:targetClass qb:Observation ;
+	sh:property [
+	sh:path dcterms:date; 
+	sh:datatype xsd:dateTime;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:message "Una medicion debe tener asociada una fecha@es";
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path medicion:nivel-agua ;
+	sh:datatype xsd:float ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:message "La observacion tiene que tener un valor asociado referente al nivel del agua del rio@es";
+	sh:severity sh:Warning ;
+	];
+	sh:property [
+	sh:path medicion:riesgo ;
+	sh:languageIn ("vq");
+	sh:minCount 1 ;
+	sh:message "La observacion tiene que tener un valor asociado referente al riesgo del rio@es";
+	sh:severity sh:Warning ;
+	];
+	sh:property [
+	sh:path medicion:unidad-medida-nivel-agua ;
+	sh:minCount 1 ;
+	sh:message "La observacion tiene que tener un valor asociado referente a la unidad de medida del nivel del agua@es";
+	sh:severity sh:Info ;
+	].

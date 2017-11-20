@@ -1,7 +1,6 @@
-#Se empiezan cargando los prefix que se usarán en el RDF generado
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
-@prefix rr: <http://www.w3.org/ns/r2rml#>.
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rr: <http://www.w3.org/ns/r2rml#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix ql: <http://semweb.mmlab.be/ns/ql#> .
 @prefix rml: <http://semweb.mmlab.be/ns/rml#> .
 @prefix schema: <http://schema.org/> .
@@ -9,6 +8,7 @@
 @prefix linkedgeodata: <http://linkedgeodata.org/page/ontology/> .
 @prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lod: <http://lod.eurohelp.es/def/medio-ambiente/medicion/> .
 
 #Se define por cada sujeto un bloque en el que se podrán anadir todos los 
 #predicados y objetos necesarios
@@ -18,28 +18,23 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  		rr:subjectMap [
-        rr:template "http://lod.eurohelp.es/id/river/urumea/txominea";
+        rr:constant "http://lod.eurohelp.es/id/river/urumea/txominea";
         rr:class schema:RiverBodyOfWater;
-        rr:class linkedgeodata:NaturalRiver
     ];
     	rr:predicateObjectMap [
         rr:predicate rdfs:label;
         rr:objectMap [
-            rml:reference "Rio Urumea";
+            rr:constant "Rio Urumea";
         ]
         ];
-		rr:predicateObjectMap [
-        rr:predicate geo:lat;
-        rr:objectMap [
-            rml:reference "Latitud";
-        ]
-        ];
+        
         rr:predicateObjectMap [
-        rr:predicate geo:long;
+        rr:predicate lod:hasObservation;
         rr:objectMap [
-            rml:reference "Longitud";
+        rr:template "http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-{eguna}-{horaParaUri}";
         ]
-        ].
+        ]
+        .
         
 <MedicionConcreta>
 rml:logicalSource [
@@ -68,11 +63,12 @@ rml:logicalSource [
         rr:predicate "http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua";
         rr:objectMap [
             rml:reference "maila";
+            rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate "http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua";
         rr:objectMap [
-            rr:constant "meters";
+            rr:constant "metros";
         ]
         ].
