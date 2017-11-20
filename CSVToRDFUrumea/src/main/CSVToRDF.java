@@ -30,7 +30,7 @@ public class CSVToRDF {
 		pprocess.CSVpreprocess();
 //		String[] commandLineValues = {"-m", "newdata/txominea.csv", "-o", "resultsMishell.ttl", "-g",
 //		"http://opendata.euskadi.eus/catalogo/id/calidad-aire-en-euskadi-2017"};
-//		Main.main(commandLineValues);
+//		Main.main(commandLineValues); 
 		// Ejecuci�n del archivo RML
 		try {
 			File outputFile = Paths.get(args[2]).toFile();

@@ -1,0 +1,376 @@
+<?xml version='1.0' encoding='utf-8' standalone='no'?>
+<rdf:RDF xmlns='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'
+    xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#'
+    xmlns:xsd='http://www.w3.org/2001/XMLSchema#'
+    xmlns:align='http://knowledgeweb.semanticweb.org/heterogeneity/alignment#'>
+<Alignment>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Urushten"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Urubu"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Urubio"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Uraricoera"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Urup_River"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Urik"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Mali_Urán"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0625</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Bolshói_Urán"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0625</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Urubu_River_(Amazonas)"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Uraricoera_River"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Urup"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Urik_River"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Ure"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Urola_River"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Ure"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Urola"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Ural"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Uruguay"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Urubamba"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Urubamba_River"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Urdón"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Ural_River"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Uruguay_River"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Ripoll_(river)"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Rivadavia"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Risle"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Rideau"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Rienza"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Richelieu"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Colorado_(Costa_Rica)"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Rio_Claro_(Región_Metropolitana)"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Ricabo"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Riaza"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Ripoll"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Alhama_(La_Rioja)"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Rin"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.375</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/River_Ribble"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Risle"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rienz"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rideau_River"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Ribeira_de_Iguape_River"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Rituerto"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Ribble"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.16666666666666663</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Río_Ribeira_de_Iguape"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://es.dbpedia.org/resource/Rio_do_Esteiro"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0625</measure>
+      </Cell>
+    </map>
+<map>
+      <Cell>
+          <entity1 rdf:resource="http://dbpedia.org/resource/Rhine"/>
+          <entity2 rdf:resource="http://lod.eurohelp.es/id/river/urumea"/>
+        <relation>=</relation>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.375</measure>
+      </Cell>
+    </map>
+</Alignment>
+</rdf:RDF>

@@ -1,400 +1,795 @@
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-13-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-13-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T13:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.111"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-12-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T12:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.145"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-12-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T12:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.181"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-12-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T12:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.223"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-12-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T12:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.269"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-12-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T12:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.312"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-12-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.362"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-11-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T11:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.413"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-11-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T11:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.466"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-11-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T11:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.514"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-11-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T11:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.562"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-11-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T11:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.606"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-11-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T11:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.668"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-10-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T10:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.71"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-10-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T10:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.755"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-10-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T10:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.819"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-10-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T10:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.849"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-10-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T10:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.875"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-10-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T10:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.922"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-09-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T09:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.922"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-09-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T09:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.931"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-09-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T09:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.935"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-09-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T09:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.933"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-09-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T09:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.93"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-09-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T09:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.911"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-08-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T08:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.901"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-08-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T08:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.871"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-08-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T08:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.869"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-08-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T08:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.83"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-08-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T08:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.796"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-08-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T08:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.746"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-07-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T07:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.705"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-07-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T07:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.63"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-07-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T07:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.574"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-07-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T07:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.488"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-07-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T07:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.409"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-07-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T07:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.335"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-06-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T06:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.252"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-06-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T06:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.175"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-06-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T06:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-06-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T06:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.051"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-06-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T06:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-06-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T06:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.999"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-05-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T05:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.986"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-05-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T05:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.978"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-05-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T05:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.977"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-05-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T05:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.972"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-05-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T05:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.972"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-05-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T05:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.974"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-04-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T04:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.978"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-04-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T04:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.982"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-04-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T04:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.984"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-04-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T04:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.988"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-04-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T04:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-04-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T04:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.993"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-03-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T03:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "0.997"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-03-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T03:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-03-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T03:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.004"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-03-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T03:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.008"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-03-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T03:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.012"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-00> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-03-00> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T03:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.016"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-02-50> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-02-50> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T02:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.021"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-02-40> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-02-40> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T02:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.026"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-02-30> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-02-30> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T02:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.032"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-02-20> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-02-20> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T02:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.037"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-02-10> a <http://purl.org/linked-data/cube#Observation> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> "Ez dago arriskurik"@vq ;
+<http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-2017-11-10-02-10> a <http://purl.org/linked-data/cube#Observation> ;
 	<http://purl.org/dc/terms/date> "2017-11-10T02:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> "1.044"^^<http://www.w3.org/2001/XMLSchema#float> ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua> "metros" .
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> .
 
-<http://lod.eurohelp.es/id/river/urumea/txominea> a <http://schema.org/RiverBodyOfWater> ;
-	<http://www.w3.org/2000/01/rdf-schema#label> "Rio Urumea" ;
-	<http://lod.eurohelp.es/def/medio-ambiente/medicion/hasObservation> <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-13-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-10> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-12-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-10> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-11-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-10> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-10-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-10> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-09-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-10> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-08-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-10> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-07-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-10> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-06-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-10> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-05-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-10> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-04-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-10> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-03-00> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-02-50> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-02-40> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-02-30> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-02-20> , <http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-2017-11-10-02-10> .
+<http://lod.eurohelp.es/id/river/urumea> a <http://schema.org/RiverBodyOfWater> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Rio Urumea"@es .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-13-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.111"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-12-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.145"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-12-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.181"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-12-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.223"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-12-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.269"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-12-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.312"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-12-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.362"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-11-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.413"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-11-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.466"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-11-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.514"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-11-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.562"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-11-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.606"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-11-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.668"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-10-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.71"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-10-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.755"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-10-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.819"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-10-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.849"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-10-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.875"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-10-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.922"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-09-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.922"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-09-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.931"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-09-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.935"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-09-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.933"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-09-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.93"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-09-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.911"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-08-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.901"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-08-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.871"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-08-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.869"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-08-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.83"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-08-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.796"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-08-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.746"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-07-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.705"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-07-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.63"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-07-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.574"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-07-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.488"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-07-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.409"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-07-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.335"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-06-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.252"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-06-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.175"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-06-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-06-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.051"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-06-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.02"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-06-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.999"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-05-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.986"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-05-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.978"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-05-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.977"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-05-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.972"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-05-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.972"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-05-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.974"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-04-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.978"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-04-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.982"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-04-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.984"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-04-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.988"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-04-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-04-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.993"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-03-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.997"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-03-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-03-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.004"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-03-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.008"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-03-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.012"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-03-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.016"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-02-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.021"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-02-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.026"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-02-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.032"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-02-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.037"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2017-11-10-02-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.044"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-13-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-12-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-12-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-12-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-12-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-12-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-12-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-11-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-11-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-11-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-11-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-11-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-11-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-10-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-10-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-10-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-10-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-10-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-10-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-09-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-09-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-09-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-09-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-09-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-09-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-08-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-08-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-08-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-08-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-08-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-08-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-07-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-07-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-07-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-07-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-07-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-07-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-06-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-06-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-06-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-06-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-06-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-06-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-05-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-05-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-05-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-05-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-05-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-05-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-04-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-04-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-04-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-04-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-04-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-04-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-03-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-03-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-03-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-03-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-03-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-03-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-02-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-02-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-02-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-02-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-2017-11-10-02-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "Ez dago arriskurik"@vq .

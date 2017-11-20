@@ -7,9 +7,11 @@
 @prefix ex:	<http://lod.eurohelp.es/replicate/shacl/urumea> .
 @prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lod: <http://lod.eurohelp.es/def/medio-ambiente/> .
 @prefix medicion: <http://lod.eurohelp.es/def/medio-ambiente/medicion/> .
+@prefix purl-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix purl-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
 
-# A parking should have a latitude with xsd:float value between 43.2 and 43.4
 ex:RiverShape
 	a sh:NodeShape ;
 	sh:targetClass schema:RiverBodyOfWater;
@@ -18,15 +20,9 @@ ex:RiverShape
 	sh:minCount 1 ;
 	sh:message "Un rio debe tener un label@es";
 	sh:severity sh:Violation ;
-	];
-	sh:property [
-	sh:path medicion:hasObservation ;
-	sh:minCount 1 ;
-	sh:message "El rio tiene asociadas varias observaciones@es";
-	sh:severity sh:Warning ;
 	].
-
-ex:RiverMeditionShape
+	
+ex:ObservationShape
 	a sh:NodeShape ;
 	sh:targetClass qb:Observation ;
 	sh:property [
@@ -34,11 +30,29 @@ ex:RiverMeditionShape
 	sh:datatype xsd:dateTime;
 	sh:minCount 1 ;
 	sh:maxCount 1 ;
-	sh:message "Una medicion debe tener asociada una fecha@es";
+	sh:message "Una observacion debe tener asociada una fecha@es";
 	sh:severity sh:Violation ;
 	];
 	sh:property [
-	sh:path medicion:nivel-agua ;
+	sh:path medicion:rio-medicion ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:message "La observacion tiene que tener un rio asociado sobre el cual se realizo la medicion@es";
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path lod:medicion ;
+	sh:minCount 1 ;
+	sh:message "La observacion deberia tener mediciones asociadas@es";
+	sh:severity sh:Info ;
+	].
+	
+	
+ex:NivelAguaMeditionShape
+	a sh:NodeShape ;
+	sh:targetClass medicion:nivel-agua ;
+	sh:property [
+	sh:path purl-measure:obsValue ;
 	sh:datatype xsd:float ;
 	sh:minCount 1 ;
 	sh:maxCount 1 ;
@@ -46,15 +60,19 @@ ex:RiverMeditionShape
 	sh:severity sh:Warning ;
 	];
 	sh:property [
-	sh:path medicion:riesgo ;
+	sh:path purl-attribute:unitMeasure ;
+	sh:minCount 1 ;
+	sh:message "La observacion tiene que tener un valor asociado referente a la unidad de medida del nivel del agua@es";
+	sh:severity sh:Info ;
+	].
+	
+ex:RiesgoMeditionShape
+	a sh:NodeShape ;
+	sh:targetClass medicion:riesgo ;
+	sh:property [
+	sh:path purl-measure:obsValue ;
 	sh:languageIn ("vq");
 	sh:minCount 1 ;
 	sh:message "La observacion tiene que tener un valor asociado referente al riesgo del rio@es";
 	sh:severity sh:Warning ;
-	];
-	sh:property [
-	sh:path medicion:unidad-medida-nivel-agua ;
-	sh:minCount 1 ;
-	sh:message "La observacion tiene que tener un valor asociado referente a la unidad de medida del nivel del agua@es";
-	sh:severity sh:Info ;
 	].

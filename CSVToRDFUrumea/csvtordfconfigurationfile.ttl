@@ -8,7 +8,10 @@
 @prefix linkedgeodata: <http://linkedgeodata.org/page/ontology/> .
 @prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix lod: <http://lod.eurohelp.es/def/medio-ambiente/medicion/> .
+@prefix lod: <http://lod.eurohelp.es/def/medio-ambiente/> .
+@prefix lod-medicion: <http://lod.eurohelp.es/def/medio-ambiente/medicion/> .
+@prefix purl-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix purl-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
 
 #Se define por cada sujeto un bloque en el que se podrán anadir todos los 
 #predicados y objetos necesarios
@@ -18,56 +21,89 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  		rr:subjectMap [
-        rr:constant "http://lod.eurohelp.es/id/river/urumea/txominea";
+        rr:constant "http://lod.eurohelp.es/id/river/urumea";
         rr:class schema:RiverBodyOfWater;
     ];
     	rr:predicateObjectMap [
         rr:predicate rdfs:label;
         rr:objectMap [
             rr:constant "Rio Urumea";
-        ]
-        ];
-        
-        rr:predicateObjectMap [
-        rr:predicate lod:hasObservation;
-        rr:objectMap [
-        rr:template "http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-{eguna}-{horaParaUri}";
+			rr:language "es";
         ]
         ]
         .
         
-<MedicionConcreta>
+<#Observacion>
 rml:logicalSource [
 		rml:source "newdata/txominea.csv";
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
-        rr:template "http://lod.eurohelp.es/recurso/medio-ambiente/rio/txominea-{eguna}-{horaParaUri}";
+        rr:template "http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-{eguna}-{horaParaUri}";
         rr:class qb:Observation;
     	];
     	rr:predicateObjectMap [
         rr:predicate dcterms:date;
         rr:objectMap [
             rml:reference "horafecha";
-            rr:datatype xsd:dateTime
+            rr:datatype xsd:dateTime;
         ]
         ];
         rr:predicateObjectMap [
-        rr:predicate "http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo";
+        rr:predicate lod:medicion;
+        rr:objectMap [
+            rr:constant "http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo";
+            rr:termType rr:IRI;
+        ]
+        ];
+        rr:predicateObjectMap [
+        rr:predicate lod:medicion;
+        rr:objectMap [
+            rr:constant "http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua";
+            rr:termType rr:IRI;
+        ]
+        ];
+        rr:predicateObjectMap [
+        rr:predicate "http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion";
+        rr:objectMap [
+		rr:parentTriplesMap <#Urumea>;
+        ]
+        ].
+<#Riesgo>
+rml:logicalSource [
+		rml:source "newdata/txominea.csv";
+        rml:referenceFormulation ql:CSV
+    	];
+ 		rr:subjectMap [
+        rr:template "http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-{eguna}-{horaParaUri}";
+        rr:class lod-medicion:riesgo;
+    	];                       
+        rr:predicateObjectMap [
+        rr:predicate purl-measure:obsValue;
         rr:objectMap [
             rml:reference "arriskua";
             rr:language "vq";
         ]
-        ];
+        ].
+        
+<#NivelAgua>
+rml:logicalSource [
+		rml:source "newdata/txominea.csv";
+        rml:referenceFormulation ql:CSV
+    	];
+ 		rr:subjectMap [
+        rr:template "http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-{eguna}-{horaParaUri}";
+        rr:class lod-medicion:nivel-agua;
+    	];                       
         rr:predicateObjectMap [
-        rr:predicate "http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua";
+        rr:predicate purl-measure:obsValue;
         rr:objectMap [
             rml:reference "maila";
             rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
-        rr:predicate "http://lod.eurohelp.es/def/medio-ambiente/medicion/unidad-medida-nivel-agua";
+        rr:predicate purl-attribute:unitMeasure;
         rr:objectMap [
             rr:constant "metros";
         ]
