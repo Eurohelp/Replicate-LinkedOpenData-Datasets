@@ -3,41 +3,35 @@
 import java.text.SimpleDateFormat
 
 def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishell/sparql"
-def URLParkingsDonosti = "http://www.donostia.eus/info/ciudadano/camaras_trafico.nsf/dameParkings?OpenAgent&idioma=cas"
-def CSVParkingsClean = "donostiaparkingsclean.csv"
-def RDFParkingsClean = "donostiaparking.nq"
-def NamedGraph = "http://lod.eurohelp.es/dataset/parkings"
-def SHACLfile = "shacl/parkings.ttl"
-def SHACLReportCheckingQuery = "shacl/report.sparql"
+def CSVUrumea = "CSVToRDFUrumea/data/urumea.csv"
+def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
+def RDFUrumea = "urumea.ttl"
+def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
+def SHACLfile = "shacl/shacl-urumea.ttl"
+def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/report.ttl"
 def SilkConfiguration = "silk-test.xml"
-sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
+def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
 
 node {
   current_hour = new SimpleDateFormat("HH").format(new Date())
   current_hour = Integer.parseInt(current_hour)
  try {
-  stage('Remove data from blazegraph') {
-   sh 'curl --get -X DELETE -H "Accept: application/xml' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
-  }
   stage('Checkout pipeline') {
-   git branch: 'feature-silk', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
-  }
-  stage('Obtain and clean data') {
-   sh 'java -jar loadparkingdata/cleanparkingdata.jar "' + URLParkingsDonosti + '" ' + CSVParkingsClean + ' temp_parkingsclean temp_parkingsclean.json'
+   git branch: 'pipeline-urumeardfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
   }
   stage('Convert CSV to RDF') {
-   sh 'java -jar csv2rdf/csvparkingsclean2rdf.jar ' + CSVParkingsClean + ' ' + RDFParkingsClean + ' ' + NamedGraph
+   sh 'java -jar CSVToRDFUrumea/urumeardfcreator.jar ' + CSVUrumea + ' ' + RmlConfigurationFile + ' ' + RDFUrumea
   }
   stage('RDF quality') {
-   sh 'java -jar rdfquality/SHACLValidator.jar ' + RDFParkingsClean + ' ' + NamedGraph + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLfile
+   sh 'java -jar rdfquality/shacl-urumea.jar ' + RDFUrumea + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
   }
   stage('Discovery links') {
    sh 'java -jar silk/silkrunner.jar ' + SilkConfiguration
   }
   stage('Upload RDF to blazegraph') {
-   sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @' + RDFParkingsClean + ' ' + SPARQLendpoint
+   sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @' + RDFUrumea + ' ' + SPARQLendpoint
   }
  } catch (err) {
   stage('Notify failure') {
