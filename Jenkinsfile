@@ -3,7 +3,7 @@
 import java.text.SimpleDateFormat
 
 def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishell/sparql"
-def CSVUrumea = "CSVToRDFUrumea/data/urumea.csv"
+def CSVUrumea = "CSVToRDFUrumea/data/txominea.csv"
 def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
 def RDFUrumea = "urumea.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
