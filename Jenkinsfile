@@ -34,7 +34,7 @@ node {
   stage('Upload RDF to blazegraph') {
    sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @' + RDFUrumea + ' ' + SPARQLendpoint
    // Se añaden tambien los enlaces descubiertos
-   sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @' + LinksSilk + ' ' + SPARQLendpoint
+   sh 'curl -X POST -H Content-Type:text/plain --data-binary @' + LinksSilk + ' ' + SPARQLendpoint
   }
  } catch (err) {
   stage('Notify failure') {
