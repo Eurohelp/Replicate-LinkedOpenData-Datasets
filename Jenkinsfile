@@ -10,9 +10,10 @@ def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
 def SHACLfile = "shacl/shacl-urumea.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/report.ttl"
-def SilkConfiguration = "silk-test.xml"
+def SilkConfiguration = "silk/silk-test.xml"
 def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
+def LinksSilk = "silk/accepted_links.nt"
 
 node {
   current_hour = new SimpleDateFormat("HH").format(new Date())
@@ -32,6 +33,8 @@ node {
   }
   stage('Upload RDF to blazegraph') {
    sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @' + RDFUrumea + ' ' + SPARQLendpoint
+   #Se añaden tambien los enlaces descubiertos
+   sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @' + LinksSilk + ' ' + SPARQLendpoint
   }
  } catch (err) {
   stage('Notify failure') {
