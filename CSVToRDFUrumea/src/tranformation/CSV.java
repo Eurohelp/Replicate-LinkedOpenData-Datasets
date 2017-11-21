@@ -22,18 +22,18 @@ public class CSV {
 
 	/**
 	 * 
-	 * @param pCSVInicial
+	 * @param pInitialCSV
 	 *            corresponde a la ruta donde se encontrara el archivo inicial
-	 * @param pCSVFinal
+	 * @param pFinalCSV
 	 *            corresponde a la ruta donde se almacenara el archivo final
 	 * @param pDelimiter
 	 *            corresponde al elemento que se usara para delimitar los datos,
 	 *            p.e. ','
 	 * @throws IOException
 	 */
-	public CSV(String pCSVInicial, char pDelimiter) throws IOException {
-		csvReader = new CsvReader(pCSVInicial);
-		csvWriter = new CsvWriter(new FileWriter("./newdata/txominea.csv"), pDelimiter);
+	public CSV(String pInitialCSV, String pFinalCSV, char pDelimiter) throws IOException {
+		csvReader = new CsvReader(pInitialCSV);
+		csvWriter = new CsvWriter(new FileWriter(pFinalCSV), pDelimiter);
 		csvValoresIniciales = new HashMap<String, List<String>>();
 		csvValoresFinales = new HashMap<Integer, List<String>>();
 		getCSVData();

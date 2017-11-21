@@ -19,6 +19,7 @@ import tranformation.Preprocess;
 
 public class CSVToRDF {
 	// En primer lugar se le pasara el nombre del csv inicial
+	// El nombre del csv tras aplicarle los cambios
 	// En segundo lugar se le pasara el path del archivo de configuracion
 	// En tercero lugar la ruta donde se quiera almacenar el archivo
 	// resultante con la extensi�n deseada
@@ -26,15 +27,15 @@ public class CSVToRDF {
 
 		// Se ejecuta el preprocesado del CSV en el que se realizaran las
 		// modificaciones, adiciones y borrados necesarios para generar el RDF
-		Preprocess pprocess = new Preprocess(args[0]);
-		pprocess.CSVpreprocess();
+		Preprocess pprocess = new Preprocess();
+		pprocess.CSVpreprocess(args[0], args[1]);
 //		String[] commandLineValues = {"-m", "newdata/txominea.csv", "-o", "resultsMishell.ttl", "-g",
 //		"http://opendata.euskadi.eus/catalogo/id/calidad-aire-en-euskadi-2017"};
 //		Main.main(commandLineValues); 
 		// Ejecuci�n del archivo RML
 		try {
-			File outputFile = Paths.get(args[2]).toFile();
-			File mapping_file = Paths.get(args[1]).toFile();
+			File outputFile = Paths.get(args[3]).toFile();
+			File mapping_file = Paths.get(args[2]).toFile();
 
 			RMLDocRetrieval mapDocRetrieval = new RMLDocRetrieval();
 			Repository repository = mapDocRetrieval.getMappingDoc(mapping_file.toString(), RDFFormat.TURTLE);
@@ -51,15 +52,11 @@ public class CSVToRDF {
 			String[] exeTriplesMap = null;
 
 			String outputFormat = "";
-			if (args[2].toLowerCase().contains("nquads")) {
-				outputFormat = RDFFormat.NQUADS.getName();
-			} else if (args[2].toLowerCase().contains("ttl")) {
+			if (args[3].toLowerCase().contains("ttl")) {
 				outputFormat = RDFFormat.TURTLE.getName();
-			} else {
-				outputFormat = RDFFormat.RDFXML.getName();
-				if (!outputFile.toString().toLowerCase().contains("rdf")) {
+				if (!outputFile.toString().toLowerCase().contains("ttl")) {
 					int init = outputFile.toString().indexOf(".");
-					String newPath = args[2].substring(0, init) + ".rdf";
+					String newPath = args[2].substring(0, init) + ".ttl";
 					outputFile = Paths.get(newPath).toFile();
 				}
 			}
