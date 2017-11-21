@@ -33,13 +33,13 @@ node {
   }
   stage('Upload RDF to blazegraph') {
    sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @' + RDFUrumea + ' ' + SPARQLendpoint
-   #Se añaden tambien los enlaces descubiertos
+   // Se añaden tambien los enlaces descubiertos
    sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @' + LinksSilk + ' ' + SPARQLendpoint
   }
  } catch (err) {
   stage('Notify failure') {
 	println "Se ha producido un fallo se enviara un correo notificandolo"
-   mail(to: 'dmuv7@hotmail.com',
+  	mail(to: 'dmuv7@hotmail.com',
     subject: "Fallo en ${env.JOB_NAME}",
     body: "Ha fallado la ejecuciÃ³n de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + err.toString(),
     mimeType: 'text/html');
