@@ -5,6 +5,7 @@ loadparkingdata/\.classpath
 loadparkingdata/\.project
 
 target/
+.project
 
 silk/\.settings/
 silk/\.classpath

@@ -33,7 +33,7 @@ public class CSV {
 	 */
 	public CSV(String pCSVInicial, char pDelimiter) throws IOException {
 		csvReader = new CsvReader(pCSVInicial);
-		csvWriter = new CsvWriter(new FileWriter("newdata/txominea.csv"), pDelimiter);
+		csvWriter = new CsvWriter(new FileWriter("./newdata/txominea.csv"), pDelimiter);
 		csvValoresIniciales = new HashMap<String, List<String>>();
 		csvValoresFinales = new HashMap<Integer, List<String>>();
 		getCSVData();

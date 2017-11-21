@@ -84,8 +84,7 @@ rml:logicalSource [
             rml:reference "arriskua";
             rr:language "vq";
         ]
-        ].
-        
+        ].       
 <#NivelAgua>
 rml:logicalSource [
 		rml:source "newdata/txominea.csv";
