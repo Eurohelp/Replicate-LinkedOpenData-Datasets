@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat
 def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishell/sparql"
 def CSVUrumea = "CSVToRDFUrumea/data/txominea.csv"
 def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
-def RDFUrumea = "urumea.ttl"
+def RDFUrumea = "shacl/urumea.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
 def SHACLfile = "shacl/shacl-urumea.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
