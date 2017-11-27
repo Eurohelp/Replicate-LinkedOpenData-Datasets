@@ -30,12 +30,13 @@ node {
    sh 'java -jar rdfquality/shacl-urumea.jar ' + RDFUrumea + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
   }
   stage('Discovery links') {
-   sh 'java -jar silk/silkrunner.jar ' + SilkConfiguration
+   sh 'java -jar silk/urumeasilkrunner.jar ' + SilkConfiguration
   }
   stage('Upload RDF to blazegraph') {
-   sh 'curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFUrumea + ' ' + SPARQLendpoint + ' -G ' + NamedGraph
-   // Se añaden tambien los enlaces descubiertos
-   sh 'curl -X POST -H Content-Type:text/plain --data-binary @' + LinksSilk + ' ' + SPARQLendpoint ' -G ' + NamedGraph
+  sh 'curl -D- -H Content-Type: text/turtle --upload-file ' + RDFUrumea + ' -X POST ' + SPARQLendpoint + '?context-uri=' + NamedGraph
+  // Se añaden tambien los enlaces descubiertos
+  sh 'curl -D- -H Content-Type: text/plain --upload-file ' + LinksSilk + ' -X POST ' + SPARQLendpoint + '?context-uri=' + NamedGraph
+  
   }
  } catch (err) {
   stage('Notify failure') {
