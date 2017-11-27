@@ -36,7 +36,7 @@ node {
    sh 'java -jar silk/urumeasilkrunner.jar ' + SilkConfiguration
   }
   stage('Upload links discovered to blazegraph') {
-  sh 'curl -D- -H Content-Type: text/plain --upload-file ' + LinksSilk + ' -X POST ' + SPARQLendpoint + '?context-uri=' + NamedGraph
+  sh 'curl -D -H ' + "Content-Type: text/plain " + '--upload-file ' + LinksSilk + ' -X POST ' + SPARQLendpoint + "?context-uri=" + NamedGraph
   }
  } catch (err) {
   stage('Notify failure') {
