@@ -32,7 +32,7 @@ node {
    sh 'java -jar silk/silkrunner.jar ' + SilkConfiguration
   }
   stage('Upload RDF to blazegraph') {
-   sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @' + RDFUrumea + ' ' + SPARQLendpoint
+   sh 'curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFUrumea + ' ' + SPARQLendpoint
    // Se añaden tambien los enlaces descubiertos
    sh 'curl -X POST -H Content-Type:text/plain --data-binary @' + LinksSilk + ' ' + SPARQLendpoint
   }
