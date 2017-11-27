@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat
 
 def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql"
 def CSVUrumea = "CSVToRDFUrumea/data/txominea.csv"
+def NewCSVUrumea = "CSVToRDFUrumea/newdata/txominea.csv"
 def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
 def RDFUrumea = "shacl/urumea.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
@@ -23,7 +24,7 @@ node {
    git branch: 'pipeline-urumeardfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
   }
   stage('Convert CSV to RDF') {
-   sh 'java -jar CSVToRDFUrumea/urumeardfcreator.jar ' + CSVUrumea + ' ' + RmlConfigurationFile + ' ' + RDFUrumea
+   sh 'java -jar CSVToRDFUrumea/urumeardfcreator.jar ' + CSVUrumea + ' ' + NewCSVUrumea + ' ' + RmlConfigurationFile + ' ' + RDFUrumea
   }
   stage('RDF quality') {
    sh 'java -jar rdfquality/shacl-urumea.jar ' + RDFUrumea + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile

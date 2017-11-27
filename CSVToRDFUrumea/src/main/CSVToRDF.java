@@ -29,9 +29,6 @@ public class CSVToRDF {
 		// modificaciones, adiciones y borrados necesarios para generar el RDF
 		Preprocess pprocess = new Preprocess();
 		pprocess.CSVpreprocess(args[0], args[1]);
-//		String[] commandLineValues = {"-m", "newdata/txominea.csv", "-o", "resultsMishell.ttl", "-g",
-//		"http://opendata.euskadi.eus/catalogo/id/calidad-aire-en-euskadi-2017"};
-//		Main.main(commandLineValues); 
 		// Ejecuci�n del archivo RML
 		try {
 			File outputFile = Paths.get(args[3]).toFile();

@@ -42,7 +42,7 @@
 				</Compare>
 			</LinkageRule>
 			<Outputs>
-				<Output type="file" minConfidence="1.0">
+				<Output type="file" minConfidence="0.8">
 					<Param name="file" value="accepted_links.nt" />
 					<Param name="format" value="ntriples" />
 				</Output>
