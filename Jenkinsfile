@@ -33,9 +33,9 @@ node {
    sh 'java -jar silk/silkrunner.jar ' + SilkConfiguration
   }
   stage('Upload RDF to blazegraph') {
-   sh 'curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFUrumea + ' ' + SPARQLendpoint
+   sh 'curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFUrumea + ' ' + SPARQLendpoint + ' -G ' + NamedGraph
    // Se añaden tambien los enlaces descubiertos
-   sh 'curl -X POST -H Content-Type:text/plain --data-binary @' + LinksSilk + ' ' + SPARQLendpoint
+   sh 'curl -X POST -H Content-Type:text/plain --data-binary @' + LinksSilk + ' ' + SPARQLendpoint ' -G ' + NamedGraph
   }
  } catch (err) {
   stage('Notify failure') {
