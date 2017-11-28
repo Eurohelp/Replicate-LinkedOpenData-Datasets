@@ -8,6 +8,7 @@ def NewCSVParkings = "CSVToRDFParkings/newdata/parkings.csv"
 def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile.ttl"
 def RDFParkings = "shacl/parkings.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/parkings"
+def CompleteGraphUri = "http://lod.eurohelp.es/dataset/parkings?context-uri=http://lod.eurohelp.es/dataset/parkings"
 def SHACLfile = "shacl/shacl-parkings.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/report.ttl"
@@ -30,8 +31,7 @@ node {
    sh 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings
   }
   stage('Upload RDF to blazegraph') {  
-  println('curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFParkings + "" + SPARQLendpoint + '?context-uri=' + NamedGraph + '"' )
-         sh "curl -X POST -H Content-Type:text/turtle --data-binary @" + RDFParkings + " " + SPARQLendpoint + "?context-uri=" + NamedGraph + "" 
+         sh "curl -X POST -H Content-Type:text/turtle --data-binary @" + RDFParkings + " " + CompleteGraphUri
   }
   stage('RDF quality') {
    sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
