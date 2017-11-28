@@ -3,8 +3,8 @@
 import java.text.SimpleDateFormat
 
 def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql"
-def CSVParkings = "CSVToRDFParkings/data/txominea.csv"
-def NewCSVParkings = "CSVToRDFParkings/newdata/txominea.csv"
+def CSVParkings = "CSVToRDFParkings/data/parkings.csv"
+def NewCSVParkings = "CSVToRDFParkings/newdata/parkings.csv"
 def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile.ttl"
 def RDFParkings = "shacl/parkings.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/parkings"
