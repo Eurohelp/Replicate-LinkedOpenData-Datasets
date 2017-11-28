@@ -29,11 +29,11 @@ node {
    stage('Convert CSV to RDF') {
    sh 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings
   }
-  stage('RDF quality') {
-   sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
-  }
   stage('Upload RDF to blazegraph') {  
          sh 'curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFParkings + ' ' + SPARQLendpoint + '?context-uri=' + NamedGraph
+  }
+  stage('RDF quality') {
+   sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
   }
   stage('Discovery links') {
    sh 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration
