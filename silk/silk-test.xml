@@ -46,7 +46,7 @@
 			</LinkageRule>
 			<Outputs>
 				<Output type="file" maxConfidence="0.95">
-					<Param value="accepted_links.nt" name="file" />
+					<Param value="accepted_links.ttl" name="file" />
 					<Param value="ntriples" name="format" />
 				</Output>
 			</Outputs>
