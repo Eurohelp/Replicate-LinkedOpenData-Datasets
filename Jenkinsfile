@@ -33,7 +33,7 @@ node {
    sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
   }
   stage('Upload RDF to blazegraph') {  
-  sh 'curl -D -H Content-Type: text/turtle --upload-file ' + RDFParkings + ' -X POST ' + SPARQLendpoint + '?context-uri=' + NamedGraph
+  sh 'curl -D -H Content-Type: application/x-turtle --upload-file ' + RDFParkings + ' -X POST ' + SPARQLendpoint + '?context-uri=' + NamedGraph
   }
   stage('Discovery links') {
    sh 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration
