@@ -33,6 +33,7 @@ public class Preprocess {
 		List<String> precio120min = new ArrayList<String>();
 		List<String> precio180min = new ArrayList<String>();
 		List<String> precio300min = new ArrayList<String>();
+		List<String> localizacion = new ArrayList<String>();
 		for (String string : prices) {
 			Map<String, String> data = Transformation.getInstance().getTimePriceData(string);
 			precio15min.add(data.get("15 min"));
@@ -42,7 +43,9 @@ public class Preprocess {
 			precio120min.add(data.get("120 min"));
 			precio180min.add(data.get("180 min"));
 			precio300min.add(data.get("300 min"));
+			localizacion.add("San-sebastian");
 		}
+		csv.addColumn("Localizacion", localizacion);
 		csv.addColumn("Precio15Min", precio15min);
 		csv.addColumn("Precio30Min", precio30min);
 		csv.addColumn("Precio60Min", precio60min);

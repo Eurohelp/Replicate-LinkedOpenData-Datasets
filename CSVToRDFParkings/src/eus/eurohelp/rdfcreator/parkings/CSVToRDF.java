@@ -62,7 +62,6 @@ public class CSVToRDF {
 				}
 			}
 			RMLEngine engine = new StdRMLEngine(outputFile.toString());
-
 			final RMLDataset runningDataset = engine.chooseSesameDataSet("dataset", outputFile.toString(),
 					outputFormat);
 			engine.runRMLMapping(runningDataset, mapping, graphName, parameters, exeTriplesMap);
@@ -76,5 +75,4 @@ public class CSVToRDF {
 			e.printStackTrace(System.err);
 		}
 	}
-
 }

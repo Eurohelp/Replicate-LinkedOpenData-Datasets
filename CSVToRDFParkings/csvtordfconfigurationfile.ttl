@@ -28,6 +28,12 @@ rml:logicalSource [
         rml:reference "Nombre";
         ]
         ];
+		 rr:predicateObjectMap [
+        rr:predicate geo:location;
+        rr:objectMap [
+            rr:template "http://lod.eurohelp.es/resource/{Localizacion}";
+        ]
+        ];
          rr:predicateObjectMap [
         rr:predicate geo:lat;
         rr:objectMap [
@@ -327,5 +333,21 @@ rml:logicalSource [
         rr:objectMap [
             rr:constant "300";
             rr:datatype xsd:int;
+        ]
+        ].
+		
+<#BloqueLocalizacion>
+rml:logicalSource [
+	rml:source "newdata/parkings.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+ 	rr:subjectMap [
+        rr:template "http://lod.eurohelp.es/resource/{Localizacion}";
+        rr:class schema:Place;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+        rr:constant "San Sebastian";
         ]
         ].
