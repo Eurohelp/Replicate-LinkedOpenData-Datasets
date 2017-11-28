@@ -32,17 +32,14 @@ node {
   stage('RDF quality') {
    sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
   }
-  stage('Upload RDF to blazegraph') {
-  
-           sh 'curl -X POST -H Content-Type:text/x-nquads --data-binary @' + RDFParkingsClean + ' ' + SPARQLendpoint
-  
+  stage('Upload RDF to blazegraph') {  
   sh 'curl -D -H Content-Type: text/turtle --upload-file ' + RDFParkings + ' -X POST ' + SPARQLendpoint + '?context-uri=' + NamedGraph
   }
   stage('Discovery links') {
    sh 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration
   }
   stage('Upload links discovered to blazegraph') {
-  sh 'curl -D -H ' + 'Content-Type: text/plain ' + '--upload-file ' + LinksSilk + ' -X POST ' + SPARQLendpoint + '?context-uri=' + NamedGraph
+  sh 'curl -D -H Content-Type: text/turtle --upload-file ' + LinksSilk + ' -X POST ' + SPARQLendpoint + '?context-uri=' + NamedGraph
   }
  } catch (err) {
   stage('Notify failure') {
