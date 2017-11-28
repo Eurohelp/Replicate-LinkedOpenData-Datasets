@@ -31,7 +31,7 @@ node {
   }
   stage('Upload RDF to blazegraph') {  
   println('curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFParkings + ' "' + SPARQLendpoint + '?context-uri=' + NamedGraph + '"' )
-         sh 'curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFParkings + ' "' + SPARQLendpoint + "?context-uri=" + NamedGraph + '"' 
+         sh 'curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFParkings + " "" + SPARQLendpoint + "?context-uri=" + NamedGraph + """ 
   }
   stage('RDF quality') {
    sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
