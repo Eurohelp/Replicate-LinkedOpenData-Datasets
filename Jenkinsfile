@@ -20,6 +20,9 @@ node {
   current_hour = new SimpleDateFormat("HH").format(new Date())
   current_hour = Integer.parseInt(current_hour)
  try {
+   stage('Remove data from blazegraph'){
+        sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
+    }
    stage('Checkout pipeline') {
    git branch: 'pipeline-parkingsrdfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
   }
