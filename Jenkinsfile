@@ -6,7 +6,7 @@ def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mi
 def CSVParkings = "CSVToRDFParkings/data/parkings.csv"
 def NewCSVParkings = "CSVToRDFParkings/newdata/parkings.csv"
 def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile.ttl"
-def RDFParkings = "parkings.ttl "
+def RDFParkings = "shacl/parkings.ttl "
 def NamedGraph = "http://lod.eurohelp.es/dataset/parkings"
 def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=http://lod.eurohelp.es/dataset/parkings"
 def SHACLfile = "shacl/shacl-parkings.ttl"
@@ -15,7 +15,7 @@ def SHACLReportFile = "shacl/report.ttl"
 def SilkConfiguration = "silk/silk-test.xml"
 def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
-def LinksSilk = "silk/accepted_links.ttl"
+def LinksSilk = "silk/accepted_links.nt"
 
 node {
   current_hour = new SimpleDateFormat("HH").format(new Date())
@@ -40,7 +40,7 @@ node {
    sh 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration
   }
   stage('Upload links discovered to blazegraph') {
-   sh 'curl -D- -H "Content-Type:  text/plain" --upload-file ' + LinksSilk +' -X POST '+ CompleteGraphUri
+   sh 'curl -D- -H "Content-Type: text/plain" --upload-file ' + LinksSilk +'  -X POST '+ CompleteGraphUri
   }
  } catch (err) {
   stage('Notify failure') {
