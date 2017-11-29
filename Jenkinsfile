@@ -15,7 +15,7 @@ def SHACLReportFile = "shacl/report.ttl"
 def SilkConfiguration = "silk/silk-test.xml"
 def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
-def LinksSilk = "silk/accepted_links.nt"
+def LinksSilk = "silk/accepted_links.ttl"
 
 node {
   current_hour = new SimpleDateFormat("HH").format(new Date())

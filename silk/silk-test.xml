@@ -47,7 +47,7 @@
 			<Outputs>
 				<Output type="file" maxConfidence="0.95">
 					<Param value="accepted_links.ttl" name="file" />
-					<Param value="ntriples" name="format" />
+					<Param value="turtle" name="format" />
 				</Output>
 			</Outputs>
 		</Interlink>
