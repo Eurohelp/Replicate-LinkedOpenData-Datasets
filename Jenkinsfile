@@ -31,7 +31,7 @@ node {
    sh 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings
   }
   stage('Upload RDF to blazegraph') {  
-   sh 'curl -D- -H "Content-Type: text/turtle" --upload-file ' parkings.ttl ' -X POST '+ CompleteGraphUri
+   sh 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings +' -X POST '+ CompleteGraphUri
   }
   stage('RDF quality') {
    sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
@@ -40,7 +40,7 @@ node {
    sh 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration
   }
   stage('Upload links discovered to blazegraph') {
- 	sh 'curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFParkings + ' \"' + CompleteGraphUri + '\"'
+   sh 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + LinksSilk +' -X POST '+ CompleteGraphUri
   }
  } catch (err) {
   stage('Notify failure') {
