@@ -40,7 +40,7 @@ node {
    sh 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration
   }
   stage('Upload links discovered to blazegraph') {
- 	sh 'curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFParkings + ' "' + CompleteGraphUri + '"'
+ 	sh 'curl -X POST -H Content-Type:text/turtle --data-binary @' + RDFParkings + ' \"' + CompleteGraphUri + '\"'
   }
  } catch (err) {
   stage('Notify failure') {
