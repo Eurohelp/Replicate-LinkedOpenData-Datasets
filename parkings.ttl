@@ -1,0 +1,708 @@
+
+<http://lod.eurohelp.es/id/fare/Antiguo-Berri/90-min-3.10> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.10"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Arcco/90-min-2.60> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.60"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Atotxa/90-min-2.87> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Boulevard/90-min-3.47> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Buen-Pastor/90-min-2.87> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Easo/90-min-2.87> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Illumbe/90-min-2.20> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.20"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Katalunia/90-min-2.87> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kontxa/90-min-3.45> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.45"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kursaal/90-min-3.45> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.45"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Okendo/90-min-3.45> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.45"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Pio-XII/90-min-2.59> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.59"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/San-Martin/90-min-3.45> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.45"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Txofre/90-min-2.87> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.87"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Zuatzu/90-min-1.89> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "90"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.89"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Antiguo-Berri/180-min-6> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Arcco/180-min-4.91> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "4.91"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Atotxa/180-min-5.47> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "5.47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Boulevard/180-min-6.56> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "6.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Buen-Pastor/180-min-5.47> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "5.47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Easo/180-min-5.47> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "5.47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Illumbe/180-min-4.30> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "4.30"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Katalunia/180-min-5.47> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "5.47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kontxa/180-min-6.56> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "6.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kursaal/180-min-6.56> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "6.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Okendo/180-min-6.56> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "6.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Pio-XII/180-min-4.88> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "4.88"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/San-Martin/180-min-6.56> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "6.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Txofre/180-min-5.47> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "5.47"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Zuatzu/180-min-3.69> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "180"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.69"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Antiguo-Berri/300-min-15.85> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "15.85"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Arcco/300-min-21.54> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "21.54"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Atotxa/300-min-24.57> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "24.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Boulevard/300-min-24.57> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "24.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Buen-Pastor/300-min-24.57> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "24.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Easo/300-min-24.57> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "24.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Illumbe/300-min-19.50> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "19.50"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Katalunia/300-min-24.57> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "24.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kontxa/300-min-24.57> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "24.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kursaal/300-min-24.57> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "24.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Okendo/300-min-24.57> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "24.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Pio-XII/300-min-21.50> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "21.50"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/San-Martin/300-min-24.57> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "24.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Txofre/300-min-24.57> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "24.57"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Zuatzu/300-min-16.40> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "16.40"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Antiguo-Berri/30-min-1.35> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.35"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Arcco/30-min-1.00> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.00"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Atotxa/30-min-1.10> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.10"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Boulevard/30-min-1.33> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.33"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Buen-Pastor/30-min-1.10> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.10"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Easo/30-min-1.10> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.10"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Illumbe/30-min-0.75> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.75"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Katalunia/30-min-1.10> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.10"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kontxa/30-min-1.32> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.32"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kursaal/30-min-1.32> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.32"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Okendo/30-min-1.32> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.32"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Pio-XII/30-min-0.99> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/San-Martin/30-min-1.32> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.32"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Txofre/30-min-1.10> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.10"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Zuatzu/30-min-0.66> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "30"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Antiguo-Berri/15-min-0.60> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.60"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Arcco/15-min-0.59> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.59"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Atotxa/15-min-0.66> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Boulevard/15-min-0.79> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.79"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Buen-Pastor/15-min-0.66> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Easo/15-min-0.66> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Illumbe/15-min-0.50> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.50"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Katalunia/15-min-0.66> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kontxa/15-min-0.79> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.79"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kursaal/15-min-0.79> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.79"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Okendo/15-min-0.79> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.79"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Pio-XII/15-min-0.59> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.59"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/San-Martin/15-min-0.79> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.79"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Txofre/15-min-0.66> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Zuatzu/15-min-0.33> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "15"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "0.33"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Antiguo-Berri/60-min-2.25> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.25"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Arcco/60-min-1.80> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.80"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Atotxa/60-min-1.99> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Boulevard/60-min-2.40> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.40"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Buen-Pastor/60-min-1.99> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Easo/60-min-1.99> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Illumbe/60-min-1.50> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.50"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Katalunia/60-min-1.99> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kontxa/60-min-2.38> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.38"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kursaal/60-min-2.38> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.38"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Okendo/60-min-2.38> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.38"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Pio-XII/60-min-1.79> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.79"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/San-Martin/60-min-2.38> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.38"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Txofre/60-min-1.99> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.99"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Zuatzu/60-min-1.23> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "60"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "1.23"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Antiguo-Berri> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.310188"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Antiguo-Berri/90-min-3.10> , <http://lod.eurohelp.es/id/fare/Antiguo-Berri/180-min-6> , <http://lod.eurohelp.es/id/fare/Antiguo-Berri/300-min-15.85> , <http://lod.eurohelp.es/id/fare/Antiguo-Berri/30-min-1.35> , <http://lod.eurohelp.es/id/fare/Antiguo-Berri/15-min-0.60> , <http://lod.eurohelp.es/id/fare/Antiguo-Berri/60-min-2.25> , <http://lod.eurohelp.es/id/fare/Antiguo-Berri/120-min-4.10> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "489"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-2.007963"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "489"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Antiguo Berri" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Antiguo-Berri/120-min-4.10> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "4.10"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Arcco> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.30563"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Arcco/90-min-2.60> , <http://lod.eurohelp.es/id/fare/Arcco/180-min-4.91> , <http://lod.eurohelp.es/id/fare/Arcco/300-min-21.54> , <http://lod.eurohelp.es/id/fare/Arcco/30-min-1.00> , <http://lod.eurohelp.es/id/fare/Arcco/15-min-0.59> , <http://lod.eurohelp.es/id/fare/Arcco/60-min-1.80> , <http://lod.eurohelp.es/id/fare/Arcco/120-min-3.37> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "214"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.97371"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "214"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Arcco" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Arcco/120-min-3.37> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.37"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Atotxa> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.31855"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Atotxa/90-min-2.87> , <http://lod.eurohelp.es/id/fare/Atotxa/180-min-5.47> , <http://lod.eurohelp.es/id/fare/Atotxa/300-min-24.57> , <http://lod.eurohelp.es/id/fare/Atotxa/30-min-1.10> , <http://lod.eurohelp.es/id/fare/Atotxa/15-min-0.66> , <http://lod.eurohelp.es/id/fare/Atotxa/60-min-1.99> , <http://lod.eurohelp.es/id/fare/Atotxa/120-min-3.72> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "210"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "84"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.97548"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "210"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Atotxa" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Atotxa/120-min-3.72> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Boulevard> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.32283"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Boulevard/90-min-3.47> , <http://lod.eurohelp.es/id/fare/Boulevard/180-min-6.56> , <http://lod.eurohelp.es/id/fare/Boulevard/300-min-24.57> , <http://lod.eurohelp.es/id/fare/Boulevard/30-min-1.33> , <http://lod.eurohelp.es/id/fare/Boulevard/15-min-0.79> , <http://lod.eurohelp.es/id/fare/Boulevard/60-min-2.40> , <http://lod.eurohelp.es/id/fare/Boulevard/120-min-4.49> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "381"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "173"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "135"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.98192"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "516"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Boulevard" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Boulevard/120-min-4.49> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "4.49"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Buen-Pastor> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.31715"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Buen-Pastor/90-min-2.87> , <http://lod.eurohelp.es/id/fare/Buen-Pastor/180-min-5.47> , <http://lod.eurohelp.es/id/fare/Buen-Pastor/300-min-24.57> , <http://lod.eurohelp.es/id/fare/Buen-Pastor/30-min-1.10> , <http://lod.eurohelp.es/id/fare/Buen-Pastor/15-min-0.66> , <http://lod.eurohelp.es/id/fare/Buen-Pastor/60-min-1.99> , <http://lod.eurohelp.es/id/fare/Buen-Pastor/120-min-3.72> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "384"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "375"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "583"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.98102"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "967"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Buen Pastor" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "1"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Buen-Pastor/120-min-3.72> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Easo> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.313157"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Easo/90-min-2.87> , <http://lod.eurohelp.es/id/fare/Easo/180-min-5.47> , <http://lod.eurohelp.es/id/fare/Easo/300-min-24.57> , <http://lod.eurohelp.es/id/fare/Easo/30-min-1.10> , <http://lod.eurohelp.es/id/fare/Easo/15-min-0.66> , <http://lod.eurohelp.es/id/fare/Easo/60-min-1.99> , <http://lod.eurohelp.es/id/fare/Easo/120-min-3.72> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "146"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "85"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "266"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.982078"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "412"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Easo" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Easo/120-min-3.72> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Illumbe> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.29809"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Illumbe/90-min-2.20> , <http://lod.eurohelp.es/id/fare/Illumbe/180-min-4.30> , <http://lod.eurohelp.es/id/fare/Illumbe/300-min-19.50> , <http://lod.eurohelp.es/id/fare/Illumbe/30-min-0.75> , <http://lod.eurohelp.es/id/fare/Illumbe/15-min-0.50> , <http://lod.eurohelp.es/id/fare/Illumbe/60-min-1.50> , <http://lod.eurohelp.es/id/fare/Illumbe/120-min-2.80> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "500"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.97004"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "500"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Illumbe" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Illumbe/120-min-2.80> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.80"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Katalunia> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.323848"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Katalunia/90-min-2.87> , <http://lod.eurohelp.es/id/fare/Katalunia/180-min-5.47> , <http://lod.eurohelp.es/id/fare/Katalunia/300-min-24.57> , <http://lod.eurohelp.es/id/fare/Katalunia/30-min-1.10> , <http://lod.eurohelp.es/id/fare/Katalunia/15-min-0.66> , <http://lod.eurohelp.es/id/fare/Katalunia/60-min-1.99> , <http://lod.eurohelp.es/id/fare/Katalunia/120-min-3.72> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "456"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "235"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "483"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.975168"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "939"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Katalunia" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "84"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Katalunia/120-min-3.72> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kontxa> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.318622"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Kontxa/90-min-3.45> , <http://lod.eurohelp.es/id/fare/Kontxa/180-min-6.56> , <http://lod.eurohelp.es/id/fare/Kontxa/300-min-24.57> , <http://lod.eurohelp.es/id/fare/Kontxa/30-min-1.32> , <http://lod.eurohelp.es/id/fare/Kontxa/15-min-0.79> , <http://lod.eurohelp.es/id/fare/Kontxa/60-min-2.38> , <http://lod.eurohelp.es/id/fare/Kontxa/120-min-4.46> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "655"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "388"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "619"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.984886"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "1274"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Kontxa" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "87"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Kontxa/120-min-4.46> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "4.46"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Kursaal> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.32468"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Kursaal/90-min-3.45> , <http://lod.eurohelp.es/id/fare/Kursaal/180-min-6.56> , <http://lod.eurohelp.es/id/fare/Kursaal/300-min-24.57> , <http://lod.eurohelp.es/id/fare/Kursaal/30-min-1.32> , <http://lod.eurohelp.es/id/fare/Kursaal/15-min-0.79> , <http://lod.eurohelp.es/id/fare/Kursaal/60-min-2.38> , <http://lod.eurohelp.es/id/fare/Kursaal/120-min-4.46> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "182"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "200"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.97728"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "500"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Kursaal" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Kursaal/120-min-4.46> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "4.46"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Okendo> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.321110"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Okendo/90-min-3.45> , <http://lod.eurohelp.es/id/fare/Okendo/180-min-6.56> , <http://lod.eurohelp.es/id/fare/Okendo/300-min-24.57> , <http://lod.eurohelp.es/id/fare/Okendo/30-min-1.32> , <http://lod.eurohelp.es/id/fare/Okendo/15-min-0.79> , <http://lod.eurohelp.es/id/fare/Okendo/60-min-2.38> , <http://lod.eurohelp.es/id/fare/Okendo/120-min-4.46> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "748"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "381"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "744"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.979149"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "1492"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Okendo" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "27"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Okendo/120-min-4.46> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "4.46"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Pio-XII> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.307806"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Pio-XII/90-min-2.59> , <http://lod.eurohelp.es/id/fare/Pio-XII/180-min-4.88> , <http://lod.eurohelp.es/id/fare/Pio-XII/300-min-21.50> , <http://lod.eurohelp.es/id/fare/Pio-XII/30-min-0.99> , <http://lod.eurohelp.es/id/fare/Pio-XII/15-min-0.59> , <http://lod.eurohelp.es/id/fare/Pio-XII/60-min-1.79> , <http://lod.eurohelp.es/id/fare/Pio-XII/120-min-3.35> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "339"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "163"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "181"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.978186"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "520"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Pio XII" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "16"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Pio-XII/120-min-3.35> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.35"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/San-Martin> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.317876"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/San-Martin/90-min-3.45> , <http://lod.eurohelp.es/id/fare/San-Martin/180-min-6.56> , <http://lod.eurohelp.es/id/fare/San-Martin/300-min-24.57> , <http://lod.eurohelp.es/id/fare/San-Martin/30-min-1.32> , <http://lod.eurohelp.es/id/fare/San-Martin/15-min-0.79> , <http://lod.eurohelp.es/id/fare/San-Martin/60-min-2.38> , <http://lod.eurohelp.es/id/fare/San-Martin/120-min-4.46> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "128"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "300"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.983371"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "600"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "San Martin" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "2"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/San-Martin/120-min-4.46> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "4.46"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Txofre> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.32446"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Txofre/90-min-2.87> , <http://lod.eurohelp.es/id/fare/Txofre/180-min-5.47> , <http://lod.eurohelp.es/id/fare/Txofre/300-min-24.57> , <http://lod.eurohelp.es/id/fare/Txofre/30-min-1.10> , <http://lod.eurohelp.es/id/fare/Txofre/15-min-0.66> , <http://lod.eurohelp.es/id/fare/Txofre/60-min-1.99> , <http://lod.eurohelp.es/id/fare/Txofre/120-min-3.72> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "465"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "53"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-1.97080"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "465"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Txofre" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Txofre/120-min-3.72> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "3.72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/id/fare/Zuatzu> a <http://lod.eurohelp.es/def/parkingrotatorio> , <http://schema.org/ParkingFacility> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#lat> "43.29541"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://schema.org/offers> <http://lod.eurohelp.es/id/fare/Zuatzu/90-min-1.89> , <http://lod.eurohelp.es/id/fare/Zuatzu/180-min-3.69> , <http://lod.eurohelp.es/id/fare/Zuatzu/300-min-16.40> , <http://lod.eurohelp.es/id/fare/Zuatzu/30-min-0.66> , <http://lod.eurohelp.es/id/fare/Zuatzu/15-min-0.33> , <http://lod.eurohelp.es/id/fare/Zuatzu/60-min-1.23> , <http://lod.eurohelp.es/id/fare/Zuatzu/120-min-2.46> ;
+	<http://lod.eurohelp.es/def/plazasrotatorias> "402"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasrotatoriaslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://lod.eurohelp.es/def/plazasresidentes> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#long> "-2.01113"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://lod.eurohelp.es/def/plazastotales> "402"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Zuatzu" ;
+	<http://lod.eurohelp.es/def/plazasresidenteslibres> "0"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://lod.eurohelp.es/resource/San-sebastian> .
+
+<http://lod.eurohelp.es/id/fare/Zuatzu/120-min-2.46> <http://schema.org/priceCurrency> "EUR" ;
+	<http://www.w3.org/2006/time> "120"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://schema.org/price> "2.46"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	a <http://schema.org/PriceSpecification> .
+
+<http://lod.eurohelp.es/resource/San-sebastian> a <http://schema.org/Place> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "San Sebastian" .

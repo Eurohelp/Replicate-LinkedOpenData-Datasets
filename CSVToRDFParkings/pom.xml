@@ -19,19 +19,20 @@
 	</build>
 	<repositories>
 		<repository>
-			<id>ReplicateMavenRepo</id>
-			<url>file:///${project.basedir}/lib</url>
+			<id>Eurohelp-nexus</id>
+			<url>http://integracion.eurohelp.es:8081/nexus/content/repositories/thirdparty/</url>
 		</repository>
 		<repository>
 			<id>stardog-public</id>
 			<url>http://maven.stardog.com</url>
 		</repository>
-		<!-- <repository> -->
-		<!-- <id>codehaus</id> -->
-		<!-- <url>http://repository.codehaus.org/org/codehaus</url> -->
-		<!-- </repository> -->
 	</repositories>
 	<dependencies>
+		<dependency>
+			<groupId>rml.io</groupId>
+			<artifactId>processor</artifactId>
+			<version>0.3</version>
+		</dependency>
 		<dependency>
 			<groupId>net.sourceforge.javacsv</groupId>
 			<artifactId>javacsv</artifactId>
