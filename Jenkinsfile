@@ -34,13 +34,13 @@ node {
    sh 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings +' -X POST '+ CompleteGraphUri
   }
   stage('RDF quality') {
-   sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
+   sh 'java -jar rdfquality/shacl-parkings.jar "RDFParkings"' + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
   }
   stage('Discovery links') {
    sh 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration
   }
   stage('Upload links discovered to blazegraph') {
-   sh 'curl -D- -H "Content-Type:  text/ntriples" --upload-file ' + LinksSilk +' -X POST '+ CompleteGraphUri
+   sh 'curl -D- -H "Content-Type:  text/plain" --upload-file ' + LinksSilk +' -X POST '+ CompleteGraphUri
   }
  } catch (err) {
   stage('Notify failure') {
