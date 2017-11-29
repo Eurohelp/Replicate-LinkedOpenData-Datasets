@@ -31,7 +31,7 @@ node {
    sh 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings
   }
   stage('Upload RDF to blazegraph') {  
-   sh 'curl -D- -H "Content-Type: text/turtle" --upload-file ' +  parkings.ttl + '-X POST '+ CompleteGraphUri
+   sh 'curl -D- -H "Content-Type: text/turtle" --upload-file parkings.ttl -X POST '+ CompleteGraphUri
   }
   stage('RDF quality') {
    sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
