@@ -46,8 +46,8 @@
 			</LinkageRule>
 			<Outputs>
 				<Output type="file" maxConfidence="0.95">
-					<Param value="accepted_links.ttl" name="file" />
-					<Param value="turtle" name="format" />
+					<Param value="accepted_links.nt" name="file" />
+					<Param value="ntriples" name="format" />
 				</Output>
 			</Outputs>
 		</Interlink>
