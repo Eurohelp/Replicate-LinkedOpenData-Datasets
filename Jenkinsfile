@@ -6,8 +6,7 @@ def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mi
 def CSVParkings = "CSVToRDFParkings/data/parkings.csv"
 def NewCSVParkings = "CSVToRDFParkings/newdata/parkings.csv"
 def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile.ttl"
-def RDFParkings = "shacl/paracomprobar.ttl"
-def r = "/var/lib/jenkins/workspace/Replicate-Donosti-Parkings/shacl/paracomprobar.ttl"
+def RDFParkings = "paracomprobar.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/parkings"
 def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=http://lod.eurohelp.es/dataset/parkings"
 def SHACLfile = "shacl/shacl-parkings.ttl"
@@ -32,7 +31,7 @@ node {
    sh 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings
   }
   stage('Upload RDF to blazegraph') {  
-   sh 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + r + ' -X POST '+ CompleteGraphUri
+   sh 'curl -D- -H "Content-Type: text/turtle" --upload-file paracomprobar.ttl -X POST '+ CompleteGraphUri
   }
   stage('RDF quality') {
    sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
