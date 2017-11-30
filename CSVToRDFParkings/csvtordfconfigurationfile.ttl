@@ -14,7 +14,7 @@
 #predicados y objetos necesarios
 <#PrimerBloque>
 rml:logicalSource [
-	rml:source "CSVToRDFParkings/CSVToRDFParkings/newdata/parkings.csv";
+	rml:source "CSVToRDFParkings/newdata/parkings.csv";
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
