@@ -40,4 +40,4 @@ node {
     currentBuild.result = 'FAILURE'
    }
   }
- 
+ }
