@@ -29,7 +29,7 @@ node {
   }
    stage('Convert CSV to RDF') {
    def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
-println ret
+println 'mishel' + ret 
   }
   stage('Upload RDF to blazegraph') {  
    sh 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST '+ CompleteGraphUri
