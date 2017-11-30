@@ -14,7 +14,7 @@
 #predicados y objetos necesarios
 <#PrimerBloque>
 rml:logicalSource [
-	rml:source "CSVToRDFParkings/CSVToRDFParkings/newdata/parkings.csv";
+	rml:source "newdata/parkings.csv";
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
@@ -128,7 +128,7 @@ rml:logicalSource [
     <#Precio15Min>
 	rml:logicalSource 
 	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+	rml:source "newdata/parkings.csv";
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
@@ -158,7 +158,7 @@ rml:logicalSource [
     <#Precio30Min>
 	rml:logicalSource 
 	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+	rml:source "newdata/parkings.csv";
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
@@ -188,7 +188,7 @@ rml:logicalSource [
          <#Precio60Min>
 	rml:logicalSource 
 	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+	rml:source "newdata/parkings.csv";
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
@@ -218,7 +218,7 @@ rml:logicalSource [
          <#Precio90Min>
 	rml:logicalSource 
 	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+	rml:source "newdata/parkings.csv";
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
@@ -248,7 +248,7 @@ rml:logicalSource [
          <#Precio120Min>
 	rml:logicalSource 
 	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+	rml:source "newdata/parkings.csv";
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
@@ -278,7 +278,7 @@ rml:logicalSource [
     <#Precio180Min>
 	rml:logicalSource 
 	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+	rml:source "newdata/parkings.csv";
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
@@ -308,7 +308,7 @@ rml:logicalSource [
     <#Precio300Min>
 	rml:logicalSource 
 	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+	rml:source "newdata/parkings.csv";
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
@@ -338,7 +338,7 @@ rml:logicalSource [
 		
 <#BloqueLocalizacion>
 rml:logicalSource [
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+	rml:source "newdata/parkings.csv";
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [

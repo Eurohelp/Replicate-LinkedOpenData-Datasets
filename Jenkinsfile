@@ -28,9 +28,12 @@ node {
    git branch: 'pipeline-parkingsrdfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
   }
    stage('Convert CSV to RDF') {
-   def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
+   def ret = sh(script: 'java -jar CSVToRDFParkings/rdfparkings.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
    if(!ret.contains("Generated 0")){
    println "todo bien"
+   }
+   else{
+   println "no se han generado enlaces"
    }
 
 println 'mishel' + ret 
