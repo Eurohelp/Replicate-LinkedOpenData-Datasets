@@ -35,7 +35,9 @@ node {
   }
   stage('RDF quality') {
    sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
-   echo '${currentBuild.result}'
+   def output = sh returnStdout: true, script: 'ls -l'
+	println output
+    println "${output}"
   }
   stage('Discovery links') {
    sh 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration
