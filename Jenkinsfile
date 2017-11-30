@@ -32,8 +32,10 @@ node {
    def ret = sh(script: 'java -jar CSVToRDFParkings/rdfparkings.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
    if (ret.contains("ARGUMENTS ERROR")) {
     error = "FAIL IN STAGE: Convert CSV to RDF. The error is with the arguments. Please, check them.\n"
+    println error
     currentBuild.result = 'FAILURE'
    } else if (ret.contains("RML CONFIGURATION FILE SYNTAX ERROR")) {
+    println error
     error = "FAIL IN STAGE: RML CONFIGURATION FILE SYNTAX ERROR. The error is with rml configuration file syntax. Please, check it.\n"
     currentBuild.result = 'FAILURE'
    }
@@ -42,6 +44,7 @@ node {
    def ret = sh('curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST ' + CompleteGraphUri, returnStdout: true)
    if (ret.contains('modified="0"')) {
     error = "WARNING IN STAGE: Upload RDF to blazegraph. The graph was not modified.\n"
+    println error
     currentBuild.result = 'FAILURE'
    }
   }
@@ -49,6 +52,7 @@ node {
    def ret = sh(script: 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
    if (!ret.contains("Valid RDF")) {
     error = "FAIL IN STAGE: RDF quality. The RDF is not valid.\n"
+    println error
     currentBuild.result = 'FAILURE'
    }
   }
@@ -56,6 +60,7 @@ node {
    def ret = sh(script: 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration, returnStdout: true)
    if (ret.contains("Wrote 0 links")) {
     error = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link.\n"
+    println error
     currentBuild.result = 'FAILURE'
    }
   }
@@ -63,6 +68,7 @@ node {
    def ret = sh(script: 'curl -D- -H "Content-Type: text/plain" --upload-file ' + LinksSilk + ' -X POST ' + CompleteGraphUri, returnStdout: true)
    if (ret.contains('modified="0"')) {
     error = "WARNING IN STAGE: Upload links discovered to blazegraph. The graph was not modified.\n"
+    println error
     currentBuild.result = 'FAILURE'
    }
   }
