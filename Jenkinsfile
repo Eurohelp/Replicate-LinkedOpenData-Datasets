@@ -42,11 +42,7 @@ node {
   }
   stage('Upload RDF to blazegraph') {
    def ret = sh('curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST ' + CompleteGraphUri, returnStdout: true)
-   if (ret.contains("modified=\"0\"")) {
-    error = "WARNING IN STAGE: Upload RDF to blazegraph. The graph was not modified.\n"
-    println error
-    currentBuild.result = 'FAILURE'
-   }
+  
   }
   stage('RDF quality') {
    def ret = sh(script: 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
