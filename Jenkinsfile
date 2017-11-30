@@ -6,7 +6,7 @@ def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mi
 def CSVParkings = "CSVToRDFParkings/data/parkings.csv"
 def NewCSVParkings = "CSVToRDFParkings/newdata/parkings.csv"
 def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile.ttl"
-def RDFParkings = "parkings.ttl"
+def RDFParkings = "shacl/parkings.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/parkings"
 def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=http://lod.eurohelp.es/dataset/parkings"
 def SHACLfile = "shacl/shacl-parkings.ttl"
