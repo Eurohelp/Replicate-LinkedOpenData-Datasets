@@ -29,6 +29,10 @@ node {
   }
    stage('Convert CSV to RDF') {
    def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
+   if(!ret.contains("Generated 0")){
+   println "todo bien"
+   }
+
 println 'mishel' + ret 
   }
   stage('Upload RDF to blazegraph') {  
