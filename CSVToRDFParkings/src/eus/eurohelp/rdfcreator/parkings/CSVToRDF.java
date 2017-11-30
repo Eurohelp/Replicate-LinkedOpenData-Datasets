@@ -29,56 +29,52 @@ public class CSVToRDF {
 		// modificaciones, adiciones y borrados necesarios para generar el RDF
 		Preprocess pprocess = new Preprocess();
 		pprocess.CSVpreprocess(args[0], args[1]);
-		String[] commandLineValues = { "-m", args[2], "-o", args[3], "-g",
-				"http://opendata.euskadi.eus/catalogo/id/calidad-aire-en-euskadi-2017" };
-		Main.main(commandLineValues);
-		// // Ejecuci�n del archivo RML
-		// try {
-		// File outputFile = Paths.get(args[3]).toFile();
-		// File mapping_file = Paths.get(args[2]).toFile();
-		//
-		// RMLDocRetrieval mapDocRetrieval = new RMLDocRetrieval();
-		// Repository repository =
-		// mapDocRetrieval.getMappingDoc(mapping_file.toString(),
-		// RDFFormat.TURTLE);
-		// StdRMLMappingFactory mappingFactory = new StdRMLMappingFactory();
-		// if(repository ==null) {
-		// System.err.println("\n||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
-		// + "|| There is some problem with rml configuration file, please check
-		// it. Maybe the problem is the sintax. ||\n"
-		// +
-		// "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
-		// System.exit(1);
-		// }
-		// RMLMapping mapping = mappingFactory.extractRMLMapping(repository);
-		// String graphName = "";
-		// Map<String, String> parameters = null;
-		// String[] exeTriplesMap = null;
-		//
-		// String outputFormat = "";
-		// if (args[3].toLowerCase().contains("ttl")) {
-		// outputFormat = RDFFormat.TURTLE.getName();
-		// if (!outputFile.toString().toLowerCase().contains("ttl")) {
-		// int init = outputFile.toString().indexOf(".");
-		// String newPath = args[2].substring(0, init) + ".ttl";
-		// outputFile = Paths.get(newPath).toFile();
-		// }
-		// }
-		// RMLEngine engine = new StdRMLEngine(outputFile.toString());
-		//
-		// final RMLDataset runningDataset =
-		// engine.chooseSesameDataSet("dataset", outputFile.toString(),
-		// outputFormat);
-		// engine.runRMLMapping(runningDataset, mapping, graphName, parameters,
-		// exeTriplesMap);
-		//
-		// runningDataset.closeRepository();
-		//
-		// Thread.sleep(2000);
-		// System.exit(0);
-		//
-		// } catch (Exception e) {
-		// e.printStackTrace(System.err);
-		// }
+		 // Ejecuci�n del archivo RML
+		 try {
+		 File outputFile = Paths.get(args[3]).toFile();
+		 File mapping_file = Paths.get(args[2]).toFile();
+		
+		 RMLDocRetrieval mapDocRetrieval = new RMLDocRetrieval();
+		 Repository repository =
+		 mapDocRetrieval.getMappingDoc(mapping_file.toString(),
+		 RDFFormat.TURTLE);
+		 StdRMLMappingFactory mappingFactory = new StdRMLMappingFactory();
+		 if(repository ==null) {
+		 System.err.println("\n||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n"
+		 + "|| There is some problem with rml configuration file, please check it. Maybe the problem is the sintax. ||\n"
+		 +
+		 "||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||\n");
+		 System.exit(1);
+		 }
+		 RMLMapping mapping = mappingFactory.extractRMLMapping(repository);
+		 String graphName = "";
+		 Map<String, String> parameters = null;
+		 String[] exeTriplesMap = null;
+		
+		 String outputFormat = "";
+		 if (args[3].toLowerCase().contains("ttl")) {
+		 outputFormat = RDFFormat.TURTLE.getName();
+		 if (!outputFile.toString().toLowerCase().contains("ttl")) {
+		 int init = outputFile.toString().indexOf(".");
+		 String newPath = args[2].substring(0, init) + ".ttl";
+		 outputFile = Paths.get(newPath).toFile();
+		 }
+		 }
+		 RMLEngine engine = new StdRMLEngine(outputFile.toString());
+		
+		 final RMLDataset runningDataset =
+		 engine.chooseSesameDataSet("dataset", outputFile.toString(),
+		 outputFormat);
+		 engine.runRMLMapping(runningDataset, mapping, graphName, parameters,
+		 exeTriplesMap);
+		
+		 runningDataset.closeRepository();
+		
+		 Thread.sleep(2000);
+		 System.exit(0);
+		
+		 } catch (Exception e) {
+		 e.printStackTrace(System.err);
+		 }
 	}
 }

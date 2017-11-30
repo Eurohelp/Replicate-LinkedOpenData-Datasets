@@ -15,6 +15,7 @@ def SHACLReportFile = "shacl/report.ttl"
 def SilkConfiguration = "silk/silk-test.xml"
 def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
+def result = manager.build.result
 def LinksSilk = "silk/accepted_links.nt"
 
 node {
@@ -29,6 +30,7 @@ node {
   }
    stage('Convert CSV to RDF') {
    sh 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings
+   manager.listener.logger.println "And the result is: ${result}"
   }
   stage('Upload RDF to blazegraph') {  
    sh 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST '+ CompleteGraphUri
