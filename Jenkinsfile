@@ -28,16 +28,16 @@ node {
    git branch: 'pipeline-parkingsrdfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
   }
    stage('Convert CSV to RDF') {
-   sh 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings
+   def csvtordf=sh 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, 
+   returnStatus:true
+   printn csvtordf
   }
   stage('Upload RDF to blazegraph') {  
    sh 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST '+ CompleteGraphUri
   }
   stage('RDF quality') {
    sh 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' '  + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile
-   def output = sh returnStdout: true, script: 'ls -l'
-	println output
-    println "${output}"
+   
   }
   stage('Discovery links') {
    sh 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration
