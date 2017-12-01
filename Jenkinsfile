@@ -31,6 +31,7 @@ node {
         stage('Convert CSV to RDF') {
             try {
                 def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
+                sh 'exit 1'
             } catch (err) {
                 stage('Notify failure') {
                     println "Se ha producido un fallo se enviara un correo notificandolo"
@@ -38,7 +39,7 @@ node {
                         subject: "Fallo en ${env.JOB_NAME}",
                         body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + ret,
                         mimeType: 'text/html');
-                        currentBuild.result = 'FAILURE'
+                    currentBuild.result = 'FAILURE'
                 }
             }
         }
@@ -48,6 +49,7 @@ node {
                 if (ret.contains('modified="0"')) {
                     error = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link.\n"
                     println error
+                    sh 'exit 1'
                     currentBuild.result = 'FAILURE'
                 }
             }
@@ -58,7 +60,7 @@ node {
                     subject: "Fallo en ${env.JOB_NAME}",
                     body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + error,
                     mimeType: 'text/html');
-                    currentBuild.result = 'FAILURE'
+                currentBuild.result = 'FAILURE'
             }
         }
         try {
@@ -67,6 +69,8 @@ node {
                 if (!ret.contains("Valid RDF")) {
                     error = "FAIL IN STAGE: RDF quality. The RDF is not valid.\n"
                     println error
+                    sh 'exit 1'
+
                     currentBuild.result = 'FAILURE'
                 }
             }
@@ -77,7 +81,7 @@ node {
                     subject: "Fallo en ${env.JOB_NAME}",
                     body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + error,
                     mimeType: 'text/html');
-                    currentBuild.result = 'FAILURE'
+                currentBuild.result = 'FAILURE'
             }
         }
         try {
@@ -86,6 +90,8 @@ node {
                 if (ret.contains("Wrote 0 links")) {
                     error = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link.\n"
                     println error
+                    sh 'exit 1'
+
                     currentBuild.result = 'FAILURE'
                 }
             }
@@ -96,7 +102,7 @@ node {
                     subject: "Fallo en ${env.JOB_NAME}",
                     body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + error,
                     mimeType: 'text/html');
-                    currentBuild.result = 'FAILURE'
+                currentBuild.result = 'FAILURE'
             }
         }
         try {
@@ -105,6 +111,8 @@ node {
                 if (ret.contains('modified="0"')) {
                     error = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link.\n"
                     println "hay un error en" + error
+                    sh 'exit 1'
+
                     currentBuild.result = 'FAILURE'
                 }
             }
@@ -115,7 +123,7 @@ node {
                     subject: "Fallo en ${env.JOB_NAME}",
                     body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + error,
                     mimeType: 'text/html');
-                    currentBuild.result = 'FAILURE'
+                currentBuild.result = 'FAILURE'
             }
         }
     } catch (err) {
@@ -125,7 +133,7 @@ node {
                 subject: "Fallo en ${env.JOB_NAME}",
                 body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + error,
                 mimeType: 'text/html');
-                            currentBuild.result = 'FAILURE'
+            currentBuild.result = 'FAILURE'
         }
     }
 }
