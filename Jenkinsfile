@@ -31,6 +31,8 @@ node {
  try {
  stage('Convert CSV to RDF') {
   def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
+        println "mishel creacion" + ret
+ 
   if (ret.contains("ARGUMENTS ERROR")) {
    errorText = "FAIL IN STAGE: Convert CSV to RDF. The error is with the arguments. Please, check them."
    exit 1
@@ -86,6 +88,7 @@ node {
  try {
   stage('Discovery links') {
    def ret = sh(script: 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration, returnStdout: true)
+       println "mishel" + ret
    if (ret.contains("Wrote 0 links")) {
     errorText = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link."
     exit 1
