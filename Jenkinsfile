@@ -30,28 +30,26 @@ node {
             git branch: 'pipeline-parkingsrdfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         stage('Convert CSV to RDF') {
+
             def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
-            currentBuild.displayName = "Convert CSV to RDF"
+            sh 'exit 1'
         }
         stage('Upload RDF to blazegraph') {
             def ret = sh(script: 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST ' + CompleteGraphUri, returnStdout: true)
             if (ret.contains('modified="0"')) {
                 sh 'exit 1'
-                currentBuild.displayName = "Upload RDF to Blazegraph"
             }
         }
         stage('RDF quality') {
             def ret = sh(script: 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
             if (!ret.contains("Valid RDF")) {
                 sh 'exit 1'
-                currentBuild.displayName = "RDF quality"
             }
         }
         stage('Discovery links') {
             def ret = sh(script: 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration, returnStdout: true)
             if (ret.contains("Wrote 0 links")) {
                 sh 'exit 1'
-                currentBuild.displayName = "Discovery links"
             }
         }
 
@@ -59,7 +57,6 @@ node {
             def ret = sh(script: 'curl -D- -H "Content-Type: text/plain" --upload-file ' + LinksSilk + ' -X POST ' + CompleteGraphUri, returnStdout: true)
             if (ret.contains('modified="0"')) {
                 sh 'exit 1'
-                currentBuild.displayName = "Upload links discovered to blazegraph"
             }
         }
         catch (err) {
@@ -67,7 +64,7 @@ node {
                 println "Se ha producido un fallo se enviara un correo notificandolo"
                 mail(to: 'dmuv7@hotmail.com',
                     subject: "Fallo en ${env.JOB_NAME}",
-                    body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido en el stage--> '${env.DISPLAY_NAME}'",
+                    body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido en el stage--> Upload links discovered to blazegraph",
                     mimeType: 'text/html');
                 currentBuild.result = 'FAILURE'
             }
