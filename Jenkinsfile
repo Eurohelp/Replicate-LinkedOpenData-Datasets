@@ -27,7 +27,8 @@ node {
  }
  stage('Checkout pipeline') {
   git branch: 'pipeline-parkingsrdfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
- }
+ } 
+ try {
  stage('Convert CSV to RDF') {
   def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
   if (ret.contains("ARGUMENTS ERROR")) {
@@ -38,6 +39,16 @@ node {
    exit 1
   }
  }
+ } catch (err) {
+  stage('Notify failure') {
+   println "Se ha producido un fallo se enviara un correo notificandolo -> errorText"
+   mail(to: 'dmuv7@hotmail.com',
+    subject: "Fallo en ${env.JOB_NAME}",
+    body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + errorText,
+    mimeType: 'text/html');
+  }
+ }
+ 
  try {
   stage('Upload RDF to blazegraph') {
    def ret = sh(script: 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST ' + CompleteGraphUri, returnStdout: true)
