@@ -32,38 +32,38 @@ node {
             def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
             if (ret.contains("ARGUMENTS ERROR")) {
                 errorText = "FAIL IN STAGE: Convert CSV to RDF. The error is with the arguments. Please, check them."
-                exit(-1)
+                exit 1
             } else if (ret.contains("RML CONFIGURATION FILE SYNTAX ERROR")) {
                 errorText = "FAIL IN STAGE: RML CONFIGURATION FILE SYNTAX ERROR. The error is with rml configuration file syntax. Please, check it."
-                exit(-1)
+                exit 1
             }
         }
         stage('Upload RDF to blazegraph') {
             def ret = sh(script: 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST ' + CompleteGraphUri, returnStdout: true)
             if (ret.contains("modified='0'")) {
                 errorText = "WARNING IN STAGE: Upload RDF to blazegraph. The graph was not modified."
-                exit(-1)
+                exit 1
             }
         }
         stage('RDF quality') {
             def ret = sh(script: 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
             if (!ret.contains("Valid RDF")) {
                 errorText = "FAIL IN STAGE: RDF quality. The RDF is not valid."
-                exit(-1)
+                exit 1
             }
         }
         stage('Discovery links') {
             def ret = sh(script: 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration, returnStdout: true)
             if (ret.contains("Wrote 0 links")) {
                 errorText = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link."
-                exit(-1)
+                exit 1
             }
         }
         stage('Upload links discovered to blazegraph') {
             def ret = sh(script: 'curl -D- -H "Content-Type: text/plain" --upload-file ' + LinksSilk + ' -X POST ' + CompleteGraphUri, returnStdout: true)
             if (ret.contains("modified='0'")) {
                 errorText = "WARNING IN STAGE: Upload links discovered to blazegraph. The graph was not modified."
-                exit(-1)
+                exit 1
             }
         }
     } catch (err) {
