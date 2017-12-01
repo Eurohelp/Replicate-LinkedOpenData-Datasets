@@ -42,10 +42,10 @@ node {
   }
   stage('Upload RDF to blazegraph') {
    def ret = sh(script: 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST ' + CompleteGraphUri, returnStdout: true)
-  if (ret.contains('modified="0"')) {		 +  
+  if (ret.contains("modified='0'")) {		 +  
      errorText = "WARNING IN STAGE: Upload RDF to blazegraph. The graph was not modified."		
-     println "mishel" + errorText		
-     currentBuild.result = 'FAILURE'		
+     println "mishel" + errorText
+     currentBuild.result = 'FAILURE'
     }
   }
   stage('RDF quality') {
@@ -66,7 +66,7 @@ node {
   }
   stage('Upload links discovered to blazegraph') {
    def ret = sh(script: 'curl -D- -H "Content-Type: text/plain" --upload-file ' + LinksSilk + ' -X POST ' + CompleteGraphUri, returnStdout: true)
-   if (ret.contains('modified="0"')) {
+   if (ret.contains("modified='0'")) {
     errorText = "WARNING IN STAGE: Upload links discovered to blazegraph. The graph was not modified."
     println errorText
     currentBuild.result = 'FAILURE'
