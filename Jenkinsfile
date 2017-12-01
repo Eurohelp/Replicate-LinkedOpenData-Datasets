@@ -59,7 +59,7 @@ node {
    def ret = sh('curl -D- -H "Content-Type: text/plain" --upload-file ' + LinksSilk + ' -X POST ' + CompleteGraphUri, returnStdout: true)
    if (ret.contains("Wrote 0 links")) {
     error = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link.\n"
-    println error
+    println "hay un error en" + error
     currentBuild.result = 'FAILURE'
    }
  }
