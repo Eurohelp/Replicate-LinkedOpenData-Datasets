@@ -67,7 +67,7 @@ node {
                 println "Se ha producido un fallo se enviara un correo notificandolo"
                 mail(to: 'dmuv7@hotmail.com',
                     subject: "Fallo en ${env.JOB_NAME}",
-                    body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido en el stage--> '${env.DISPLAY_NAME}'",
+                    body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido en el stage--> ",
                     mimeType: 'text/html');
                 currentBuild.result = 'FAILURE'
             }
