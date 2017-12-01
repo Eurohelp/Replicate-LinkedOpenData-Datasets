@@ -33,7 +33,7 @@ node {
   }
   stage('Upload RDF to blazegraph') {
    def ret = sh(script:'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST ' + CompleteGraphUri, returnStdout: true)
-  if (ret.contains("Wrote 0 links")) {
+  if (ret.contains('modified="0"')) {
     error = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link.\n"
     println error
     currentBuild.result = 'FAILURE'
@@ -56,8 +56,12 @@ node {
    }
   }
   stage('Upload links discovered to blazegraph') {
-   def ret = sh('curl -D- -H "Content-Type: text/plain" --upload-file ' + LinksSilk + ' -X POST ' + CompleteGraphUri, returnStdout: true)
-   
+   def ret = sh(script:'curl -D- -H "Content-Type: text/plain" --upload-file ' + LinksSilk + ' -X POST ' + CompleteGraphUri, returnStdout: true)
+   if (ret.contains('modified="0"')) {
+    error = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link.\n"
+    println "hay un error en" + error
+    currentBuild.result = 'FAILURE'
+   }
  }
  } catch (err) {
   stage('Notify failure') {
