@@ -31,7 +31,7 @@ node {
         stage('Convert CSV to RDF') {
             try {
                 def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
-                sh 'exit 1'
+                println "fallo primero" + ret
             } catch (err) {
                 stage('Notify failure') {
                     println "Se ha producido un fallo se enviara un correo notificandolo"
