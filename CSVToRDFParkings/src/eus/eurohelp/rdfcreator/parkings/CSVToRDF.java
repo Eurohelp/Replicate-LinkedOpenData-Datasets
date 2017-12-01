@@ -33,11 +33,12 @@ public class CSVToRDF {
 		try {
 			File outputFile = Paths.get(args[3]).toFile();
 			File mapping_file = Paths.get(args[2]).toFile();
-
+			boolean correct=true;
 			RMLDocRetrieval mapDocRetrieval = new RMLDocRetrieval();
 			Repository repository = mapDocRetrieval.getMappingDoc(mapping_file.toString(), RDFFormat.TURTLE);
 			StdRMLMappingFactory mappingFactory = new StdRMLMappingFactory();
 			if (repository == null) {
+				correct=false;
 				throw new Exception("RML CONFIGURATION FILE SYNTAX ERROR->There is some problem with rml configuration file, please check it. Maybe the problem is the sintax");
 			}
 			RMLMapping mapping = mappingFactory.extractRMLMapping(repository);
@@ -63,7 +64,11 @@ public class CSVToRDF {
 			runningDataset.closeRepository();
 
 			if (outputFile.length() == 0) {
+				correct=false;
 				throw new Exception("ARGUMENTS ERROR->There is some problem with RDF Generation. Please check the program arguments \n");
+			}
+			if(!correct){
+				System.exit(-1);
 			}
 			Thread.sleep(2000);
 		} catch (Exception e) {
