@@ -1,6 +1,7 @@
 #!/usr/bin/env groovy
 
 import java.text.SimpleDateFormat
+import sys
 
 def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql"
 def CSVParkings = "CSVToRDFParkings/data/parkings.csv"
@@ -32,38 +33,38 @@ node {
             def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
             if (ret.contains("ARGUMENTS errorText")) {
                 errorText = "FAIL IN STAGE: Convert CSV to RDF. The errorText is with the arguments. Please, check them."
-                currentBuild.result = 'FAILURE'
+                sys.exit(-1)
             } else if (ret.contains("RML CONFIGURATION FILE SYNTAX errorText")) {
                 errorText = "FAIL IN STAGE: RML CONFIGURATION FILE SYNTAX errorText. The errorText is with rml configuration file syntax. Please, check it."
-                currentBuild.result = 'FAILURE'
+                sys.exit(-1)
             }
         }
         stage('Upload RDF to blazegraph') {
             def ret = sh(script: 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST ' + CompleteGraphUri, returnStdout: true)
             if (ret.contains("modified='0'")) {
                 errorText = "WARNING IN STAGE: Upload RDF to blazegraph. The graph was not modified."
-                currentBuild.result = 'FAILURE'
+                sys.exit(-1)
             }
         }
         stage('RDF quality') {
             def ret = sh(script: 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
             if (!ret.contains("Valid RDF")) {
                 errorText = "FAIL IN STAGE: RDF quality. The RDF is not valid."
-                currentBuild.result = 'FAILURE'
+                sys.exit(-1)
             }
         }
         stage('Discovery links') {
             def ret = sh(script: 'java -jar silk/parkingssilkrunner.jar ' + SilkConfiguration, returnStdout: true)
             if (ret.contains("Wrote 0 links")) {
                 errorText = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link."
-                currentBuild.result = 'FAILURE'
+                sys.exit(-1)
             }
         }
         stage('Upload links discovered to blazegraph') {
             def ret = sh(script: 'curl -D- -H "Content-Type: text/plain" --upload-file ' + LinksSilk + ' -X POST ' + CompleteGraphUri, returnStdout: true)
             if (ret.contains("modified='0'")) {
                 errorText = "WARNING IN STAGE: Upload links discovered to blazegraph. The graph was not modified."
-                currentBuild.result = 'FAILURE'
+                sys.exit(-1)
             }
         }
     } catch (err) {
