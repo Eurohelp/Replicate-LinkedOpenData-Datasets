@@ -33,12 +33,12 @@ node {
                 def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
             } catch (err) {
                 stage('Notify failure') {
-                    currentBuild.result = 'FAILURE'
                     println "Se ha producido un fallo se enviara un correo notificandolo"
                     mail(to: 'dmuv7@hotmail.com',
                         subject: "Fallo en ${env.JOB_NAME}",
                         body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + ret,
                         mimeType: 'text/html');
+                        currentBuild.result = 'FAILURE'
                 }
             }
         }
@@ -53,12 +53,12 @@ node {
             }
         } catch (err) {
             stage('Notify failure') {
-                currentBuild.result = 'FAILURE'
                 println "Se ha producido un fallo se enviara un correo notificandolo"
                 mail(to: 'dmuv7@hotmail.com',
                     subject: "Fallo en ${env.JOB_NAME}",
                     body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + error,
                     mimeType: 'text/html');
+                    currentBuild.result = 'FAILURE'
             }
         }
         try {
@@ -72,12 +72,12 @@ node {
             }
         } catch (err) {
             stage('Notify failure') {
-                currentBuild.result = 'FAILURE'
                 println "Se ha producido un fallo se enviara un correo notificandolo"
                 mail(to: 'dmuv7@hotmail.com',
                     subject: "Fallo en ${env.JOB_NAME}",
                     body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + error,
                     mimeType: 'text/html');
+                    currentBuild.result = 'FAILURE'
             }
         }
         try {
@@ -91,12 +91,12 @@ node {
             }
         } catch (err) {
             stage('Notify failure') {
-                currentBuild.result = 'FAILURE'
                 println "Se ha producido un fallo se enviara un correo notificandolo"
                 mail(to: 'dmuv7@hotmail.com',
                     subject: "Fallo en ${env.JOB_NAME}",
                     body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + error,
                     mimeType: 'text/html');
+                    currentBuild.result = 'FAILURE'
             }
         }
         try {
@@ -110,22 +110,22 @@ node {
             }
         } catch (err) {
             stage('Notify failure') {
-                currentBuild.result = 'FAILURE'
                 println "Se ha producido un fallo se enviara un correo notificandolo"
                 mail(to: 'dmuv7@hotmail.com',
                     subject: "Fallo en ${env.JOB_NAME}",
                     body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + error,
                     mimeType: 'text/html');
+                    currentBuild.result = 'FAILURE'
             }
         }
     } catch (err) {
         stage('Notify failure') {
-            currentBuild.result = 'FAILURE'
             println "Se ha producido un fallo se enviara un correo notificandolo"
             mail(to: 'dmuv7@hotmail.com',
                 subject: "Fallo en ${env.JOB_NAME}",
                 body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + error,
                 mimeType: 'text/html');
+                            currentBuild.result = 'FAILURE'
         }
     }
 }
