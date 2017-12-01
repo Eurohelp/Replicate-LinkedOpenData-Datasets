@@ -81,7 +81,7 @@ ex:ParkingShape
 	sh:path schema:offers ;
 	sh:minCount 1 ;
 	sh:maxCount 7;
-	sh:message "Deberia tener precios para los 7 lapsos temporales que ofrecer@es" ;
+	sh:message "Deberia tener precios para los 7 lapsos temporales que ofrecen@es" ;
 	sh:severity sh:Violation ;
 	].
 	
@@ -112,17 +112,3 @@ ex:ParkingPriceShape
 		];
 		.
 
-# Since all the data is conformant, this shape can be used to make sure the thing works,
-# since it will flag valid data as invalid (the sh:minInclusive value is 43.3 instead of 43.2)
-# To activate it comment out the line sh:deactivated true ;
-
-ex:ParkingShapeDebug
-		a sh:NodeShape ;
-		sh:targetClass schema:ParkingFacility ;
-		sh:deactivated true ;
-		sh:property [
-			sh:path geo:lat ;
-			sh:datatype xsd:float ;
-	    sh:minInclusive 43.3 ;
-			sh:maxInclusive 43.4 ;
-		] .
