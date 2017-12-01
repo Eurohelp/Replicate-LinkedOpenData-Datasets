@@ -61,6 +61,5 @@ public class SHACLValidator {
 		else {
 			System.out.println("Valid RDF");
 		}
-
 	}
 }
