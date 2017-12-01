@@ -27,9 +27,9 @@ node {
         }
         stage('Checkout pipeline') {
             git branch: 'pipeline-parkingsrdfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
-        }
+        }try {
         stage('Convert CSV to RDF') {
-            try {
+            
                 def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
            		if (ret.contains('No se ha generado RDF')) {
                     sh 'exit 1'
