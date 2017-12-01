@@ -32,7 +32,7 @@ node {
    sh 'java -jar CSVToRDFParkings/rdfparkings.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings
   }
   stage('Upload RDF to blazegraph') {
-   def ret = sh('curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST ' + CompleteGraphUri, returnStdout: true)
+   def ret = sh(script:'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFParkings + ' -X POST ' + CompleteGraphUri, returnStdout: true)
   if (ret.contains("Wrote 0 links")) {
     error = "WARNING IN STAGE: Discovery links. Silk didn't discovered any link.\n"
     println error
