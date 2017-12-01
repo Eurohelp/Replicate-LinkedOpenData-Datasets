@@ -99,6 +99,7 @@ node {
     body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + " y ha sido --> " + errorText,
     mimeType: 'text/html');
   }
+  }
   try {
    stage('Upload links discovered to blazegraph') {
     def ret = sh(script: 'curl -D- -H "Content-Type: text/plain" --upload-file ' + LinksSilk + ' -X POST ' + CompleteGraphUri, returnStdout: true)
@@ -116,4 +117,4 @@ node {
      mimeType: 'text/html');
    }
   }
-  }
+ }
