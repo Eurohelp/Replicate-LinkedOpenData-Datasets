@@ -39,7 +39,6 @@ node {
         }
         stage('RDF quality') {
             def ret = sh(script: 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
-            println ret
             if (ret.contains("Not valid RDF")) {
                 sh 'exit 1'
             }
