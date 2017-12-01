@@ -1,7 +1,6 @@
 #!/usr/bin/env groovy
 
 import java.text.SimpleDateFormat
-import sys
 
 def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql"
 def CSVParkings = "CSVToRDFParkings/data/parkings.csv"
