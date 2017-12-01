@@ -30,11 +30,11 @@ node {
         }
         stage('Convert CSV to RDF') {
             def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
-            if (ret.contains("ARGUMENTS errorText")) {
+            if (ret.contains("ARGUMENTS ERROR")) {
                 errorText = "FAIL IN STAGE: Convert CSV to RDF. The errorText is with the arguments. Please, check them."
                 exit(-1)
-            } else if (ret.contains("RML CONFIGURATION FILE SYNTAX errorText")) {
-                errorText = "FAIL IN STAGE: RML CONFIGURATION FILE SYNTAX errorText. The errorText is with rml configuration file syntax. Please, check it."
+            } else if (ret.contains("RML CONFIGURATION FILE SYNTAX ERROR")) {
+                errorText = "FAIL IN STAGE: RML CONFIGURATION FILE SYNTAX ERROR. The error is with rml configuration file syntax. Please, check it."
                 exit(-1)
             }
         }
