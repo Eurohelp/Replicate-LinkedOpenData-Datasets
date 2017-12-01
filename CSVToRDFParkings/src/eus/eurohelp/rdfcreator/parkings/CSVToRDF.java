@@ -33,7 +33,6 @@ public class CSVToRDF {
 		try {
 			File outputFile = Paths.get(args[3]).toFile();
 			File mapping_file = Paths.get(args[2]).toFile();
-			boolean correct=true;
 			RMLDocRetrieval mapDocRetrieval = new RMLDocRetrieval();
 			Repository repository = mapDocRetrieval.getMappingDoc(mapping_file.toString(), RDFFormat.TURTLE);
 			StdRMLMappingFactory mappingFactory = new StdRMLMappingFactory();
@@ -66,8 +65,6 @@ public class CSVToRDF {
 			if (outputFile.length() == 0) {
 				System.out.println("No se ha generado RDF");
 				throw new Exception("ARGUMENTS ERROR->There is some problem with RDF Generation. Please check the program arguments \n");
-			}
-			if(!correct){
 			}
 			Thread.sleep(2000);
 		} catch (Exception e) {
