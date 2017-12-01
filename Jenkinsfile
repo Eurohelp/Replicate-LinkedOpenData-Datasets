@@ -31,7 +31,9 @@ node {
         stage('Convert CSV to RDF') {
             try {
                 def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
-                println "fallo primero" + ret
+           		if (ret.contains('No se ha generado RDF')) {
+                    sh 'exit 1'
+                }
             } catch (err) {
                 stage('Notify failure') {
                     println "Se ha producido un fallo se enviara un correo notificandolo"
@@ -62,7 +64,7 @@ node {
         try {
             stage('RDF quality') {
                 def ret = sh(script: 'java -jar rdfquality/shacl-parkings.jar ' + RDFParkings + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
-                if (!ret.contains("Valid RDF")) {
+                if (!ret.contains("Not valid RDF")) {
                     sh 'exit 1'
                 }
             }

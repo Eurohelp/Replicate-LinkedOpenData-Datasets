@@ -55,6 +55,7 @@ public class SHACLValidator {
 
 		// Data is not conformant
 		if (result) {
+			System.out.println("Not valid RDF");
 			throw new Exception("SHACL violation: non-conformant RDF, see report at " + reportFile);
 		}
 		// Conformant data
