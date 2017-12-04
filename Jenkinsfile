@@ -8,7 +8,7 @@ def NewCSVUrumea = "CSVToRDFUrumea/newdata/txominea.csv"
 def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
 def RDFUrumea = "shacl/urumea.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
-def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri="+NamedGraph
+def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-urumea.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/report.ttl"
@@ -16,7 +16,6 @@ def SilkConfiguration = "silk/silk-test.xml"
 def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
 def LinksSilk = "silk/accepted_links.nt"
-
 node {
     try {
         stage('Remove data from blazegraph') {

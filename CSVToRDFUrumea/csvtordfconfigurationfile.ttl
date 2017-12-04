@@ -17,7 +17,7 @@
 #predicados y objetos necesarios
 <#Urumea>
 rml:logicalSource [
-		rml:source "newdata/txominea.csv";
+		rml:source "CSVToRDFUrumea/newdata/txominea.csv";
         rml:referenceFormulation ql:CSV
     ];
  		rr:subjectMap [
@@ -35,7 +35,7 @@ rml:logicalSource [
         
 <#Observacion>
 rml:logicalSource [
-		rml:source "newdata/txominea.csv";
+		rml:source "CSVToRDFUrumea/newdata/txominea.csv";
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
@@ -71,7 +71,7 @@ rml:logicalSource [
         ].
 <#Riesgo>
 rml:logicalSource [
-		rml:source "newdata/txominea.csv";
+		rml:source "CSVToRDFUrumea/newdata/txominea.csv";
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
@@ -87,7 +87,7 @@ rml:logicalSource [
         ].       
 <#NivelAgua>
 rml:logicalSource [
-		rml:source "newdata/txominea.csv";
+		rml:source "CSVToRDFUrumea/newdata/txominea.csv";
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
