@@ -13,9 +13,10 @@ import org.topbraid.shacl.validation.ValidationUtil;
 import org.topbraid.spin.util.JenaUtil;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QueryFactory;
+
 public class SHACLValidator {
 	/**
-	 * El primer parametro corresponderia a los datos
+	 * El primer parametro corresponder� a los datos
 	 * El segundo parametro ser� la configuracion de SHACL sobre esos datos 
 	 * El tercero la ruta al fichero que contiene la query a hacerse sobre el report
 	 * El cuarto a la ruta donde se almacenara el report
@@ -54,12 +55,12 @@ public class SHACLValidator {
 
 		// Data is not conformant
 		if (result) {
+			System.out.println("Not valid RDF");
 			throw new Exception("SHACL violation: non-conformant RDF, see report at " + reportFile);
 		}
 		// Conformant data
 		else {
 			System.out.println("Valid RDF");
 		}
-
 	}
 }
