@@ -33,7 +33,7 @@ node {
             }
         }      
         stage('Convert CSV to RDF') {
-            def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/calidaddelairerdfcreator.jar ' + JsonCalidadAire + ' ' + RmlConfigurationFile + ' ' + RDFCalidadAire, returnStdout: true)
+            def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/calidaddelairerdfcreator.jar ' + RmlConfigurationFile + ' ' + RDFCalidadAire, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }
