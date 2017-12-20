@@ -1,5 +1,6 @@
 package eus.eurohelp.rdfcreator.mongodb;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
 
@@ -56,7 +57,7 @@ public class MongoDBUtils {
 		MongoCursor<Document> iterator = cursor.iterator();
 		
 		while (iterator.hasNext()) {
-			pw = new PrintWriter(pPath.replace(".json", "-" + cont + ".json"));
+			pw = new PrintWriter(new File(pPath.replace(".json", "-" + cont + ".json")));
 			Document d = iterator.next();
 			cont++;
 			pw.println(d.toJson());
