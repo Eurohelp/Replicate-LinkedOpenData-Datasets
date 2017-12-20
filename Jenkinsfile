@@ -28,7 +28,7 @@ node {
             git branch: 'pipeline-calidaddelaire', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         stage('Get data from MongoDB') {
-			def ret = sh(script: 'java -jar JsonToRDFCalidadAire/get-data.jar ' + JsonCalidadAire +  + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + JsonCalidadAire, returnStdout: true)
+			def ret = sh(script: 'java -jar JsonToRDFCalidadAire/get-data.jar ' + MongoDataBase +  + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + PathToStoreJson, returnStdout: true)
             if (ret.contains('No se encuentran datos con ese patron')) {
                 sh 'exit 1'
             }
