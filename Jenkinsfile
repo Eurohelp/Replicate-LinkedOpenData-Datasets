@@ -18,7 +18,7 @@ def PatternToFind = "all:all:environment_airquality:201709:all"
 def PathToStoreJson = "enviroment_airquality_201709.json"
 def JsonCalidadAire = "enviroment_airquality_201709-0.json"
 
-node {jsontordfconfigurationfile
+node {
     try {
      	stage('Remove data from blazegraph'){
         	sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
