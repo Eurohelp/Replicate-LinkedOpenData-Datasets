@@ -18,7 +18,6 @@ def PatternToFind = "all:all:environment_airquality:201709:all"
 def PathToStoreJson = "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709.json"
 def JsonCalidadAire = "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json"
 
-
 node {
     try {
      	stage('Remove data from blazegraph'){
@@ -27,8 +26,9 @@ node {
         stage('Checkout pipeline') {
             git branch: 'pipeline-calidaddelaire', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
+        
         stage('Get data from MongoDB') {
-			def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/get-data.jar ' + MongoDataBase +  + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + PathToStoreJson, returnStdout: true)
+			def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/get-data.jar ' + MongoDataBase + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + PathToStoreJson, returnStdout: true)
             if (ret.contains('No se encuentran datos con ese patron')) {
                 sh 'exit 1'
             }
