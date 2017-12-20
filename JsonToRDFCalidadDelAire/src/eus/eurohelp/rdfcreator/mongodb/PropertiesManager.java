@@ -22,7 +22,7 @@ public class PropertiesManager {
 	 */
 	private PropertiesManager() throws IOException {
 		properties = new Properties();
-		InputStream input = new FileInputStream("main/resources/config.properties");
+		InputStream input = new FileInputStream("JsonToRDFCalidadDelAire/main/resources/config.properties");
 		try {
 			properties.load(input);
 		} catch (Exception e) {
