@@ -1,8 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>CSVToRDFCalidadDelAire</groupId>
-	<artifactId>CSVToRDFCalidadDelAire</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
@@ -42,5 +40,19 @@
 			<artifactId>json</artifactId>
 			<version>20090211</version>
 		</dependency>
+		<!-- RML -->
+		<dependency>
+			<groupId>rml.io</groupId>
+			<artifactId>processor</artifactId>
+			<version>0.3</version>
+		</dependency>
 	</dependencies>
+	<repositories>
+		<repository>
+			<id>Eurohelp-nexus</id>
+			<url>http://integracion.eurohelp.es:8081/nexus/content/repositories/thirdparty/</url>
+		</repository>
+	</repositories>
+	<groupId>JsonToRDFCalidadDelAire</groupId>
+	<artifactId>JsonToRDFCalidadDelAire</artifactId>
 </project>

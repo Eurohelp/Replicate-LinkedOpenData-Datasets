@@ -14,7 +14,7 @@ ex:ObservationShape
 	sh:property [
 		sh:path rdfs:label;
 		sh:minCount 1 ;
-		sh:message "La observacion deberÃ­a tener al menos un label de tipo string@es";
+		sh:message "La observacion debería tener al menos un label de tipo string@es";
 		sh:severity sh:Info ;
 	];
 	sh:property [

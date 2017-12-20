@@ -45,22 +45,25 @@ public class MongoDBUtils {
 	 * 
 	 * @param pRegex
 	 * @param pPath
-	 * @throws IOException
+	 * @throws Exception 
 	 */
-	public void getDocument(String pRegex, String pPath) throws IOException {
+	public void getDocument(String pRegex, String pPath) throws Exception {
 		BasicDBObject regex = new BasicDBObject();
 		int cont = 0;
 		PrintWriter pw;
 		regex.put("_id", pRegex);
 		FindIterable<Document> cursor = collection.find(regex);
 		MongoCursor<Document> iterator = cursor.iterator();
-
+		
 		while (iterator.hasNext()) {
 			pw = new PrintWriter(pPath.replace(".json", "-" + cont + ".json"));
 			Document d = iterator.next();
 			cont++;
 			pw.println(d.toJson());
 			pw.close();
+		}
+		if(cont<=0){
+			throw new Exception("No se encuentran datos con ese patron");
 		}
 	}
 }

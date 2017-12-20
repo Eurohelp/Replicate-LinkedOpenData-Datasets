@@ -15,13 +15,11 @@ public class PropertiesManager {
 	private static PropertiesManager INSTANCE = null;
 	private Properties properties;
 
-	public synchronized static PropertiesManager getINSTANCE() throws IOException {
-		if (INSTANCE == null) {
-			INSTANCE = new PropertiesManager();
-		}
-		return INSTANCE;
-	}
 
+	/**
+	 * Constructor
+	 * @throws IOException
+	 */
 	private PropertiesManager() throws IOException {
 		properties = new Properties();
 		InputStream input = new FileInputStream("main/resources/config.properties");
@@ -31,9 +29,24 @@ public class PropertiesManager {
 			e.printStackTrace();
 		}
 	}
-
+	/**
+	 * Obtiene el valor de la propiedad que se le pasa por parametro
+	 * @param pPropertyName
+	 * @return
+	 */
 	public String getProperty(String pPropertyName) {
 		return properties.getProperty(pPropertyName);
 	}
-
+	
+	/**
+	 * Devuelve la instancia de la clase 
+	 * @return
+	 * @throws IOException
+	 */
+	public synchronized static PropertiesManager getINSTANCE() throws IOException {
+		if (INSTANCE == null) {
+			INSTANCE = new PropertiesManager();
+		}
+		return INSTANCE;
+	}
 }

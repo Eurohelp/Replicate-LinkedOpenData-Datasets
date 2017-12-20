@@ -1,0 +1,58 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:	<http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:	<http://lod.eurohelp.es/replicate/shacl/calidad-aire> .
+@prefix ssn: <http://www.w3.org/ns/ssn/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+ex:ObservationShape
+	a sh:Shape ;
+	sh:targetClass sosa:Observation;
+	sh:property [
+		sh:path rdfs:label;
+		sh:minCount 1 ;
+		sh:message "La observacion debería tener al menos un label de tipo string@es";
+		sh:severity sh:Info ;
+	];
+	sh:property [
+		sh:path sosa:madeBySensor;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:message "La observacion debe tener UN sensor de tipo string@es";
+		sh:severity sh:Violation ;
+	];
+	sh:property [
+		sh:path sosa:hasResult;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:message "La observacion debe tener un resultado de tipo float@es";
+		sh:severity sh:Violation ;
+	];
+	sh:property [
+		sh:path sosa:resultTime;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:message "La observacion deberia tener una fecha asociada@es";
+		sh:severity sh:Warning;
+	].
+	
+	
+	ex:SensorShape
+	a sh:Shape ;
+	sh:targetClass sosa:Sensor;
+	sh:property [
+		sh:path sosa:madeObservation;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:message "El sensor debe tener al menos una observacion asociada@es" ;
+		sh:severity sh:Violation ;
+	];
+	sh:property [
+		sh:path ssn:implements;
+		sh:minCount 1 ;
+		sh:message "El sensor debe tener un procedimiento asociado como minimo@es";
+		sh:severity sh:Violation ;
+	].
