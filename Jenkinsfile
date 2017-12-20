@@ -3,7 +3,7 @@
 import java.text.SimpleDateFormat
 
 def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql"
-def RmlConfigurationFile = "JsonToRDFCalidadAire/csvtordfconfigurationfile.ttl"
+def RmlConfigurationFile = "JsonToRDFCalidadAire/jsontordfconfigurationfile.ttl"
 def RDFCalidadAire = "all_environment_quality20017.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/calidad-aire"
 def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=" + NamedGraph
