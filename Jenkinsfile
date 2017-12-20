@@ -18,7 +18,7 @@ def PatternToFind = "all:all:environment_airquality:201709:all"
 def PathToStoreJson = "enviroment_airquality_201709.json"
 def JsonCalidadAire = "enviroment_airquality_201709-0.json"
 
-node {
+node {jsontordfconfigurationfile
     try {
      	stage('Remove data from blazegraph'){
         	sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
@@ -34,7 +34,7 @@ node {
             }
         }      
         stage('Convert CSV to RDF') {
-            def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/calidaddelairerdfcreator.jar ' + JsonCalidadAire  + RmlConfigurationFile + ' ' + RDFCalidadAire, returnStdout: true)
+            def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/calidaddelairerdfcreator.jar ' + JsonCalidadAire + ' ' + RmlConfigurationFile + ' ' + RDFCalidadAire, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }
