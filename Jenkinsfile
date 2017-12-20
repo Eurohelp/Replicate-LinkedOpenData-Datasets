@@ -28,13 +28,13 @@ node {
             git branch: 'pipeline-calidaddelaire', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         stage('Get data from MongoDB') {
-			def ret = sh(script: 'java -jar JsonToRDFCalidadAire/get-data.jar ' + MongoDataBase +  + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + PathToStoreJson, returnStdout: true)
+			def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/get-data.jar ' + MongoDataBase +  + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + PathToStoreJson, returnStdout: true)
             if (ret.contains('No se encuentran datos con ese patron')) {
                 sh 'exit 1'
             }
         }      
         stage('Convert CSV to RDF') {
-            def ret = sh(script: 'java -jar JsonToRDFCalidadAire/calidaddelairerdfcreator.jar ' + JsonCalidadAire  + RmlConfigurationFile + ' ' + RDFCalidadAire, returnStdout: true)
+            def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/calidaddelairerdfcreator.jar ' + JsonCalidadAire  + RmlConfigurationFile + ' ' + RDFCalidadAire, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }
