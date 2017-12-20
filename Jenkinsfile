@@ -8,8 +8,8 @@ def RDFCalidadAire = "all_environment_quality20017.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/calidad-aire"
 def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-calidad-aire.ttl"
-def SHACLReportCheckingQuery = "JsonToRDFCalidadAire/shacl/query.sparql"
-def SHACLReportFile = "JsonToRDFCalidadAire/shacl/report.ttl"
+def SHACLReportCheckingQuery = "shacl/query.sparql"
+def SHACLReportFile = "shacl/report.ttl"
 def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
 def MongoDataBase= "dashboard"
@@ -25,16 +25,16 @@ node {
         	sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
     	}
         stage('Checkout pipeline') {
-            git branch: 'pipeline-urumeardfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
+            git branch: 'pipeline-calidaddelaire', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         stage('Get data from MongoDB') {
-			def ret = sh(script: 'java -jar CSVToRDFCalidadDelAire/get-data.jar ' + JsonCalidadAire +  + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + JsonCalidadAire, returnStdout: true)
+			def ret = sh(script: 'java -jar JsonToRDFCalidadAire/get-data.jar ' + JsonCalidadAire +  + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + JsonCalidadAire, returnStdout: true)
             if (ret.contains('No se encuentran datos con ese patron')) {
                 sh 'exit 1'
             }
         }      
         stage('Convert CSV to RDF') {
-            def ret = sh(script: 'java -jar CSVToRDFCalidadDelAire/calidaddelairerdfcreator.jar ' + JsonCalidadAire  + RmlConfigurationFile + ' ' + RDFCalidadAire, returnStdout: true)
+            def ret = sh(script: 'java -jar JsonToRDFCalidadAire/calidaddelairerdfcreator.jar ' + JsonCalidadAire  + RmlConfigurationFile + ' ' + RDFCalidadAire, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }
