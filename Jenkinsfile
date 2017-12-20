@@ -14,7 +14,7 @@ def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
 def MongoDataBase= "dashboard"
 def MongoCollection = "iot_environment_measurements"
-def MatternToFind = "all:all:environment_airquality:201709:all"
+def PatternToFind = "all:all:environment_airquality:201709:all"
 def PathToStoreJson = "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709.json"
 def JsonCalidadAire = "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json"
 
