@@ -3,7 +3,7 @@
 import java.text.SimpleDateFormat
 
 def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql"
-def RmlConfigurationFile = "JsonToRDFCalidadAire/jsontordfconfigurationfile.ttl"
+def RmlConfigurationFile = "JsonToRDFCalidadDelAire/jsontordfconfigurationfile.ttl"
 def RDFCalidadAire = "all_environment_quality20017.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/calidad-aire"
 def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=" + NamedGraph
@@ -26,7 +26,6 @@ node {
         stage('Checkout pipeline') {
             git branch: 'pipeline-calidaddelaire', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
-        
         stage('Get data from MongoDB') {
 			def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/get-json.jar ' + MongoDataBase + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + PathToStoreJson, returnStdout: true)
             if (ret.contains('No se encuentran datos con ese patron')) {

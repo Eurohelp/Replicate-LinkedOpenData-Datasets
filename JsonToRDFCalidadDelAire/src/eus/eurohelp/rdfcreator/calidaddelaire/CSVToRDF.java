@@ -20,17 +20,16 @@ import be.ugent.mmlab.rml.model.dataset.RMLDataset;
  * @05/12/2017
  */
 public class CSVToRDF {
-	// En primer lugar se le pasara el path del json
-	// En segundo lugar se le pasara el path del archivo de configuracion
-	// En tercer lugar la ruta donde se quiera almacenar el archivo
-	// resultante con la extensi�n deseada
+	// En primer lugar se le pasara el archivo de configuración
+	// En segundo lugar el path donde se almacenara el RDF generado
 	public static void main(String[] args) throws IOException {
 
 		
-		// Ejecuci�n del archivo RML
+		// Ejecucion del archivo RML
 		try {
-			File outputFile = Paths.get(args[1]).toFile();
 			File mapping_file = Paths.get(args[0]).toFile();
+
+			File outputFile = Paths.get(args[1]).toFile();
 			RMLDocRetrieval mapDocRetrieval = new RMLDocRetrieval();
 			Repository repository = mapDocRetrieval.getMappingDoc(mapping_file.toString(), RDFFormat.TURTLE);
 			StdRMLMappingFactory mappingFactory = new StdRMLMappingFactory();
