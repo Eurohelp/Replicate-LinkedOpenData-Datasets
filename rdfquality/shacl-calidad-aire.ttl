@@ -35,7 +35,6 @@ ex:ObservationShape
 	sh:property [
 		sh:path sosa:resultTime;
 		sh:minCount 1 ;
-		sh:maxCount 1 ;
 		sh:message "La observacion deberia tener una fecha asociada@es";
 		sh:datatype xsd:gYearMonth ;
 		sh:severity sh:Warning;

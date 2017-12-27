@@ -56,7 +56,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate sosa:resultTime;
         rr:objectMap [
-    	rr:constant "201709";
+    	rr:constant "2017-09";
         rr:datatype xsd:gYearMonth
         ]
         ].
