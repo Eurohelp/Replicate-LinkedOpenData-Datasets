@@ -13,12 +13,11 @@
 @prefix w3-time: <http://www.w3.org/2006/>.
 @prefix aws : <http://purl.oclc.org/NET/ssnx/meteo/aws#> .
 
-
 #Se define por cada sujeto un bloque en el que se podr?n anadir todos los 
 #predicados y objetos necesarios
 <#ObservacionRain>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -63,7 +62,7 @@ rml:logicalSource [
         ].
  <#SensorRain>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -85,7 +84,7 @@ rml:logicalSource [
         ].
 <#ObservacionCO>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -130,7 +129,7 @@ rml:logicalSource [
         ].
  <#SensorCO>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -153,7 +152,7 @@ rml:logicalSource [
         
 <#ObservacionCO8h>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -198,7 +197,7 @@ rml:logicalSource [
         ].
  <#SensorCO8h>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -227,7 +226,7 @@ rml:logicalSource [
         ].
         <#ObservacionO3>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -272,7 +271,7 @@ rml:logicalSource [
         ].
  <#SensorO3>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -294,7 +293,7 @@ rml:logicalSource [
         ].
  <#ObservacionPM10>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -339,7 +338,7 @@ rml:logicalSource [
         ].
  <#SensorPM10>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -361,7 +360,7 @@ rml:logicalSource [
         ].
  <#ObservacionPM25>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -406,7 +405,7 @@ rml:logicalSource [
         ].
  <#SensorPM25>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -428,7 +427,7 @@ rml:logicalSource [
         ].
 <#ObservacionSO2>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -473,7 +472,7 @@ rml:logicalSource [
         ].
  <#SensorSO2>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -495,7 +494,7 @@ rml:logicalSource [
         ].
 <#ObservacionBenceno>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -540,7 +539,7 @@ rml:logicalSource [
         ].
  <#SensorBenceno>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -562,7 +561,7 @@ rml:logicalSource [
         ].
 <#ObservacionEtilbenceno>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -607,7 +606,7 @@ rml:logicalSource [
         ].
  <#SensorEtilbenceno>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -629,7 +628,7 @@ rml:logicalSource [
         ].
 <#ObservacionOrtoxileno>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -674,7 +673,7 @@ rml:logicalSource [
         ].
  <#SensorOrtoxileno>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -696,7 +695,7 @@ rml:logicalSource [
         ].
 <#ObservacionTolueno>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -741,7 +740,7 @@ rml:logicalSource [
         ].
  <#SensorTolueno>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -763,7 +762,7 @@ rml:logicalSource [
         ].
     <#ObservacionTolueno>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -808,7 +807,7 @@ rml:logicalSource [
         ].
  <#SensorTolueno>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -830,7 +829,7 @@ rml:logicalSource [
         ].
         <#ObservacionNO>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -875,7 +874,7 @@ rml:logicalSource [
         ].
  <#SensorNO>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -897,7 +896,7 @@ rml:logicalSource [
         ].
 <#ObservacionNO2>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -942,7 +941,7 @@ rml:logicalSource [
         ].
  <#SensorNO2>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -964,7 +963,7 @@ rml:logicalSource [
         ].
 <#ObservacionWindDir>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -1009,7 +1008,7 @@ rml:logicalSource [
         ].
  <#SensorWindDir>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -1031,7 +1030,7 @@ rml:logicalSource [
         ].
 <#ObservacionWindSpeed>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -1076,7 +1075,7 @@ rml:logicalSource [
         ].
  <#SensorWindSpeed>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -1098,7 +1097,7 @@ rml:logicalSource [
         ].
 <#ObservacionTemperature>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -1143,7 +1142,7 @@ rml:logicalSource [
         ].
  <#SensorTemperature>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
@@ -1165,7 +1164,7 @@ rml:logicalSource [
         ].
 <#ObservacionPressure>
 rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$"
     ]; 
@@ -1210,7 +1209,7 @@ rml:logicalSource [
         ].
  <#SensorPressure>
 	rml:logicalSource [
-    rml:source "enviroment_airquality_201709-0.json";
+    rml:source "JsonToRDFCalidadDelAire/data/enviroment_airquality_201709-0.json";
     rml:referenceFormulation ql:JSONPath;
     rml:iterator "$" 
     ]; 
