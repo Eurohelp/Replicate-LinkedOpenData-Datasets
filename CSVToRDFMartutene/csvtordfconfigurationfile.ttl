@@ -18,7 +18,7 @@
 #predicados y objetos necesarios
 <#Urumea>
 rml:logicalSource [
-		rml:source "newdata/martutene.csv";
+		rml:source "CSVToRDFMartutene/newdata/martutene.csv";
         rml:referenceFormulation ql:CSV
     ];
  		rr:subjectMap [
@@ -36,7 +36,7 @@ rml:logicalSource [
 
 <#Observacion>
 rml:logicalSource [
-		rml:source "newdata/martutene.csv";
+		rml:source "CSVToRDFMartutene/newdata/martutene.csv";
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
@@ -80,7 +80,7 @@ rml:logicalSource [
 
 <#Riesgo>
 rml:logicalSource [
-		rml:source "CSVToRDFMartutene/newdata/martutene.csv";
+		rml:source "CSVToRDFMartutene/CSVToRDFMartutene/newdata/martutene.csv";
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
@@ -103,7 +103,7 @@ rml:logicalSource [
 
 <#NivelAgua>
 rml:logicalSource [
-		rml:source "newdata/martutene.csv";
+		rml:source "CSVToRDFMartutene/newdata/martutene.csv";
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
@@ -132,7 +132,7 @@ rml:logicalSource [
 
 <#Temperatura>
 rml:logicalSource [
-		rml:source "newdata/martutene.csv";
+		rml:source "CSVToRDFMartutene/newdata/martutene.csv";
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
