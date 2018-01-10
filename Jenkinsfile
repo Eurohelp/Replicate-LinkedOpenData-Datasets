@@ -7,7 +7,7 @@ def CSVMartutene = "CSVToRDFMartutene/data/martutene.csv"
 def NewCSVMartutene = "CSVToRDFMartutene/newdata/martutene.csv"
 def RmlConfigurationFile = "CSVToRDFMartutene/csvtordfconfigurationfile.ttl"
 def RDFMartutene = "shacl/martutene.ttl"
-def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
+def NamedGraph = "http://lod.eurohelp.es/dataset/rivers-martutene"
 def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-urumea-martutene.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
