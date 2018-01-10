@@ -11,5 +11,4 @@ public class Client {
 		File file = new File(args[0]);
 		Silk.executeFile(file, null, 8, true);
 	}
-} 
-
+}

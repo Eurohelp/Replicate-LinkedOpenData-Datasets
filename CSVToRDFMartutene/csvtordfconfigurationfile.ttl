@@ -28,7 +28,7 @@ rml:logicalSource [
     	rr:predicateObjectMap [
         rr:predicate rdfs:label;
         rr:objectMap [
-            rr:constant "Rio Urumea a su paso por Martutene";
+            rr:constant "Rio Urumea";
 			rr:language "es";
         ]
         ]
