@@ -80,7 +80,7 @@ rml:logicalSource [
 
 <#Riesgo>
 rml:logicalSource [
-		rml:source "newdata/martutene.csv";
+		rml:source "CSVToRDFMartutene/newdata/martutene.csv";
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
