@@ -19,7 +19,7 @@
 		<DataSource id="blazegraph" type="sparqlEndpoint">
 			<Param name="endpointURI"
 				value="http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql" />
-			<Param name="graph" value="http://lod.eurohelp.es/dataset/urumea-martutene" />
+			<Param name="graph" value="http://lod.eurohelp.es/dataset/rivers-martutene" />
 		</DataSource>
 	</DataSources>
 	<Interlinks>
