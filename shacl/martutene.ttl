@@ -1,0 +1,1257 @@
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-15-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6894"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-15-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-14-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.7072"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-14-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.728"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-14-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.7607"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-14-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.7936"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-14-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.83"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-14-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.863"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-13-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.903"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-13-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.945"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-13-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.998"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-13-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.041"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-13-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.086"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-13-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.135"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-12-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.183"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-12-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.236"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-12-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.279"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-12-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.32"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-12-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.36"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-12-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.397"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-11-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.432"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-11-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.471"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-11-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.498"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-11-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.517"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-11-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.544"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-11-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.557"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-10-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.571"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-10-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.576"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-10-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.574"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-10-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.569"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-10-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.559"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-10-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.547"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-09-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.52"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-09-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.49"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-09-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.458"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-09-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.425"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-09-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.379"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-09-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.34"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-08-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.284"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-08-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.217"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-08-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.152"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-08-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.084"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-08-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.009"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-08-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.937"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-07-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.853"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-07-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.7842"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-07-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.7236"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-07-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.691"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-07-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.662"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-07-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6541"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-06-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6595"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-06-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.657"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-06-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6502"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-06-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.656"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-06-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6557"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-06-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.658"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-05-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.659"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-05-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6633"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-05-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6633"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-05-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6639"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-05-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6631"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-05-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6666"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-04-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6658"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-04-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6699"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-04-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6761"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-04-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.682"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-2018-01-09-04-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6856"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-15-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-15-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-14-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-14-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-14-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-14-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-14-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-14-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-13-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-13-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-13-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-13-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-13-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-13-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-12-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-12-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-12-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-12-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-12-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-12-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-11-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-11-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-11-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-11-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-11-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-11-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-10-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-10-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-10-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-10-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-10-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-10-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-09-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-09-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-09-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-09-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-09-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-09-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-08-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-08-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-08-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-08-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-08-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-08-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-07-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-07-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-07-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-07-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-07-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-07-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-06-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-06-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-06-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-06-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-06-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-06-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-05-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-05-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-05-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-05-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-05-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-05-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-04-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-04-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-04-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-04-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-riesgo-2018-01-09-04-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "No hay riesgo"@es ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-10> .
+
+<http://lod.eurohelp.es/id/river/urumea> a <http://schema.org/RiverBodyOfWater> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Rio Urumea a su paso por Martutene"@es .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-15-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T15:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T14:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T14:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T14:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T14:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T14:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T14:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T13:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T13:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T13:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T13:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T13:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T13:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T12:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T12:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T12:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T12:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T12:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T12:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T11:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T11:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T11:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T11:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T11:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T11:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T10:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T10:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T10:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T10:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T10:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T10:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T09:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T09:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T09:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T09:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T09:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T09:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T08:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T08:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T08:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T08:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T08:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T08:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T07:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T07:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T07:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T07:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T07:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T07:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T06:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T06:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T06:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T06:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T06:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T06:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T05:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T05:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T05:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T05:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T05:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-00> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T05:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-50> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T04:50:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-40> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T04:40:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-30> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T04:30:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-20> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T04:20:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-10> a <http://purl.org/linked-data/cube#Observation> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion> <http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo> , <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion> <http://lod.eurohelp.es/id/river/urumea> ;
+	<http://purl.org/dc/terms/date> "2018-01-09T04:10:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-15-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6894"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-15-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-14-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.7072"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-14-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.728"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-14-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.7607"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-14-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.7936"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-14-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.83"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-14-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.863"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-14-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-13-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.903"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-13-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.945"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-13-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.998"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-13-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.041"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-13-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.086"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-13-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.135"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-13-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-12-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.183"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-12-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.236"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-12-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.279"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-12-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.32"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-12-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.36"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-12-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.397"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-12-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-11-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.432"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-11-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.471"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-11-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.498"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-11-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.517"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-11-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.544"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-11-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.557"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-11-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-10-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.571"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-10-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.576"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-10-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.574"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-10-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.569"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-10-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.559"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-10-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.547"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-10-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-09-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.52"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-09-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.49"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-09-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.458"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-09-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.425"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-09-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.379"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-09-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.34"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-09-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-08-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.284"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-08-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.217"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-08-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.152"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-08-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.084"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-08-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "1.009"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-08-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.937"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-08-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-07-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.853"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-07-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.7842"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-07-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.7236"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-07-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.691"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-07-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.662"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-07-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6541"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-07-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-06-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6595"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-06-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.657"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-06-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6502"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-06-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.656"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-06-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6557"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-06-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.658"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-06-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-05-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.659"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-05-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6633"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-05-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6633"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-05-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6639"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-05-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6631"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-10> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-05-00> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6666"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-05-00> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-04-50> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6658"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-50> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-04-40> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6699"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-40> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-04-30> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6761"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-30> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-04-20> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.682"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-20> .
+
+<http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-temperatura-2018-01-09-04-10> a <http://lod.eurohelp.es/def/medio-ambiente/medicion/temperatura> ;
+	<http://purl.org/linked-data/sdmx/2009/measure#obsValue> "0.6856"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure> "metros" ;
+	<http://lod.eurohelp.es/def/medio-ambiente/observacion-asociada> <http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-martutene-2018-01-09-04-10> .

@@ -1,0 +1,96 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:	<http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:	<http://lod.eurohelp.es/replicate/shacl/urumea> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix lod: <http://lod.eurohelp.es/def/medio-ambiente/> .
+@prefix medicion: <http://lod.eurohelp.es/def/medio-ambiente/medicion/> .
+@prefix purl-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
+@prefix purl-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
+
+ex:RiverShape
+	a sh:NodeShape ;
+	sh:targetClass schema:RiverBodyOfWater;
+	sh:property [
+	sh:path rdfs:label ;
+	sh:minCount 1 ;
+	sh:message "Un rio debe tener un label@es";
+	sh:severity sh:Violation ;
+	].
+	
+ex:ObservationShape
+	a sh:NodeShape ;
+	sh:targetClass qb:Observation ;
+	sh:property [
+	sh:path dcterms:date; 
+	sh:datatype xsd:dateTime;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:message "Una observacion debe tener asociada una fecha@es";
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path medicion:rio-medicion ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:message "La observacion tiene que tener un rio asociado sobre el cual se realizo la medicion@es";
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path lod:medicion ;
+	sh:minCount 1 ;
+	sh:message "La observacion deberia tener mediciones asociadas@es";
+	sh:severity sh:Info ;
+	].
+	
+	
+ex:NivelAguaMeditionShape
+	a sh:NodeShape ;
+	sh:targetClass medicion:nivel-agua ;
+	sh:property [
+	sh:path purl-measure:obsValue ;
+	sh:datatype xsd:float ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:message "La observacion tiene que tener un valor asociado referente al nivel del agua del rio@es";
+	sh:severity sh:Warning ;
+	];
+	sh:property [
+	sh:path purl-attribute:unitMeasure ;
+	sh:minCount 1 ;
+	sh:message "La observacion tiene que tener un valor asociado referente a la unidad de medida del nivel del agua@es";
+	sh:severity sh:Info ;
+	].
+	
+ex:ObservacionAsociadaMeditionShape
+	a sh:NodeShape ;
+	sh:targetClass lod:observacion-asociada ;
+	sh:property [
+	sh:path purl-measure:obsValue ;
+	sh:datatype xsd:float ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:message "La observacion tiene que tener un valor asociado referente al nivel del agua del rio@es";
+	sh:severity sh:Warning ;
+	];
+	sh:property [
+	sh:path purl-attribute:unitMeasure ;
+	sh:minCount 1 ;
+	sh:message "La observacion tiene que tener un valor asociado referente a la unidad de medida del nivel del agua@es";
+	sh:severity sh:Info ;
+	].
+	
+ex:RiesgoMeditionShape
+	a sh:NodeShape ;
+	sh:targetClass medicion:riesgo ;
+	sh:property [
+	sh:path purl-measure:obsValue ;
+	sh:languageIn ("es");
+	sh:minCount 1 ;
+	sh:message "La observacion tiene que tener un valor asociado referente al riesgo del rio@es";
+	sh:severity sh:Warning ;
+	].
