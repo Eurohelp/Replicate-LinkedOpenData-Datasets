@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" ?>
 <Silk>
 	<Prefixes>
 		<Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#" />
@@ -10,7 +9,6 @@
 		<Prefix id="frapo" namespace="http://purl.org/cerif/frapo/" />
 		<Prefix id="geo" namespace="http://www.w3.org/2003/01/geo/wgs84_pos#" />
 		<Prefix id="dbpediaa" namespace="http://dbpedia.org/ontology/" />
-		<Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#" />
 	</Prefixes>
 	<DataSources>
 		<DataSource id="dbpedia" type="sparqlEndpoint">
@@ -34,31 +32,21 @@
 				<RestrictTo>?b rdf:type schema:RiverBodyOfWater</RestrictTo>
 			</TargetDataset>
 			<LinkageRule>
-				<Aggregate type="max">
-					<Compare metric="jaccard" threshold="1">
-						<TransformInput function="tokenize">
-							<Input path="?a/rdfs:label" />
-						</TransformInput>
-						<TransformInput function="tokenize">
-							<Input path="?b/rdfs:label" />
-						</TransformInput>
-					</Compare>
-				</Aggregate>
+				<Compare metric="softjaccard" threshold="0.8">
+					<TransformInput function="tokenize">
+						<Input path="?a/rdfs:label" />
+					</TransformInput>
+					<TransformInput function="tokenize">
+						<Input path="?b/rdfs:label" />
+					</TransformInput>
+				</Compare>
 			</LinkageRule>
-			<Filter limit="1" />
+			<Outputs>
+				<Output type="file" minConfidence="0.8">
+					<Param name="file" value="accepted_links.nt" />
+					<Param name="format" value="ntriples" />
+				</Output>
+			</Outputs>
 		</Interlink>
 	</Interlinks>
-	<Outputs>
-		<Output type="file" minConfidence="0.33">
-			<Param name="sparql" value="http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql" />
-			<Param name="login" value="admin" />
-			<Param name="password" value="ctxakurra" />
-			<Param name="graphUri" value="http://lod.eurohelp.es/dataset/rivers-txominenea" />
-			<Param name="parameter" value="update" />
-		</Output>
-		<Output type="file" maxConfidence="0.95">
-			<Param name="file" value="links_a_verificar.nt" />
-			<Param name="format" value="alignment" />
-		</Output>
-	</Outputs>
 </Silk>
