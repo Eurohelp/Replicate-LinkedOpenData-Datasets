@@ -7,7 +7,7 @@ def CSVUrumea = "CSVToRDFUrumea/data/txominea.csv"
 def NewCSVUrumea = "CSVToRDFUrumea/newdata/txominea.csv"
 def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
 def RDFUrumea = "shacl/urumea.ttl"
-def NamedGraph = "http://lod.eurohelp.es/dataset/rivers-txominenea"
+def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
 def CompleteGraphUri = "http://localhost:8081/blazegraph/namespace/replicate-mishel/sparql?context-uri="+NamedGraph
 def SHACLfile = "shacl/shacl-urumea.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
@@ -16,10 +16,11 @@ def SilkConfiguration = "silk/silk-test.xml"
 def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
 def LinksSilk = "silk/accepted_links.nt"
+
 node {
     try {
         stage('Remove data from blazegraph') {
-        sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'        
+            sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
         }
         stage('Checkout pipeline') {
             git branch: 'pipeline-urumeardfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
@@ -43,7 +44,7 @@ node {
             }
         }
         stage('Discovery links') {
-            def ret = sh(script: 'java -jar silk/silkrunner.jar ' + SilkConfiguration, returnStdout: true)
+            def ret = sh(script: 'java -jar silk/urumeasilkrunner.jar ' + SilkConfiguration, returnStdout: true)
             if (ret.contains("Wrote 0 links")) {
                 sh 'exit 1'
             }
