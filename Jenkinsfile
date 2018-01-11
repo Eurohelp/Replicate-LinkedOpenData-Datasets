@@ -8,7 +8,7 @@ def NewCSVUrumea = "CSVToRDFUrumea/newdata/txominea.csv"
 def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
 def RDFUrumea = "shacl/urumea.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/rivers-txominenea"
-def CompleteGraphUri = "http://localhost:8081/blazegraph/namespace/replicate-mishel/sparql?context-uri=" + NamedGraph
+def CompleteGraphUri = "http://localhost:8081/blazegraph/namespace/replicate-mishel/sparql?context-uri="+NamedGraph
 def SHACLfile = "shacl/shacl-urumea.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/report.ttl"
@@ -18,8 +18,8 @@ def date = sdf.format(new Date())
 def LinksSilk = "silk/accepted_links.nt"
 node {
     try {
-        stage('Remove data from blazegraph') {
-            sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
+        stage('Remove data from blazegraph') {            
+        sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
         }
         stage('Checkout pipeline') {
             git branch: 'pipeline-urumeardfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'

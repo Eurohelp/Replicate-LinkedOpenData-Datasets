@@ -19,10 +19,6 @@
 	</build>
 	<repositories>
 		<repository>
-			<id>ReplicateMavenRepo</id>
-			<url>file:///${project.basedir}/lib</url>
-		</repository>
-		<repository>
 			<id>stardog-public</id>
 			<url>http://maven.stardog.com</url>
 		</repository>
