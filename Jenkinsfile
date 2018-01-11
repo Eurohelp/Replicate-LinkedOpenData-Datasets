@@ -7,7 +7,7 @@ def CSVUrumea = "CSVToRDFUrumea/data/txominea.csv"
 def NewCSVUrumea = "CSVToRDFUrumea/newdata/txominea.csv"
 def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
 def RDFUrumea = "shacl/urumea.ttl"
-def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
+def NamedGraph = "http://lod.eurohelp.es/dataset/rivers-txominenea"
 def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-urumea.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
