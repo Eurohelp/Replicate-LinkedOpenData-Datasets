@@ -18,8 +18,8 @@ def date = sdf.format(new Date())
 def LinksSilk = "silk/accepted_links.nt"
 node {
     try {
-        stage('Remove data from blazegraph') {            
-        sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
+        stage('Remove data from blazegraph') {
+        sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'        
         }
         stage('Checkout pipeline') {
             git branch: 'pipeline-urumeardfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
