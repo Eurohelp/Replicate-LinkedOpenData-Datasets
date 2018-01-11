@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Silk>
 	<Prefixes>
 		<Prefix id="rdfs" namespace="http://www.w3.org/2000/01/rdf-schema#" />
@@ -9,6 +10,7 @@
 		<Prefix id="frapo" namespace="http://purl.org/cerif/frapo/" />
 		<Prefix id="geo" namespace="http://www.w3.org/2003/01/geo/wgs84_pos#" />
 		<Prefix id="dbpediaa" namespace="http://dbpedia.org/ontology/" />
+		<Prefix id="owl" namespace="http://www.w3.org/2002/07/owl#" />
 	</Prefixes>
 	<DataSources>
 		<DataSource id="dbpedia" type="sparqlEndpoint">
@@ -32,21 +34,28 @@
 				<RestrictTo>?b rdf:type schema:RiverBodyOfWater</RestrictTo>
 			</TargetDataset>
 			<LinkageRule>
-				<Compare metric="softjaccard" threshold="0.8">
-					<TransformInput function="tokenize">
-						<Input path="?a/rdfs:label" />
-					</TransformInput>
-					<TransformInput function="tokenize">
-						<Input path="?b/rdfs:label" />
-					</TransformInput>
-				</Compare>
+				<Aggregate type="max">
+					<Compare metric="jaccard" threshold="1">
+						<TransformInput function="tokenize">
+							<Input path="?a/rdfs:label" />
+						</TransformInput>
+						<TransformInput function="tokenize">
+							<Input path="?b/rdfs:label" />
+						</TransformInput>
+					</Compare>
+				</Aggregate>
 			</LinkageRule>
-			<Outputs>
-				<Output type="file" minConfidence="0.8">
-					<Param name="file" value="accepted_links.nt" />
-					<Param name="format" value="ntriples" />
-				</Output>
-			</Outputs>
+			<Filter limit="1" />
 		</Interlink>
 	</Interlinks>
+	<Outputs>
+		<Output type="file" minConfidence="0.33">
+			<Param name="file" value="links_aceptados.nt" />
+			<Param name="format" value="ntriples" />
+		</Output>
+		<Output type="file" maxConfidence="0.95">
+			<Param name="file" value="links_a_verificar.nt" />
+			<Param name="format" value="alignment" />
+		</Output>
+	</Outputs>
 </Silk>

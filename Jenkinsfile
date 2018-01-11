@@ -43,7 +43,7 @@ node {
             }
         }
         stage('Discovery links') {
-            def ret = sh(script: 'java -jar silk/urumeasilkrunner.jar ' + SilkConfiguration, returnStdout: true)
+            def ret = sh(script: 'java -jar silk/silkrunner.jar ' + SilkConfiguration, returnStdout: true)
             if (ret.contains("Wrote 0 links")) {
                 sh 'exit 1'
             }
