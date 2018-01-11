@@ -21,7 +21,7 @@
 		<DataSource id="blazegraph" type="sparqlEndpoint">
 			<Param name="endpointURI"
 				value="http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql" />
-			<Param name="graph" value="http://lod.eurohelp.es/dataset/rivers" />
+			<Param name="graph" value="http://lod.eurohelp.es/dataset/rivers-txominenea" />
 		</DataSource>
 	</DataSources>
 	<Interlinks>
@@ -50,8 +50,11 @@
 	</Interlinks>
 	<Outputs>
 		<Output type="file" minConfidence="0.33">
-			<Param name="file" value="links_aceptados.nt" />
-			<Param name="format" value="ntriples" />
+			<Param name="sparql" value="http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql" />
+			<Param name="login" value="admin" />
+			<Param name="password" value="ctxakurra" />
+			<Param name="graphUri" value="http://lod.eurohelp.es/dataset/rivers-txominenea" />
+			<Param name="parameter" value="update" />
 		</Output>
 		<Output type="file" maxConfidence="0.95">
 			<Param name="file" value="links_a_verificar.nt" />
