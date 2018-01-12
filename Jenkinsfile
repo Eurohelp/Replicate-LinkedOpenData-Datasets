@@ -2,13 +2,13 @@
 
 import java.text.SimpleDateFormat
 
-def SPARQLendpoint = "http://localhost:8081/blazegraph/namespace/replicate-mishel/sparql"
+def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql"
 def CSVUrumea = "CSVToRDFUrumea/data/txominea.csv"
 def NewCSVUrumea = "CSVToRDFUrumea/newdata/txominea.csv"
 def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
 def RDFUrumea = "shacl/urumea.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
-def CompleteGraphUri = "http://localhost:8081/blazegraph/namespace/replicate-mishel/sparql?context-uri=" + NamedGraph
+def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-urumea.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/report.ttl"
@@ -43,7 +43,7 @@ node {
             }
         }
         stage('Discovery links') {
-            def ret = sh(script: 'java -jar silk/silkrunner.jar ' + SilkConfiguration, returnStdout: true)
+            def ret = sh(script: 'java -jar silk/urumeasilkrunner.jar ' + SilkConfiguration, returnStdout: true)
             if (ret.contains("Wrote 0 links")) {
                 sh 'exit 1'
             }
@@ -59,7 +59,7 @@ node {
             println "Se ha producido un fallo se enviara un correo notificandolo"
             mail(to: 'dmuv7@hotmail.com',
                 subject: "Fallo en ${env.JOB_NAME}",
-                body: "Ha fallado la ejecuci�n de '${env.JOB_NAME}', el error se ha dado en: " + date + ". Revisa el error en http://localhost:8081/jenkins/job/Replicate-Donosti-Parkings/${env.BUILD_NUMBER}",
+                body: "Ha fallado la ejecuci�n de '${env.JOB_NAME}', el error se ha dado en: " + date + ". Revisa el error en http://172.16.0.81:8008/jenkins/job/Replicate-Donosti-Parkings/${env.BUILD_NUMBER}",
                 mimeType: 'text/html');
             currentBuild.result = 'FAILURE'
         }
