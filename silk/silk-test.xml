@@ -23,7 +23,7 @@
 		</DataSource>
 	</DataSources>
 	<Interlinks>
-		<Interlink id="persons">
+		<Interlink id="rivers">
 			<LinkType>owl:sameAs</LinkType>
 			<SourceDataset var="a" dataSource="dbpedia">
 				<RestrictTo>?a rdf:type schema:BodyOfWater</RestrictTo>
