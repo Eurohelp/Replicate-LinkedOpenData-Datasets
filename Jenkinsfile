@@ -2,7 +2,7 @@
 
 import java.text.SimpleDateFormat
 
-def SPARQLendpoint = "http://10.0.2.15:8081/blazegraph/namespace/replicate-mishel/sparql"
+def SPARQLendpoint = "http://172.17:8081/blazegraph/namespace/replicate-mishel/sparql"
 def CSVUrumea = "CSVToRDFUrumea/data/txominea.csv"
 def NewCSVUrumea = "CSVToRDFUrumea/newdata/txominea.csv"
 def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
