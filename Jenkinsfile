@@ -2,13 +2,13 @@
 
 import java.text.SimpleDateFormat
 
-def SPARQLendpoint = "http://blzg-write:8081/blazegraph/namespace/replicate-mishel/sparql"
+def SPARQLendpoint = "http://blzg-write:8081/blazegraph/namespace/kb/sparql"
 def CSVUrumea = "CSVToRDFUrumea/data/txominea.csv"
 def NewCSVUrumea = "CSVToRDFUrumea/newdata/txominea.csv"
 def RmlConfigurationFile = "CSVToRDFUrumea/csvtordfconfigurationfile.ttl"
 def RDFUrumea = "shacl/urumea.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/rivers"
-def CompleteGraphUri = "http://blzg-write:8081/blazegraph/namespace/replicate-mishel/sparql?context-uri=" + NamedGraph
+def CompleteGraphUri = "http://blzg-write:8081/blazegraph/namespace/kb/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-urumea.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/report.ttl"
