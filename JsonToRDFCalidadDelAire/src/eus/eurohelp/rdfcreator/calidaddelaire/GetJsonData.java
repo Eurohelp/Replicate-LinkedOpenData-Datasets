@@ -17,8 +17,10 @@ public class GetJsonData {
 		String collection = args[1];
 		String patternToFind = args[2];
 		String fileGeneratedPath = args[3];
+		String mongoDBHost = args[4];
+		String mongoDBPort = args [5];
 		
-		MongoDBUtils mongoDB = new MongoDBUtils(dataBase, collection);		
+		MongoDBUtils mongoDB = new MongoDBUtils(dataBase, collection, mongoDBHost, mongoDBPort);		
 		mongoDB.getDocument(patternToFind, fileGeneratedPath);
 		
 	}

@@ -32,9 +32,9 @@ public class MongoDBUtils {
 	 * @param pCollection
 	 * @throws IOException
 	 */
-	public MongoDBUtils(String pDataBase, String pCollection) throws IOException {
-		String mongoPath = PropertiesManager.getINSTANCE().getProperty("mongodb-client");
-		String mongoPort = PropertiesManager.getINSTANCE().getProperty("mongodb-port");
+	public MongoDBUtils(String pDataBase, String pCollection, String pMongodbHost, String pMongoDBPort) throws IOException {
+		String mongoPath = pMongodbHost;
+		String mongoPort = pMongoDBPort;
 		mongoClient = new MongoClient(mongoPath, Integer.parseInt(mongoPort));
 		dataBase = mongoClient.getDatabase(pDataBase);
 		collection = dataBase.getCollection(pCollection);
