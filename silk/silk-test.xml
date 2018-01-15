@@ -18,7 +18,7 @@
 		</DataSource>
 		<DataSource id="blazegraph" type="sparqlEndpoint">
 			<Param name="endpointURI"
-				value="http://10.0.2.15:8081/blazegraph/namespace/replicate-mishel/sparql" />
+				value="http://http://blzg-write:8080/blazegraph/namespace/replicate-mishel/sparql" />
 			<Param name="graph" value="http://lod.eurohelp.es/dataset/rivers-txominenea" />
 		</DataSource>
 	</DataSources>
