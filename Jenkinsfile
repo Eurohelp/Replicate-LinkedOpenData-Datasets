@@ -2,13 +2,13 @@
 
 import java.text.SimpleDateFormat
 
-def SPARQLendpoint = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql"
+def SPARQLendpoint = "http://blzg-write:8080/blazegraph/namespace/kb/sparql"
 def CSVParkings = "CSVToRDFParkings/data/parkings.csv"
 def NewCSVParkings = "CSVToRDFParkings/newdata/parkings.csv"
 def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile.ttl"
 def RDFParkings = "shacl/parkings.ttl"
 def NamedGraph = "http://lod.eurohelp.es/dataset/parkings"
-def CompleteGraphUri = "http://172.16.0.81:58080/blazegraph/namespace/replicate-mishel/sparql?context-uri=http://lod.eurohelp.es/dataset/parkings"
+def CompleteGraphUri = "http://blzg-write:8080/blazegraph/namespace/kb/sparql?context-uri=http://lod.eurohelp.es/dataset/parkings"
 def SHACLfile = "shacl/shacl-parkings.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/report.ttl"
@@ -60,7 +60,7 @@ node {
             println "Se ha producido un fallo se enviara un correo notificandolo"
             mail(to: 'dmuv7@hotmail.com',
                 subject: "Fallo en ${env.JOB_NAME}",
-                body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + ". Revisa el error en http://172.16.0.81:8008/jenkins/job/Replicate-Donosti-Parkings/${env.BUILD_NUMBER}",
+                body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + ". Revisa el error en http://blz-write:8080/jenkins/job/Replicate-Donosti-Parkings/${env.BUILD_NUMBER}",
                 mimeType: 'text/html');
             currentBuild.result = 'FAILURE'
         }
