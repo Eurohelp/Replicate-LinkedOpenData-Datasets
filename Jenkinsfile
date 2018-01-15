@@ -14,8 +14,8 @@ def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
 def MongoDataBase = "dashboard"
 def MongoCollection = "iot_environment_measurements"
-def MongoDBHost = ${env.host}
-def MongoDBPort = ${env.host}
+def MongoDBHost = "${env.host}"
+def MongoDBPort = "${env.port}"
 def PatternToFind = "all:all:environment_airquality:201709:all"
 def PathToStoreJson = "enviroment_airquality_201709.json"
 def JsonCalidadAire = "enviroment_airquality_201709-0.json"
@@ -29,7 +29,7 @@ node {
             git branch: 'pipeline-calidaddelaire', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         stage('Get data from MongoDB') {
-			def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/get-json.jar ' + MongoDataBase + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + PathToStoreJson, returnStdout: true)
+			def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/get-json.jar ' + MongoDataBase + ' ' + MongoCollection + ' ' + PatternToFind + ' ' + PathToStoreJson + ' ' + MongoDBHost + ' ' + MongoDBPort, returnStdout: true)
             if (ret.contains('No se encuentran datos con ese patron')) {
                 sh 'exit 1'
             }
