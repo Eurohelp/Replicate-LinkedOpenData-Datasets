@@ -59,7 +59,7 @@ node {
             println "Se ha producido un fallo se enviara un correo notificandolo"
             mail(to: 'dmuv7@hotmail.com',
                 subject: "Fallo en ${env.JOB_NAME}",
-                body: "Ha fallado la ejecuci�n de '${env.JOB_NAME}', el error se ha dado en: " + date + ". Revisa el error en http://blzg-write:8080/jenkins/job/Replicate-Donosti-Parkings/${env.BUILD_NUMBER}",
+                body: "Ha fallado la ejecuci�n de '${env.JOB_NAME}', el error se ha dado en: " + date + ". Revisa el error en http://blzg-write:8080/jenkins/job/Replicate-Pipeline/${env.BUILD_NUMBER}",
                 mimeType: 'text/html');
             currentBuild.result = 'FAILURE'
         }
