@@ -8,8 +8,8 @@
 @prefix linkedgeodata: <http://linkedgeodata.org/page/ontology/> .
 @prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix lod: <http://lod.eurohelp.es/def/medio-ambiente/> .
-@prefix lod-medicion: <http://lod.eurohelp.es/def/medio-ambiente/medicion/> .
+@prefix lod: <http://donostia.eus/data/id/> .
+@prefix lod-medicion: <http://donostia.eus/data/id/medicion-> .
 @prefix purl-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix purl-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
 
@@ -39,7 +39,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
-        rr:template "http://lod.eurohelp.es/recurso/medio-ambiente/rio/urumea-txominenea-{eguna}-{horaParaUri}";
+        rr:template "http://donostia.eus/data/id/urumea-txominenea-{eguna}-{horaParaUri}";
         rr:class qb:Observation;
     	];
     	rr:predicateObjectMap [
@@ -52,19 +52,19 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate lod:medicion;
         rr:objectMap [
-            rr:constant "http://lod.eurohelp.es/def/medio-ambiente/medicion/riesgo";
+            rr:constant "http://donostia.eus/data/id/riesgo";
             rr:termType rr:IRI;
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate lod:medicion;
         rr:objectMap [
-            rr:constant "http://lod.eurohelp.es/def/medio-ambiente/medicion/nivel-agua";
+            rr:constant "http://donostia.eus/data/id/nivel-agua";
             rr:termType rr:IRI;
         ]
         ];
         rr:predicateObjectMap [
-        rr:predicate "http://lod.eurohelp.es/def/medio-ambiente/medicion/rio-medicion";
+        rr:predicate "http://donostia.eus/data/id/rio-medicion";
         rr:objectMap [
 		rr:parentTriplesMap <#Urumea>;
         ]
@@ -75,7 +75,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
-        rr:template "http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-riesgo-{eguna}-{horaParaUri}";
+        rr:template "http://donostia.eus/data/id/medicion-urumea-txominenea-riesgo-{eguna}-{horaParaUri}";
         rr:class lod-medicion:riesgo;
     	];                       
         rr:predicateObjectMap [
@@ -91,7 +91,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
-        rr:template "http://lod.eurohelp.es/recurso/medio-ambiente/medicion/urumea-txominenea-nivel-agua-{eguna}-{horaParaUri}";
+        rr:template "http://donostia.eus/data/id/medicion-urumea-txominenea-nivel-agua-{eguna}-{horaParaUri}";
         rr:class lod-medicion:nivel-agua;
     	];                       
         rr:predicateObjectMap [
