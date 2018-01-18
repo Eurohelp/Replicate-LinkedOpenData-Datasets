@@ -4,11 +4,11 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix ex:	<http://lod.eurohelp.es/replicate/shacl/urumea> .
+@prefix ex:	<http://donostia.eus/data/id/shacl-urumea-martutene> .
 @prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix lod: <http://lod.eurohelp.es/def/medio-ambiente/> .
-@prefix medicion: <http://lod.eurohelp.es/def/medio-ambiente/medicion/> .
+@prefix lod: <http://donostia.eus/data/id/> .
+@prefix medicion: <http://donostia.eus/data/id/medicion-> .
 @prefix purl-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix purl-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
 
