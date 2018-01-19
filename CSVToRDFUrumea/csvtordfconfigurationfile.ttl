@@ -21,7 +21,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  		rr:subjectMap [
-        rr:constant "http://lod.eurohelp.es/id/river/urumea";
+        rr:constant "http://donostia.eus/data/id/urumea";
         rr:class schema:RiverBodyOfWater;
     ];
     	rr:predicateObjectMap [
