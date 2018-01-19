@@ -38,7 +38,7 @@ node {
             }
         }
         stage('RDF quality') {
-            def ret = sh(script: 'java -jar rdfquality/shacl-urumea.jar ' + RDFUrumea + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
+            def ret = sh(script: 'java -jar rdfquality/shacl-txominea.jar ' + RDFUrumea + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
             if (ret.contains("Not valid RDF")) {
                 sh 'exit 1'
             }
