@@ -4,8 +4,8 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix schema: <http://schema.org/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix ex:	<http://lod.eurohelp.es/replicate/shacl/parkings> .
-@prefix lod: <http://lod.eurohelp.es/def/> .
+@prefix ex:	<http://euskadi.eus/data/id/shacl-parkings> .
+@prefix lod: <http://donostia.eus/data/id/> .
 @prefix w3-time: <http://www.w3.org/2006/>.
 
 # A parking should have a latitude with xsd:float value between 43.2 and 43.4
