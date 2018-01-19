@@ -7,9 +7,8 @@
 @prefix ssn: <http://www.w3.org/ns/ssn/> .
 @prefix sosa: <http://www.w3.org/ns/sosa/> .
 @prefix schema: <http://schema.org/> .
-@prefix lod: <http://lod.eurohelp.es/def/> .
+@prefix lod: <http://donostia.eus/data/id/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix fare: <<http://lod.eurohelp.es/id/fare/>.
 @prefix w3-time: <http://www.w3.org/2006/>.
 @prefix aws : <http://purl.oclc.org/NET/ssnx/meteo/aws#> .
 
@@ -22,7 +21,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-rain";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-rain";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -36,7 +35,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -73,13 +72,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-rain"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-rain"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionCO>
@@ -89,13 +88,13 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-co";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-co";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -140,13 +139,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-co"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-co"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
         
@@ -157,7 +156,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-co8h";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-co8h";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -171,7 +170,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -208,20 +207,20 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-co8h"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-co8h"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
         <#ObservacionO3>
@@ -231,7 +230,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-o3";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-o3";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -245,7 +244,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -282,13 +281,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-o3"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-o3"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
  <#ObservacionPM10>
@@ -298,7 +297,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pm10";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-pm10";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -312,7 +311,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -349,13 +348,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pm10"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-pm10"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
  <#ObservacionPM25>
@@ -365,13 +364,13 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pm25";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-pm25";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -416,13 +415,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pm25"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-pm25"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionSO2>
@@ -432,7 +431,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-so2";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-so2";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -446,7 +445,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -483,13 +482,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-so2"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-so2"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionBenceno>
@@ -499,7 +498,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-benceno";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-benceno";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -513,7 +512,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -550,13 +549,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-benceno"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-benceno"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionEtilbenceno>
@@ -566,7 +565,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-etilbenceno";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-etilbenceno";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -580,7 +579,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -617,13 +616,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-etilbenceno"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-etilbenceno"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionOrtoxileno>
@@ -633,7 +632,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-ortoxileno";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-ortoxileno";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -653,7 +652,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -684,13 +683,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-ortoxileno"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-ortoxileno"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionTolueno>
@@ -700,13 +699,13 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-tolueno";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-tolueno";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -751,13 +750,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-tolueno"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-tolueno"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
     <#ObservacionTolueno>
@@ -767,7 +766,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-tolueno";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-tolueno";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -781,7 +780,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -818,13 +817,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-tolueno"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-tolueno"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
         <#ObservacionNO>
@@ -834,13 +833,13 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-no";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-no";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -885,13 +884,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-no"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-no"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionNO2>
@@ -901,7 +900,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-no2";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-no2";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -915,7 +914,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -952,13 +951,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-no2"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-no2"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionWindDir>
@@ -968,7 +967,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-winddir";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-winddir";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -982,7 +981,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -1019,13 +1018,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-winddir"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-winddir"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionWindSpeed>
@@ -1035,7 +1034,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-windspeed";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-windspeed";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -1049,7 +1048,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -1086,13 +1085,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-windspeed"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-windspeed"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionTemperature>
@@ -1102,7 +1101,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-temperature";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-temperature";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -1122,7 +1121,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -1153,13 +1152,13 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-temperature"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-temperature"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
 <#ObservacionPressure>
@@ -1169,7 +1168,7 @@ rml:logicalSource [
     rml:iterator "$"
     ]; 
  	rr:subjectMap [
-        rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pressure";
+        rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-pressure";
         rr:class sosa:Observation;
     ];
     rr:predicateObjectMap [
@@ -1183,7 +1182,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-        	rr:constant "http://lod.eurohelp.es/resource/Donosti";
+        	rr:constant "http://donostia.eus/data/id/Donosti";
             rr:termType rr:IRI;
         ]
         ];
@@ -1220,12 +1219,12 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate sosa:madeObservation;
         rr:objectMap [
-		rr:template "http://opendata.euskadi.eus/recurso/medio-ambiente/{@.sensorType}/observation/all-201709-pressure"
+		rr:template "http://donostia.eus/data/id/{@.sensorType}-all-201709-pressure"
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://lod.eurohelp.es/recurso/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/data/id/procedimiento-{@.sensorType}";
         ]
         ].
