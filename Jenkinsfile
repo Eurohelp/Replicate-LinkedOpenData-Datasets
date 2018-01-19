@@ -16,6 +16,7 @@ def SilkConfiguration = "silk/silk-test.xml"
 def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
 def LinksSilk = "silk/accepted_links.nt"
+
 node {
     try {
         stage('Remove data from blazegraph') {

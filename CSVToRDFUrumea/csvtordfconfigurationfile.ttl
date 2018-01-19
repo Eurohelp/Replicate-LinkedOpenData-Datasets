@@ -93,7 +93,7 @@ rml:logicalSource [
  		rr:subjectMap [
         rr:template "http://donostia.eus/data/id/medicion-urumea-txominenea-nivel-agua-{eguna}-{horaParaUri}";
         rr:class lod-medicion:nivel-agua;
-    	];                       
+    	];
         rr:predicateObjectMap [
         rr:predicate purl-measure:obsValue;
         rr:objectMap [
