@@ -1,4 +1,4 @@
-#Se empiezan cargando los prefix que se usarán en el RDF generado
+#Se empiezan cargando los prefix que se usar?n en el RDF generado
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
 @prefix rr: <http://www.w3.org/ns/r2rml#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
@@ -10,7 +10,7 @@
 @prefix fare: <<http://donostia.eus/linkeddata/id/fare->.
 @prefix w3-time: <http://www.w3.org/2006/>.
 
-#Se define por cada sujeto un bloque en el que se podrán anadir todos los 
+#Se define por cada sujeto un bloque en el que se podr?n anadir todos los 
 #predicados y objetos necesarios
 <#PrimerBloque>
 rml:logicalSource [
@@ -38,49 +38,49 @@ rml:logicalSource [
         rr:predicate geo:lat;
         rr:objectMap [
             rml:reference "Latitud";
-            rr:linkeddatatype xsd:float;
+            rr:datatype xsd:float;
         ]
         ];
          rr:predicateObjectMap [
         rr:predicate geo:long;
         rr:objectMap [
             rml:reference "Longitud";
-            rr:linkeddatatype xsd:float;
+            rr:datatype xsd:float;
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate lod:plazasresidentes;
         rr:objectMap [
             rml:reference "PlazasResidentes";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate lod:plazasresidenteslibres;
         rr:objectMap [
             rml:reference "PlazasResidentesLibres";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate lod:plazasrotatorias;
         rr:objectMap [
             rml:reference "PlazasRotatorias";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate lod:plazasrotatoriaslibres;
         rr:objectMap [
             rml:reference "PlazasRotatoriasLibres";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate lod:plazastotales;
         rr:objectMap [
             rml:reference "PlazasTotales";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ];
         rr:predicateObjectMap [
@@ -139,7 +139,7 @@ rml:logicalSource [
         rr:predicate schema:price;
         rr:objectMap [
             rml:reference "Precio15Min";
- 			rr:linkeddatatype xsd:float;
+ 			rr:datatype xsd:float;
         ]
         ];
          rr:predicateObjectMap [
@@ -152,7 +152,7 @@ rml:logicalSource [
         rr:predicate w3-time:time;
         rr:objectMap [
             rr:constant "15";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ].
     <#Precio30Min>
@@ -169,7 +169,7 @@ rml:logicalSource [
         rr:predicate schema:price;
         rr:objectMap [
             rml:reference "Precio30Min";
-            rr:linkeddatatype xsd:float;
+            rr:datatype xsd:float;
         ]
         ];
          rr:predicateObjectMap [
@@ -182,7 +182,7 @@ rml:logicalSource [
         rr:predicate w3-time:time;
         rr:objectMap [
             rr:constant "30";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ].
          <#Precio60Min>
@@ -199,7 +199,7 @@ rml:logicalSource [
         rr:predicate schema:price;
         rr:objectMap [
             rml:reference "Precio60Min";
-            rr:linkeddatatype xsd:float;
+            rr:datatype xsd:float;
         ]
         ];
          rr:predicateObjectMap [
@@ -212,7 +212,7 @@ rml:logicalSource [
         rr:predicate w3-time:time;
         rr:objectMap [
             rr:constant "60";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ].  
          <#Precio90Min>
@@ -229,7 +229,7 @@ rml:logicalSource [
         rr:predicate schema:price;
         rr:objectMap [
             rml:reference "Precio90Min";
-            rr:linkeddatatype xsd:float;
+            rr:datatype xsd:float;
         ]
         ];
          rr:predicateObjectMap [
@@ -242,7 +242,7 @@ rml:logicalSource [
         rr:predicate w3-time:time;
         rr:objectMap [
             rr:constant "90";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ].
          <#Precio120Min>
@@ -259,7 +259,7 @@ rml:logicalSource [
         rr:predicate schema:price;
         rr:objectMap [
             rml:reference "Precio120Min";
-            rr:linkeddatatype xsd:float;
+            rr:datatype xsd:float;
         ]
         ];
          rr:predicateObjectMap [
@@ -272,7 +272,7 @@ rml:logicalSource [
         rr:predicate w3-time:time;
         rr:objectMap [
             rr:constant "120";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ].
     <#Precio180Min>
@@ -289,7 +289,7 @@ rml:logicalSource [
         rr:predicate schema:price;
         rr:objectMap [
             rml:reference "Precio180Min";
-            rr:linkeddatatype xsd:float;
+            rr:datatype xsd:float;
         ]
         ];
          rr:predicateObjectMap [
@@ -302,7 +302,7 @@ rml:logicalSource [
         rr:predicate w3-time:time;
         rr:objectMap [
             rr:constant "180";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ].      
     <#Precio300Min>
@@ -319,7 +319,7 @@ rml:logicalSource [
         rr:predicate schema:price;
         rr:objectMap [
             rml:reference "Precio300Min";
-            rr:linkeddatatype xsd:float;
+            rr:datatype xsd:float;
         ]
         ];
          rr:predicateObjectMap [
@@ -332,7 +332,7 @@ rml:logicalSource [
         rr:predicate w3-time:time;
         rr:objectMap [
             rr:constant "300";
-            rr:linkeddatatype xsd:int;
+            rr:datatype xsd:int;
         ]
         ].
 		

@@ -66,6 +66,7 @@ public class CSVToRDF {
 				System.out.println("No se ha generado RDF");
 				throw new Exception("ARGUMENTS ERROR->There is some problem with RDF Generation. Please check the program arguments \n");
 			}
+			
 			Thread.sleep(2000);
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
