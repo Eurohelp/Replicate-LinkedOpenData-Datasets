@@ -31,7 +31,7 @@ rml:logicalSource [
 		 rr:predicateObjectMap [
         rr:predicate geo:location;
         rr:objectMap [
-            rr:template "http://lod.eurohelp.es/resource/{Localizacion}";
+            rr:template "http://donostia.eus/linkeddata/id/{Localizacion}";
         ]
         ];
          rr:predicateObjectMap [
