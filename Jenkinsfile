@@ -7,7 +7,7 @@ def CSVParkings = "CSVToRDFParkings/data/parkings.csv"
 def NewCSVParkings = "CSVToRDFParkings/newdata/parkings.csv"
 def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile.ttl"
 def RDFParkings = "shacl/parkings.ttl"
-def NamedGraph = "http://lod.eurohelp.es/dataset/parkings"
+def NamedGraph = "http://donostia.eus/linkeddata/graph/parkings"
 def CompleteGraphUri = "http://blzg-write:8080/blazegraph/namespace/kb/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-parkings.ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
