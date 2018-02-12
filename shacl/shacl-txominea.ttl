@@ -7,8 +7,8 @@
 @prefix ex:	<http://donostia.eus/data/id/shacl-urumea> .
 @prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix lod: <http://donostia.eus/data/id/> .
-@prefix medicion: <http://donostia.eus/data/id/medicion-> .
+@prefix lod: <http://donostia.eus/linkeddata/id/> .
+@prefix medicion: <http://donostia.eus/linkeddata/id/medicion-> .
 @prefix purl-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix purl-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
 
