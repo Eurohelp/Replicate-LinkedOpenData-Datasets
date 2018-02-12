@@ -78,7 +78,7 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate ssn:implements;
         rr:objectMap [
-		rr:template "http://donostia.eus/linkeddata/id/procedimiento-{@.sensorType}";
+		rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}-procedure";
         ]
         ].
 <#ObservacionCO>
@@ -96,8 +96,6 @@ rml:logicalSource [
         rr:objectMap [
         	rr:constant "http://donostia.eus/linkeddata/id/Donosti";
             rr:termType rr:IRI;
-            
-            
         ]
         ];
     rr:predicateObjectMap [
