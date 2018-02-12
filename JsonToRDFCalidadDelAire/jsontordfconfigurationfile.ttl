@@ -66,7 +66,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/rain";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/rain";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -135,7 +135,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/co";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/co";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -203,7 +203,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/co8h";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/co8h";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -277,7 +277,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/o3";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/o3";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -344,7 +344,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/pm10";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/pm10";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -411,7 +411,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/pm25";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/pm25";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -478,7 +478,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/so2";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/so2";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -545,7 +545,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/benceno";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/benceno";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -612,7 +612,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/etilbenceno";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/etilbenceno";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -679,7 +679,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/ortoxileno";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/ortoxileno";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -746,7 +746,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/tolueno";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/tolueno";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -813,7 +813,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/tolueno";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/tolueno";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -880,7 +880,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/no";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/no";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -947,7 +947,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/no2";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/no2";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -1014,7 +1014,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/winddir";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/winddir";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -1081,7 +1081,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/windspeed";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/windspeed";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -1141,6 +1141,7 @@ rml:logicalSource [
         rr:datatype xsd:gYearMonth
         ]
         ].
+        
  <#SensorTemperature>
 	rml:logicalSource [
     rml:source "enviroment_airquality_201709-0.json";
@@ -1148,7 +1149,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/temperature";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/temperature";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
@@ -1215,7 +1216,7 @@ rml:logicalSource [
     rml:iterator "$" 
     ]; 
  	rr:subjectMap [
-    rr:template "http://opendata.euskadi.eus/recurso/{@.sensorType}/sensor/pressure";
+    rr:template "http://donostia.eus/linkeddata/id/{@.sensorType}/sensor/pressure";
     rr:class sosa:Sensor;
     ];
     rr:predicateObjectMap [
