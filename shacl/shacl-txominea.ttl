@@ -41,7 +41,7 @@ ex:ObservationShape
 	sh:severity sh:Violation ;
 	];
 	sh:property [
-	sh:path medicion:;
+	sh:path lod:medicion;
 	sh:minCount 1 ;
 	sh:message "La observacion deberia tener mediciones asociadas@es";
 	sh:severity sh:Info ;
