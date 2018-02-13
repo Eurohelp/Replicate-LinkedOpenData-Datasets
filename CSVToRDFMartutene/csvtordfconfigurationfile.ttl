@@ -8,11 +8,10 @@
 @prefix linkedgeodata: <http://linkedgeodata.org/page/ontology/> .
 @prefix qb: <http://purl.org/linked-data/cube#> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
-@prefix lod: <http://donostia.eus/data/id/> .
-@prefix lod-medicion: <http://donostia.eus/data/id/medicion-> .
+@prefix lod: <http://donostia.eus/linkeddata/id/> .
+@prefix lod-medicion: <http://donostia.eus/linkeddata/id/medicion-> .
 @prefix purl-measure: <http://purl.org/linked-data/sdmx/2009/measure#> .
 @prefix purl-attribute: <http://purl.org/linked-data/sdmx/2009/attribute#> .
-
 
 #Se define por cada sujeto un bloque en el que se podr?n anadir todos los 
 #predicados y objetos necesarios
@@ -22,7 +21,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  		rr:subjectMap [
-        rr:constant "http://donostia.eus/data/id/urumea";
+        rr:constant "http://donostia.eus/linkeddata/id/urumea";
         rr:class schema:RiverBodyOfWater;
     ];
     	rr:predicateObjectMap [
@@ -40,7 +39,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
-        rr:template "http://donostia.eus/data/id/urumea-martutene-{fecha}-{horaParaUri}";
+        rr:template "http://donostia.eus/linkeddata/id/urumea-martutene-{fecha}-{horaParaUri}";
         rr:class qb:Observation;
     	];
     	rr:predicateObjectMap [
@@ -53,26 +52,26 @@ rml:logicalSource [
         rr:predicateObjectMap [
         rr:predicate lod:medicion;
         rr:objectMap [
-            rr:constant "http://donostia.eus/data/id/medicion-riesgo";
+            rr:constant "http://donostia.eus/linkeddata/id/medicion-riesgo";
             rr:termType rr:IRI;
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate lod:medicion;
         rr:objectMap [
-            rr:constant "http://donostia.eus/data/id/medicion-nivel-agua";
+            rr:constant "http://donostia.eus/linkeddata/id/medicion-nivel-agua";
             rr:termType rr:IRI;
         ]
         ];
         rr:predicateObjectMap [
         rr:predicate lod:medicion;
         rr:objectMap [
-            rr:constant "http://donostia.eus/data/id/medicion-temperatura";
+            rr:constant "http://donostia.eus/linkeddata/id/medicion-temperatura";
             rr:termType rr:IRI;
         ]
         ];
         rr:predicateObjectMap [
-        rr:predicate "http://donostia.eus/data/id/medicion-rio-medicion";
+        rr:predicate "http://donostia.eus/linkeddata/id/medicion-rio-medicion";
         rr:objectMap [
 		rr:parentTriplesMap <#Urumea>;
         ]
@@ -84,7 +83,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
-        rr:template "http://donostia.eus/data/id/urumea-martutene-riesgo-{fecha}-{horaParaUri}";
+        rr:template "http://donostia.eus/linkeddata/id/urumea-martutene-riesgo-{fecha}-{horaParaUri}";
         rr:class lod-medicion:riesgo;
     	]; 
         rr:predicateObjectMap [
@@ -107,7 +106,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
-        rr:template "http://donostia.eus/data/id/urumea-txominenea-nivel-agua-{fecha}-{horaParaUri}";
+        rr:template "http://donostia.eus/linkeddata/id/urumea-txominenea-nivel-agua-{fecha}-{horaParaUri}";
         rr:class lod-medicion:nivel-agua;
     	];     
         rr:predicateObjectMap [
@@ -136,7 +135,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     	];
  		rr:subjectMap [
-        rr:template "http://donostia.eus/data/id/urumea-txominenea-temperatura-{fecha}-{horaParaUri}";
+        rr:template "http://donostia.eus/linkeddata/id/urumea-txominenea-temperatura-{fecha}-{horaParaUri}";
         rr:class lod-medicion:temperatura;
     	];
         rr:predicateObjectMap [
