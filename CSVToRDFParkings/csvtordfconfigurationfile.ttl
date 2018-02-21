@@ -18,7 +18,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/fare-{NombreParaURI}";
+        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}";
         rr:class schema:ParkingFacility;
         rr:class lod:parkingrotatorio
     ];
@@ -132,7 +132,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/fare-{NombreParaURI}/15-min-{Precio15Min}";
+        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/15-min-{Precio15Min}";
 		rr:class schema:PriceSpecification;
     ];
     rr:predicateObjectMap [
@@ -162,7 +162,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/fare-{NombreParaURI}/30-min-{Precio30Min}";
+        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/30-min-{Precio30Min}";
 		rr:class schema:PriceSpecification;
     ];
     rr:predicateObjectMap [
@@ -192,7 +192,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/fare-{NombreParaURI}/60-min-{Precio60Min}";
+        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/60-min-{Precio60Min}";
 		rr:class schema:PriceSpecification;
     ];
     rr:predicateObjectMap [
@@ -222,7 +222,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/fare-{NombreParaURI}/90-min-{Precio90Min}";
+        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/90-min-{Precio90Min}";
 		rr:class schema:PriceSpecification;
     ];
     rr:predicateObjectMap [
@@ -252,7 +252,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/fare-{NombreParaURI}/120-min-{Precio120Min}";
+        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/120-min-{Precio120Min}";
 		rr:class schema:PriceSpecification;
     ];
     rr:predicateObjectMap [
@@ -282,7 +282,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/fare-{NombreParaURI}/180-min-{Precio180Min}";
+        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/180-min-{Precio180Min}";
 		rr:class schema:PriceSpecification;
     ];
     rr:predicateObjectMap [
@@ -312,7 +312,7 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/fare-{NombreParaURI}/300-min-{Precio300Min}";
+        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/300-min-{Precio300Min}";
 		rr:class schema:PriceSpecification;
     ];
     rr:predicateObjectMap [
