@@ -15,7 +15,7 @@ ex:ParkingShape
 	sh:targetClass schema:ParkingFacility ;
 	sh:property [
 	sh:path rdfs:label ;
-	sh:minCount 100 ;
+	sh:minCount 1 ;
 	sh:message "Un parking debe tener un label@es";
 	sh:severity sh:Violation ;
 	];
