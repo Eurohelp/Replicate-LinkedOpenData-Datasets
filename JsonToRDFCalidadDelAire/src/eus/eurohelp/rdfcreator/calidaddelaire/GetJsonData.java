@@ -1,7 +1,5 @@
 package eus.eurohelp.rdfcreator.calidaddelaire;
 
-import java.io.IOException;
-
 import eus.eurohelp.rdfcreator.mongodb.MongoDBUtils;
 
 /**
@@ -22,6 +20,5 @@ public class GetJsonData {
 		
 		MongoDBUtils mongoDB = new MongoDBUtils(dataBase, collection, mongoDBHost, mongoDBPort);		
 		mongoDB.getDocument(patternToFind, fileGeneratedPath);
-		
 	}
 }
