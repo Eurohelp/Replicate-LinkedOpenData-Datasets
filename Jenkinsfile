@@ -30,15 +30,15 @@ node {
                 sh 'exit 1'
             }
         }
-        stage('Upload RDF to blazegraph') {
-            def ret = sh(script: 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFMartutene + ' -X POST ' + CompleteGraphUri, returnStdout: true)
-            if (ret.contains('modified="0"')) {
-                sh 'exit 1'
-            }
-        }
         stage('RDF quality') {
             def ret = sh(script: 'java -jar rdfquality/shacl-martutene.jar ' + RDFMartutene + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
             if (ret.contains("Not valid RDF")) {
+                sh 'exit 1'
+            }
+        }
+        stage('Upload RDF to blazegraph') {
+            def ret = sh(script: 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFMartutene + ' -X POST ' + CompleteGraphUri, returnStdout: true)
+            if (ret.contains('modified="0"')) {
                 sh 'exit 1'
             }
         }
