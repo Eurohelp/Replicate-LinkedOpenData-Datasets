@@ -33,22 +33,22 @@ node {
             if (ret.contains('No se encuentran datos con ese patron')) {
                 sh 'exit 1'
             }
-        }      
+        }
         stage('Convert CSV to RDF') {
             def ret = sh(script: 'java -jar JsonToRDFCalidadDelAire/calidaddelairerdfcreator.jar ' + RmlConfigurationFile + ' ' + RDFCalidadAire, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }
         }
-        stage('Upload RDF to blazegraph') {
-            def ret = sh(script: 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFCalidadAire + ' -X POST ' + CompleteGraphUri, returnStdout: true)
-            if (ret.contains('modified="0"')) {
+         stage('RDF quality') {
+            def ret = sh(script: 'java -jar rdfquality/shacl-calidad-aire.jar ' + RDFCalidadAire + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
+            if (ret.contains("Not valid RDF")) {
                 sh 'exit 1'
             }
         }
-        stage('RDF quality') {
-            def ret = sh(script: 'java -jar rdfquality/shacl-calidad-aire.jar ' + RDFCalidadAire + ' ' + SHACLfile + ' ' + SHACLReportCheckingQuery + ' ' + SHACLReportFile, returnStdout: true)
-            if (ret.contains("Not valid RDF")) {
+        stage('Upload RDF to blazegraph') {
+            def ret = sh(script: 'curl -D- -H "Content-Type: text/turtle" --upload-file ' + RDFCalidadAire + ' -X POST ' + CompleteGraphUri, returnStdout: true)
+            if (ret.contains('modified="0"')) {
                 sh 'exit 1'
             }
         }
