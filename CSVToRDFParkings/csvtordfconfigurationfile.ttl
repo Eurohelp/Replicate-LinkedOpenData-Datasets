@@ -318,6 +318,7 @@ rml:logicalSource [
     rr:predicateObjectMap [
         rr:predicate schema:price;
         rr:objectMap [
+			sh:minCount 1 ;
             rml:reference "Precio300Min";
             rr:datatype xsd:float;
         ]
