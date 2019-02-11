@@ -26,8 +26,8 @@ switch (entornoEjecu) {
 
 def SPARQLendpoint = "http://"+entornoBlaze+"/blazegraph/namespace/kb/sparql"
 def CSVBKLParkings = "CSVToRDFBKLParkings/data/BKL_dBizi_usuarios_por_mes_estacion.csv"
-def NewCSVBKLParkings = "CSVToRDFParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
-def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
+def NewCSVBKLParkings = "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
+def RmlConfigurationFile = "CSVToRDFBKLParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
 def RDFBKLParkings = "shacl/bklparkings"+entornoEjecu+".ttl"
 def NamedGraph = "http://"+entorno+"/linkeddata/graph/bklparkings"
 def CompleteGraphUri = "http://"+entornoBlaze+"/blazegraph/namespace/kb/sparql?context-uri=" + NamedGraph
@@ -45,10 +45,10 @@ node {
             sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
         }
         stage('Checkout pipeline') {
-            git branch: 'pipeline-bklparkingsrdfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
+            git branch: 'feature-pipeline-bikeracks', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         stage('Convert CSV to RDF') {
-            def ret = sh(script: 'java -jar CSVToRDFParkings/bklparkingsrdfcreator.jar ' + CSVBKLParkings + ' ' + NewCSVBKLParkings + ' ' + RmlConfigurationFile + ' ' + RDFBKLParkings+ ' ' + entorno, returnStdout: true)
+            def ret = sh(script: 'java -jar CSVToRDFBKLParkings/bklparkingsrdfcreator.jar ' + CSVBKLParkings + ' ' + NewCSVBKLParkings + ' ' + RmlConfigurationFile + ' ' + RDFBKLParkings+ ' ' + entorno, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }
