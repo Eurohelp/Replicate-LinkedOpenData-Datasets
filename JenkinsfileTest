@@ -11,7 +11,7 @@ switch (entornoEjecu) {
 		entorno = "localhost:8080"
         break;
     case "Test":
-        entornoBlaze = "test.eurohelp.es:8081"
+        entornoBlaze = "test.eurohelp.es:8080"
 		entorno = "test.eurohelp.es"
 		break;
     default:
