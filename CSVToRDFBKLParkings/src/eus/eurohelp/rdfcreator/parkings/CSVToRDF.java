@@ -26,7 +26,6 @@ public class CSVToRDF {
 	// resultante con la extensi�n deseada
 
 	private static final String EXTENSION_TURTLE_FILE = "ttl";
-	private static final Logger logger = LoggerFactory.getLogger(CSVToRDF.class);
 	public static void main(String[] args) throws IOException, InterruptedException {
 
 		// Se ejecuta el preprocesado del CSV en el que se realizaran las
@@ -42,9 +41,8 @@ public class CSVToRDF {
 			RMLDocRetrieval mapDocRetrieval = new RMLDocRetrieval();
 			Repository repository = mapDocRetrieval.getMappingDoc(mappingFile.toString(), RDFFormat.TURTLE);
 			StdRMLMappingFactory mappingFactory = new StdRMLMappingFactory();
-			logger.info("No se ha generado RDF");
 			if (repository == null) {
-				logger.info("No se ha generado RDF");
+				System.out.println("No se ha generado RDF");
 				throw new IOException(
 						"RML CONFIGURATION FILE SYNTAX ERROR->There is some problem with rml configuration file, please check it. Maybe the problem is the sintax");
 			}
@@ -71,14 +69,12 @@ public class CSVToRDF {
 			runningDataset.closeRepository();
 
 			if (outputFile.length() == 0) {
-				logger.warn("No se ha generado RDF");
-				
+				System.out.println("No se ha generado RDF");
 				throw new IOException(
 						"ARGUMENTS ERROR->There is some problem with RDF Generation. Please check the program arguments \n");
 			}
 
 			Thread.sleep(2000);
-			logger.info("Proceso finalizado");
 		} catch (IOException e) {
 			e.printStackTrace(System.err);
 		}
