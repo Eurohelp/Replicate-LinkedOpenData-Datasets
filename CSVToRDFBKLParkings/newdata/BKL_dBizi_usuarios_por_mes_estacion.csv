@@ -1,0 +1,708 @@
+Port,Average_duration,NombreParaURI,Station,Month,Number_of_routes,Year,MonthText,Localizacion,Environment,Users_quantity
+8080,40,Ayuntamiento,Ayuntamiento,1,"1,800",2015,JANUARY,San-Sebastian,localhost,511
+8080,51,Andia,Andia,1,985,2015,JANUARY,San-Sebastian,localhost,398
+8080,54,Pio-XII,Pio XII,1,"1,239",2015,JANUARY,San-Sebastian,localhost,394
+8080,40,Plaza-Cataluña,Plaza Cataluña,1,"1,304",2015,JANUARY,San-Sebastian,localhost,362
+8080,36,Easo,Easo,1,"1,357",2015,JANUARY,San-Sebastian,localhost,344
+8080,55,Universidades,Universidades,1,"1,056",2015,JANUARY,San-Sebastian,localhost,301
+8080,52,Av--Zarautz,Av. Zarautz,1,927,2015,JANUARY,San-Sebastian,localhost,296
+8080,57,Arrasate,Arrasate,1,756,2015,JANUARY,San-Sebastian,localhost,294
+8080,45,Paseo-Francia,Paseo Francia,1,787,2015,JANUARY,San-Sebastian,localhost,273
+8080,33,Magisterio,Magisterio,1,861,2015,JANUARY,San-Sebastian,localhost,257
+8080,32,San-Francisco,San Francisco,1,799,2015,JANUARY,San-Sebastian,localhost,237
+8080,48,Anoeta,Anoeta,1,445,2015,JANUARY,San-Sebastian,localhost,196
+8080,37,Isabel-II,Isabel II,1,611,2015,JANUARY,San-Sebastian,localhost,178
+8080,42,Lugaritz,Lugaritz,1,483,2015,JANUARY,San-Sebastian,localhost,147
+8080,44,Riberas,Riberas,1,340,2015,JANUARY,San-Sebastian,localhost,78
+8080,51,Intxaurrondo,Intxaurrondo,1,324,2015,JANUARY,San-Sebastian,localhost,71
+8080,50,Ayuntamiento,Ayuntamiento,2,"1,297",2015,FEBRUARY,San-Sebastian,localhost,424
+8080,52,Pio-XII,Pio XII,2,"1,025",2015,FEBRUARY,San-Sebastian,localhost,339
+8080,56,Plaza-Cataluña,Plaza Cataluña,2,868,2015,FEBRUARY,San-Sebastian,localhost,308
+8080,53,Andia,Andia,2,729,2015,FEBRUARY,San-Sebastian,localhost,300
+8080,55,Easo,Easo,2,"1,047",2015,FEBRUARY,San-Sebastian,localhost,286
+8080,61,Universidades,Universidades,2,840,2015,FEBRUARY,San-Sebastian,localhost,247
+8080,49,Paseo-Francia,Paseo Francia,2,649,2015,FEBRUARY,San-Sebastian,localhost,239
+8080,73,Arrasate,Arrasate,2,564,2015,FEBRUARY,San-Sebastian,localhost,225
+8080,68,Av--Zarautz,Av. Zarautz,2,625,2015,FEBRUARY,San-Sebastian,localhost,224
+8080,57,Magisterio,Magisterio,2,723,2015,FEBRUARY,San-Sebastian,localhost,222
+8080,42,San-Francisco,San Francisco,2,652,2015,FEBRUARY,San-Sebastian,localhost,208
+8080,57,Anoeta,Anoeta,2,415,2015,FEBRUARY,San-Sebastian,localhost,178
+8080,63,Lugaritz,Lugaritz,2,332,2015,FEBRUARY,San-Sebastian,localhost,102
+8080,128,Isabel-II,Isabel II,2,181,2015,FEBRUARY,San-Sebastian,localhost,90
+8080,30,Riberas,Riberas,2,292,2015,FEBRUARY,San-Sebastian,localhost,75
+8080,44,Intxaurrondo,Intxaurrondo,2,229,2015,FEBRUARY,San-Sebastian,localhost,59
+8080,85,Ayuntamiento,Ayuntamiento,3,"1,586",2015,MARCH,San-Sebastian,localhost,487
+8080,69,Pio-XII,Pio XII,3,"1,069",2015,MARCH,San-Sebastian,localhost,371
+8080,65,Andia,Andia,3,850,2015,MARCH,San-Sebastian,localhost,350
+8080,48,Easo,Easo,3,"1,254",2015,MARCH,San-Sebastian,localhost,348
+8080,48,Plaza-Cataluña,Plaza Cataluña,3,"1,139",2015,MARCH,San-Sebastian,localhost,343
+8080,55,Universidades,Universidades,3,"1,100",2015,MARCH,San-Sebastian,localhost,334
+8080,67,Av--Zarautz,Av. Zarautz,3,740,2015,MARCH,San-Sebastian,localhost,290
+8080,89,Arrasate,Arrasate,3,726,2015,MARCH,San-Sebastian,localhost,276
+8080,80,Paseo-Francia,Paseo Francia,3,686,2015,MARCH,San-Sebastian,localhost,257
+8080,55,Magisterio,Magisterio,3,804,2015,MARCH,San-Sebastian,localhost,256
+8080,53,San-Francisco,San Francisco,3,798,2015,MARCH,San-Sebastian,localhost,249
+8080,41,Isabel-II,Isabel II,3,557,2015,MARCH,San-Sebastian,localhost,193
+8080,73,Anoeta,Anoeta,3,401,2015,MARCH,San-Sebastian,localhost,173
+8080,68,Lugaritz,Lugaritz,3,401,2015,MARCH,San-Sebastian,localhost,140
+8080,106,Riberas,Riberas,3,383,2015,MARCH,San-Sebastian,localhost,84
+8080,52,Intxaurrondo,Intxaurrondo,3,270,2015,MARCH,San-Sebastian,localhost,67
+8080,89,Ayuntamiento,Ayuntamiento,4,"2,115",2015,APRIL,San-Sebastian,localhost,598
+8080,51,Andia,Andia,4,"1,024",2015,APRIL,San-Sebastian,localhost,456
+8080,49,Pio-XII,Pio XII,4,"1,160",2015,APRIL,San-Sebastian,localhost,437
+8080,68,Plaza-Cataluña,Plaza Cataluña,4,"1,387",2015,APRIL,San-Sebastian,localhost,428
+8080,65,Easo,Easo,4,"1,152",2015,APRIL,San-Sebastian,localhost,383
+8080,65,Av--Zarautz,Av. Zarautz,4,859,2015,APRIL,San-Sebastian,localhost,357
+8080,43,Universidades,Universidades,4,979,2015,APRIL,San-Sebastian,localhost,335
+8080,81,Arrasate,Arrasate,4,746,2015,APRIL,San-Sebastian,localhost,335
+8080,42,San-Francisco,San Francisco,4,789,2015,APRIL,San-Sebastian,localhost,295
+8080,39,Magisterio,Magisterio,4,751,2015,APRIL,San-Sebastian,localhost,291
+8080,66,Paseo-Francia,Paseo Francia,4,723,2015,APRIL,San-Sebastian,localhost,283
+8080,78,Anoeta,Anoeta,4,519,2015,APRIL,San-Sebastian,localhost,242
+8080,56,Isabel-II,Isabel II,4,708,2015,APRIL,San-Sebastian,localhost,236
+8080,79,Lugaritz,Lugaritz,4,497,2015,APRIL,San-Sebastian,localhost,159
+8080,44,Riberas,Riberas,4,426,2015,APRIL,San-Sebastian,localhost,107
+8080,39,Intxaurrondo,Intxaurrondo,4,381,2015,APRIL,San-Sebastian,localhost,87
+8080,77,Ayuntamiento,Ayuntamiento,5,"1,710",2015,MAY,San-Sebastian,localhost,536
+8080,102,Pio-XII,Pio XII,5,817,2015,MAY,San-Sebastian,localhost,356
+8080,80,Plaza-Cataluña,Plaza Cataluña,5,899,2015,MAY,San-Sebastian,localhost,350
+8080,90,Andia,Andia,5,631,2015,MAY,San-Sebastian,localhost,325
+8080,84,Easo,Easo,5,870,2015,MAY,San-Sebastian,localhost,319
+8080,94,Arrasate,Arrasate,5,637,2015,MAY,San-Sebastian,localhost,304
+8080,130,Universidades,Universidades,5,595,2015,MAY,San-Sebastian,localhost,249
+8080,125,San-Francisco,San Francisco,5,581,2015,MAY,San-Sebastian,localhost,216
+8080,86,Isabel-II,Isabel II,5,489,2015,MAY,San-Sebastian,localhost,210
+8080,70,Paseo-Francia,Paseo Francia,5,423,2015,MAY,San-Sebastian,localhost,209
+8080,70,Magisterio,Magisterio,5,397,2015,MAY,San-Sebastian,localhost,199
+8080,100,Av--Zarautz,Av. Zarautz,5,364,2015,MAY,San-Sebastian,localhost,199
+8080,85,Anoeta,Anoeta,5,342,2015,MAY,San-Sebastian,localhost,170
+8080,85,Riberas,Riberas,5,435,2015,MAY,San-Sebastian,localhost,120
+8080,61,Lugaritz,Lugaritz,5,154,2015,MAY,San-Sebastian,localhost,85
+8080,187,Intxaurrondo,Intxaurrondo,5,334,2015,MAY,San-Sebastian,localhost,81
+8080,147,Ayuntamiento,Ayuntamiento,6,"1,216",2015,JUNE,San-Sebastian,localhost,471
+8080,98,Plaza-Cataluña,Plaza Cataluña,6,722,2015,JUNE,San-Sebastian,localhost,308
+8080,113,Easo,Easo,6,642,2015,JUNE,San-Sebastian,localhost,279
+8080,62,Pio-XII,Pio XII,6,571,2015,JUNE,San-Sebastian,localhost,268
+8080,111,Andia,Andia,6,483,2015,JUNE,San-Sebastian,localhost,250
+8080,153,Arrasate,Arrasate,6,444,2015,JUNE,San-Sebastian,localhost,242
+8080,82,Isabel-II,Isabel II,6,531,2015,JUNE,San-Sebastian,localhost,198
+8080,79,Universidades,Universidades,6,328,2015,JUNE,San-Sebastian,localhost,171
+8080,121,San-Francisco,San Francisco,6,291,2015,JUNE,San-Sebastian,localhost,162
+8080,74,Av--Zarautz,Av. Zarautz,6,235,2015,JUNE,San-Sebastian,localhost,156
+8080,107,Magisterio,Magisterio,6,236,2015,JUNE,San-Sebastian,localhost,153
+8080,137,Paseo-Francia,Paseo Francia,6,270,2015,JUNE,San-Sebastian,localhost,151
+8080,110,Anoeta,Anoeta,6,223,2015,JUNE,San-Sebastian,localhost,136
+8080,79,Riberas,Riberas,6,325,2015,JUNE,San-Sebastian,localhost,100
+8080,156,Lugaritz,Lugaritz,6,146,2015,JUNE,San-Sebastian,localhost,73
+8080,133,Intxaurrondo,Intxaurrondo,6,294,2015,JUNE,San-Sebastian,localhost,66
+8080,171,Ayuntamiento,Ayuntamiento,7,845,2015,JULY,San-Sebastian,localhost,373
+8080,107,Plaza-Cataluña,Plaza Cataluña,7,437,2015,JULY,San-Sebastian,localhost,226
+8080,170,Pio-XII,Pio XII,7,359,2015,JULY,San-Sebastian,localhost,195
+8080,171,Arrasate,Arrasate,7,324,2015,JULY,San-Sebastian,localhost,183
+8080,186,Andia,Andia,7,270,2015,JULY,San-Sebastian,localhost,177
+8080,121,Easo,Easo,7,364,2015,JULY,San-Sebastian,localhost,173
+8080,173,Isabel-II,Isabel II,7,287,2015,JULY,San-Sebastian,localhost,137
+8080,106,San-Francisco,San Francisco,7,204,2015,JULY,San-Sebastian,localhost,123
+8080,123,Universidades,Universidades,7,203,2015,JULY,San-Sebastian,localhost,119
+8080,173,Av--Zarautz,Av. Zarautz,7,194,2015,JULY,San-Sebastian,localhost,117
+8080,140,Paseo-Francia,Paseo Francia,7,133,2015,JULY,San-Sebastian,localhost,93
+8080,77,Magisterio,Magisterio,7,101,2015,JULY,San-Sebastian,localhost,81
+8080,65,Anoeta,Anoeta,7,129,2015,JULY,San-Sebastian,localhost,80
+8080,142,Riberas,Riberas,7,190,2015,JULY,San-Sebastian,localhost,70
+8080,227,Intxaurrondo,Intxaurrondo,7,195,2015,JULY,San-Sebastian,localhost,56
+8080,92,Lugaritz,Lugaritz,7,96,2015,JULY,San-Sebastian,localhost,51
+8080,258,Ayuntamiento,Ayuntamiento,8,584,2015,AUGUST,San-Sebastian,localhost,294
+8080,238,Plaza-Cataluña,Plaza Cataluña,8,295,2015,AUGUST,San-Sebastian,localhost,171
+8080,190,Arrasate,Arrasate,8,257,2015,AUGUST,San-Sebastian,localhost,159
+8080,194,Isabel-II,Isabel II,8,368,2015,AUGUST,San-Sebastian,localhost,140
+8080,914,Pio-XII,Pio XII,8,247,2015,AUGUST,San-Sebastian,localhost,132
+8080,187,Andia,Andia,8,188,2015,AUGUST,San-Sebastian,localhost,124
+8080,249,Easo,Easo,8,233,2015,AUGUST,San-Sebastian,localhost,118
+8080,211,San-Francisco,San Francisco,8,119,2015,AUGUST,San-Sebastian,localhost,91
+8080,753,Av--Zarautz,Av. Zarautz,8,112,2015,AUGUST,San-Sebastian,localhost,82
+8080,133,Universidades,Universidades,8,84,2015,AUGUST,San-Sebastian,localhost,63
+8080,137,Intxaurrondo,Intxaurrondo,8,182,2015,AUGUST,San-Sebastian,localhost,58
+8080,526,Anoeta,Anoeta,8,82,2015,AUGUST,San-Sebastian,localhost,54
+8080,138,Magisterio,Magisterio,8,73,2015,AUGUST,San-Sebastian,localhost,51
+8080,92,Riberas,Riberas,8,160,2015,AUGUST,San-Sebastian,localhost,50
+8080,230,Paseo-Francia,Paseo Francia,8,68,2015,AUGUST,San-Sebastian,localhost,50
+8080,163,Lugaritz,Lugaritz,8,58,2015,AUGUST,San-Sebastian,localhost,31
+8080,486,Ayuntamiento,Ayuntamiento,9,778,2015,SEPTEMBER,San-Sebastian,localhost,316
+8080,293,Pio-XII,Pio XII,9,374,2015,SEPTEMBER,San-Sebastian,localhost,188
+8080,129,Arrasate,Arrasate,9,329,2015,SEPTEMBER,San-Sebastian,localhost,184
+8080,378,Plaza-Cataluña,Plaza Cataluña,9,371,2015,SEPTEMBER,San-Sebastian,localhost,174
+8080,213,Andia,Andia,9,288,2015,SEPTEMBER,San-Sebastian,localhost,164
+8080,118,Universidades,Universidades,9,365,2015,SEPTEMBER,San-Sebastian,localhost,154
+8080,370,Isabel-II,Isabel II,9,409,2015,SEPTEMBER,San-Sebastian,localhost,153
+8080,121,Easo,Easo,9,253,2015,SEPTEMBER,San-Sebastian,localhost,131
+8080,133,San-Francisco,San Francisco,9,222,2015,SEPTEMBER,San-Sebastian,localhost,117
+8080,144,Av--Zarautz,Av. Zarautz,9,158,2015,SEPTEMBER,San-Sebastian,localhost,101
+8080,284,Magisterio,Magisterio,9,230,2015,SEPTEMBER,San-Sebastian,localhost,99
+8080,115,Paseo-Francia,Paseo Francia,9,172,2015,SEPTEMBER,San-Sebastian,localhost,86
+8080,181,Anoeta,Anoeta,9,144,2015,SEPTEMBER,San-Sebastian,localhost,86
+8080,189,Riberas,Riberas,9,234,2015,SEPTEMBER,San-Sebastian,localhost,77
+8080,100,Intxaurrondo,Intxaurrondo,9,209,2015,SEPTEMBER,San-Sebastian,localhost,62
+8080,262,Lugaritz,Lugaritz,9,67,2015,SEPTEMBER,San-Sebastian,localhost,38
+8080,375,Ayuntamiento,Ayuntamiento,10,390,2015,OCTOBER,San-Sebastian,localhost,190
+8080,135,Andia,Andia,10,270,2015,OCTOBER,San-Sebastian,localhost,162
+8080,165,Plaza-Cataluña,Plaza Cataluña,10,279,2015,OCTOBER,San-Sebastian,localhost,144
+8080,"1,592",Universidades,Universidades,10,246,2015,OCTOBER,San-Sebastian,localhost,110
+8080,367,Isabel-II,Isabel II,10,223,2015,OCTOBER,San-Sebastian,localhost,99
+8080,389,Arrasate,Arrasate,10,153,2015,OCTOBER,San-Sebastian,localhost,97
+8080,40,Magisterio,Magisterio,10,196,2015,OCTOBER,San-Sebastian,localhost,96
+8080,701,Pio-XII,Pio XII,10,124,2015,OCTOBER,San-Sebastian,localhost,84
+8080,187,Anoeta,Anoeta,10,141,2015,OCTOBER,San-Sebastian,localhost,70
+8080,159,Easo,Easo,10,123,2015,OCTOBER,San-Sebastian,localhost,68
+8080,665,San-Francisco,San Francisco,10,94,2015,OCTOBER,San-Sebastian,localhost,67
+8080,637,Riberas,Riberas,10,130,2015,OCTOBER,San-Sebastian,localhost,51
+8080,182,Av--Zarautz,Av. Zarautz,10,58,2015,OCTOBER,San-Sebastian,localhost,48
+8080,180,Intxaurrondo,Intxaurrondo,10,126,2015,OCTOBER,San-Sebastian,localhost,45
+8080,80,Lugaritz,Lugaritz,10,79,2015,OCTOBER,San-Sebastian,localhost,42
+8080,"1,340",Paseo-Francia,Paseo Francia,10,32,2015,OCTOBER,San-Sebastian,localhost,21
+8080,283,Ayuntamiento,Ayuntamiento,11,"1,479",2015,NOVEMBER,San-Sebastian,localhost,476
+8080,54,Andia,Andia,11,931,2015,NOVEMBER,San-Sebastian,localhost,348
+8080,55,Plaza-Cataluña,Plaza Cataluña,11,"1,401",2015,NOVEMBER,San-Sebastian,localhost,337
+8080,38,Pio-XII,Pio XII,11,"1,081",2015,NOVEMBER,San-Sebastian,localhost,334
+8080,375,Arrasate,Arrasate,11,974,2015,NOVEMBER,San-Sebastian,localhost,317
+8080,66,Universidades,Universidades,11,"1,100",2015,NOVEMBER,San-Sebastian,localhost,277
+8080,263,Easo,Easo,11,965,2015,NOVEMBER,San-Sebastian,localhost,276
+8080,46,Av--Zarautz,Av. Zarautz,11,730,2015,NOVEMBER,San-Sebastian,localhost,248
+8080,31,Magisterio,Magisterio,11,925,2015,NOVEMBER,San-Sebastian,localhost,239
+8080,35,Isabel-II,Isabel II,11,770,2015,NOVEMBER,San-Sebastian,localhost,208
+8080,24,San-Francisco,San Francisco,11,611,2015,NOVEMBER,San-Sebastian,localhost,192
+8080,33,Anoeta,Anoeta,11,504,2015,NOVEMBER,San-Sebastian,localhost,164
+8080,61,Lugaritz,Lugaritz,11,507,2015,NOVEMBER,San-Sebastian,localhost,116
+8080,535,Riberas,Riberas,11,420,2015,NOVEMBER,San-Sebastian,localhost,96
+8080,90,Intxaurrondo,Intxaurrondo,11,475,2015,NOVEMBER,San-Sebastian,localhost,77
+8080,"22,357",Paseo-Francia,Paseo Francia,11,2,2015,NOVEMBER,San-Sebastian,localhost,2
+8080,35,Ayuntamiento,Ayuntamiento,12,"1,846",2015,DECEMBER,San-Sebastian,localhost,608
+8080,25,Arrasate,Arrasate,12,"1,421",2015,DECEMBER,San-Sebastian,localhost,443
+8080,361,Plaza-Cataluña,Plaza Cataluña,12,"1,538",2015,DECEMBER,San-Sebastian,localhost,412
+8080,28,Andia,Andia,12,938,2015,DECEMBER,San-Sebastian,localhost,392
+8080,137,Easo,Easo,12,"1,284",2015,DECEMBER,San-Sebastian,localhost,356
+8080,32,Pio-XII,Pio XII,12,"1,152",2015,DECEMBER,San-Sebastian,localhost,350
+8080,30,Universidades,Universidades,12,"1,136",2015,DECEMBER,San-Sebastian,localhost,291
+8080,37,Av--Zarautz,Av. Zarautz,12,913,2015,DECEMBER,San-Sebastian,localhost,286
+8080,48,San-Francisco,San Francisco,12,783,2015,DECEMBER,San-Sebastian,localhost,250
+8080,29,Magisterio,Magisterio,12,955,2015,DECEMBER,San-Sebastian,localhost,246
+8080,30,Isabel-II,Isabel II,12,864,2015,DECEMBER,San-Sebastian,localhost,230
+8080,28,Anoeta,Anoeta,12,516,2015,DECEMBER,San-Sebastian,localhost,195
+8080,117,Lugaritz,Lugaritz,12,485,2015,DECEMBER,San-Sebastian,localhost,141
+8080,28,Riberas,Riberas,12,548,2015,DECEMBER,San-Sebastian,localhost,110
+8080,26,Intxaurrondo,Intxaurrondo,12,625,2015,DECEMBER,San-Sebastian,localhost,94
+8080,33,Ayuntamiento,Ayuntamiento,1,"1,498",2016,JANUARY,San-Sebastian,localhost,499
+8080,52,Arrasate,Arrasate,1,886,2016,JANUARY,San-Sebastian,localhost,345
+8080,34,Plaza-Cataluña,Plaza Cataluña,1,"1,237",2016,JANUARY,San-Sebastian,localhost,336
+8080,32,Pio-XII,Pio XII,1,970,2016,JANUARY,San-Sebastian,localhost,322
+8080,35,Easo,Easo,1,991,2016,JANUARY,San-Sebastian,localhost,300
+8080,28,Universidades,Universidades,1,917,2016,JANUARY,San-Sebastian,localhost,291
+8080,34,Andia,Andia,1,670,2016,JANUARY,San-Sebastian,localhost,278
+8080,38,Magisterio,Magisterio,1,775,2016,JANUARY,San-Sebastian,localhost,228
+8080,32,Av--Zarautz,Av. Zarautz,1,630,2016,JANUARY,San-Sebastian,localhost,227
+8080,31,San-Francisco,San Francisco,1,640,2016,JANUARY,San-Sebastian,localhost,206
+8080,33,Isabel-II,Isabel II,1,740,2016,JANUARY,San-Sebastian,localhost,176
+8080,38,Anoeta,Anoeta,1,344,2016,JANUARY,San-Sebastian,localhost,143
+8080,27,Lugaritz,Lugaritz,1,387,2016,JANUARY,San-Sebastian,localhost,113
+8080,40,Riberas,Riberas,1,482,2016,JANUARY,San-Sebastian,localhost,93
+8080,36,Intxaurrondo,Intxaurrondo,1,419,2016,JANUARY,San-Sebastian,localhost,86
+8080,35,Ayuntamiento,Ayuntamiento,2,"1,435",2016,FEBRUARY,San-Sebastian,localhost,451
+8080,34,Plaza-Cataluña,Plaza Cataluña,2,"1,270",2016,FEBRUARY,San-Sebastian,localhost,337
+8080,39,Arrasate,Arrasate,2,840,2016,FEBRUARY,San-Sebastian,localhost,303
+8080,193,Pio-XII,Pio XII,2,844,2016,FEBRUARY,San-Sebastian,localhost,289
+8080,22,Andia,Andia,2,704,2016,FEBRUARY,San-Sebastian,localhost,282
+8080,34,Easo,Easo,2,916,2016,FEBRUARY,San-Sebastian,localhost,265
+8080,22,Universidades,Universidades,2,862,2016,FEBRUARY,San-Sebastian,localhost,254
+8080,32,Av--Zarautz,Av. Zarautz,2,558,2016,FEBRUARY,San-Sebastian,localhost,214
+8080,34,San-Francisco,San Francisco,2,695,2016,FEBRUARY,San-Sebastian,localhost,207
+8080,22,Magisterio,Magisterio,2,713,2016,FEBRUARY,San-Sebastian,localhost,198
+8080,25,Isabel-II,Isabel II,2,651,2016,FEBRUARY,San-Sebastian,localhost,160
+8080,26,Anoeta,Anoeta,2,319,2016,FEBRUARY,San-Sebastian,localhost,129
+8080,26,Riberas,Riberas,2,436,2016,FEBRUARY,San-Sebastian,localhost,99
+8080,21,Lugaritz,Lugaritz,2,353,2016,FEBRUARY,San-Sebastian,localhost,97
+8080,35,Paseo-Francia,Paseo Francia,2,101,2016,FEBRUARY,San-Sebastian,localhost,83
+8080,49,Intxaurrondo,Intxaurrondo,2,391,2016,FEBRUARY,San-Sebastian,localhost,81
+8080,31,Ayuntamiento,Ayuntamiento,3,"1,504",2016,MARCH,San-Sebastian,localhost,486
+8080,34,Plaza-Cataluña,Plaza Cataluña,3,"1,083",2016,MARCH,San-Sebastian,localhost,342
+8080,24,Pio-XII,Pio XII,3,839,2016,MARCH,San-Sebastian,localhost,280
+8080,27,Easo,Easo,3,958,2016,MARCH,San-Sebastian,localhost,274
+8080,20,Andia,Andia,3,702,2016,MARCH,San-Sebastian,localhost,272
+8080,25,Arrasate,Arrasate,3,787,2016,MARCH,San-Sebastian,localhost,270
+8080,43,Paseo-Francia,Paseo Francia,3,672,2016,MARCH,San-Sebastian,localhost,265
+8080,30,Av--Zarautz,Av. Zarautz,3,625,2016,MARCH,San-Sebastian,localhost,240
+8080,35,Universidades,Universidades,3,761,2016,MARCH,San-Sebastian,localhost,226
+8080,32,San-Francisco,San Francisco,3,618,2016,MARCH,San-Sebastian,localhost,209
+8080,25,Magisterio,Magisterio,3,676,2016,MARCH,San-Sebastian,localhost,197
+8080,30,Isabel-II,Isabel II,3,661,2016,MARCH,San-Sebastian,localhost,188
+8080,28,Anoeta,Anoeta,3,305,2016,MARCH,San-Sebastian,localhost,142
+8080,31,Lugaritz,Lugaritz,3,454,2016,MARCH,San-Sebastian,localhost,107
+8080,27,Riberas,Riberas,3,480,2016,MARCH,San-Sebastian,localhost,99
+8080,26,Intxaurrondo,Intxaurrondo,3,492,2016,MARCH,San-Sebastian,localhost,86
+8080,34,Ayuntamiento,Ayuntamiento,4,"2,015",2016,APRIL,San-Sebastian,localhost,634
+8080,38,Plaza-Cataluña,Plaza Cataluña,4,"1,535",2016,APRIL,San-Sebastian,localhost,409
+8080,35,Andia,Andia,4,"1,023",2016,APRIL,San-Sebastian,localhost,368
+8080,40,Paseo-Francia,Paseo Francia,4,"1,101",2016,APRIL,San-Sebastian,localhost,341
+8080,22,Pio-XII,Pio XII,4,"1,238",2016,APRIL,San-Sebastian,localhost,335
+8080,20,Easo,Easo,4,"1,261",2016,APRIL,San-Sebastian,localhost,326
+8080,29,Universidades,Universidades,4,"1,253",2016,APRIL,San-Sebastian,localhost,305
+8080,57,Arrasate,Arrasate,4,953,2016,APRIL,San-Sebastian,localhost,300
+8080,28,Av--Zarautz,Av. Zarautz,4,856,2016,APRIL,San-Sebastian,localhost,291
+8080,39,San-Francisco,San Francisco,4,921,2016,APRIL,San-Sebastian,localhost,263
+8080,26,Magisterio,Magisterio,4,905,2016,APRIL,San-Sebastian,localhost,247
+8080,28,Isabel-II,Isabel II,4,920,2016,APRIL,San-Sebastian,localhost,235
+8080,38,Anoeta,Anoeta,4,419,2016,APRIL,San-Sebastian,localhost,180
+8080,18,Lugaritz,Lugaritz,4,612,2016,APRIL,San-Sebastian,localhost,132
+8080,27,Riberas,Riberas,4,667,2016,APRIL,San-Sebastian,localhost,123
+8080,27,Intxaurrondo,Intxaurrondo,4,654,2016,APRIL,San-Sebastian,localhost,95
+8080,49,Ayuntamiento,Ayuntamiento,5,"2,202",2016,MAY,San-Sebastian,localhost,693
+8080,34,Plaza-Cataluña,Plaza Cataluña,5,"1,760",2016,MAY,San-Sebastian,localhost,440
+8080,22,Paseo-Francia,Paseo Francia,5,"1,342",2016,MAY,San-Sebastian,localhost,408
+8080,29,Andia,Andia,5,"1,146",2016,MAY,San-Sebastian,localhost,406
+8080,23,Easo,Easo,5,"1,543",2016,MAY,San-Sebastian,localhost,390
+8080,39,Arrasate,Arrasate,5,"1,060",2016,MAY,San-Sebastian,localhost,361
+8080,17,Universidades,Universidades,5,"1,492",2016,MAY,San-Sebastian,localhost,346
+8080,22,Pio-XII,Pio XII,5,"1,400",2016,MAY,San-Sebastian,localhost,340
+8080,23,Av--Zarautz,Av. Zarautz,5,"1,038",2016,MAY,San-Sebastian,localhost,325
+8080,26,San-Francisco,San Francisco,5,"1,052",2016,MAY,San-Sebastian,localhost,271
+8080,28,Magisterio,Magisterio,5,"1,081",2016,MAY,San-Sebastian,localhost,270
+8080,21,Isabel-II,Isabel II,5,"1,036",2016,MAY,San-Sebastian,localhost,256
+8080,24,Anoeta,Anoeta,5,470,2016,MAY,San-Sebastian,localhost,178
+8080,17,Lugaritz,Lugaritz,5,681,2016,MAY,San-Sebastian,localhost,131
+8080,16,Riberas,Riberas,5,632,2016,MAY,San-Sebastian,localhost,105
+8080,23,Intxaurrondo,Intxaurrondo,5,785,2016,MAY,San-Sebastian,localhost,104
+8080,29,Ayuntamiento,Ayuntamiento,6,"2,402",2016,JUNE,San-Sebastian,localhost,751
+8080,28,Plaza-Cataluña,Plaza Cataluña,6,"1,869",2016,JUNE,San-Sebastian,localhost,491
+8080,21,Andia,Andia,6,"1,086",2016,JUNE,San-Sebastian,localhost,414
+8080,18,Easo,Easo,6,"1,467",2016,JUNE,San-Sebastian,localhost,410
+8080,21,Paseo-Francia,Paseo Francia,6,"1,273",2016,JUNE,San-Sebastian,localhost,403
+8080,23,Arrasate,Arrasate,6,"1,076",2016,JUNE,San-Sebastian,localhost,388
+8080,25,Universidades,Universidades,6,"1,335",2016,JUNE,San-Sebastian,localhost,387
+8080,280,Pio-XII,Pio XII,6,"1,356",2016,JUNE,San-Sebastian,localhost,383
+8080,25,Av--Zarautz,Av. Zarautz,6,"1,039",2016,JUNE,San-Sebastian,localhost,343
+8080,27,San-Francisco,San Francisco,6,"1,030",2016,JUNE,San-Sebastian,localhost,302
+8080,19,Magisterio,Magisterio,6,960,2016,JUNE,San-Sebastian,localhost,295
+8080,322,Isabel-II,Isabel II,6,"1,214",2016,JUNE,San-Sebastian,localhost,263
+8080,17,Anoeta,Anoeta,6,493,2016,JUNE,San-Sebastian,localhost,171
+8080,17,Lugaritz,Lugaritz,6,588,2016,JUNE,San-Sebastian,localhost,152
+8080,28,Intxaurrondo,Intxaurrondo,6,843,2016,JUNE,San-Sebastian,localhost,134
+8080,15,Riberas,Riberas,6,600,2016,JUNE,San-Sebastian,localhost,111
+8080,78,Ayuntamiento,Ayuntamiento,7,"2,409",2016,JULY,San-Sebastian,localhost,870
+8080,24,Plaza-Cataluña,Plaza Cataluña,7,"1,885",2016,JULY,San-Sebastian,localhost,563
+8080,25,Andia,Andia,7,"1,174",2016,JULY,San-Sebastian,localhost,456
+8080,43,Paseo-Francia,Paseo Francia,7,"1,049",2016,JULY,San-Sebastian,localhost,423
+8080,61,Arrasate,Arrasate,7,"1,081",2016,JULY,San-Sebastian,localhost,399
+8080,23,Av--Zarautz,Av. Zarautz,7,"1,102",2016,JULY,San-Sebastian,localhost,390
+8080,23,Easo,Easo,7,"1,270",2016,JULY,San-Sebastian,localhost,378
+8080,30,Universidades,Universidades,7,"1,127",2016,JULY,San-Sebastian,localhost,363
+8080,21,Pio-XII,Pio XII,7,"1,154",2016,JULY,San-Sebastian,localhost,340
+8080,20,San-Francisco,San Francisco,7,"1,065",2016,JULY,San-Sebastian,localhost,309
+8080,19,Isabel-II,Isabel II,7,"1,042",2016,JULY,San-Sebastian,localhost,261
+8080,34,Magisterio,Magisterio,7,799,2016,JULY,San-Sebastian,localhost,254
+8080,26,Anoeta,Anoeta,7,476,2016,JULY,San-Sebastian,localhost,185
+8080,36,Lugaritz,Lugaritz,7,560,2016,JULY,San-Sebastian,localhost,140
+8080,17,Intxaurrondo,Intxaurrondo,7,760,2016,JULY,San-Sebastian,localhost,134
+8080,32,Riberas,Riberas,7,675,2016,JULY,San-Sebastian,localhost,122
+8080,32,Ayuntamiento,Ayuntamiento,8,"2,311",2016,AUGUST,San-Sebastian,localhost,844
+8080,186,Plaza-Cataluña,Plaza Cataluña,8,"1,900",2016,AUGUST,San-Sebastian,localhost,526
+8080,25,Andia,Andia,8,"1,194",2016,AUGUST,San-Sebastian,localhost,470
+8080,32,Paseo-Francia,Paseo Francia,8,"1,204",2016,AUGUST,San-Sebastian,localhost,427
+8080,19,Arrasate,Arrasate,8,"1,055",2016,AUGUST,San-Sebastian,localhost,406
+8080,18,Easo,Easo,8,"1,291",2016,AUGUST,San-Sebastian,localhost,398
+8080,26,Av--Zarautz,Av. Zarautz,8,"1,084",2016,AUGUST,San-Sebastian,localhost,367
+8080,53,Universidades,Universidades,8,"1,138",2016,AUGUST,San-Sebastian,localhost,345
+8080,21,Pio-XII,Pio XII,8,"1,188",2016,AUGUST,San-Sebastian,localhost,299
+8080,24,San-Francisco,San Francisco,8,895,2016,AUGUST,San-Sebastian,localhost,291
+8080,27,Magisterio,Magisterio,8,748,2016,AUGUST,San-Sebastian,localhost,266
+8080,22,Isabel-II,Isabel II,8,827,2016,AUGUST,San-Sebastian,localhost,223
+8080,36,Anoeta,Anoeta,8,345,2016,AUGUST,San-Sebastian,localhost,154
+8080,23,Intxaurrondo,Intxaurrondo,8,859,2016,AUGUST,San-Sebastian,localhost,145
+8080,19,Lugaritz,Lugaritz,8,432,2016,AUGUST,San-Sebastian,localhost,135
+8080,16,Riberas,Riberas,8,623,2016,AUGUST,San-Sebastian,localhost,116
+8080,35,Ayuntamiento,Ayuntamiento,9,"3,038",2016,SEPTEMBER,San-Sebastian,localhost,746
+8080,50,Plaza-Cataluña,Plaza Cataluña,9,"2,025",2016,SEPTEMBER,San-Sebastian,localhost,499
+8080,42,Andia,Andia,9,"1,231",2016,SEPTEMBER,San-Sebastian,localhost,463
+8080,26,Paseo-Francia,Paseo Francia,9,"1,404",2016,SEPTEMBER,San-Sebastian,localhost,458
+8080,30,Arrasate,Arrasate,9,"1,145",2016,SEPTEMBER,San-Sebastian,localhost,416
+8080,74,Universidades,Universidades,9,"1,379",2016,SEPTEMBER,San-Sebastian,localhost,383
+8080,29,Easo,Easo,9,"1,505",2016,SEPTEMBER,San-Sebastian,localhost,380
+8080,27,Pio-XII,Pio XII,9,"1,412",2016,SEPTEMBER,San-Sebastian,localhost,377
+8080,19,Av--Zarautz,Av. Zarautz,9,"1,166",2016,SEPTEMBER,San-Sebastian,localhost,373
+8080,117,San-Francisco,San Francisco,9,"1,154",2016,SEPTEMBER,San-Sebastian,localhost,341
+8080,29,Magisterio,Magisterio,9,"1,093",2016,SEPTEMBER,San-Sebastian,localhost,315
+8080,30,Isabel-II,Isabel II,9,966,2016,SEPTEMBER,San-Sebastian,localhost,262
+8080,19,Anoeta,Anoeta,9,484,2016,SEPTEMBER,San-Sebastian,localhost,209
+8080,12,Lugaritz,Lugaritz,9,798,2016,SEPTEMBER,San-Sebastian,localhost,162
+8080,23,Intxaurrondo,Intxaurrondo,9,"1,068",2016,SEPTEMBER,San-Sebastian,localhost,137
+8080,22,Riberas,Riberas,9,585,2016,SEPTEMBER,San-Sebastian,localhost,122
+8080,34,Ayuntamiento,Ayuntamiento,10,"2,756",2016,OCTOBER,San-Sebastian,localhost,761
+8080,36,Plaza-Cataluña,Plaza Cataluña,10,"2,101",2016,OCTOBER,San-Sebastian,localhost,520
+8080,14,Paseo-Francia,Paseo Francia,10,"1,664",2016,OCTOBER,San-Sebastian,localhost,499
+8080,14,Andia,Andia,10,"1,295",2016,OCTOBER,San-Sebastian,localhost,461
+8080,22,Arrasate,Arrasate,10,"1,256",2016,OCTOBER,San-Sebastian,localhost,416
+8080,16,Pio-XII,Pio XII,10,"1,586",2016,OCTOBER,San-Sebastian,localhost,414
+8080,17,Easo,Easo,10,"1,881",2016,OCTOBER,San-Sebastian,localhost,402
+8080,35,Universidades,Universidades,10,"1,665",2016,OCTOBER,San-Sebastian,localhost,385
+8080,17,Av--Zarautz,Av. Zarautz,10,"1,198",2016,OCTOBER,San-Sebastian,localhost,367
+8080,18,San-Francisco,San Francisco,10,"1,237",2016,OCTOBER,San-Sebastian,localhost,326
+8080,21,Magisterio,Magisterio,10,"1,148",2016,OCTOBER,San-Sebastian,localhost,322
+8080,21,Isabel-II,Isabel II,10,"1,223",2016,OCTOBER,San-Sebastian,localhost,284
+8080,46,Anoeta,Anoeta,10,610,2016,OCTOBER,San-Sebastian,localhost,210
+8080,32,Lugaritz,Lugaritz,10,754,2016,OCTOBER,San-Sebastian,localhost,168
+8080,31,Intxaurrondo,Intxaurrondo,10,"1,017",2016,OCTOBER,San-Sebastian,localhost,143
+8080,16,Riberas,Riberas,10,799,2016,OCTOBER,San-Sebastian,localhost,143
+8080,14,Ayuntamiento,Ayuntamiento,11,"1,798",2016,NOVEMBER,San-Sebastian,localhost,499
+8080,18,Plaza-Cataluña,Plaza Cataluña,11,"1,590",2016,NOVEMBER,San-Sebastian,localhost,396
+8080,19,Paseo-Francia,Paseo Francia,11,"1,457",2016,NOVEMBER,San-Sebastian,localhost,384
+8080,20,Easo,Easo,11,"1,528",2016,NOVEMBER,San-Sebastian,localhost,366
+8080,31,Arrasate,Arrasate,11,"1,053",2016,NOVEMBER,San-Sebastian,localhost,360
+8080,27,Pio-XII,Pio XII,11,"1,345",2016,NOVEMBER,San-Sebastian,localhost,350
+8080,17,Andia,Andia,11,898,2016,NOVEMBER,San-Sebastian,localhost,344
+8080,19,Universidades,Universidades,11,"1,404",2016,NOVEMBER,San-Sebastian,localhost,300
+8080,19,Av--Zarautz,Av. Zarautz,11,872,2016,NOVEMBER,San-Sebastian,localhost,283
+8080,17,Magisterio,Magisterio,11,969,2016,NOVEMBER,San-Sebastian,localhost,261
+8080,14,San-Francisco,San Francisco,11,970,2016,NOVEMBER,San-Sebastian,localhost,256
+8080,16,Isabel-II,Isabel II,11,986,2016,NOVEMBER,San-Sebastian,localhost,225
+8080,15,Anoeta,Anoeta,11,531,2016,NOVEMBER,San-Sebastian,localhost,191
+8080,18,Lugaritz,Lugaritz,11,637,2016,NOVEMBER,San-Sebastian,localhost,143
+8080,16,Riberas,Riberas,11,612,2016,NOVEMBER,San-Sebastian,localhost,126
+8080,32,Intxaurrondo,Intxaurrondo,11,740,2016,NOVEMBER,San-Sebastian,localhost,115
+8080,19,Ayuntamiento,Ayuntamiento,12,"2,048",2016,DECEMBER,San-Sebastian,localhost,647
+8080,17,Plaza-Cataluña,Plaza Cataluña,12,"1,860",2016,DECEMBER,San-Sebastian,localhost,490
+8080,18,Paseo-Francia,Paseo Francia,12,"1,499",2016,DECEMBER,San-Sebastian,localhost,469
+8080,14,Arrasate,Arrasate,12,"1,190",2016,DECEMBER,San-Sebastian,localhost,427
+8080,13,Andia,Andia,12,"1,149",2016,DECEMBER,San-Sebastian,localhost,396
+8080,30,Easo,Easo,12,"1,563",2016,DECEMBER,San-Sebastian,localhost,389
+8080,13,Pio-XII,Pio XII,12,"1,271",2016,DECEMBER,San-Sebastian,localhost,376
+8080,20,Av--Zarautz,Av. Zarautz,12,"1,175",2016,DECEMBER,San-Sebastian,localhost,347
+8080,17,Universidades,Universidades,12,"1,217",2016,DECEMBER,San-Sebastian,localhost,341
+8080,16,San-Francisco,San Francisco,12,"1,046",2016,DECEMBER,San-Sebastian,localhost,317
+8080,124,Magisterio,Magisterio,12,"1,006",2016,DECEMBER,San-Sebastian,localhost,278
+8080,17,Isabel-II,Isabel II,12,"1,139",2016,DECEMBER,San-Sebastian,localhost,265
+8080,19,Anoeta,Anoeta,12,579,2016,DECEMBER,San-Sebastian,localhost,227
+8080,30,Lugaritz,Lugaritz,12,567,2016,DECEMBER,San-Sebastian,localhost,155
+8080,88,Intxaurrondo,Intxaurrondo,12,914,2016,DECEMBER,San-Sebastian,localhost,149
+8080,23,Riberas,Riberas,12,682,2016,DECEMBER,San-Sebastian,localhost,138
+8080,18,Ayuntamiento,Ayuntamiento,1,"1,629",2017,JANUARY,San-Sebastian,localhost,461
+8080,173,Plaza-Cataluña,Plaza Cataluña,1,"1,399",2017,JANUARY,San-Sebastian,localhost,389
+8080,15,Paseo-Francia,Paseo Francia,1,"1,393",2017,JANUARY,San-Sebastian,localhost,368
+8080,61,Arrasate,Arrasate,1,"1,041",2017,JANUARY,San-Sebastian,localhost,353
+8080,12,Easo,Easo,1,"1,352",2017,JANUARY,San-Sebastian,localhost,344
+8080,17,Andia,Andia,1,921,2017,JANUARY,San-Sebastian,localhost,323
+8080,13,Pio-XII,Pio XII,1,"1,149",2017,JANUARY,San-Sebastian,localhost,311
+8080,16,Universidades,Universidades,1,"1,034",2017,JANUARY,San-Sebastian,localhost,279
+8080,14,Av--Zarautz,Av. Zarautz,1,857,2017,JANUARY,San-Sebastian,localhost,268
+8080,15,San-Francisco,San Francisco,1,959,2017,JANUARY,San-Sebastian,localhost,262
+8080,109,Magisterio,Magisterio,1,853,2017,JANUARY,San-Sebastian,localhost,230
+8080,18,Isabel-II,Isabel II,1,975,2017,JANUARY,San-Sebastian,localhost,217
+8080,43,Anoeta,Anoeta,1,531,2017,JANUARY,San-Sebastian,localhost,207
+8080,14,Lugaritz,Lugaritz,1,478,2017,JANUARY,San-Sebastian,localhost,137
+8080,31,Riberas,Riberas,1,554,2017,JANUARY,San-Sebastian,localhost,116
+8080,19,Intxaurrondo,Intxaurrondo,1,574,2017,JANUARY,San-Sebastian,localhost,111
+8080,23,Ayuntamiento,Ayuntamiento,2,"1,978",2017,FEBRUARY,San-Sebastian,localhost,535
+8080,12,Plaza-Cataluña,Plaza Cataluña,2,"1,526",2017,FEBRUARY,San-Sebastian,localhost,413
+8080,16,Paseo-Francia,Paseo Francia,2,"1,497",2017,FEBRUARY,San-Sebastian,localhost,396
+8080,11,Easo,Easo,2,"1,655",2017,FEBRUARY,San-Sebastian,localhost,369
+8080,12,Arrasate,Arrasate,2,"1,224",2017,FEBRUARY,San-Sebastian,localhost,356
+8080,11,Pio-XII,Pio XII,2,"1,468",2017,FEBRUARY,San-Sebastian,localhost,349
+8080,28,Andia,Andia,2,"1,022",2017,FEBRUARY,San-Sebastian,localhost,343
+8080,16,Universidades,Universidades,2,"1,424",2017,FEBRUARY,San-Sebastian,localhost,325
+8080,13,Av--Zarautz,Av. Zarautz,2,"1,061",2017,FEBRUARY,San-Sebastian,localhost,311
+8080,26,San-Francisco,San Francisco,2,"1,089",2017,FEBRUARY,San-Sebastian,localhost,273
+8080,11,Isabel-II,Isabel II,2,"1,050",2017,FEBRUARY,San-Sebastian,localhost,256
+8080,15,Magisterio,Magisterio,2,940,2017,FEBRUARY,San-Sebastian,localhost,252
+8080,21,Anoeta,Anoeta,2,621,2017,FEBRUARY,San-Sebastian,localhost,209
+8080,13,Lugaritz,Lugaritz,2,533,2017,FEBRUARY,San-Sebastian,localhost,147
+8080,20,Intxaurrondo,Intxaurrondo,2,651,2017,FEBRUARY,San-Sebastian,localhost,132
+8080,12,Riberas,Riberas,2,628,2017,FEBRUARY,San-Sebastian,localhost,115
+8080,30,Ayuntamiento,Ayuntamiento,3,"2,432",2017,MARCH,San-Sebastian,localhost,642
+8080,25,Plaza-Cataluña,Plaza Cataluña,3,"1,983",2017,MARCH,San-Sebastian,localhost,479
+8080,14,Paseo-Francia,Paseo Francia,3,"1,999",2017,MARCH,San-Sebastian,localhost,467
+8080,21,Andia,Andia,3,"1,359",2017,MARCH,San-Sebastian,localhost,430
+8080,14,Arrasate,Arrasate,3,"1,432",2017,MARCH,San-Sebastian,localhost,419
+8080,14,Pio-XII,Pio XII,3,"1,766",2017,MARCH,San-Sebastian,localhost,408
+8080,32,Easo,Easo,3,"2,080",2017,MARCH,San-Sebastian,localhost,390
+8080,15,Universidades,Universidades,3,"1,652",2017,MARCH,San-Sebastian,localhost,362
+8080,20,Av--Zarautz,Av. Zarautz,3,"1,306",2017,MARCH,San-Sebastian,localhost,357
+8080,25,San-Francisco,San Francisco,3,"1,319",2017,MARCH,San-Sebastian,localhost,317
+8080,17,Magisterio,Magisterio,3,"1,164",2017,MARCH,San-Sebastian,localhost,290
+8080,12,Isabel-II,Isabel II,3,"1,316",2017,MARCH,San-Sebastian,localhost,278
+8080,13,Anoeta,Anoeta,3,687,2017,MARCH,San-Sebastian,localhost,239
+8080,14,Lugaritz,Lugaritz,3,684,2017,MARCH,San-Sebastian,localhost,158
+8080,20,Intxaurrondo,Intxaurrondo,3,916,2017,MARCH,San-Sebastian,localhost,154
+8080,13,Riberas,Riberas,3,856,2017,MARCH,San-Sebastian,localhost,131
+8080,28,Ayuntamiento,Ayuntamiento,4,"2,228",2017,APRIL,San-Sebastian,localhost,816
+8080,18,Paseo-Francia,Paseo Francia,4,"1,990",2017,APRIL,San-Sebastian,localhost,541
+8080,15,Plaza-Cataluña,Plaza Cataluña,4,"1,942",2017,APRIL,San-Sebastian,localhost,530
+8080,14,Andia,Andia,4,"1,389",2017,APRIL,San-Sebastian,localhost,475
+8080,17,Arrasate,Arrasate,4,"1,546",2017,APRIL,San-Sebastian,localhost,469
+8080,15,Easo,Easo,4,"1,971",2017,APRIL,San-Sebastian,localhost,450
+8080,16,Pio-XII,Pio XII,4,"1,473",2017,APRIL,San-Sebastian,localhost,427
+8080,15,Av--Zarautz,Av. Zarautz,4,"1,504",2017,APRIL,San-Sebastian,localhost,417
+8080,17,Universidades,Universidades,4,"1,404",2017,APRIL,San-Sebastian,localhost,373
+8080,40,San-Francisco,San Francisco,4,"1,204",2017,APRIL,San-Sebastian,localhost,347
+8080,13,Isabel-II,Isabel II,4,"1,300",2017,APRIL,San-Sebastian,localhost,324
+8080,17,Magisterio,Magisterio,4,"1,101",2017,APRIL,San-Sebastian,localhost,323
+8080,14,Anoeta,Anoeta,4,686,2017,APRIL,San-Sebastian,localhost,248
+8080,18,Lugaritz,Lugaritz,4,627,2017,APRIL,San-Sebastian,localhost,188
+8080,14,Intxaurrondo,Intxaurrondo,4,"1,172",2017,APRIL,San-Sebastian,localhost,173
+8080,21,Riberas,Riberas,4,808,2017,APRIL,San-Sebastian,localhost,157
+8080,25,Ayuntamiento,Ayuntamiento,5,"2,983",2017,MAY,San-Sebastian,localhost,826
+8080,17,Plaza-Cataluña,Plaza Cataluña,5,"2,702",2017,MAY,San-Sebastian,localhost,638
+8080,14,Paseo-Francia,Paseo Francia,5,"2,565",2017,MAY,San-Sebastian,localhost,565
+8080,12,Arrasate,Arrasate,5,"1,926",2017,MAY,San-Sebastian,localhost,530
+8080,28,Andia,Andia,5,"1,727",2017,MAY,San-Sebastian,localhost,516
+8080,15,Easo,Easo,5,"2,320",2017,MAY,San-Sebastian,localhost,495
+8080,12,Pio-XII,Pio XII,5,"2,117",2017,MAY,San-Sebastian,localhost,482
+8080,23,Av--Zarautz,Av. Zarautz,5,"1,632",2017,MAY,San-Sebastian,localhost,438
+8080,14,Universidades,Universidades,5,"2,175",2017,MAY,San-Sebastian,localhost,431
+8080,13,San-Francisco,San Francisco,5,"1,519",2017,MAY,San-Sebastian,localhost,369
+8080,11,Isabel-II,Isabel II,5,"1,818",2017,MAY,San-Sebastian,localhost,355
+8080,19,Magisterio,Magisterio,5,"1,228",2017,MAY,San-Sebastian,localhost,346
+8080,21,Anoeta,Anoeta,5,837,2017,MAY,San-Sebastian,localhost,287
+8080,13,Lugaritz,Lugaritz,5,890,2017,MAY,San-Sebastian,localhost,189
+8080,13,Intxaurrondo,Intxaurrondo,5,"1,663",2017,MAY,San-Sebastian,localhost,177
+8080,16,Riberas,Riberas,5,996,2017,MAY,San-Sebastian,localhost,164
+8080,32,Ayuntamiento,Ayuntamiento,6,"2,778",2017,JUNE,San-Sebastian,localhost,854
+8080,20,Plaza-Cataluña,Plaza Cataluña,6,"2,514",2017,JUNE,San-Sebastian,localhost,604
+8080,16,Paseo-Francia,Paseo Francia,6,"2,135",2017,JUNE,San-Sebastian,localhost,592
+8080,22,Andia,Andia,6,"1,554",2017,JUNE,San-Sebastian,localhost,534
+8080,17,Arrasate,Arrasate,6,"1,475",2017,JUNE,San-Sebastian,localhost,503
+8080,36,Easo,Easo,6,"2,051",2017,JUNE,San-Sebastian,localhost,483
+8080,16,Pio-XII,Pio XII,6,"1,708",2017,JUNE,San-Sebastian,localhost,439
+8080,17,Av--Zarautz,Av. Zarautz,6,"1,432",2017,JUNE,San-Sebastian,localhost,424
+8080,18,Universidades,Universidades,6,"1,457",2017,JUNE,San-Sebastian,localhost,390
+8080,16,San-Francisco,San Francisco,6,"1,446",2017,JUNE,San-Sebastian,localhost,380
+8080,25,Magisterio,Magisterio,6,"1,071",2017,JUNE,San-Sebastian,localhost,337
+8080,12,Isabel-II,Isabel II,6,"1,564",2017,JUNE,San-Sebastian,localhost,332
+8080,19,Anoeta,Anoeta,6,639,2017,JUNE,San-Sebastian,localhost,248
+8080,18,Intxaurrondo,Intxaurrondo,6,"1,200",2017,JUNE,San-Sebastian,localhost,197
+8080,15,Lugaritz,Lugaritz,6,622,2017,JUNE,San-Sebastian,localhost,170
+8080,13,Riberas,Riberas,6,982,2017,JUNE,San-Sebastian,localhost,165
+8080,27,Ayuntamiento,Ayuntamiento,7,"3,427",2017,JULY,San-Sebastian,localhost,"1,041"
+8080,24,Plaza-Cataluña,Plaza Cataluña,7,"2,785",2017,JULY,San-Sebastian,localhost,657
+8080,22,Paseo-Francia,Paseo Francia,7,"2,218",2017,JULY,San-Sebastian,localhost,645
+8080,21,Arrasate,Arrasate,7,"1,630",2017,JULY,San-Sebastian,localhost,580
+8080,14,Andia,Andia,7,"1,570",2017,JULY,San-Sebastian,localhost,575
+8080,16,Easo,Easo,7,"1,868",2017,JULY,San-Sebastian,localhost,540
+8080,20,Av--Zarautz,Av. Zarautz,7,"1,534",2017,JULY,San-Sebastian,localhost,504
+8080,18,San-Francisco,San Francisco,7,"1,440",2017,JULY,San-Sebastian,localhost,431
+8080,13,Pio-XII,Pio XII,7,"1,482",2017,JULY,San-Sebastian,localhost,428
+8080,47,Universidades,Universidades,7,"1,352",2017,JULY,San-Sebastian,localhost,403
+8080,19,Magisterio,Magisterio,7,"1,075",2017,JULY,San-Sebastian,localhost,373
+8080,16,Isabel-II,Isabel II,7,"1,425",2017,JULY,San-Sebastian,localhost,357
+8080,33,Anoeta,Anoeta,7,744,2017,JULY,San-Sebastian,localhost,264
+8080,25,Intxaurrondo,Intxaurrondo,7,"1,294",2017,JULY,San-Sebastian,localhost,209
+8080,41,Riberas,Riberas,7,956,2017,JULY,San-Sebastian,localhost,177
+8080,19,Lugaritz,Lugaritz,7,536,2017,JULY,San-Sebastian,localhost,163
+8080,0,-,-,7,11,2017,JULY,San-Sebastian,localhost,1
+8080,28,Ayuntamiento,Ayuntamiento,8,"2,736",2017,AUGUST,San-Sebastian,localhost,907
+8080,21,Plaza-Cataluña,Plaza Cataluña,8,"2,565",2017,AUGUST,San-Sebastian,localhost,652
+8080,25,Andia,Andia,8,"1,712",2017,AUGUST,San-Sebastian,localhost,627
+8080,26,Paseo-Francia,Paseo Francia,8,"1,894",2017,AUGUST,San-Sebastian,localhost,605
+8080,18,Arrasate,Arrasate,8,"1,475",2017,AUGUST,San-Sebastian,localhost,556
+8080,14,Easo,Easo,8,"1,945",2017,AUGUST,San-Sebastian,localhost,514
+8080,25,Av--Zarautz,Av. Zarautz,8,"1,502",2017,AUGUST,San-Sebastian,localhost,459
+8080,27,Pio-XII,Pio XII,8,"1,390",2017,AUGUST,San-Sebastian,localhost,415
+8080,24,Universidades,Universidades,8,"1,188",2017,AUGUST,San-Sebastian,localhost,401
+8080,35,San-Francisco,San Francisco,8,"1,271",2017,AUGUST,San-Sebastian,localhost,395
+8080,21,Isabel-II,Isabel II,8,"1,396",2017,AUGUST,San-Sebastian,localhost,344
+8080,24,Magisterio,Magisterio,8,838,2017,AUGUST,San-Sebastian,localhost,305
+8080,13,Anoeta,Anoeta,8,594,2017,AUGUST,San-Sebastian,localhost,235
+8080,20,Intxaurrondo,Intxaurrondo,8,"1,386",2017,AUGUST,San-Sebastian,localhost,195
+8080,14,Riberas,Riberas,8,895,2017,AUGUST,San-Sebastian,localhost,168
+8080,22,Lugaritz,Lugaritz,8,436,2017,AUGUST,San-Sebastian,localhost,143
+8080,20,Ayuntamiento,Ayuntamiento,9,"2,817",2017,SEPTEMBER,San-Sebastian,localhost,873
+8080,19,Plaza-Cataluña,Plaza Cataluña,9,"2,573",2017,SEPTEMBER,San-Sebastian,localhost,614
+8080,13,Paseo-Francia,Paseo Francia,9,"2,340",2017,SEPTEMBER,San-Sebastian,localhost,584
+8080,15,Andia,Andia,9,"1,622",2017,SEPTEMBER,San-Sebastian,localhost,584
+8080,12,Arrasate,Arrasate,9,"1,498",2017,SEPTEMBER,San-Sebastian,localhost,550
+8080,14,Easo,Easo,9,"2,117",2017,SEPTEMBER,San-Sebastian,localhost,533
+8080,16,Pio-XII,Pio XII,9,"1,839",2017,SEPTEMBER,San-Sebastian,localhost,501
+8080,15,Av--Zarautz,Av. Zarautz,9,"1,759",2017,SEPTEMBER,San-Sebastian,localhost,492
+8080,29,San-Francisco,San Francisco,9,"1,531",2017,SEPTEMBER,San-Sebastian,localhost,435
+8080,23,Universidades,Universidades,9,"1,640",2017,SEPTEMBER,San-Sebastian,localhost,430
+8080,14,Isabel-II,Isabel II,9,"1,859",2017,SEPTEMBER,San-Sebastian,localhost,393
+8080,55,Magisterio,Magisterio,9,"1,126",2017,SEPTEMBER,San-Sebastian,localhost,380
+8080,17,Anoeta,Anoeta,9,824,2017,SEPTEMBER,San-Sebastian,localhost,307
+8080,24,Intxaurrondo,Intxaurrondo,9,"1,258",2017,SEPTEMBER,San-Sebastian,localhost,197
+8080,14,Riberas,Riberas,9,858,2017,SEPTEMBER,San-Sebastian,localhost,154
+8080,35,Lugaritz,Lugaritz,9,417,2017,SEPTEMBER,San-Sebastian,localhost,150
+8080,25,Ayuntamiento,Ayuntamiento,10,"3,078",2017,OCTOBER,San-Sebastian,localhost,828
+8080,27,Paseo-Francia,Paseo Francia,10,"2,509",2017,OCTOBER,San-Sebastian,localhost,615
+8080,16,Plaza-Cataluña,Plaza Cataluña,10,"2,658",2017,OCTOBER,San-Sebastian,localhost,592
+8080,15,Andia,Andia,10,"1,640",2017,OCTOBER,San-Sebastian,localhost,535
+8080,16,Easo,Easo,10,"2,221",2017,OCTOBER,San-Sebastian,localhost,518
+8080,21,Arrasate,Arrasate,10,"1,488",2017,OCTOBER,San-Sebastian,localhost,509
+8080,23,Av--Zarautz,Av. Zarautz,10,"1,829",2017,OCTOBER,San-Sebastian,localhost,503
+8080,19,Pio-XII,Pio XII,10,"1,946",2017,OCTOBER,San-Sebastian,localhost,492
+8080,18,San-Francisco,San Francisco,10,"1,569",2017,OCTOBER,San-Sebastian,localhost,420
+8080,17,Universidades,Universidades,10,"1,760",2017,OCTOBER,San-Sebastian,localhost,410
+8080,14,Isabel-II,Isabel II,10,"1,602",2017,OCTOBER,San-Sebastian,localhost,392
+8080,17,Magisterio,Magisterio,10,"1,279",2017,OCTOBER,San-Sebastian,localhost,365
+8080,28,Anoeta,Anoeta,10,889,2017,OCTOBER,San-Sebastian,localhost,279
+8080,22,Intxaurrondo,Intxaurrondo,10,"1,340",2017,OCTOBER,San-Sebastian,localhost,218
+8080,12,Riberas,Riberas,10,"1,123",2017,OCTOBER,San-Sebastian,localhost,179
+8080,66,Lugaritz,Lugaritz,10,433,2017,OCTOBER,San-Sebastian,localhost,158
+8080,24,Ayuntamiento,Ayuntamiento,11,"1,795",2017,NOVEMBER,San-Sebastian,localhost,522
+8080,16,Paseo-Francia,Paseo Francia,11,"1,766",2017,NOVEMBER,San-Sebastian,localhost,444
+8080,25,Plaza-Cataluña,Plaza Cataluña,11,"1,591",2017,NOVEMBER,San-Sebastian,localhost,427
+8080,20,Easo,Easo,11,"1,493",2017,NOVEMBER,San-Sebastian,localhost,420
+8080,13,Arrasate,Arrasate,11,"1,004",2017,NOVEMBER,San-Sebastian,localhost,396
+8080,16,Pio-XII,Pio XII,11,"1,292",2017,NOVEMBER,San-Sebastian,localhost,384
+8080,27,Andia,Andia,11,886,2017,NOVEMBER,San-Sebastian,localhost,355
+8080,30,Universidades,Universidades,11,"1,324",2017,NOVEMBER,San-Sebastian,localhost,344
+8080,15,Av--Zarautz,Av. Zarautz,11,"1,011",2017,NOVEMBER,San-Sebastian,localhost,332
+8080,15,San-Francisco,San Francisco,11,"1,076",2017,NOVEMBER,San-Sebastian,localhost,297
+8080,14,Isabel-II,Isabel II,11,939,2017,NOVEMBER,San-Sebastian,localhost,281
+8080,14,Magisterio,Magisterio,11,870,2017,NOVEMBER,San-Sebastian,localhost,279
+8080,13,Anoeta,Anoeta,11,510,2017,NOVEMBER,San-Sebastian,localhost,205
+8080,19,Riberas,Riberas,11,767,2017,NOVEMBER,San-Sebastian,localhost,149
+8080,22,Intxaurrondo,Intxaurrondo,11,692,2017,NOVEMBER,San-Sebastian,localhost,145
+8080,19,Lugaritz,Lugaritz,11,232,2017,NOVEMBER,San-Sebastian,localhost,93
+8080,5,-,-,11,10,2017,NOVEMBER,San-Sebastian,localhost,2
+8080,16,Ayuntamiento,Ayuntamiento,12,"1,757",2017,DECEMBER,San-Sebastian,localhost,555
+8080,93,Paseo-Francia,Paseo Francia,12,"1,430",2017,DECEMBER,San-Sebastian,localhost,440
+8080,15,Plaza-Cataluña,Plaza Cataluña,12,"1,441",2017,DECEMBER,San-Sebastian,localhost,391
+8080,17,Arrasate,Arrasate,12,997,2017,DECEMBER,San-Sebastian,localhost,391
+8080,14,Easo,Easo,12,"1,335",2017,DECEMBER,San-Sebastian,localhost,390
+8080,25,Andia,Andia,12,828,2017,DECEMBER,San-Sebastian,localhost,358
+8080,13,Pio-XII,Pio XII,12,"1,097",2017,DECEMBER,San-Sebastian,localhost,329
+8080,18,Av--Zarautz,Av. Zarautz,12,960,2017,DECEMBER,San-Sebastian,localhost,315
+8080,15,Universidades,Universidades,12,969,2017,DECEMBER,San-Sebastian,localhost,290
+8080,17,San-Francisco,San Francisco,12,757,2017,DECEMBER,San-Sebastian,localhost,271
+8080,12,Isabel-II,Isabel II,12,901,2017,DECEMBER,San-Sebastian,localhost,254
+8080,21,Magisterio,Magisterio,12,751,2017,DECEMBER,San-Sebastian,localhost,239
+8080,23,Anoeta,Anoeta,12,506,2017,DECEMBER,San-Sebastian,localhost,196
+8080,18,Intxaurrondo,Intxaurrondo,12,751,2017,DECEMBER,San-Sebastian,localhost,152
+8080,19,Riberas,Riberas,12,649,2017,DECEMBER,San-Sebastian,localhost,140
+8080,56,Lugaritz,Lugaritz,12,208,2017,DECEMBER,San-Sebastian,localhost,92
+8080,14,Ayuntamiento,Ayuntamiento,1,"1,916",2018,JANUARY,San-Sebastian,localhost,522
+8080,12,Paseo-Francia,Paseo Francia,1,"1,669",2018,JANUARY,San-Sebastian,localhost,448
+8080,14,Arrasate,Arrasate,1,"1,183",2018,JANUARY,San-Sebastian,localhost,414
+8080,12,Easo,Easo,1,"1,551",2018,JANUARY,San-Sebastian,localhost,412
+8080,23,Plaza-Cataluña,Plaza Cataluña,1,"1,556",2018,JANUARY,San-Sebastian,localhost,404
+8080,9,Andia,Andia,1,"1,076",2018,JANUARY,San-Sebastian,localhost,397
+8080,36,Pio-XII,Pio XII,1,"1,310",2018,JANUARY,San-Sebastian,localhost,349
+8080,15,Universidades,Universidades,1,"1,275",2018,JANUARY,San-Sebastian,localhost,335
+8080,17,Av--Zarautz,Av. Zarautz,1,"1,011",2018,JANUARY,San-Sebastian,localhost,313
+8080,10,Magisterio,Magisterio,1,945,2018,JANUARY,San-Sebastian,localhost,296
+8080,11,Isabel-II,Isabel II,1,"1,077",2018,JANUARY,San-Sebastian,localhost,291
+8080,13,San-Francisco,San Francisco,1,969,2018,JANUARY,San-Sebastian,localhost,282
+8080,13,Anoeta,Anoeta,1,581,2018,JANUARY,San-Sebastian,localhost,216
+8080,18,Riberas,Riberas,1,888,2018,JANUARY,San-Sebastian,localhost,164
+8080,214,Intxaurrondo,Intxaurrondo,1,833,2018,JANUARY,San-Sebastian,localhost,164
+8080,37,Lugaritz,Lugaritz,1,229,2018,JANUARY,San-Sebastian,localhost,102
+8080,"2,136",-,-,1,8,2018,JANUARY,San-Sebastian,localhost,1
+8080,18,Ayuntamiento,Ayuntamiento,2,"1,553",2018,FEBRUARY,San-Sebastian,localhost,426
+8080,14,Paseo-Francia,Paseo Francia,2,"1,474",2018,FEBRUARY,San-Sebastian,localhost,415
+8080,14,Plaza-Cataluña,Plaza Cataluña,2,"1,194",2018,FEBRUARY,San-Sebastian,localhost,344
+8080,10,Andia,Andia,2,988,2018,FEBRUARY,San-Sebastian,localhost,328
+8080,11,Pio-XII,Pio XII,2,"1,193",2018,FEBRUARY,San-Sebastian,localhost,326
+8080,14,Easo,Easo,2,"1,243",2018,FEBRUARY,San-Sebastian,localhost,322
+8080,25,Arrasate,Arrasate,2,937,2018,FEBRUARY,San-Sebastian,localhost,315
+8080,14,Av--Zarautz,Av. Zarautz,2,988,2018,FEBRUARY,San-Sebastian,localhost,285
+8080,12,Universidades,Universidades,2,"1,079",2018,FEBRUARY,San-Sebastian,localhost,280
+8080,16,San-Francisco,San Francisco,2,859,2018,FEBRUARY,San-Sebastian,localhost,264
+8080,11,Isabel-II,Isabel II,2,939,2018,FEBRUARY,San-Sebastian,localhost,246
+8080,14,Magisterio,Magisterio,2,874,2018,FEBRUARY,San-Sebastian,localhost,243
+8080,31,Anoeta,Anoeta,2,476,2018,FEBRUARY,San-Sebastian,localhost,188
+8080,10,Riberas,Riberas,2,769,2018,FEBRUARY,San-Sebastian,localhost,135
+8080,18,Intxaurrondo,Intxaurrondo,2,617,2018,FEBRUARY,San-Sebastian,localhost,134
+8080,12,Lugaritz,Lugaritz,2,145,2018,FEBRUARY,San-Sebastian,localhost,80
+8080,1,-,-,2,2,2018,FEBRUARY,San-Sebastian,localhost,1
+8080,18,Ayuntamiento,Ayuntamiento,3,"2,266",2018,MARCH,San-Sebastian,localhost,694
+8080,62,Paseo-Francia,Paseo Francia,3,"1,848",2018,MARCH,San-Sebastian,localhost,542
+8080,12,Plaza-Cataluña,Plaza Cataluña,3,"1,896",2018,MARCH,San-Sebastian,localhost,495
+8080,13,Easo,Easo,3,"1,739",2018,MARCH,San-Sebastian,localhost,440
+8080,12,Arrasate,Arrasate,3,"1,372",2018,MARCH,San-Sebastian,localhost,434
+8080,14,Andia,Andia,3,"1,338",2018,MARCH,San-Sebastian,localhost,432
+8080,10,Pio-XII,Pio XII,3,"1,630",2018,MARCH,San-Sebastian,localhost,394
+8080,15,Av--Zarautz,Av. Zarautz,3,"1,319",2018,MARCH,San-Sebastian,localhost,381
+8080,14,San-Francisco,San Francisco,3,"1,196",2018,MARCH,San-Sebastian,localhost,345
+8080,13,Universidades,Universidades,3,"1,385",2018,MARCH,San-Sebastian,localhost,338
+8080,13,Magisterio,Magisterio,3,"1,192",2018,MARCH,San-Sebastian,localhost,336
+8080,11,Isabel-II,Isabel II,3,"1,167",2018,MARCH,San-Sebastian,localhost,336
+8080,14,Anoeta,Anoeta,3,574,2018,MARCH,San-Sebastian,localhost,209
+8080,16,Intxaurrondo,Intxaurrondo,3,"1,090",2018,MARCH,San-Sebastian,localhost,194
+8080,18,Riberas,Riberas,3,924,2018,MARCH,San-Sebastian,localhost,170
+8080,44,Lugaritz,Lugaritz,3,268,2018,MARCH,San-Sebastian,localhost,113
+8080,22,Ayuntamiento,Ayuntamiento,4,"2,535",2018,APRIL,San-Sebastian,localhost,762
+8080,9,Paseo-Francia,Paseo Francia,4,"2,311",2018,APRIL,San-Sebastian,localhost,581
+8080,15,Plaza-Cataluña,Plaza Cataluña,4,"2,207",2018,APRIL,San-Sebastian,localhost,572
+8080,43,Arrasate,Arrasate,4,"1,517",2018,APRIL,San-Sebastian,localhost,495
+8080,11,Easo,Easo,4,"1,824",2018,APRIL,San-Sebastian,localhost,476
+8080,9,Pio-XII,Pio XII,4,"1,784",2018,APRIL,San-Sebastian,localhost,454
+8080,12,Av--Zarautz,Av. Zarautz,4,"1,508",2018,APRIL,San-Sebastian,localhost,454
+8080,17,Andia,Andia,4,"1,462",2018,APRIL,San-Sebastian,localhost,451
+8080,16,Universidades,Universidades,4,"1,567",2018,APRIL,San-Sebastian,localhost,422
+8080,12,San-Francisco,San Francisco,4,"1,369",2018,APRIL,San-Sebastian,localhost,405
+8080,13,Magisterio,Magisterio,4,"1,267",2018,APRIL,San-Sebastian,localhost,386
+8080,13,Isabel-II,Isabel II,4,"1,283",2018,APRIL,San-Sebastian,localhost,339
+8080,14,Anoeta,Anoeta,4,687,2018,APRIL,San-Sebastian,localhost,271
+8080,13,Intxaurrondo,Intxaurrondo,4,"1,263",2018,APRIL,San-Sebastian,localhost,216
+8080,13,Riberas,Riberas,4,989,2018,APRIL,San-Sebastian,localhost,187
+8080,15,Lugaritz,Lugaritz,4,356,2018,APRIL,San-Sebastian,localhost,127
+8080,18,Ayuntamiento,Ayuntamiento,5,"3,237",2018,MAY,San-Sebastian,localhost,825
+8080,16,Paseo-Francia,Paseo Francia,5,"2,749",2018,MAY,San-Sebastian,localhost,628
+8080,12,Plaza-Cataluña,Plaza Cataluña,5,"2,698",2018,MAY,San-Sebastian,localhost,592
+8080,18,Andia,Andia,5,"1,980",2018,MAY,San-Sebastian,localhost,562
+8080,19,Arrasate,Arrasate,5,"1,725",2018,MAY,San-Sebastian,localhost,560
+8080,10,Easo,Easo,5,"2,374",2018,MAY,San-Sebastian,localhost,543
+8080,11,Pio-XII,Pio XII,5,"2,132",2018,MAY,San-Sebastian,localhost,498
+8080,14,Av--Zarautz,Av. Zarautz,5,"1,836",2018,MAY,San-Sebastian,localhost,498
+8080,15,Universidades,Universidades,5,"2,134",2018,MAY,San-Sebastian,localhost,465
+8080,15,San-Francisco,San Francisco,5,"1,716",2018,MAY,San-Sebastian,localhost,431
+8080,13,Magisterio,Magisterio,5,"1,669",2018,MAY,San-Sebastian,localhost,422
+8080,12,Isabel-II,Isabel II,5,"1,708",2018,MAY,San-Sebastian,localhost,376
+8080,16,Anoeta,Anoeta,5,720,2018,MAY,San-Sebastian,localhost,250
+8080,15,Intxaurrondo,Intxaurrondo,5,"1,585",2018,MAY,San-Sebastian,localhost,214
+8080,11,Riberas,Riberas,5,"1,159",2018,MAY,San-Sebastian,localhost,195
+8080,12,Lugaritz,Lugaritz,5,445,2018,MAY,San-Sebastian,localhost,152
+8080,24,Ayuntamiento,Ayuntamiento,6,"3,058",2018,JUNE,San-Sebastian,localhost,908
+8080,14,Plaza-Cataluña,Plaza Cataluña,6,"2,856",2018,JUNE,San-Sebastian,localhost,692
+8080,10,Paseo-Francia,Paseo Francia,6,"2,509",2018,JUNE,San-Sebastian,localhost,657
+8080,14,Andia,Andia,6,"1,846",2018,JUNE,San-Sebastian,localhost,620
+8080,14,Arrasate,Arrasate,6,"1,777",2018,JUNE,San-Sebastian,localhost,606
+8080,10,Easo,Easo,6,"2,114",2018,JUNE,San-Sebastian,localhost,568
+8080,18,Av--Zarautz,Av. Zarautz,6,"1,727",2018,JUNE,San-Sebastian,localhost,502
+8080,11,Pio-XII,Pio XII,6,"1,643",2018,JUNE,San-Sebastian,localhost,486
+8080,14,Universidades,Universidades,6,"1,731",2018,JUNE,San-Sebastian,localhost,476
+8080,14,San-Francisco,San Francisco,6,"1,541",2018,JUNE,San-Sebastian,localhost,446
+8080,15,Magisterio,Magisterio,6,"1,336",2018,JUNE,San-Sebastian,localhost,419
+8080,12,Isabel-II,Isabel II,6,"1,533",2018,JUNE,San-Sebastian,localhost,375
+8080,20,Anoeta,Anoeta,6,649,2018,JUNE,San-Sebastian,localhost,242
+8080,12,Intxaurrondo,Intxaurrondo,6,"1,435",2018,JUNE,San-Sebastian,localhost,225
+8080,12,Riberas,Riberas,6,"1,044",2018,JUNE,San-Sebastian,localhost,198
+8080,37,Lugaritz,Lugaritz,6,586,2018,JUNE,San-Sebastian,localhost,176
+8080,27,Ayuntamiento,Ayuntamiento,7,"2,726",2018,JULY,San-Sebastian,localhost,860
+8080,16,Plaza-Cataluña,Plaza Cataluña,7,"2,310",2018,JULY,San-Sebastian,localhost,627
+8080,11,Paseo-Francia,Paseo Francia,7,"1,987",2018,JULY,San-Sebastian,localhost,601
+8080,14,Andia,Andia,7,"1,493",2018,JULY,San-Sebastian,localhost,588
+8080,29,Arrasate,Arrasate,7,"1,429",2018,JULY,San-Sebastian,localhost,579
+8080,28,Easo,Easo,7,"1,695",2018,JULY,San-Sebastian,localhost,499
+8080,17,Av--Zarautz,Av. Zarautz,7,"1,349",2018,JULY,San-Sebastian,localhost,429
+8080,16,Pio-XII,Pio XII,7,"1,270",2018,JULY,San-Sebastian,localhost,427
+8080,17,San-Francisco,San Francisco,7,"1,335",2018,JULY,San-Sebastian,localhost,424
+8080,18,Universidades,Universidades,7,"1,096",2018,JULY,San-Sebastian,localhost,403
+8080,23,Magisterio,Magisterio,7,996,2018,JULY,San-Sebastian,localhost,387
+8080,13,Isabel-II,Isabel II,7,"1,100",2018,JULY,San-Sebastian,localhost,319
+8080,14,Intxaurrondo,Intxaurrondo,7,"1,278",2018,JULY,San-Sebastian,localhost,213
+8080,52,Anoeta,Anoeta,7,458,2018,JULY,San-Sebastian,localhost,192
+8080,22,Lugaritz,Lugaritz,7,504,2018,JULY,San-Sebastian,localhost,174
+8080,12,Riberas,Riberas,7,881,2018,JULY,San-Sebastian,localhost,171
+8080,28,Ayuntamiento,Ayuntamiento,8,"1,490",2018,AUGUST,San-Sebastian,localhost,600
+8080,20,Andia,Andia,8,"1,282",2018,AUGUST,San-Sebastian,localhost,546
+8080,29,Plaza-Cataluña,Plaza Cataluña,8,"1,633",2018,AUGUST,San-Sebastian,localhost,518
+8080,39,Paseo-Francia,Paseo Francia,8,"1,322",2018,AUGUST,San-Sebastian,localhost,475
+8080,32,Arrasate,Arrasate,8,"1,091",2018,AUGUST,San-Sebastian,localhost,456
+8080,18,Easo,Easo,8,"1,288",2018,AUGUST,San-Sebastian,localhost,395
+8080,30,Av--Zarautz,Av. Zarautz,8,904,2018,AUGUST,San-Sebastian,localhost,351
+8080,14,Pio-XII,Pio XII,8,"1,008",2018,AUGUST,San-Sebastian,localhost,338
+8080,17,San-Francisco,San Francisco,8,909,2018,AUGUST,San-Sebastian,localhost,338
+8080,12,Isabel-II,Isabel II,8,890,2018,AUGUST,San-Sebastian,localhost,269
+8080,45,Magisterio,Magisterio,8,560,2018,AUGUST,San-Sebastian,localhost,260
+8080,28,Universidades,Universidades,8,655,2018,AUGUST,San-Sebastian,localhost,251
+8080,30,Intxaurrondo,Intxaurrondo,8,817,2018,AUGUST,San-Sebastian,localhost,186
+8080,16,Anoeta,Anoeta,8,336,2018,AUGUST,San-Sebastian,localhost,153
+8080,42,Lugaritz,Lugaritz,8,377,2018,AUGUST,San-Sebastian,localhost,129
+8080,11,Riberas,Riberas,8,578,2018,AUGUST,San-Sebastian,localhost,126
+
