@@ -8,14 +8,13 @@
 @prefix lod: <http://test.eurohelp.es/linkeddata/id/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
 @prefix km4c: <http://www.disit.org/km4city/schema/#>.
-@prefix fare: <http://test.eurohelp.es/linkeddata/id/fare->.
 @prefix w3-time: <http://www.w3.org/2006/>.
 
 #Se define por cada sujeto un bloque en el que se podran anadir todos los 
 #predicados y objetos necesarios
 <#PrimerBloque>
 	rml:logicalSource [
-		rml:source "newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
+		rml:source "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -75,7 +74,7 @@
    
   <#Year>
 	rml:logicalSource[
-		rml:source "newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
+		rml:source "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -98,7 +97,7 @@
 
 <#Month>
 	rml:logicalSource[
-		rml:source "newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
+		rml:source "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -123,7 +122,7 @@
 	
 <#Locali>
 	rml:logicalSource[
-		rml:source "newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
+		rml:source "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -150,7 +149,7 @@
         		
 <#BloqueLocalizacion>
 	rml:logicalSource [
-		rml:source "newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
+		rml:source "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
     	rml:referenceFormulation ql:CSV
 	];
  	
