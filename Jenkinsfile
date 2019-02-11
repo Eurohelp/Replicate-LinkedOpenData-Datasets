@@ -2,7 +2,7 @@
 
 import java.text.SimpleDateFormat
 // Entorno (local,test y para produccion en blanco
-def entornoEjecu="Local"
+def entornoEjecu=""
 def entornoBlaze=""
 def entorno=""
 switch (entornoEjecu) {
@@ -11,7 +11,7 @@ switch (entornoEjecu) {
 		entorno = "localhost:8080"
         break;
     case "Test":
-        entornoBlaze = "test.eurohelp.es"
+        entornoBlaze = "blzg-write:8080"
 		entorno = "test.eurohelp.es"
 		break;
     default:
