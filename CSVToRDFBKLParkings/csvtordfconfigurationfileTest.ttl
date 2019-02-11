@@ -1,0 +1,174 @@
+#Se empiezan cargando los prefix que se usar?n en el RDF generado
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix rr: <http://www.w3.org/ns/r2rml#>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix ql: <http://semweb.mmlab.be/ns/ql#> .
+@prefix rml: <http://semweb.mmlab.be/ns/rml#> .
+@prefix schema: <http://schema.org/> .
+@prefix lod: <http://test.eurohelp.es/linkeddata/id/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix km4c: <http://www.disit.org/km4city/schema/#>.
+@prefix fare: <http://test.eurohelp.es/linkeddata/id/fare->.
+@prefix w3-time: <http://www.w3.org/2006/>.
+
+#Se define por cada sujeto un bloque en el que se podran anadir todos los 
+#predicados y objetos necesarios
+<#PrimerBloque>
+	rml:logicalSource [
+		rml:source "newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+ 	rr:subjectMap [
+        rr:template "http://{Environment}:{Port}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}/{Year}/{Month}";
+ 		rr:class km4c:Byke_rack;
+        rr:class km4c:Byke_rental;
+        rr:class lod:Byke_rack;
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+    	    rml:reference "Station";
+        ]
+	];
+           
+ 	rr:predicateObjectMap [
+        rr:predicate lod:MonthText;
+        rr:objectMap [
+            rml:reference "MonthText";
+            rr:datatype xsd:string;
+        ]
+	];
+	
+	rr:predicateObjectMap [
+       rr:predicate lod:MonthText;
+       rr:objectMap [
+           rml:reference "MonthText";
+           rr:datatype xsd:string;
+        ]
+	];
+	
+	rr:predicateObjectMap [
+        rr:predicate lod:Number_of_routes;
+        rr:objectMap [
+            rml:reference "Number_of_routes";
+            rr:datatype xsd:float;
+        ]
+	];
+	
+	rr:predicateObjectMap [
+        rr:predicate lod:Users_quantity;
+        rr:objectMap [
+            rml:reference "Users_quantity";
+            rr:datatype xsd:float;
+        ]
+	];
+	
+	rr:predicateObjectMap [
+        rr:predicate lod:Average_duration;
+        rr:objectMap [
+            rml:reference "Average_duration";
+            rr:datatype xsd:float;
+        ]
+    ].
+   
+  <#Year>
+	rml:logicalSource[
+		rml:source "newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+ 	rr:subjectMap [
+        rr:template "http://{Environment}:{Port}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}/{Year}";
+		rr:class schema:gYear;
+    ];
+    rr:predicateObjectMap [
+    	rr:predicate rdfs:label;
+        rr:objectMap [
+    	    rml:reference "Station";
+        ]
+     ];   
+    rr:predicateObjectMap [
+        rr:predicate schema:gMonth;
+        rr:objectMap [
+             rr:parentTriplesMap <#Month>
+        ]
+	].
+
+<#Month>
+	rml:logicalSource[
+		rml:source "newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+ 	rr:subjectMap [
+        rr:template "http://{Environment}:{Port}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}/{Year}/{Month}";
+		rr:class schema:gYear;
+    ];
+     rr:predicateObjectMap [
+    	rr:predicate rdfs:label;
+        rr:objectMap [
+    	    rml:reference "Year";
+        ]
+     ];   
+    rr:predicateObjectMap [
+        rr:predicate lod:Month;
+        rr:objectMap [
+            rml:reference "Month";
+            rr:datatype xsd:gMonth;
+        ]
+    ].
+      
+	
+<#Locali>
+	rml:logicalSource[
+		rml:source "newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+ 	rr:subjectMap [
+        rr:template "http://{Environment}:{Port}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}";
+		rr:class geo:localtion;
+    ];
+   
+     
+      rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+    	    rml:reference "Localizacion";
+     ]
+	];
+     
+     rr:predicateObjectMap [
+        rr:predicate schema:gYear;
+        rr:objectMap [
+             rr:parentTriplesMap <#Year>
+        ]
+	].
+        
+        		
+<#BloqueLocalizacion>
+	rml:logicalSource [
+		rml:source "newdata/BKL_dBizi_usuarios_por_mes_estacion.csv";
+    	rml:referenceFormulation ql:CSV
+	];
+ 	
+    rr:subjectMap [
+        rr:template "http://{Environment}:{Port}/linkeddata/id/{Localizacion}";
+        rr:class schema:Place;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+    	    rr:constant "San Sebastian";
+        ]
+	];
+	rr:predicateObjectMap [
+        rr:predicate geo:localtion;
+        rr:objectMap [
+            rr:parentTriplesMap <#Locali>
+        ]
+        ].
+        
+           
