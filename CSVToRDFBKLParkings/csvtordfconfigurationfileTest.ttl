@@ -20,7 +20,7 @@
     ];
     
  	rr:subjectMap [
-        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}/{Year}/{Month}";
+        rr:template "http://{Environment}:{Port}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}/{Year}/{Month}";
  		rr:class km4c:Byke_rack;
         rr:class km4c:Byke_rental;
         rr:class lod:Byke_rack;
@@ -80,7 +80,7 @@
     ];
     
  	rr:subjectMap [
-        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}/{Year}";
+        rr:template "http://{Environment}:{Port}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}/{Year}";
 		rr:class schema:gYear;
     ];
     rr:predicateObjectMap [
@@ -103,7 +103,7 @@
     ];
     
  	rr:subjectMap [
-        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}/{Year}/{Month}";
+        rr:template "http://{Environment}:{Port}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}/{Year}/{Month}";
 		rr:class schema:gYear;
     ];
      rr:predicateObjectMap [
@@ -128,7 +128,7 @@
     ];
     
  	rr:subjectMap [
-        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}";
+        rr:template "http://{Environment}:{Port}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}";
 		rr:class geo:localtion;
     ];
    
@@ -155,7 +155,7 @@
 	];
  	
     rr:subjectMap [
-        rr:template "http://{Environment}/linkeddata/id/{Localizacion}";
+        rr:template "http://{Environment}:{Port}/linkeddata/id/{Localizacion}";
         rr:class schema:Place;
     ];
     rr:predicateObjectMap [
