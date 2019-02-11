@@ -5,6 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.apache.commons.lang3.text.WordUtils;
+
 public class Transformation {
 
 	private static Transformation instance = null;
@@ -37,6 +39,55 @@ public class Transformation {
 		return newList;
 	}
 
+	
+	/**
+	 * Quitar las comillas de las cadenas que puede ser numero xsd:Int en
+	 * RDF
+	 * 
+	 * @param pFecha
+	 * @return
+	 */
+	public List<String> quitarComillas(List<String> pCadena) {
+		List<String> newList = new ArrayList<>();
+		for (String string : pCadena) {
+			string = string.replaceAll("\"", "");
+			newList.add(string);
+		}
+		return newList;
+	}
+	
+	/**
+	 * Quitar las comillas de las cadenas que puede ser numero xsd:Int en
+	 * RDF
+	 * 
+	 * @param pFecha
+	 * @return
+	 */
+	public List<String> quitarPuntos(List<String> pCadena) {
+		List<String> newList = new ArrayList<>();
+		for (String string : pCadena) {
+			string = string.replaceAll("\\.", "");
+			newList.add(string);
+		}
+		return newList;
+	}
+	
+	
+	/**
+	 * Quitar las comillas de las cadenas que puede ser numero xsd:Int en
+	 * RDF
+	 * 
+	 * @param pFecha
+	 * @return
+	 */
+	public List<String> upperCase(List<String> pCadena) {
+		List<String> newList = new ArrayList<>();
+		for (String string : pCadena) {
+			newList.add(WordUtils.capitalizeFully(string, '-'));
+		}
+		return newList;
+	}
+	
 	/**
 	 * Al pasarle un string con caracteres especiales, le da el formato adecuado
 	 * para que se use en la construccion de una uri

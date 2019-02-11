@@ -10,7 +10,6 @@ import org.openrdf.rio.RDFFormat;
 
 import be.ugent.mmlab.rml.core.RMLEngine;
 import be.ugent.mmlab.rml.core.StdRMLEngine;
-import be.ugent.mmlab.rml.main.Main;
 import be.ugent.mmlab.rml.mapdochandler.extraction.std.StdRMLMappingFactory;
 import be.ugent.mmlab.rml.mapdochandler.retrieval.RMLDocRetrieval;
 import be.ugent.mmlab.rml.model.RMLMapping;
@@ -23,22 +22,28 @@ public class CSVToRDF {
 	// En tercero lugar se le pasara el path del archivo de configuracion
 	// En cuarto lugar la ruta donde se quiera almacenar el archivo
 	// resultante con la extensi�n deseada
-	public static void main(String[] args) throws IOException {
+
+	private static final String EXTENSION_TURTLE_FILE = "ttl";
+
+	public static void main(String[] args) throws IOException, InterruptedException {
 
 		// Se ejecuta el preprocesado del CSV en el que se realizaran las
 		// modificaciones, adiciones y borrados necesarios para generar el RDF
+
 		Preprocess pprocess = new Preprocess();
-		pprocess.CSVpreprocess(args[0], args[1]);
+
+		pprocess.csvPreprocess(args[0], args[1], args[4]);
 		// Ejecuci�n del archivo RML
 		try {
 			File outputFile = Paths.get(args[3]).toFile();
-			File mapping_file = Paths.get(args[2]).toFile();
+			File mappingFile = Paths.get(args[2]).toFile();
 			RMLDocRetrieval mapDocRetrieval = new RMLDocRetrieval();
-			Repository repository = mapDocRetrieval.getMappingDoc(mapping_file.toString(), RDFFormat.TURTLE);
+			Repository repository = mapDocRetrieval.getMappingDoc(mappingFile.toString(), RDFFormat.TURTLE);
 			StdRMLMappingFactory mappingFactory = new StdRMLMappingFactory();
 			if (repository == null) {
 				System.out.println("No se ha generado RDF");
-				throw new Exception("RML CONFIGURATION FILE SYNTAX ERROR->There is some problem with rml configuration file, please check it. Maybe the problem is the sintax");
+				throw new IOException(
+						"RML CONFIGURATION FILE SYNTAX ERROR->There is some problem with rml configuration file, please check it. Maybe the problem is the sintax");
 			}
 			RMLMapping mapping = mappingFactory.extractRMLMapping(repository);
 			String graphName = "";
@@ -46,11 +51,11 @@ public class CSVToRDF {
 			String[] exeTriplesMap = null;
 
 			String outputFormat = "";
-			if (args[3].toLowerCase().contains("ttl")) {
+			if (args[3].toLowerCase().contains(EXTENSION_TURTLE_FILE)) {
 				outputFormat = RDFFormat.TURTLE.getName();
-				if (!outputFile.toString().toLowerCase().contains("ttl")) {
-					int init = outputFile.toString().indexOf(".");
-					String newPath = args[2].substring(0, init) + ".ttl";
+				if (!outputFile.toString().toLowerCase().contains(EXTENSION_TURTLE_FILE)) {
+					int init = outputFile.toString().indexOf('.');
+					String newPath = args[2].substring(0, init) + "." + EXTENSION_TURTLE_FILE;
 					outputFile = Paths.get(newPath).toFile();
 				}
 			}
@@ -64,11 +69,13 @@ public class CSVToRDF {
 
 			if (outputFile.length() == 0) {
 				System.out.println("No se ha generado RDF");
-				throw new Exception("ARGUMENTS ERROR->There is some problem with RDF Generation. Please check the program arguments \n");
+				throw new IOException(
+						"ARGUMENTS ERROR->There is some problem with RDF Generation. Please check the program arguments \n");
 			}
-			
+
 			Thread.sleep(2000);
-		} catch (Exception e) {
+			System.out.println("Proceso finalizado");
+		} catch (IOException e) {
 			e.printStackTrace(System.err);
 		}
 	}
