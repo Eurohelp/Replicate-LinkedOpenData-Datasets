@@ -1,6 +1,6 @@
 DELETE {?s ?p ?o}
 WHERE {
-GRAPH <http://lod.eurohelp.es/dataset/parkings>{
+GRAPH <http://lod.eurohelp.es/dataset/bklparkings>{
 	?s ?p ?o
 	}
 }

@@ -1,5 +1,5 @@
 SELECT (COUNT(*) as ?count)
-FROM <http://lod.eurohelp.es/dataset/parkings>
+FROM <http://lod.eurohelp.es/dataset/bklparkings>
 WHERE {
    ?s ?p ?o .
 }
