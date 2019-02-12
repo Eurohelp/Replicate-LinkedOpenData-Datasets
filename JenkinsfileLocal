@@ -7,15 +7,15 @@ def entornoBlaze=""
 def entorno=""
 switch (entornoEjecu) {
     case "Local":
-        entornoBlaze = "localhost:8080"
+        entornoBlaze = "localhost:8080/blazegraph"
 		entorno = "localhost:8080"
         break;
     case "Test":
-        entornoBlaze = "blzg-write:8080"
+        entornoBlaze = "blzg-write:8080/blazegraph"
 		entorno = "test.eurohelp.es"
 		break;
     default:
-        entornoBlaze = "blzg-write:8080"
+        entornoBlaze = "blzg-write:8080/blazegraph"
 		entorno = "donostia.eus"
 }
  println "Los entornos seran"
@@ -24,13 +24,13 @@ switch (entornoEjecu) {
  println "Entorno: "+entorno
  println "Entorno ejecucion: "+entornoEjecu
 def NameSpace="bklparkings"
-def SPARQLendpoint = "http://"+entornoBlaze+"/blazegraph/namespace/"+NameSpace+"/sparql"
+def SPARQLendpoint = "http://"+entornoBlaze+"/namespace/"+NameSpace+"/sparql"
 def CSVBKLParkings = "CSVToRDFBKLParkings/data/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def NewCSVBKLParkings = "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def RmlConfigurationFile = "CSVToRDFBKLParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
 def RDFBKLParkings = "shacl/"+NameSpace+entornoEjecu+".ttl"
 def NamedGraph = "http://"+entorno+"/linkeddata/graph/"+NameSpace
-def CompleteGraphUri = "http://"+entornoBlaze+"/blazegraph/namespace/"+NameSpace+"/sparql?context-uri=" + NamedGraph
+def CompleteGraphUri = "http://"+entornoBlaze+"/namespace/"+NameSpace+"/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-"+NameSpace+entornoEjecu+".ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/"+NameSpace+"report"+entornoEjecu+".ttl"
@@ -82,7 +82,7 @@ node {
             println "Se ha producido un fallo se enviara un correo notificandolo"
             mail(to: 'dmuv7@hotmail.com',
                 subject: "Fallo en ${env.JOB_NAME}",
-                body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + ". Revisa el error en http://"+entornoBlaze+"/jenkins/job/Replicate-Donosti-BKLParkings/${env.BUILD_NUMBER}",
+                body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + ". Revisa el error en http://"+entorno+"/jenkins/job/Replicate-Donosti-BKLParkings/${env.BUILD_NUMBER}",
                 mimeType: 'text/html');
             currentBuild.result = 'FAILURE'
         }
