@@ -23,17 +23,17 @@ switch (entornoEjecu) {
  println "entornoBlaze: "+entornoBlaze
  println "Entorno: "+entorno
  println "Entorno ejecucion: "+entornoEjecu
-
-def SPARQLendpoint = "http://"+entornoBlaze+"/blazegraph/namespace/kb/sparql"
+def NameSpace=bklparkings
+def SPARQLendpoint = "http://"+entornoBlaze+"/blazegraph/namespace/"+NameSpace+"/sparql"
 def CSVBKLParkings = "CSVToRDFBKLParkings/data/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def NewCSVBKLParkings = "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def RmlConfigurationFile = "CSVToRDFBKLParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
-def RDFBKLParkings = "shacl/bklparkings"+entornoEjecu+".ttl"
-def NamedGraph = "http://"+entorno+"/linkeddata/graph/bklparkings"
-def CompleteGraphUri = "http://"+entornoBlaze+"/blazegraph/namespace/kb/sparql?context-uri=" + NamedGraph
-def SHACLfile = "shacl/shacl-bklparkings"+entornoEjecu+".ttl"
+def RDFBKLParkings = "shacl/"NameSpace+entornoEjecu+".ttl"
+def NamedGraph = "http://"+entorno+"/linkeddata/graph/"+NameSpace
+def CompleteGraphUri = "http://"+entornoBlaze+"/blazegraph/namespace/"+NameSpace+"/sparql?context-uri=" + NamedGraph
+def SHACLfile = "shacl/shacl-"+NameSpace+entornoEjecu+".ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
-def SHACLReportFile = "shacl/bklparkingsreport"+entornoEjecu+".ttl"
+def SHACLReportFile = "shacl/"+NameSpace+"report"+entornoEjecu+".ttl"
 def SilkConfiguration = "silk/silk-test"+entornoEjecu+".xml"
 def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
@@ -48,7 +48,7 @@ node {
             git branch: 'feature-pipeline-bikeracks', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         stage('Convert CSV to RDF') {
-            def ret = sh(script: 'java -jar CSVToRDFBKLParkings/bklparkingsrdfcreator.jar ' + CSVBKLParkings + ' ' + NewCSVBKLParkings + ' ' + RmlConfigurationFile + ' ' + RDFBKLParkings+ ' ' + entorno, returnStdout: true)
+            def ret = sh(script: 'java -jar CSVToRDFBKLParkings/bklparkingsrdfcreator.jar ' + CSVBKLParkings + ' ' + NewCSVBKLParkings + ' ' + RmlConfigurationFile + ' ' + RDFBKLParkings+ ' ' + entorno+' '+NameSpace, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }
