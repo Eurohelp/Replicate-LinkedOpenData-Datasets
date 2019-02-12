@@ -28,7 +28,7 @@ def SPARQLendpoint = "http://"+entornoBlaze+"/blazegraph/namespace/"+NameSpace+"
 def CSVBKLParkings = "CSVToRDFBKLParkings/data/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def NewCSVBKLParkings = "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def RmlConfigurationFile = "CSVToRDFBKLParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
-def RDFBKLParkings = "shacl/"NameSpace+entornoEjecu+".ttl"
+def RDFBKLParkings = "shacl/"+NameSpace+entornoEjecu+".ttl"
 def NamedGraph = "http://"+entorno+"/linkeddata/graph/"+NameSpace
 def CompleteGraphUri = "http://"+entornoBlaze+"/blazegraph/namespace/"+NameSpace+"/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-"+NameSpace+entornoEjecu+".ttl"
