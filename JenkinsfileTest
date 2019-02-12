@@ -24,13 +24,13 @@ switch (entornoEjecu) {
  println "Entorno: "+entorno
  println "Entorno ejecucion: "+entornoEjecu
 
-def SPARQLendpoint = "http://"+entornoBlaze+"/blazegraph/namespace/kb/sparql"
+def SPARQLendpoint = "http://"+entornoBlaze+"/blazegraph/namespace/bklparkings/sparql"
 def CSVBKLParkings = "CSVToRDFBKLParkings/data/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def NewCSVBKLParkings = "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def RmlConfigurationFile = "CSVToRDFBKLParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
 def RDFBKLParkings = "shacl/bklparkings"+entornoEjecu+".ttl"
 def NamedGraph = "http://"+entorno+"/linkeddata/graph/bklparkings"
-def CompleteGraphUri = "http://"+entornoBlaze+"/blazegraph/namespace/kb/sparql?context-uri=" + NamedGraph
+def CompleteGraphUri = "http://"+entornoBlaze+"/blazegraph/namespace/bklparkings/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-bklparkings"+entornoEjecu+".ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/bklparkingsreport"+entornoEjecu+".ttl"
