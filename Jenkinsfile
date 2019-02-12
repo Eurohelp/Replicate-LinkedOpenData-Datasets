@@ -24,7 +24,7 @@ switch (entornoEjecu) {
  println "Entorno: "+entorno
  println "Entorno ejecucion: "+entornoEjecu
 
-def NameSpace=bklparkings
+def NameSpace="bklparkings"
 def SPARQLendpoint = "http://"+entornoBlaze+"/blazegraph/namespace/"+NameSpace+"/sparql"
 def CSVBKLParkings = "CSVToRDFBKLParkings/data/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def NewCSVBKLParkings = "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
