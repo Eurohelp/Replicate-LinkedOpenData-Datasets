@@ -49,7 +49,7 @@ node {
             git branch: 'feature-pipeline-bikeracks', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         stage('Convert CSV to RDF') {
-            def ret = sh(script: 'java -jar CSVToRDFBKLParkings/bklparkingsrdfcreator.jar ' + CSVBKLParkings + ' ' + NewCSVBKLParkings + ' ' + RmlConfigurationFile + ' ' + RDFBKLParkings+ ' ' + entorno+' '+NameSpace, returnStdout: true)
+            def ret = sh(script: 'java -jar CSVToRDFBKLParkings/bklparkingsrdfcreator.jar ' + CSVBKLParkings + ' ' + NewCSVBKLParkings + ' ' + RmlConfigurationFile + ' ' + RDFBKLParkings+ ' ' + entorno+' '+NameSpace+' '+entornoBlaze, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }
