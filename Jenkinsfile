@@ -30,7 +30,7 @@ def CSVBKLParkings = "CSVToRDFBKLParkings/data/BKL_dBizi_usuarios_por_mes_estaci
 def NewCSVBKLParkings = "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def RmlConfigurationFile = "CSVToRDFBKLParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
 def RDFBKLParkings = "shacl/"+NameSpace+entornoEjecu+".ttl"
-def NamedGraph = "http://"+entorno+"/linkeddata/graph/"+NameSpace
+def NamedGraph = "http://"+entorno+"/linkeddata/graph/id"
 def CompleteGraphUri = "http://"+entornoBlaze+"/namespace/"+NameSpace+"/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-"+NameSpace+entornoEjecu+".ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
@@ -48,8 +48,30 @@ node {
         stage('Checkout pipeline') {
             git branch: 'feature-pipeline-bikeracks', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
+        
+         stage('Comprobar namespace') {
+		    try {
+		    timeout(time: 30, unit: 'SECONDS') {
+		      try {
+				  def ret = sh(script: 'java -jar blazegraph/blazegraphvalidator.jar ' +NameSpace+' http://'+entornoBlaze, returnStdout: true)
+		          if (ret.contains('No se ha generado RDF')) {
+		               sh 'exit 1'
+		          }
+		      }
+		      catch (err) {
+		        echo "For some reason, this catch is activated. Error: ${err.getMessage()}"
+		      }
+		      echo "This should not be executed, but it is!"
+		    }
+		  }
+		  catch (err) {
+		    echo "I expect that this catch will be activated. Error: ${err.getMessage()}"
+		  }
+        
+           
+        }
         stage('Convert CSV to RDF') {
-            def ret = sh(script: 'java -jar CSVToRDFBKLParkings/bklparkingsrdfcreator.jar ' + CSVBKLParkings + ' ' + NewCSVBKLParkings + ' ' + RmlConfigurationFile + ' ' + RDFBKLParkings+ ' ' + entorno+' '+NameSpace+' '+entornoBlaze, returnStdout: true)
+             def ret = sh(script: 'java -jar CSVToRDFBKLParkings/bklparkingsrdfcreator.jar ' + CSVBKLParkings + ' ' + NewCSVBKLParkings + ' ' + RmlConfigurationFile + ' ' + RDFBKLParkings+ ' ' + entorno, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }
