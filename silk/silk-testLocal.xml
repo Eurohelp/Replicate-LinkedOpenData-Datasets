@@ -17,7 +17,7 @@
 		</DataSource>
 		<DataSource id="blazegraph" type="sparqlEndpoint">
 			<Param name="endpointURI" value="http://localhost:8080/blazegraph/namespace/bklparkings/sparql" />
-			<Param name="graph" value="http://localhost:8080/linkeddata/graph/bklparkings" />
+			<Param name="graph" value="http://localhost:8080/linkeddata/graph/id" />
 		</DataSource>
 	</DataSources>
 	<Interlinks>
