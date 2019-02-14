@@ -25,13 +25,12 @@ switch (entornoEjecu) {
  println "Entorno ejecucion: "+entornoEjecu
 
 def NameSpace="bklparkings"
-def SPARQLendpoint = "http://"+entornoBlaze+"/namespace/"+NameSpace+"/sparql"
 def CSVBKLParkings = "CSVToRDFBKLParkings/data/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def NewCSVBKLParkings = "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def RmlConfigurationFile = "CSVToRDFBKLParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
 def RDFBKLParkings = "shacl/"+NameSpace+entornoEjecu+".ttl"
-def NamedGraph = "http://"+entorno+"/linkeddata/graph/"+NameSpace
-def CompleteGraphUri = "http://"+entornoBlaze+"/namespace/"+NameSpace+"/sparql?context-uri=" + NamedGraph
+def NamedGraph = "http://"+entorno+"/linkeddata/graph/id"
+def CompleteGraphUri = "http://"+entornoBlaze+"/namespace/kb/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-"+NameSpace+entornoEjecu+".ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
 def SHACLReportFile = "shacl/"+NameSpace+"report"+entornoEjecu+".ttl"
@@ -42,37 +41,12 @@ def LinksSilk = "silk/accepted_links.nt"
 
 node {
     try {
-        stage('Remove data from blazegraph') {
-            sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
-        }
         stage('Checkout pipeline') {
             git branch: 'feature-pipeline-bikeracks', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         
-        stage('Comprobar namespace') {
-		    try {
-		    timeout(time: 30, unit: 'SECONDS') {
-		      try {
-				  def ret = sh(script: 'java -jar blazegraph/blazegrapvalidator.jar ' +NameSpace+' '+entornoBlaze, returnStdout: true)
-		          if (ret.contains('No se ha generado RDF')) {
-		               sh 'exit 1'
-		          }
-		      }
-		      catch (err) {
-		        echo "For some reason, this catch is activated. Error: ${err.getMessage()}"
-		      }
-		      echo "This should not be executed, but it is!"
-		    }
-		  }
-		  catch (err) {
-		    echo "I expect that this catch will be activated. Error: ${err.getMessage()}"
-		  }
-        
-           
-        }
-        
         stage('Convert CSV to RDF') {
-            def ret = sh(script: 'java -jar CSVToRDFBKLParkings/bklparkingsrdfcreator.jar ' + CSVBKLParkings + ' ' + NewCSVBKLParkings + ' ' + RmlConfigurationFile + ' ' + RDFBKLParkings+ ' ' + entorno+' '+NameSpace+' '+entornoBlaze, returnStdout: true)
+            def ret = sh(script: 'java -jar CSVToRDFBKLParkings/bklparkingsrdfcreator.jar ' + CSVBKLParkings + ' ' + NewCSVBKLParkings + ' ' + RmlConfigurationFile + ' ' + RDFBKLParkings+ ' ' + entorno, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }

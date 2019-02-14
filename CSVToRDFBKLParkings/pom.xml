@@ -26,6 +26,10 @@
 			<id>stardog-public</id>
 			<url>http://maven.stardog.com</url>
 		</repository>
+		<repository>
+      <id>maven.snapshots</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+    </repository>
 	</repositories>
 	<dependencies>
 		<dependency>

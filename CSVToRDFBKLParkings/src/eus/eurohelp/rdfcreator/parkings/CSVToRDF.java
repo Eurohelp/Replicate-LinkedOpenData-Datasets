@@ -7,8 +7,6 @@ import java.util.Map;
 
 import org.openrdf.repository.Repository;
 import org.openrdf.rio.RDFFormat;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import be.ugent.mmlab.rml.core.RMLEngine;
 import be.ugent.mmlab.rml.core.StdRMLEngine;
@@ -23,18 +21,18 @@ public class CSVToRDF {
 	// En segundo lugar del csv tras aplicarle los cambios
 	// En tercero lugar se le pasara el path del archivo de configuracion
 	// En cuarto lugar la ruta donde se quiera almacenar el archivo
-	// resultante con la extensi�n deseada
+	// resultante con la extension deseada
 
 	private static final String EXTENSION_TURTLE_FILE = "ttl";
-	public static void main(String[] args) throws IOException, InterruptedException {
-
-		// Se ejecuta el preprocesado del CSV en el que se realizaran las
-		// modificaciones, adiciones y borrados necesarios para generar el RDF
+	public static void main(String[] args) throws IOException, InterruptedException  {
+		
+        // Se ejecuta el preprocesado del CSV en el que se realizaran las
+        // modificaciones, adiciones y borrados necesarios para generar el RDF
 
 		Preprocess pprocess = new Preprocess();
-
 		pprocess.csvPreprocess(args[0], args[1], args[4]);
-		// Ejecuci�n del archivo RML
+		
+		// Ejecucion del archivo RML
 		try {
 			File outputFile = Paths.get(args[3]).toFile();
 			File mappingFile = Paths.get(args[2]).toFile();

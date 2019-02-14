@@ -16,8 +16,8 @@
 			<Param name="graph" value="http://es.dbpedia.org" />
 		</DataSource>
 		<DataSource id="blazegraph" type="sparqlEndpoint">
-			<Param name="endpointURI" value="http://blzg-write:8080/blazegraph/namespace/bklparkings/sparql" />
-			<Param name="graph" value="http://localhost:8080/linkeddata/graph/id" />
+			<Param name="endpointURI" value="http://blzg-write:8080/blazegraph/namespace/kb/sparql" />
+			<Param name="graph" value="http://test.eurohelp.es/linkeddata/graph/bklparkings" />
 		</DataSource>
 	</DataSources>
 	<Interlinks>
