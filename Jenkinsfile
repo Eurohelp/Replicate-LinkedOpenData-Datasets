@@ -29,7 +29,7 @@ def CSVBKLParkings = "CSVToRDFBKLParkings/data/BKL_dBizi_usuarios_por_mes_estaci
 def NewCSVBKLParkings = "CSVToRDFBKLParkings/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
 def RmlConfigurationFile = "CSVToRDFBKLParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
 def RDFBKLParkings = "shacl/"+NameSpace+entornoEjecu+".ttl"
-def NamedGraph = "http://"+entorno+"/linkeddata/graph/id"
+def NamedGraph = "http://"+entorno+"/linkeddata/graph/bklparkings"
 def CompleteGraphUri = "http://"+entornoBlaze+"/namespace/kb/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-"+NameSpace+entornoEjecu+".ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
