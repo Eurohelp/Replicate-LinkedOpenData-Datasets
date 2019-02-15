@@ -166,7 +166,7 @@
     rr:predicateObjectMap [
         rr:predicate rdfs:label;
         rr:objectMap [
-    	    rr:constant "San Sebastian";
+    	    rr:constant "San Sebasti\u00e1n";
         ]
 	];
 	
