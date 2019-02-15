@@ -128,7 +128,7 @@
     
  	rr:subjectMap [
         rr:template "http://{Environment}/linkeddata/id/{Localizacion}/bike-rack/{NombreParaURI}";
-		rr:class geo:localtion;
+		rr:class geo:location;
     ];
    
      
@@ -164,7 +164,7 @@
         ]
 	];
 	rr:predicateObjectMap [
-        rr:predicate geo:localtion;
+        rr:predicate geo:location;
         rr:objectMap [
             rr:parentTriplesMap <#Locali>
         ]
