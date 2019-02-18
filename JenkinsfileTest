@@ -42,7 +42,7 @@ def LinksSilk = "silk/accepted_links.nt"
 node {
     try {
         stage('Checkout pipeline') {
-            git branch: 'feature-pipeline-lighthub', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
+            git branch: 'feature-pipeline-ligththub', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         
         stage('Convert CSV to RDF') {
