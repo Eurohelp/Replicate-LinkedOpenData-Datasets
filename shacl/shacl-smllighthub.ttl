@@ -1,0 +1,24 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:	<http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:	<http://donostia.eus/linkeddata/id/shacl-smllighthub> .
+@prefix lod: <http://donostia.eus/linkeddata/id/> .
+@prefix w3-time: <http://www.w3.org/2006/>.
+@prefix km4c: <http://www.disit.org/km4city/schema#>.
+
+
+ex:LightHubShape
+	a sh:NodeShape ;
+	sh:targetClass schema:Smart_street_light ;
+	sh:property [
+	sh:path km4c:areaName ;
+	sh:minCount 1 ;
+	sh:message "El hub tiene que tener un label@es";
+	sh:severity sh:Violation ;
+	].
+	
+
+

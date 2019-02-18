@@ -10,23 +10,23 @@
 		<Prefix id="geo" namespace="http://www.w3.org/2003/01/geo/wgs84_pos#" />
 	</Prefixes>
 	<DataSources>
-		<DataSource id="dbpedia" type="sparqlEndpoint">
+		<DataSource id="dbpedia" type="sparqlEndpoint" >
 			<Param name="endpointURI" value="http://es.dbpedia.org/sparql" />
 			<Param name="pageSize" value="20000" />
 			<Param name="graph" value="http://es.dbpedia.org" />
-		</DataSource>
-		<DataSource id="blazegraph" type="sparqlEndpoint">
+		</DataSource> 
+		<DataSource id="blazegraph" type="sparqlEndpoint" >
 			<Param name="endpointURI" value="http://localhost:8080/blazegraph/namespace/kb/sparql" />
-			<Param name="graph" value="http://localhost:8080/linkeddata/graph/bklparkings" />
+			<Param name="graph" value="http://localhost:8080/linkeddata/graph/smllighthub" />
 		</DataSource>
 	</DataSources>
 	<Interlinks>
 		<Interlink id="persons">
 			<LinkType>owl:sameAs</LinkType>
-			<SourceDataset var="a" dataSource="dbpedia">
+			<SourceDataset dataSource="dbpedia"  var="a">
 				<RestrictTo>?a rdf:type schema:Place</RestrictTo>
 			</SourceDataset>
-			<TargetDataset var="c" dataSource="blazegraph">
+			<TargetDataset  dataSource="blazegraph" var="c">
 				<RestrictTo>?c rdf:type schema:Place</RestrictTo>
 			</TargetDataset>
 			<LinkageRule>

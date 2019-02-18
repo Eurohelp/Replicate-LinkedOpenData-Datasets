@@ -1,6 +1,5 @@
 SELECT *
 WHERE {
-GRAPH <http://lod.eurohelp.es/dataset/bklparkings>{
-	?s ?p ?o
-	}
+?s ?p ?o . 
+filter (contains(str(?s), "light-hub"))
 }

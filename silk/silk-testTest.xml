@@ -17,7 +17,7 @@
 		</DataSource>
 		<DataSource id="blazegraph" type="sparqlEndpoint">
 			<Param name="endpointURI" value="http://blzg-write:8080/blazegraph/namespace/kb/sparql" />
-			<Param name="graph" value="http://test.eurohelp.es/linkeddata/graph/bklparkings" />
+			<Param name="graph" value="http://donostia.eus/linkeddata/graph/smllighthub" />
 		</DataSource>
 	</DataSources>
 	<Interlinks>

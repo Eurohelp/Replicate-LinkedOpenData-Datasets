@@ -1,6 +1,6 @@
 DELETE {?s ?p ?o}
 WHERE {
-GRAPH <http://lod.eurohelp.es/dataset/bklparkings>{
+GRAPH <http://donostia.eus/linkeddata/graph/smllighthun>{
 	?s ?p ?o
 	}
 }

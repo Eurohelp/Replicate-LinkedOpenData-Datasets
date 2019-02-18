@@ -1,0 +1,472 @@
+
+<http://localhost:8080/linkeddata/id/San-Sebastian> a <http://schema.org/Place> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "San Sebastián" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu> a <http://www.disit.org/km4city/schema#areaName> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "San-Sebastian" ;
+	<http://schema.org/gYear> <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016> a <http://schema.org/gYear> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "ubarburu" ;
+	<http://schema.org/gMonth> <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/1> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/2> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/3> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/4> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/5> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/6> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/7> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/8> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/9> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/10> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/11> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/12> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/1> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JANUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "1"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "5,064"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto> a <http://www.disit.org/km4city/schema#areaName> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "San-Sebastian" ;
+	<http://schema.org/gYear> <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016> a <http://schema.org/gYear> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "ursalto" ;
+	<http://schema.org/gMonth> <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/1> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/2> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/3> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/4> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/5> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/6> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/7> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/8> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/9> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/10> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/11> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/12> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/1> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JANUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "1"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "2,007"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/2> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "FEBRUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "2"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "4,441"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/2> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "FEBRUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "2"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,789"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/3> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MARCH" ;
+	<http://localhost:8080/linkeddata/id/Month> "3"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "5,118"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/3> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MARCH" ;
+	<http://localhost:8080/linkeddata/id/Month> "3"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,540"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/4> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "APRIL" ;
+	<http://localhost:8080/linkeddata/id/Month> "4"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "4,213"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/4> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "APRIL" ;
+	<http://localhost:8080/linkeddata/id/Month> "4"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,542"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/5> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MAY" ;
+	<http://localhost:8080/linkeddata/id/Month> "5"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "3,675"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/5> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MAY" ;
+	<http://localhost:8080/linkeddata/id/Month> "5"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,142"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/6> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JUNE" ;
+	<http://localhost:8080/linkeddata/id/Month> "6"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "3,566"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/6> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JUNE" ;
+	<http://localhost:8080/linkeddata/id/Month> "6"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,314"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/7> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JULY" ;
+	<http://localhost:8080/linkeddata/id/Month> "7"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "4,358"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/7> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JULY" ;
+	<http://localhost:8080/linkeddata/id/Month> "7"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,293"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/8> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "AUGUST" ;
+	<http://localhost:8080/linkeddata/id/Month> "8"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "3,910"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/8> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "AUGUST" ;
+	<http://localhost:8080/linkeddata/id/Month> "8"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,603"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/9> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "SEPTEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "9"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "5,006"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/9> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "SEPTEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "9"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,575"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/10> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "OCTOBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "10"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "5,573"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/10> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "OCTOBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "10"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "2,208"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/11> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "NOVEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "6,322"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/11> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "NOVEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "2,088"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2016/12> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "DECEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "12"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "6,030"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2016/12> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2016" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "DECEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "12"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "2,197"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017> a <http://schema.org/gYear> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "ubarburu" ;
+	<http://schema.org/gMonth> <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/1> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/2> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/3> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/4> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/5> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/6> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/7> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/8> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/9> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/10> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/11> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/12> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/1> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JANUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "1"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "5,295"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017> a <http://schema.org/gYear> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "ursalto" ;
+	<http://schema.org/gMonth> <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/1> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/2> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/3> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/4> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/5> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/6> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/7> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/8> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/9> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/10> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/11> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/12> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/1> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JANUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "1"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "2,012"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/2> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "FEBRUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "2"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "4,756"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/2> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "FEBRUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "2"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,775"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/3> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MARCH" ;
+	<http://localhost:8080/linkeddata/id/Month> "3"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "3,884"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/3> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MARCH" ;
+	<http://localhost:8080/linkeddata/id/Month> "3"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,762"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/4> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "APRIL" ;
+	<http://localhost:8080/linkeddata/id/Month> "4"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "3,543"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/4> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "APRIL" ;
+	<http://localhost:8080/linkeddata/id/Month> "4"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,354"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/5> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MAY" ;
+	<http://localhost:8080/linkeddata/id/Month> "5"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "2,408"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/5> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MAY" ;
+	<http://localhost:8080/linkeddata/id/Month> "5"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,209"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/6> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JUNE" ;
+	<http://localhost:8080/linkeddata/id/Month> "6"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "2,070"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/6> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JUNE" ;
+	<http://localhost:8080/linkeddata/id/Month> "6"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "687"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/7> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JULY" ;
+	<http://localhost:8080/linkeddata/id/Month> "7"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,726"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/7> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JULY" ;
+	<http://localhost:8080/linkeddata/id/Month> "7"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "612"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/8> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "AUGUST" ;
+	<http://localhost:8080/linkeddata/id/Month> "8"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,777"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/8> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "AUGUST" ;
+	<http://localhost:8080/linkeddata/id/Month> "8"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "914"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/9> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "SEPTEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "9"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,235"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/9> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "SEPTEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "9"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "812"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/10> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "OCTOBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "10"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,733"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/10> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "OCTOBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "10"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "985"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/11> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "NOVEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,992"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/11> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "NOVEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,153"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2017/12> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "DECEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "12"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,997"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2017/12> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2017" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "DECEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "12"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,159"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018> a <http://schema.org/gYear> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "ubarburu" ;
+	<http://schema.org/gMonth> <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/1> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/2> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/3> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/4> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/5> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/6> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/7> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/8> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/9> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/10> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/11> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/12> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/1> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JANUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "1"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,957"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018> a <http://schema.org/gYear> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "ursalto" ;
+	<http://schema.org/gMonth> <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/1> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/2> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/3> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/4> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/5> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/6> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/7> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/8> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/9> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/10> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/11> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/12> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/1> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JANUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "1"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,196"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/2> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "FEBRUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "2"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,571"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/2> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "FEBRUARY" ;
+	<http://localhost:8080/linkeddata/id/Month> "2"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "923"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/3> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MARCH" ;
+	<http://localhost:8080/linkeddata/id/Month> "3"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,365"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/3> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MARCH" ;
+	<http://localhost:8080/linkeddata/id/Month> "3"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "807"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/4> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "APRIL" ;
+	<http://localhost:8080/linkeddata/id/Month> "4"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,111"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/4> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "APRIL" ;
+	<http://localhost:8080/linkeddata/id/Month> "4"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "665"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/5> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MAY" ;
+	<http://localhost:8080/linkeddata/id/Month> "5"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "986"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/5> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "MAY" ;
+	<http://localhost:8080/linkeddata/id/Month> "5"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "610"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/6> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JUNE" ;
+	<http://localhost:8080/linkeddata/id/Month> "6"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "809"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/6> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JUNE" ;
+	<http://localhost:8080/linkeddata/id/Month> "6"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "532"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/7> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JULY" ;
+	<http://localhost:8080/linkeddata/id/Month> "7"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "688"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/7> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "JULY" ;
+	<http://localhost:8080/linkeddata/id/Month> "7"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "471"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/8> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "AUGUST" ;
+	<http://localhost:8080/linkeddata/id/Month> "8"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "959"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/8> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "AUGUST" ;
+	<http://localhost:8080/linkeddata/id/Month> "8"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "599"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/9> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "SEPTEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "9"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,058"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/9> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "SEPTEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "9"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "766"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/10> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "OCTOBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "10"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,200"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/10> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "OCTOBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "10"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "900"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/11> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "NOVEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,500"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/11> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "NOVEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "11"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,050"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu/2018/12> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "DECEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "12"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,700"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto/2018/12> a <http://schema.org/gYear> , <http://localhost:8080/linkeddata/id/light_hub> , <http://www.disit.org/km4city/schema#Smart_street_light> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "2018" ;
+	<http://localhost:8080/linkeddata/id/MonthText> "DECEMBER" ;
+	<http://localhost:8080/linkeddata/id/Month> "12"^^<http://www.w3.org/2001/XMLSchema#gMonth> ;
+	<http://localhost:8080/linkeddata/id/kilowatt> "1,300"^^<http://dbpedia.org/datatype/kilowatt> .
+
+<http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27> a <http://www.w3.org/2003/01/geo/wgs84_pos#location> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Poligono-27" ;
+	<http://www.w3.org/2003/01/geo/wgs84_pos#location> <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ubarburu> , <http://localhost:8080/linkeddata/id/San-Sebastian/light-hub/Poligono-27/ursalto> .
