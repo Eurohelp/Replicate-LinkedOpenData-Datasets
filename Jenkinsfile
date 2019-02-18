@@ -25,8 +25,8 @@ switch (entornoEjecu) {
  println "Entorno ejecucion: "+entornoEjecu
 
 def NameSpace="smllighthub"
-def CSVSMLLights = "CSVToRDFLightHub/data/BKL_dBizi_usuarios_por_mes_estacion.csv"
-def NewCSVSMLLights = "CSVToRDFLightHub/newdata/BKL_dBizi_usuarios_por_mes_estacion.csv"
+def CSVSMLLights = "CSVToRDFLightHub/data/SML_consumo_por_mes_hub.csv"
+def NewCSVSMLLights = "CSVToRDFLightHub/newdata/SML_consumo_por_mes_hub.csv"
 def RmlConfigurationFile = "CSVToRDFLightHub/csvtordfconfigurationfile"+entornoEjecu+".ttl"
 def RDFSMLLights = "shacl/"+NameSpace+entornoEjecu+".ttl"
 def NamedGraph = "http://"+entorno+"/linkeddata/graph/smllighthub"
