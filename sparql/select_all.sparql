@@ -1,5 +1,6 @@
 SELECT *
 WHERE {
-?s ?p ?o . 
-filter (contains(str(?s), "light-hub"))
+GRAPH <http://donostia.eus/linkeddata/graph/smllighthub>{
+	?s ?p ?o
+	}
 }
