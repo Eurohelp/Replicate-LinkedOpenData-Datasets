@@ -58,6 +58,7 @@ public class CSVToRDF {
 					outputFile = Paths.get(newPath).toFile();
 				}
 			}
+		
 			RMLEngine engine = new StdRMLEngine(outputFile.toString());
 
 			final RMLDataset runningDataset = engine.chooseSesameDataSet("dataset", outputFile.toString(),
@@ -73,6 +74,7 @@ public class CSVToRDF {
 			}
 
 			Thread.sleep(2000);
+			System.out.println("Conversion finalizada");
 		} catch (IOException e) {
 			e.printStackTrace(System.err);
 		}

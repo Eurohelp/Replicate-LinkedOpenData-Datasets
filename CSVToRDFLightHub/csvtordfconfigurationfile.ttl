@@ -15,7 +15,7 @@
 #predicados y objetos necesarios
 <#PrimerBloque>
 	rml:logicalSource [
-		rml:source "newdata/SML_consumo_por_mes_hub.csv";
+		rml:source "CSVToRDFLightHub/newdata/SML_consumo_por_mes_hub.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -49,7 +49,7 @@
    
   <#Year>
 	rml:logicalSource[
-		rml:source "newdata/SML_consumo_por_mes_hub.csv";
+		rml:source "CSVToRDFLightHub/newdata/SML_consumo_por_mes_hub.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -72,7 +72,7 @@
 
 <#Month>
 	rml:logicalSource[
-		rml:source "newdata/SML_consumo_por_mes_hub.csv";
+		rml:source "CSVToRDFLightHub/newdata/SML_consumo_por_mes_hub.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -97,7 +97,7 @@
 	
 <#Locali>
 	rml:logicalSource[
-		rml:source "newdata/SML_consumo_por_mes_hub.csv";
+		rml:source "CSVToRDFLightHub/newdata/SML_consumo_por_mes_hub.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -122,7 +122,7 @@
 	
 <#Polig>
 	rml:logicalSource[
-		rml:source "newdata/SML_consumo_por_mes_hub.csv";
+		rml:source "CSVToRDFLightHub/newdata/SML_consumo_por_mes_hub.csv";
         rml:referenceFormulation ql:CSV
     ];
     
@@ -149,7 +149,7 @@
         		
 <#BloqueLocalizacion>
 	rml:logicalSource [
-		rml:source "newdata/SML_consumo_por_mes_hub.csv";
+		rml:source "CSVToRDFLightHub/newdata/SML_consumo_por_mes_hub.csv";
     	rml:referenceFormulation ql:CSV
 	];
  	
@@ -160,7 +160,7 @@
     rr:predicateObjectMap [
         rr:predicate rdfs:label;
         rr:objectMap [
-    	    rr:constant "San Sebastian";
+    	    rr:constant "San Sebasti\u00e1n";
         ]
 	];
 	rr:predicateObjectMap [
