@@ -11,7 +11,7 @@
 	</Prefixes>
 	<DataSources>
 		<DataSource id="dbpedia" type="sparqlEndpoint" >
-			<Param name="endpointURI" value="http://es.dbpedia.org/sparql" />
+			<Param name="endpointURI" value="http://dbpedia.org/sparql" />
 			<Param name="pageSize" value="20000" />
 			<Param name="graph" value="http://es.dbpedia.org" />
 		</DataSource> 
