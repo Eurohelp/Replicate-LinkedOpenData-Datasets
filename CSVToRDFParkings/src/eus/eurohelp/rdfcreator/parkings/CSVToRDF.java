@@ -10,7 +10,6 @@ import org.openrdf.rio.RDFFormat;
 
 import be.ugent.mmlab.rml.core.RMLEngine;
 import be.ugent.mmlab.rml.core.StdRMLEngine;
-import be.ugent.mmlab.rml.main.Main;
 import be.ugent.mmlab.rml.mapdochandler.extraction.std.StdRMLMappingFactory;
 import be.ugent.mmlab.rml.mapdochandler.retrieval.RMLDocRetrieval;
 import be.ugent.mmlab.rml.model.RMLMapping;
@@ -23,18 +22,20 @@ public class CSVToRDF {
 	// En tercero lugar se le pasara el path del archivo de configuracion
 	// En cuarto lugar la ruta donde se quiera almacenar el archivo
 	// resultante con la extensi�n deseada
+	//En quito lugar el entorno de ejecucion . Eje: localhost:8080, test.xxx.es
+	
 	public static void main(String[] args) throws IOException {
 
 		// Se ejecuta el preprocesado del CSV en el que se realizaran las
 		// modificaciones, adiciones y borrados necesarios para generar el RDF
 		Preprocess pprocess = new Preprocess();
-		pprocess.CSVpreprocess(args[0], args[1]);
+		pprocess.CSVpreprocess(args[0], args[1], args[4]);
 		// Ejecuci�n del archivo RML
 		try {
 			File outputFile = Paths.get(args[3]).toFile();
-			File mapping_file = Paths.get(args[2]).toFile();
+			File mappingFile = Paths.get(args[2]).toFile();
 			RMLDocRetrieval mapDocRetrieval = new RMLDocRetrieval();
-			Repository repository = mapDocRetrieval.getMappingDoc(mapping_file.toString(), RDFFormat.TURTLE);
+			Repository repository = mapDocRetrieval.getMappingDoc(mappingFile.toString(), RDFFormat.TURTLE);
 			StdRMLMappingFactory mappingFactory = new StdRMLMappingFactory();
 			if (repository == null) {
 				System.out.println("No se ha generado RDF");

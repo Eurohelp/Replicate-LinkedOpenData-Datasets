@@ -1,0 +1,114 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh:	<http://www.w3.org/ns/shacl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix ex:	<http://localhost:8080/linkeddata/id/shacl-parkings> .
+@prefix lod: <http://localhost:8080/linkeddata/id/> .
+@prefix w3-time: <http://www.w3.org/2006/>.
+
+# A parking should have a latitude with xsd:float value between 43.2 and 43.4
+
+ex:ParkingShape
+	a sh:NodeShape ;
+	sh:targetClass schema:ParkingFacility ;
+	sh:property [
+	sh:path rdfs:label ;
+	sh:minCount 1 ;
+	sh:message "Un parking debe tener un label@es";
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path geo:long ;
+	sh:datatype xsd:float ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:message "Un parking deberia tener asoaciada una geo longitud@es";
+	sh:severity sh:Warning ;
+	];
+	sh:property [
+	sh:path geo:lat ;
+	sh:datatype xsd:float ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:message "Un parking deberia tener asoaciada una geo latitud con un valor comprendido entre 43.2 y 43.4@es";
+	sh:severity sh:Warning ;
+    sh:minInclusive 43.2 ;
+	sh:maxInclusive 43.4 ;
+	];
+	sh:property [
+	sh:path lod:plazasresidenteslibres ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:int ;
+	sh:message "Un parking debe tener un valor para el nº de plazas residentes libres@es" ;
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path lod:plazasrotatorias ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:int ;
+	sh:message "Un parking debe tener un valor para el nº de plazas rotatorias@es" ;
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path lod:plazastotales ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:int ;
+	sh:message "Un parking debe tener un valor para el nº de plazas totales@es" ;
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path lod:plazasrotatoriaslibres ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:int ;
+	sh:message "Un parking debe tener un valor para el nº de plazas rotatorias libres@es" ;
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path lod:plazasresidentes ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:int;
+	sh:message "Un parking debe tener un valor para el nº de plazas residentes@es" ;
+	sh:severity sh:Violation ;
+	];
+	sh:property [
+	sh:path schema:offers ;
+	sh:minCount 1 ;
+	sh:maxCount 7;
+	sh:message "Deberia tener precios para los 7 lapsos temporales que ofrecen@es" ;
+	sh:severity sh:Violation ;
+	].
+	
+ex:ParkingPriceShape
+	a sh:NodeShape ;
+	sh:targetClass schema:PriceSpecification; ;
+	sh:property [
+		sh:path schema:price; ;
+		sh:datatype xsd:float ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:message "La especificacion del precio por un determinado lapso de tiempo debe tener un valor@es" ;
+		sh:severity sh:Violation ;
+		];
+	sh:property [
+		sh:path schema:priceCurrency; ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:message "Para el valor del precio se debe especificar la moneda en el que viene dado@es" ;
+		sh:severity sh:Violation ;
+		];
+	sh:property [
+		sh:path w3-time:time ;
+		sh:minCount 1 ;
+		sh:maxCount 1 ;
+		sh:message "Para el valor del precio se debe especificar el lapso de tiempo para el que se aplica@es" ;
+		sh:severity sh:Violation ;
+		];
+		.
+

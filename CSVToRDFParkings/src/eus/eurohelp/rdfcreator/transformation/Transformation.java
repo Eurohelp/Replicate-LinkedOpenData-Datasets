@@ -69,5 +69,28 @@ public class Transformation {
 		}
 		return data;
 	}
+	
+
+	public String getPort(String pDominio){
+		String pPuerto="";
+		if(pDominio.trim().contains("localhost")){
+			String[] dominio=pDominio.split(":");
+			pPuerto="8080";
+			if(dominio.length>1){
+				pPuerto=dominio[1];
+			}
+		}
+		return pPuerto;
+	}
+	
+	
+	public String getDomain(String pDominio){
+		String pDomain="";
+		if(null!=pDominio && !("").equals(pDominio.trim())){
+			String[] dominio=pDominio.split(":");
+			return dominio[0];
+		}
+		return pDomain;
+	}
 
 }

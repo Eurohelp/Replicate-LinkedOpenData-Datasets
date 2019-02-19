@@ -18,22 +18,332 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}";
+        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/parking";
         rr:class schema:ParkingFacility;
         rr:class lod:parkingrotatorio
     ];
     rr:predicateObjectMap [
         rr:predicate rdfs:label;
         rr:objectMap [
+        rml:reference "Localizacion";
+        ]
+        ];
+    rr:predicateObjectMap [
+        rr:predicate geo:location;
+        rr:objectMap [
+            rr:parentTriplesMap <#Locali>
+        ]
+        ].
+       
+    <#Precio15Min>
+	rml:logicalSource 
+	[
+	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+ 	rr:subjectMap [
+        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/parking/{NombreParaURI}/15-min-{Precio15Min}";
+		rr:class schema:PriceSpecification;
+    ];
+    
+    rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
         rml:reference "Nombre";
         ]
         ];
-		 rr:predicateObjectMap [
-        rr:predicate geo:location;
+    rr:predicateObjectMap [
+        rr:predicate schema:price;
         rr:objectMap [
-            rr:template "http://donostia.eus/linkeddata/id/{Localizacion}";
+            rml:reference "Precio15Min";
+ 			rr:datatype xsd:float;
         ]
         ];
+         rr:predicateObjectMap [
+        rr:predicate schema:priceCurrency;
+        rr:objectMap [
+            rr:constant "EUR";
+        ]
+        ]; 
+        rr:predicateObjectMap [
+        rr:predicate w3-time:time;
+        rr:objectMap [
+            rr:constant "15";
+            rr:datatype xsd:int;
+        ]
+        ].
+    <#Precio30Min>
+	rml:logicalSource 
+	[
+	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+ 	rr:subjectMap [
+        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/parking/{NombreParaURI}/30-min-{Precio30Min}";
+		rr:class schema:PriceSpecification;
+    ];
+      rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+        rml:reference "Nombre";
+        ]
+        ];
+    rr:predicateObjectMap [
+        rr:predicate schema:price;
+        rr:objectMap [
+            rml:reference "Precio30Min";
+            rr:datatype xsd:float;
+        ]
+        ];
+         rr:predicateObjectMap [
+        rr:predicate schema:priceCurrency;
+        rr:objectMap [
+            rr:constant "EUR";
+        ]
+        ]; 
+        rr:predicateObjectMap [
+        rr:predicate w3-time:time;
+        rr:objectMap [
+            rr:constant "30";
+            rr:datatype xsd:int;
+        ]
+        ].
+         <#Precio60Min>
+	rml:logicalSource 
+	[
+	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+ 	rr:subjectMap [
+        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/parking/{NombreParaURI}/60-min-{Precio60Min}";
+		rr:class schema:PriceSpecification;
+    ];
+      rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+        rml:reference "Nombre";
+        ]
+        ];
+    rr:predicateObjectMap [
+        rr:predicate schema:price;
+        rr:objectMap [
+            rml:reference "Precio60Min";
+            rr:datatype xsd:float;
+        ]
+        ];
+         rr:predicateObjectMap [
+        rr:predicate schema:priceCurrency;
+        rr:objectMap [
+            rr:constant "EUR";
+        ]
+        ]; 
+        rr:predicateObjectMap [
+        rr:predicate w3-time:time;
+        rr:objectMap [
+            rr:constant "60";
+            rr:datatype xsd:int;
+        ]
+        ].  
+         <#Precio90Min>
+	rml:logicalSource 
+	[
+	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+ 	rr:subjectMap [
+        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/parking/{NombreParaURI}/90-min-{Precio90Min}";
+		rr:class schema:PriceSpecification;
+    ];
+      rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+        rml:reference "Nombre";
+        ]
+        ];
+    rr:predicateObjectMap [
+        rr:predicate schema:price;
+        rr:objectMap [
+            rml:reference "Precio90Min";
+            rr:datatype xsd:float;
+        ]
+        ];
+         rr:predicateObjectMap [
+        rr:predicate schema:priceCurrency;
+        rr:objectMap [
+            rr:constant "EUR";
+        ]
+        ]; 
+        rr:predicateObjectMap [
+        rr:predicate w3-time:time;
+        rr:objectMap [
+            rr:constant "90";
+            rr:datatype xsd:int;
+        ]
+        ].
+         <#Precio120Min>
+	rml:logicalSource 
+	[
+	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+ 	rr:subjectMap [
+        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/parking/{NombreParaURI}/120-min-{Precio120Min}";
+		rr:class schema:PriceSpecification;
+    ];
+    rr:predicateObjectMap [
+        rr:predicate schema:price;
+        rr:objectMap [
+            rml:reference "Precio120Min";
+            rr:datatype xsd:float;
+        ]
+        ];
+         rr:predicateObjectMap [
+        rr:predicate schema:priceCurrency;
+        rr:objectMap [
+            rr:constant "EUR";
+        ]
+        ]; 
+        rr:predicateObjectMap [
+        rr:predicate w3-time:time;
+        rr:objectMap [
+            rr:constant "120";
+            rr:datatype xsd:int;
+        ]
+        ].
+    <#Precio180Min>
+	rml:logicalSource 
+	[
+	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+ 	rr:subjectMap [
+        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/parking/{NombreParaURI}/180-min-{Precio180Min}";
+		rr:class schema:PriceSpecification;
+    ];
+      rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+        rml:reference "Nombre";
+        ]
+        ];
+    rr:predicateObjectMap [
+        rr:predicate schema:price;
+        rr:objectMap [
+            rml:reference "Precio180Min";
+            rr:datatype xsd:float;
+        ]
+        ];
+         rr:predicateObjectMap [
+        rr:predicate schema:priceCurrency;
+        rr:objectMap [
+            rr:constant "EUR";
+        ]
+        ]; 
+        rr:predicateObjectMap [
+        rr:predicate w3-time:time;
+        rr:objectMap [
+            rr:constant "180";
+            rr:datatype xsd:int;
+        ]
+        ].      
+    <#Precio300Min>
+	rml:logicalSource 
+	[
+	rml:source "CSVToRDFParkings/newdata/parkings.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+ 	rr:subjectMap [
+        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/parking/{NombreParaURI}/300-min-{Precio300Min}";
+		rr:class schema:PriceSpecification;
+    ];
+      rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+        rml:reference "Nombre";
+        ]
+        ];
+    rr:predicateObjectMap [
+        rr:predicate schema:price;
+        rr:objectMap [
+            rml:reference "Precio300Min";
+            rr:datatype xsd:float;
+        ]
+        ];
+         rr:predicateObjectMap [
+        rr:predicate schema:priceCurrency;
+        rr:objectMap [
+            rr:constant "EUR";
+        ]
+        ]; 
+        rr:predicateObjectMap [
+        rr:predicate w3-time:time;
+        rr:objectMap [
+            rr:constant "300";
+            rr:datatype xsd:int;
+        ]
+        ].
+
+<#Locali>
+	rml:logicalSource[
+		rml:source "CSVToRDFParkings/newdata/parkings.csv";
+        rml:referenceFormulation ql:CSV
+    ];
+    
+ 	rr:subjectMap [
+        rr:template "http://{Environment}/linkeddata/id/{Localizacion}/parking/{NombreParaURI}";
+		rr:class geo:location;
+    ];
+   
+     
+      rr:predicateObjectMap [
+        rr:predicate rdfs:label;
+        rr:objectMap [
+    	    rml:reference "Nombre";
+     ]
+	];
+	 rr:predicateObjectMap [
+        rr:predicate schema:offers;
+        rr:objectMap [
+            rr:parentTriplesMap <#Precio15Min>
+        ]
+        ];
+        rr:predicateObjectMap [
+        rr:predicate schema:offers;
+        rr:objectMap [
+            rr:parentTriplesMap <#Precio30Min>
+        ]
+        ];
+        rr:predicateObjectMap [
+        rr:predicate schema:offers;
+        rr:objectMap [
+            rr:parentTriplesMap <#Precio60Min>
+        ]
+        ];
+          rr:predicateObjectMap [
+        rr:predicate schema:offers;
+        rr:objectMap [
+            rr:parentTriplesMap <#Precio90Min>
+        ]
+        ];
+        rr:predicateObjectMap [
+        rr:predicate schema:offers;
+        rr:objectMap [
+            rr:parentTriplesMap <#Precio120Min>
+        ]
+        ];
+        rr:predicateObjectMap [
+        rr:predicate schema:offers;
+        rr:objectMap [
+            rr:parentTriplesMap <#Precio180Min>
+        ]
+        ];
+        rr:predicateObjectMap [
+        rr:predicate schema:offers;
+        rr:objectMap [
+            rr:parentTriplesMap <#Precio300Min>
+        ]
+        ];
+		
          rr:predicateObjectMap [
         rr:predicate geo:lat;
         rr:objectMap [
@@ -84,257 +394,12 @@ rml:logicalSource [
         ]
         ];
         rr:predicateObjectMap [
-        rr:predicate schema:offers;
+        rr:predicate lod:parkingtype;
         rr:objectMap [
-            rr:parentTriplesMap <#Precio15Min>
+            rml:reference "Tipo";
+            rr:datatype xsd:string;
         ]
-        ];
-        rr:predicateObjectMap [
-        rr:predicate schema:offers;
-        rr:objectMap [
-            rr:parentTriplesMap <#Precio30Min>
-        ]
-        ];
-        rr:predicateObjectMap [
-        rr:predicate schema:offers;
-        rr:objectMap [
-            rr:parentTriplesMap <#Precio60Min>
-        ]
-        ];
-          rr:predicateObjectMap [
-        rr:predicate schema:offers;
-        rr:objectMap [
-            rr:parentTriplesMap <#Precio90Min>
-        ]
-        ];
-        rr:predicateObjectMap [
-        rr:predicate schema:offers;
-        rr:objectMap [
-            rr:parentTriplesMap <#Precio120Min>
-        ]
-        ];
-        rr:predicateObjectMap [
-        rr:predicate schema:offers;
-        rr:objectMap [
-            rr:parentTriplesMap <#Precio180Min>
-        ]
-        ];
-        rr:predicateObjectMap [
-        rr:predicate schema:offers;
-        rr:objectMap [
-            rr:parentTriplesMap <#Precio300Min>
-        ]
-        ].
-    <#Precio15Min>
-	rml:logicalSource 
-	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
-        rml:referenceFormulation ql:CSV
-    ];
- 	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/15-min-{Precio15Min}";
-		rr:class schema:PriceSpecification;
-    ];
-    rr:predicateObjectMap [
-        rr:predicate schema:price;
-        rr:objectMap [
-            rml:reference "Precio15Min";
- 			rr:datatype xsd:float;
-        ]
-        ];
-         rr:predicateObjectMap [
-        rr:predicate schema:priceCurrency;
-        rr:objectMap [
-            rr:constant "EUR";
-        ]
-        ]; 
-        rr:predicateObjectMap [
-        rr:predicate w3-time:time;
-        rr:objectMap [
-            rr:constant "15";
-            rr:datatype xsd:int;
-        ]
-        ].
-    <#Precio30Min>
-	rml:logicalSource 
-	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
-        rml:referenceFormulation ql:CSV
-    ];
- 	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/30-min-{Precio30Min}";
-		rr:class schema:PriceSpecification;
-    ];
-    rr:predicateObjectMap [
-        rr:predicate schema:price;
-        rr:objectMap [
-            rml:reference "Precio30Min";
-            rr:datatype xsd:float;
-        ]
-        ];
-         rr:predicateObjectMap [
-        rr:predicate schema:priceCurrency;
-        rr:objectMap [
-            rr:constant "EUR";
-        ]
-        ]; 
-        rr:predicateObjectMap [
-        rr:predicate w3-time:time;
-        rr:objectMap [
-            rr:constant "30";
-            rr:datatype xsd:int;
-        ]
-        ].
-         <#Precio60Min>
-	rml:logicalSource 
-	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
-        rml:referenceFormulation ql:CSV
-    ];
- 	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/60-min-{Precio60Min}";
-		rr:class schema:PriceSpecification;
-    ];
-    rr:predicateObjectMap [
-        rr:predicate schema:price;
-        rr:objectMap [
-            rml:reference "Precio60Min";
-            rr:datatype xsd:float;
-        ]
-        ];
-         rr:predicateObjectMap [
-        rr:predicate schema:priceCurrency;
-        rr:objectMap [
-            rr:constant "EUR";
-        ]
-        ]; 
-        rr:predicateObjectMap [
-        rr:predicate w3-time:time;
-        rr:objectMap [
-            rr:constant "60";
-            rr:datatype xsd:int;
-        ]
-        ].  
-         <#Precio90Min>
-	rml:logicalSource 
-	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
-        rml:referenceFormulation ql:CSV
-    ];
- 	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/90-min-{Precio90Min}";
-		rr:class schema:PriceSpecification;
-    ];
-    rr:predicateObjectMap [
-        rr:predicate schema:price;
-        rr:objectMap [
-            rml:reference "Precio90Min";
-            rr:datatype xsd:float;
-        ]
-        ];
-         rr:predicateObjectMap [
-        rr:predicate schema:priceCurrency;
-        rr:objectMap [
-            rr:constant "EUR";
-        ]
-        ]; 
-        rr:predicateObjectMap [
-        rr:predicate w3-time:time;
-        rr:objectMap [
-            rr:constant "90";
-            rr:datatype xsd:int;
-        ]
-        ].
-         <#Precio120Min>
-	rml:logicalSource 
-	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
-        rml:referenceFormulation ql:CSV
-    ];
- 	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/120-min-{Precio120Min}";
-		rr:class schema:PriceSpecification;
-    ];
-    rr:predicateObjectMap [
-        rr:predicate schema:price;
-        rr:objectMap [
-            rml:reference "Precio120Min";
-            rr:datatype xsd:float;
-        ]
-        ];
-         rr:predicateObjectMap [
-        rr:predicate schema:priceCurrency;
-        rr:objectMap [
-            rr:constant "EUR";
-        ]
-        ]; 
-        rr:predicateObjectMap [
-        rr:predicate w3-time:time;
-        rr:objectMap [
-            rr:constant "120";
-            rr:datatype xsd:int;
-        ]
-        ].
-    <#Precio180Min>
-	rml:logicalSource 
-	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
-        rml:referenceFormulation ql:CSV
-    ];
- 	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/180-min-{Precio180Min}";
-		rr:class schema:PriceSpecification;
-    ];
-    rr:predicateObjectMap [
-        rr:predicate schema:price;
-        rr:objectMap [
-            rml:reference "Precio180Min";
-            rr:datatype xsd:float;
-        ]
-        ];
-         rr:predicateObjectMap [
-        rr:predicate schema:priceCurrency;
-        rr:objectMap [
-            rr:constant "EUR";
-        ]
-        ]; 
-        rr:predicateObjectMap [
-        rr:predicate w3-time:time;
-        rr:objectMap [
-            rr:constant "180";
-            rr:datatype xsd:int;
-        ]
-        ].      
-    <#Precio300Min>
-	rml:logicalSource 
-	[
-	rml:source "CSVToRDFParkings/newdata/parkings.csv";
-        rml:referenceFormulation ql:CSV
-    ];
- 	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/{NombreParaURI}/300-min-{Precio300Min}";
-		rr:class schema:PriceSpecification;
-    ];
-    rr:predicateObjectMap [
-        rr:predicate schema:price;
-        rr:objectMap [
-            rml:reference "Precio300Min";
-            rr:datatype xsd:float;
-        ]
-        ];
-         rr:predicateObjectMap [
-        rr:predicate schema:priceCurrency;
-        rr:objectMap [
-            rr:constant "EUR";
-        ]
-        ]; 
-        rr:predicateObjectMap [
-        rr:predicate w3-time:time;
-        rr:objectMap [
-            rr:constant "300";
-            rr:datatype xsd:int;
-        ]
-        ].
+        ].	
 		
 <#BloqueLocalizacion>
 rml:logicalSource [
@@ -342,12 +407,19 @@ rml:logicalSource [
         rml:referenceFormulation ql:CSV
     ];
  	rr:subjectMap [
-        rr:template "http://donostia.eus/linkeddata/id/{Localizacion}";
+        rr:template "http://{Environment}/linkeddata/id/{Localizacion}";
         rr:class schema:Place;
     ];
     rr:predicateObjectMap [
         rr:predicate rdfs:label;
         rr:objectMap [
-        rr:constant "San Sebastian";
+        rr:constant "San Sebasti\u00e1n";
+        ]
+        ];
+        
+        rr:predicateObjectMap [
+        rr:predicate geo:location;
+        rr:objectMap [
+            rr:parentTriplesMap <#Locali>
         ]
         ].

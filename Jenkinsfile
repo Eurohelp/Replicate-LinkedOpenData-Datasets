@@ -1,32 +1,54 @@
 #!/usr/bin/env groovy
 
 import java.text.SimpleDateFormat
+// Entorno (local,test y para produccion en blanco
+def entornoEjecu=""
+def entornoBlaze=""
+def entorno=""
+switch (entornoEjecu) {
+    case "Local":
+        entornoBlaze = "localhost:8080/blazegraph"
+		entorno = "localhost:8080"
+        break;
+    case "Test":
+        entornoBlaze = "blzg-write:8080/blazegraph"
+		entorno = "test.eurohelp.es"
+		break;
+    default:
+        entornoBlaze = "blzg-write:8080/blazegraph"
+		entorno = "donostia.eus"
+}
+ println "Los entornos seran"
+ println "------------------"
+ println "entornoBlaze: "+entornoBlaze
+ println "Entorno: "+entorno
+ println "Entorno ejecucion: "+entornoEjecu
 
-def SPARQLendpoint = "http://blzg-write:8080/blazegraph/namespace/kb/sparql"
-def CSVParkings = "CSVToRDFParkings/data/parkings.csv"
-def NewCSVParkings = "CSVToRDFParkings/newdata/parkings.csv"
-def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile.ttl"
-def RDFParkings = "shacl/parkings.ttl"
-def NamedGraph = "http://donostia.eus/linkeddata/graph/parkings"
-def CompleteGraphUri = "http://blzg-write:8080/blazegraph/namespace/kb/sparql?context-uri=" + NamedGraph
-def SHACLfile = "shacl/shacl-parkings.ttl"
+def SPARQLendpoint = "http://"+entornoBlaze+"/namespace/kb/sparql"
+def NameSpace="parkings"
+def CSVSMLLights = "CSVToRDFParkings/data/parkings.csv"
+def NewCSVSMLLights = "CSVToRDFParkings/newdata/parkings.csv"
+def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
+def RDFSMLLights = "shacl/"+NameSpace+entornoEjecu+".ttl"
+def NamedGraph = "http://"+entorno+"/linkeddata/graph/parkings"
+def CompleteGraphUri = "http://"+entornoBlaze+"/namespace/kb/sparql?context-uri=" + NamedGraph
+def SHACLfile = "shacl/shacl-"+NameSpace+entornoEjecu+".ttl"
 def SHACLReportCheckingQuery = "shacl/query.sparql"
-def SHACLReportFile = "shacl/report.ttl"
-def SilkConfiguration = "silk/silk-test.xml"
+def SHACLReportFile = "shacl/"+NameSpace+"report"+entornoEjecu+".ttl"
+def SilkConfiguration = "silk/silk-test"+entornoEjecu+".xml"
 def sdf = new SimpleDateFormat("MM/dd/yyyy HH:mm:ss")
 def date = sdf.format(new Date())
 def LinksSilk = "silk/accepted_links.nt"
 
+
 node {
     try {
-        stage('Remove data from blazegraph') {
-            sh 'curl --get -X DELETE -H "Accept: application/xml" ' + SPARQLendpoint + ' --data-urlencode "?c=<' + NamedGraph + '>"'
-        }
+       
         stage('Checkout pipeline') {
             git branch: 'pipeline-parkingsrdfcreator', url: 'https://github.com/mishel-uchuari/Replicate-LinkedOpenData-Datasets.git'
         }
         stage('Convert CSV to RDF') {
-            def ret = sh(script: 'java -jar CSVToRDFParkings/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings, returnStdout: true)
+            def ret = sh(script: 'java -jar CSVToRDFLightHub/parkingsrdfcreator.jar ' + CSVParkings + ' ' + NewCSVParkings + ' ' + RmlConfigurationFile + ' ' + RDFParkings+ ' ' + entorno, returnStdout: true)
             if (ret.contains('No se ha generado RDF')) {
                 sh 'exit 1'
             }
@@ -60,7 +82,7 @@ node {
             println "Se ha producido un fallo se enviara un correo notificandolo"
             mail(to: 'dmuv7@hotmail.com',
                 subject: "Fallo en ${env.JOB_NAME}",
-                body: "Ha fallado la ejecución de '${env.JOB_NAME}', el error se ha dado en: " + date + ". Revisa el error en http://blz-write:8080/jenkins/job/Replicate-Donosti-Parkings/${env.BUILD_NUMBER}",
+                body: "Ha fallado la ejecuciï¿½n de '${env.JOB_NAME}', el error se ha dado en: " + date + ". Revisa el error en http://"+entorno+"/jenkins/job/Replicate-Donosti-Parkings/${env.BUILD_NUMBER}",
                 mimeType: 'text/html');
             currentBuild.result = 'FAILURE'
         }
