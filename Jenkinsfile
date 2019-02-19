@@ -26,10 +26,10 @@ switch (entornoEjecu) {
 
 def SPARQLendpoint = "http://"+entornoBlaze+"/namespace/kb/sparql"
 def NameSpace="parkings"
-def CSVSMLLights = "CSVToRDFParkings/data/parkings.csv"
-def NewCSVSMLLights = "CSVToRDFParkings/newdata/parkings.csv"
+def CSVParkings = "CSVToRDFParkings/data/parkings.csv"
+def NewCSVParkings = "CSVToRDFParkings/newdata/parkings.csv"
 def RmlConfigurationFile = "CSVToRDFParkings/csvtordfconfigurationfile"+entornoEjecu+".ttl"
-def RDFSMLLights = "shacl/"+NameSpace+entornoEjecu+".ttl"
+def RDFParkings = "shacl/"+NameSpace+entornoEjecu+".ttl"
 def NamedGraph = "http://"+entorno+"/linkeddata/graph/parkings"
 def CompleteGraphUri = "http://"+entornoBlaze+"/namespace/kb/sparql?context-uri=" + NamedGraph
 def SHACLfile = "shacl/shacl-"+NameSpace+entornoEjecu+".ttl"
